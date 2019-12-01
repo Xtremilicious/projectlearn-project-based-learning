@@ -53,7 +53,7 @@ class Navbar extends Component {
                 </div>
               </Link>
               <div className="d-flex align-items-center justify-content-end col-6 nav-links">
-                <div>About</div>
+                <div></div>
               </div>
             </NavWrapper>
           );
