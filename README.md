@@ -35,6 +35,9 @@ A list of programming tutorials in which learners build an application from scra
 - Social Networking Website using React
 - E-Commerce Website using React
 
+## References:
+- [tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
+
 
 
 
