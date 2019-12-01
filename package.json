@@ -2,7 +2,7 @@
   "name": "project-learn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xtremilicious.github.io/ProjectLearn-Project-Based-Learning",
+  "homepage": "./",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.1.1",
@@ -19,9 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-   "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

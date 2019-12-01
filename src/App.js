@@ -15,11 +15,7 @@ function App() {
       <Navbar />
       <Intro/>
       <Searchbar/>
-      <Switch>
-      <Route exact path='/' component={ItemList}></Route>
-        <Route path='/details' component={Details}></Route>
-        <Route component={Default}></Route>
-      </Switch>
+      <ItemList/>
     </React.Fragment>
 
   );
