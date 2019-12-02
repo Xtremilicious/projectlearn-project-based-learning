@@ -48,9 +48,10 @@ class Navbar extends Component {
                     });
                   }}
                 >
-                  <Link to="/" className="nav-name">
+                  <Link to="/" className="nav-name"><h1>
                   <span className="text-green">Project</span>
                   <span className="text-black">Learn</span>
+                  </h1>
                   </Link>
                 </div>
               
