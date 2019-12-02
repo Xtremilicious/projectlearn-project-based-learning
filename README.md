@@ -1,4 +1,5 @@
-# [ProjectLearn](https://projectlearn.netlify.com/) - Project Based Learning
+# [ProjectLearn](https://projectlearn.io) - Project Based Learning
+https://projectlearn.io
 
 A list of programming tutorials in which learners build an application from scratch. These are divided into different primary programming languages and frameworks. Some have intermixed technologies and languages.
 
