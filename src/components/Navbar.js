@@ -29,7 +29,7 @@ class Navbar extends Component {
         {value => {
           const { resetSearch } = value;
           return (
-            <NavWrapper className="py-1  m-0 row">
+            <NavWrapper className="pt-4 pb-1 m-0 row">
               {/* <img
                   src={logo}
                   alt="store"
