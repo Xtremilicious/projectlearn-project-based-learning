@@ -44,7 +44,7 @@ class Searchbar extends Component {
                 ></input>
                 <input
                   type="text"
-                  placeholder="Search for a language"
+                  placeholder="Eg. React"
                   value={this.state.search}
                   onChange={this.updateSearch}
                   class="input-form-mob"
@@ -102,13 +102,14 @@ const SearchWrapper = styled.div`
   }
   .submit-btn {
     min-height: 3rem;
+    padding: 0 1rem;
     border: none;
     background: #0f9d58;
     color: var(--mainWhite);
   }
   @media only screen and (max-width: 1200px) {
     .search-bar {
-      width: 80%;
+      width: 85%;
 
     }
     .input-form-mob{

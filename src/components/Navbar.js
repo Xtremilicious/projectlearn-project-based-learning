@@ -48,7 +48,7 @@ class Navbar extends Component {
                     });
                   }}
                 >
-                  <Link to="/" className="nav-name"><h1>
+                  <Link to="/" className="nav-name"><h1 className="nav-name">
                   <span className="text-green">Project</span>
                   <span className="text-black">Learn</span>
                   </h1>
@@ -56,7 +56,7 @@ class Navbar extends Component {
                 </div>
               
               <div className="d-flex align-items-center justify-content-end col-6 nav-links">
-                <div></div>
+                <div><a href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning" target="_blank" rel='noreferrer noopener' className="button text-center"><i class="fab fa-github"></i></a></div>
               </div>
             </NavWrapper>
           );
@@ -89,6 +89,14 @@ const NavWrapper = styled.nav`
   .text-black {
     color: black;
   }
+  .button {
+    justify-content: flex-end;
+    color: #424242;
+    font-size: 2.3rem;
+  }
+  .button:hover{
+    color: black;
+  }
   .search-bar {
     background: #e6e6e6;
     border: 1px solid #bdbdbd;
@@ -110,7 +118,6 @@ const NavWrapper = styled.nav`
   }
   .submit-btn {
     height: 3.3rem;
-    width: 7vw;
     border: none;
     background: #0f9d58;
     color: var(--mainWhite);
