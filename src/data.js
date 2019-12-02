@@ -123,14 +123,14 @@ export const Items = [
     {
       id: 18,
       title: "Social Networking Website using React",
-      img: "img/reactjs.png",
+      img: "img/react.png",
       tech: ["React", "NodeJS", "Firebase"],
       extURL: `https://www.youtube.com/watch?v=m_u6P5k0vP0`
     },
     {
       id: 19,
       title: "E-Commerce Website using React",
-      img: "img/reactjs.png",
+      img: "img/react.png",
       tech: ["React", "Bootstrap"],
       extURL: `https://www.youtube.com/watch?v=-edmQKcOW8s`
     }
