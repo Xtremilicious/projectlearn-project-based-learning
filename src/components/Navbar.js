@@ -30,7 +30,7 @@ class Navbar extends Component {
           const { resetSearch } = value;
           return (
             <NavWrapper className="py-1  m-0 row">
-              <Link to="/" className="col-6 nav-name">
+              
                 {/* <img
                   src={logo}
                   alt="store"
@@ -38,7 +38,7 @@ class Navbar extends Component {
                   
                 /> */}
                 <div
-                  className="d-flex align-items-center nav-name"
+                  className="d-flex align-items-center nav-name col-6 "
                   onClick={() => {
                     resetSearch();
                     this.setState(() => {
@@ -48,10 +48,12 @@ class Navbar extends Component {
                     });
                   }}
                 >
+                  <Link to="/" className="nav-name">
                   <span className="text-green">Project</span>
                   <span className="text-black">Learn</span>
+                  </Link>
                 </div>
-              </Link>
+              
               <div className="d-flex align-items-center justify-content-end col-6 nav-links">
                 <div></div>
               </div>
