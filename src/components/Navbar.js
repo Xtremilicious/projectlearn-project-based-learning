@@ -30,38 +30,46 @@ class Navbar extends Component {
           const { resetSearch } = value;
           return (
             <NavWrapper className="py-1  m-0 row">
-              
-                {/* <img
+              {/* <img
                   src={logo}
                   alt="store"
                   className="navbar-brand nav-logo"
                   
                 /> */}
-                <div
-                  className="d-flex align-items-center nav-name col-6 "
-                  onClick={() => {
-                    resetSearch();
-                    this.setState(() => {
-                      return {
-                        search: ""
-                      };
-                    });
-                  }}
-                >
-                  <Link to="/" className="nav-name"><h1 className="nav-name">
-                  <span className="text-green">Project</span>
-                  <span className="text-black">Learn</span>
+              <div
+                className="d-flex align-items-center nav-name col-6 "
+                onClick={() => {
+                  resetSearch();
+                  this.setState(() => {
+                    return {
+                      search: ""
+                    };
+                  });
+                }}
+              >
+                <Link to="/" className="nav-name">
+                  <h1 className="nav-name">
+                    <span className="text-green">Project</span>
+                    <span className="text-black">Learn</span>
                   </h1>
-                  </Link>
-                </div>
-              
+                </Link>
+              </div>
+
               <div className="d-flex align-items-center justify-content-end col-6 nav-links">
-                <div><a href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning" target="_blank" rel='noreferrer noopener' className="button text-center"><i class="fab fa-github"></i></a></div>
+                <div>
+                  <a
+                    href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="button text-center"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
               </div>
             </NavWrapper>
           );
         }}
-        
       </ProductConsumer>
     );
   }
@@ -94,7 +102,7 @@ const NavWrapper = styled.nav`
     color: #424242;
     font-size: 2.3rem;
   }
-  .button:hover{
+  .button:hover {
     color: black;
   }
   .search-bar {
@@ -123,6 +131,16 @@ const NavWrapper = styled.nav`
     color: var(--mainWhite);
   }
   @media only screen and (max-width: 1200px) {
+    .nav-name {
+      font-size: 2.1rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .button {
+      justify-content: center;
+      color: #424242;
+      font-size: 1.7rem;
+    }
   }
 `;
 export default Navbar;

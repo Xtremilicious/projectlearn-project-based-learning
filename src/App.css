@@ -42,3 +42,9 @@ body{
   font-size: 1.5rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .intro{
+    font-size: 1rem;
+  }
+}
