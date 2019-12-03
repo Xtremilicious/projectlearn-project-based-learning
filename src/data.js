@@ -131,8 +131,15 @@ export const Items = [
       id: 19,
       title: "E-Commerce Website using React",
       img: "img/react.png",
-      tech: ["React", "Bootstrap"],
+      tech: ["React"],
       extURL: `https://www.youtube.com/watch?v=-edmQKcOW8s`
+    },
+    {
+      id: 20,
+      title: "Create a Job Board using React",
+      img: "img/react.png",
+      tech: ["React", "NodeJS", "Cron"],
+      extURL: `https://www.youtube.com/watch?v=lauywdXKEXI`
     }
   ];
   
