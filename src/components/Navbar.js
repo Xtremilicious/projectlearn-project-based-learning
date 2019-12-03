@@ -50,7 +50,7 @@ class Navbar extends Component {
                 <Link to="/" className="nav-name">
                   <h1 className="nav-name">
                     <span className="text-green">Project</span>
-                    <span className="text-black">Learn</span>
+                    <span className="text-black">Learn.io</span>
                   </h1>
                 </Link>
               </div>
