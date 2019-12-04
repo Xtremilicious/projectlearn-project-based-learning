@@ -143,10 +143,10 @@ export const Items = [
     },
     {
       id: 21,
-      title: "Make Minecraft in C++/OpenGL",
+      title: "Make Breakout game in C++",
       img: "img/C.png",
       tech: ["C/C++", "OpenGL"],
-      extURL: `https://www.youtube.com/playlist?list=PLMZ_9w2XRxiZq1vfw1lrpCMRDufe2MKV_`
+      extURL: `https://learnopengl.com/In-Practice/2D-Game/Breakout`
     }
   ];
   
