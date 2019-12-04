@@ -140,6 +140,13 @@ export const Items = [
       img: "img/react.png",
       tech: ["React", "NodeJS", "Cron"],
       extURL: `https://www.youtube.com/watch?v=lauywdXKEXI`
+    },
+    {
+      id: 21,
+      title: "How To Make Minecraft in C++/OpenGL",
+      img: "img/C.png",
+      tech: ["C/C++", "OpenGL"],
+      extURL: `https://www.youtube.com/playlist?list=PLMZ_9w2XRxiZq1vfw1lrpCMRDufe2MKV_`
     }
   ];
   
