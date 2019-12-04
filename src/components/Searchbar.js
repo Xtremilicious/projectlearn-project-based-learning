@@ -30,7 +30,7 @@ class Searchbar extends Component {
         {value => {
           const { handleSearch} = value;
           return (
-            <SearchWrapper className="p-0 mt-0">
+            <SearchWrapper className=" mt-0">
               <Intro/>
 
               <div className="search-bar d-flex align-items-center">
@@ -73,7 +73,8 @@ const SearchWrapper = styled.div`
   background: transparent;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
@@ -118,7 +119,8 @@ const SearchWrapper = styled.div`
     border-radius: 0 0.8rem 0.8rem 0;
   }
   @media only screen and (max-width: 1200px) {
-
+    padding-bottom: 2rem;
+  padding-top: 2rem;
     .search-bar {
       width: fit-content;
       margin-left: 2rem;
