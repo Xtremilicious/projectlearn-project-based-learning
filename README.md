@@ -25,7 +25,7 @@ A list of programming tutorials in which learners build an application from scra
 - Game Programming with C++ and SDL
 - Write Your Own Virtual Machine
 - Tetris Tutorial in C++ Platform Independent
-- Make Minecraft in C++/OpenGL
+- Make Breakout game in C++/OpenGL
 
 ## Java:
 - Build an Interpreter in JAVA
