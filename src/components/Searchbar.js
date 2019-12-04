@@ -117,6 +117,7 @@ const SearchWrapper = styled.div`
     background: #0f9d58;
     color: var(--mainWhite);
     border-radius: 0 0.8rem 0.8rem 0;
+    outline: none;
   }
   @media only screen and (max-width: 1200px) {
     padding-bottom: 2rem;
