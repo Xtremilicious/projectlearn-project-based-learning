@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 import styled from "styled-components";
 import { ProductConsumer } from "../Context";
+import Background from '../img/sq1.png';
+import Intro from './Intro';
 
 class Searchbar extends Component {
   constructor(props) {
@@ -29,7 +31,7 @@ class Searchbar extends Component {
           const { handleSearch} = value;
           return (
             <SearchWrapper className="p-0 mt-0">
-
+              <Intro/>
 
               <div className="search-bar d-flex align-items-center">
                 <span className="p-2">
@@ -70,8 +72,13 @@ class Searchbar extends Component {
 const SearchWrapper = styled.div`
   background: transparent;
   display: flex;
+  flex-direction: column;
+  height: 60vh;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2rem;
+  background-image: url("${Background}");
+  background-repeat: repeat;
   .nav-link {
     color: var(--mainDark) !important;
     font-size: 1.3rem;
@@ -79,8 +86,10 @@ const SearchWrapper = styled.div`
     }
   .search-bar {
     background: #e6e6e6;
-    border: 1px dashed #bdbdbd;
     width: 40%;
+    height: fit-content;
+    border-radius: 0.8rem 0.9rem 0.9rem 0.8rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   .nav-font {
     font-size: 1.4rem;
@@ -95,22 +104,29 @@ const SearchWrapper = styled.div`
     border: none;
   }
   .input-form-mob {
-    width: 100%;
+    width: 40%;
     background: transparent;
     border: none;
     display: none;
   }
   .submit-btn {
-    min-height: 3rem;
+    height: 3rem;
     padding: 0 1rem;
     border: none;
     background: #0f9d58;
     color: var(--mainWhite);
+    border-radius: 0 0.8rem 0.8rem 0;
   }
   @media only screen and (max-width: 1200px) {
-    .search-bar {
-      width: 85%;
 
+    .search-bar {
+      width: fit-content;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      max-height: 2.5rem;
+    }
+    .submit-btn{
+      height: 2.5rem;
     }
     .input-form-mob{
       display: inline;

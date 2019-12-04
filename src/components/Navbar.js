@@ -29,7 +29,7 @@ class Navbar extends Component {
         {value => {
           const { resetSearch } = value;
           return (
-            <NavWrapper className="pt-4 pb-1 m-0 row">
+            <NavWrapper className="pt-3 pb-3 m-0 row">
               {/* <img
                   src={logo}
                   alt="store"
@@ -132,14 +132,14 @@ const NavWrapper = styled.nav`
   }
   @media only screen and (max-width: 1200px) {
     .nav-name {
-      font-size: 2.1rem;
+      font-size: 1.8rem;
       font-weight: bold;
       text-decoration: none;
     }
     .button {
       justify-content: center;
       color: #424242;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
     }
   }
 `;

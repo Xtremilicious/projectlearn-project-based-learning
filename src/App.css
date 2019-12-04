@@ -38,13 +38,17 @@ body{
   color: var(--mainYellow);
 }
 .intro{
-  margin: 1.7rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1200px) {
   .intro{
     font-size: 1rem;
+    margin-left: 1rem;
+  margin-right: 1rem;
   }
 }

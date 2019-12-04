@@ -13,7 +13,6 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <Intro/>
       <Searchbar/>
       <ItemList/>
     </React.Fragment>
