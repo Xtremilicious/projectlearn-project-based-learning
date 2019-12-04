@@ -78,6 +78,7 @@ const SearchWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  background-color: #0f9d58;
   background-image: url("${Background}");
   background-repeat: repeat;
   .nav-link {
@@ -103,12 +104,14 @@ const SearchWrapper = styled.div`
     width: 100%;
     background: transparent;
     border: none;
+    outline: none;
   }
   .input-form-mob {
     width: 40%;
     background: transparent;
     border: none;
     display: none;
+    outline: none;
   }
   .submit-btn {
     height: 3rem;
