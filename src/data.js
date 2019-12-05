@@ -153,7 +153,7 @@ export const Items = [
       title: "Build an Evernote Clone",
       img: "img/react.png",
       tech: ["React", "Firebase"],
-      extURL: `https://www.youtube.com/watch?v=I250xdtUvy8&t=57s`
+      extURL: `https://www.youtube.com/watch?v=I250xdtUvy8`
     }
   ];
   
