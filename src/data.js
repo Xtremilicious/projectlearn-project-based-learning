@@ -147,6 +147,13 @@ export const Items = [
       img: "img/C.png",
       tech: ["C/C++", "OpenGL"],
       extURL: `https://learnopengl.com/In-Practice/2D-Game/Breakout`
+    },
+   {
+      id: 22,
+      title: "Build an Evernote Clone",
+      img: "img/react.png",
+      tech: ["React", "Firebase"],
+      extURL: `https://www.youtube.com/watch?v=I250xdtUvy8&t=57s`
     }
   ];
   
