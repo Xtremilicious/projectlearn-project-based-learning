@@ -150,7 +150,7 @@ export const Items = [
     },
    {
       id: 22,
-      title: "Build an Evernote Clone",
+      title: "Build an Evernote Clone using React",
       img: "img/react.png",
       tech: ["React", "Firebase"],
       extURL: `https://www.youtube.com/watch?v=I250xdtUvy8`
