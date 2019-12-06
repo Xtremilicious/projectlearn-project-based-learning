@@ -10,6 +10,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - [C/C++](#cc)
 - [Java](#java)
 - [ReactJS](#react)
+- [Web Design](#web-design)
 
 ## C#:
 - Learn C# By Building a Simple RPG Game
@@ -39,6 +40,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - Social Networking Website using React
 - E-Commerce Website using React
 - Create a Job Board using React
+
+## Web Design:
+- Spotify Inspired Web Design
 
 ## References:
 - [tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
