@@ -32,7 +32,7 @@ export const Items = [
     title: "Building the CoreWiki CMS with C#",
     img: "img/Csharp.png",
     tech: ["C#", "ASP.NET", "Razor Pages"],
-    extURL: `https://www.raywenderlich.com/134049/building-ios-apps-with-xamarin-and-visual-studio`
+    extURL: `https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p`
   },
   {
     id: 6,
