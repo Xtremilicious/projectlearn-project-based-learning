@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.png";
 import styled from "styled-components";
 import { ProductConsumer } from "../Context";
 import Background from '../img/sq1.png';

@@ -147,6 +147,13 @@ export const Items = [
       img: "img/C.png",
       tech: ["C/C++", "OpenGL"],
       extURL: `https://learnopengl.com/In-Practice/2D-Game/Breakout`
+    },
+    {
+      id: 22,
+      title: "Spotify Inspired Web Design",
+      img: "img/design.png",
+      tech: ["HTML", "CSS"],
+      extURL: `https://www.youtube.com/watch?v=RZ-Oe4_Ew7g`
     }
   ];
   
