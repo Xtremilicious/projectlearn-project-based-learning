@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../Context";
 import PropTypes from "prop-types";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 export default class Item extends Component {
   render() {
@@ -35,7 +37,7 @@ export default class Item extends Component {
           </div>
           <a href={extURL} target="_blank" rel='noreferrer noopener' className="button text-center">
           <button className="button">
-            <i class="fas fa-laptop-code"></i> Learn
+          <FontAwesomeIcon icon={faLaptopCode} /> Learn
           </button>
           </a>
         </div>

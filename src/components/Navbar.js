@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.png";
 import styled from "styled-components";
-import { ButtonContainer } from "./Button";
 import { ProductConsumer } from "../Context";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 class Navbar extends Component {
   constructor(props) {
@@ -63,7 +63,7 @@ class Navbar extends Component {
                     rel="noreferrer noopener"
                     className="button text-center"
                   >
-                    <i class="fab fa-github"></i>
+                    <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
               </div>
