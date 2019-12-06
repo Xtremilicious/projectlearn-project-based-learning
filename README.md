@@ -37,7 +37,6 @@ A list of programming tutorials in which learners build an application from scra
 - Social Networking Website using React
 - E-Commerce Website using React
 - Create a Job Board using React
-- Build an Evernote Clone using React and Firebase
 
 ## References:
 - [tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
