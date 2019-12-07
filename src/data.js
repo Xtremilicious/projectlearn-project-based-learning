@@ -154,6 +154,41 @@ export const Items = [
       img: "img/design.png",
       tech: ["HTML", "CSS"],
       extURL: `https://www.youtube.com/watch?v=RZ-Oe4_Ew7g`
+    },
+    {
+      id: 23,
+      title: "Build a Reddit Bot using Python",
+      img: "img/python.png",
+      tech: ["Python"],
+      extURL: `https://www.pythonforengineers.com/build-a-reddit-bot-part-1`
+    },
+    {
+      id: 24,
+      title: "Create a Simple Python Text Editor",
+      img: "img/python.png",
+      tech: ["Python"],
+      extURL: `https://www.instructables.com/id/Create-a-Simple-Python-Text-Editor`
+    },
+    {
+      id: 25,
+      title: "A BitTorrent client in Python",
+      img: "img/python.png",
+      tech: ["Python"],
+      extURL: `https://markuseliasson.se/article/bittorrent-in-python`
+    },
+    {
+      id: 26,
+      title: "Barcode & QR Code Scanner using Python",
+      img: "img/python.png",
+      tech: ["Python", "OpenCV"],
+      extURL: `https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar`
+    },
+    {
+      id: 27,
+      title: "Build Game of Life using Python",
+      img: "img/python.png",
+      tech: ["Python"],
+      extURL: `https://robertheaton.com/2018/07/20/project-2-game-of-life`
     }
   ];
   

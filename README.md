@@ -9,6 +9,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - [C#](#c)
 - [C/C++](#cc)
 - [Java](#java)
+- [Python](#python)
 - [ReactJS](#react)
 - [Web Design](#web-design)
 
@@ -35,6 +36,13 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - Build a Simple HTTP Server with Java
 - Build an Android Flashlight App
 - Spring Boot App with User Authentication
+
+## Python:
+- Build a Reddit Bot using Python
+- Create a Simple Python Text Editor
+- A BitTorrent client in Python
+- Barcode & QR Code Scanner using Python & OpenCV
+- Build the Game of Life using Python
 
 ## React:
 - Social Networking Website using React
