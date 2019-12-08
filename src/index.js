@@ -5,8 +5,10 @@ import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {ProductProvider} from './Context';
 import * as serviceWorker from './serviceWorker';
-import $ from 'jquery';
-import Popper from 'popper.js';
+//eslint-disable-next-line
+import $ from 'jquery'; 
+//eslint-disable-next-line
+import Popper from 'popper.js'; 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 

@@ -51,9 +51,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ## Web Design:
 - Spotify Inspired Web Design
+- Netflix Landing Page Web Design
 
-## References:
-- [tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
 
 
 

@@ -189,6 +189,13 @@ export const Items = [
       img: "img/python.png",
       tech: ["Python"],
       extURL: `https://robertheaton.com/2018/07/20/project-2-game-of-life`
+    },
+    {
+      id: 28,
+      title: "Build a Netflix Landing Page Clone",
+      img: "img/design.png",
+      tech: ["HTML", "CSS", "JavaScript"],
+      extURL: `https://www.youtube.com/watch?v=P7t13SGytRk`
     }
   ];
   

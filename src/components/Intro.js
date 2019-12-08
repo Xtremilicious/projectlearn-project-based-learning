@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { whileStatement } from '@babel/types';
 
 export default class Intro extends Component {
     render() {
