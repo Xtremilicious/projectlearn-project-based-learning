@@ -4,17 +4,19 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 //import Default from './components/Default';
-import ItemList from './components/ItemList';
-import Searchbar from './components/Searchbar';
+import Landing from './components/Landing';
+import Learn from './components/Learn';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <React.Fragment>
       <Navbar />
-      <Searchbar/>
-      <ItemList/>
+      <Route exact path="/" component={Landing} />
+      <Route exact path="/learn" component={Learn} />
     </React.Fragment>
-
+    </Router>
   );
 }
 

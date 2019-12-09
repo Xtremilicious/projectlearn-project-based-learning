@@ -10,6 +10,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - [C/C++](#cc)
 - [Java](#java)
 - [Python](#python)
+- [NodeJS](#node)
 - [ReactJS](#react)
 - [Web Design](#web-design)
 
@@ -43,6 +44,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - A BitTorrent client in Python
 - Barcode & QR Code Scanner using Python & OpenCV
 - Build the Game of Life using Python
+
+## Node.js:
+- Build a Simple AI Chatbot using Speech API
 
 ## React:
 - Social Networking Website using React

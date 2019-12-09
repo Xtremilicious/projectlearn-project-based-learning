@@ -196,6 +196,13 @@ export const Items = [
       img: "img/design.png",
       tech: ["HTML", "CSS", "JavaScript"],
       extURL: `https://www.youtube.com/watch?v=P7t13SGytRk`
+    },
+    {
+      id: 29,
+      title: "Simple AI Chatbot With Speech API",
+      img: "img/nodejs.png",
+      tech: ["NodeJS"],
+      extURL: `https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js`
     }
   ];
   
