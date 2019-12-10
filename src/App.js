@@ -13,9 +13,9 @@ function App() {
     <React.Fragment>
       <Navbar />
       <Route exact path="/" component={Landing} />
-      <Route exact path="/learn/web-development" render={(props) => <Landing type="web-dev" {...props} />} />
-      <Route exact path="/learn/programming-language" render={(props) => <Landing type="programming" {...props} />} />
-      <Route exact path="/learn/design" render={(props) => <Landing type="design" {...props} />} />
+      <Route exact path="/learn/web-development" render={(props) => <Landing type="web-dev" {...props} />} exact={true}/>
+      <Route exact path="/learn/programming-language" render={(props) => <Landing type="programming" {...props} />} exact={true} />
+      <Route exact path="/learn/design" render={(props) => <Landing type="design" {...props} />}  exact={true}/>
     </React.Fragment>
     </Router>
   );
