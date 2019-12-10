@@ -7,7 +7,8 @@ export default class Landing extends Component {
   render() {
     return (
       <React.Fragment>
-          {(!this.props.type) ? <Searchbar /> : <Searchbar cond="true" />}
+        <Searchbar />
+          {/* {(!this.props.type) ? <Searchbar /> : <Searchbar cond="true" />} */}
         <Categories />
         <ItemList type={this.props.type} />
       </React.Fragment>

@@ -84,7 +84,7 @@ const SearchWrapper = styled.div`
   padding-top: 6rem;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background-color: #0f9d58;
   background-image: url("${Background}");
   background-repeat: repeat;

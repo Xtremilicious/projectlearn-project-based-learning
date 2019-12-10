@@ -10,6 +10,7 @@ const Wrapper = styled.nav`
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1rem;
+  padding-top: 1rem;
   
   .nav-linker{
     text-decoration: none;
@@ -33,6 +34,7 @@ const Wrapper = styled.nav`
     padding-left: 0.7rem;
   }
   @media only screen and (max-width: 1200px) {
+    display: none;
     margin-left: 0rem;
   margin-right: 0rem;
   margin-bottom: 0rem;
