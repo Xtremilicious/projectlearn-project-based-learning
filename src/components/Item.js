@@ -19,8 +19,9 @@ export default class Item extends Component {
                   value.handleDetail(id);
                 }}
               >
-                
-                  <img src={img} alt={title} className="card-img-top" />
+              
+                  {this.props.type === "web-dev" ? <img src={`../${img}`} alt={title} className="card-img-top" />: 
+                  <img src={img} alt={title} className="card-img-top" />}
                
               </div>
             )}

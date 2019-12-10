@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { ProductConsumer } from "../Context";
-import Background from '../img/sq1.png';
-import Intro from './Intro';
+import Background from "../img/sq1.png";
+import Intro from "./Intro";
 
 class Searchbar extends Component {
   constructor(props) {
@@ -27,39 +27,47 @@ class Searchbar extends Component {
     return (
       <ProductConsumer>
         {value => {
-          const { handleSearch} = value;
+          const { handleSearch } = value;
           return (
             <SearchWrapper className=" mt-0">
-              <Intro/>
-
-              <div className="search-bar d-flex align-items-center">
-                <span className="p-2">
-                  <i className="fa fa-search nav-font"></i>
-                </span>
-                <input
-                  type="text"
-                  placeholder="Search for a technology or a project. Eg. React"
-                  value={this.state.search}
-                  onChange={this.updateSearch}
-                  class="input-form"
-                ></input>
-                <input
-                  type="text"
-                  placeholder="Eg. React"
-                  value={this.state.search}
-                  onChange={this.updateSearch}
-                  class="input-form-mob"
-                ></input>
-                <Link to="/" className="ml-auto">
-                  <button
-                    type="button"
-                    className="submit-btn"
-                    onClick={() => handleSearch(this.state.search)}
-                  >
-                    Search
-                  </button>
-                </Link>
-              </div>
+              <Intro />
+              {this.props.cond === "true" ? (
+                <div className="title d-flex flex-column">
+                  "I hear and I forget. I see and I remember. I do and I
+                  understand."
+                  <br />
+                  <span className="text-right">-- Confucius</span>
+                </div>
+              ) : (
+                <div className="search-bar d-flex align-items-center">
+                  <span className="p-2">
+                    <i className="fa fa-search nav-font"></i>
+                  </span>
+                  <input
+                    type="text"
+                    placeholder="Search for a technology or a project. Eg. React"
+                    value={this.state.search}
+                    onChange={this.updateSearch}
+                    class="input-form"
+                  ></input>
+                  <input
+                    type="text"
+                    placeholder="Eg. React"
+                    value={this.state.search}
+                    onChange={this.updateSearch}
+                    class="input-form-mob"
+                  ></input>
+                  <Link to="/" className="ml-auto">
+                    <button
+                      type="button"
+                      className="submit-btn"
+                      onClick={() => handleSearch(this.state.search)}
+                    >
+                      Search
+                    </button>
+                  </Link>
+                </div>
+              )}
             </SearchWrapper>
           );
         }}
@@ -84,6 +92,14 @@ const SearchWrapper = styled.div`
     color: var(--mainDark) !important;
     font-size: 1.3rem;
     text-transform: uppercase;
+    }
+    .title{
+      font-size: 1.5rem;
+      color: white;
+    }
+    .text-right{
+      font-size: 1.3rem;
+      text-align: right;
     }
   .search-bar {
     background: #e6e6e6;
@@ -138,6 +154,18 @@ const SearchWrapper = styled.div`
     }
     .input-form{
       display: none;
+    }
+    .title{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      font-size: 1rem;
+      color: white;
+    }
+    .text-right{
+      font-size: 0.85rem;
+      text-align: right;
+      margin-left: 1.5rem;
+      margin-right: 0rem;
     }
   }
 `;

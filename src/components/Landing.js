@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import Searchbar from "./Searchbar";
+import React, { Component } from "react";
 import ItemList from "./ItemList";
+import Categories from "./Categories";
+import Searchbar from "./Searchbar";
 
 export default class Landing extends Component {
-    render() {
-        return (
-            <React.Fragment>
-            <Searchbar/>
-            <ItemList/>
-            </React.Fragment>
-        )
-    }
+  render() {
+    return (
+      <React.Fragment>
+          {(!this.props.type) ? <Searchbar /> : <Searchbar cond="true" />}
+        <Categories />
+        <ItemList type={this.props.type} />
+      </React.Fragment>
+    );
+  }
 }
