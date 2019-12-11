@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Item from "./Item";
+import '../App.css';
 import { ProductConsumer } from "../Context";
 
 export default class ProductList extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="">
+        <div className="index">
           <div className="container m-0 p-0 mx-auto">
             <div className="row m-0 p-0">
               <ProductConsumer>

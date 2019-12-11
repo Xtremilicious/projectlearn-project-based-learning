@@ -6,10 +6,14 @@
   --mainYellow: #ffa400;
   --mainRed: #d42f15;
 }
+
+
 body{
   font-family: 'Lato', 'sans-serif' !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+  
+  
 }
 .text-title{
   font-family: 'Lato';
@@ -43,6 +47,9 @@ body{
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 2rem;
+}
+.index{
+  z-index: 10;
 }
 
 @media only screen and (max-width: 1200px) {

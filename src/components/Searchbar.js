@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { ProductConsumer } from "../Context";
 import Background from "../img/sq1.png";
 import Intro from "./Intro";
+import pattern1 from "../img/floral-Pattern.png";
+import pattern2 from "../img/floral-Pattern2.png";
 
 class Searchbar extends Component {
   constructor(props) {
@@ -30,6 +32,8 @@ class Searchbar extends Component {
           const { handleSearch } = value;
           return (
             <SearchWrapper className=" mt-0">
+              <img src={pattern1} alt="" className="img-design1"/>
+              <img src={pattern2} alt="" className="img-design2"/>
               <Intro />
               {this.props.cond === "true" ? (
                 <div className="title d-flex flex-column">
@@ -79,6 +83,7 @@ class Searchbar extends Component {
 const SearchWrapper = styled.div`
   background: transparent;
   display: flex;
+  position: relative;
   flex-direction: column;
   padding-bottom: 6rem;
   padding-top: 6rem;
@@ -88,6 +93,7 @@ const SearchWrapper = styled.div`
   background-color: #0f9d58;
   background-image: url("${Background}");
   background-repeat: repeat;
+  overflow: hidden;
   .nav-link {
     color: var(--mainDark) !important;
     font-size: 1.3rem;
@@ -102,14 +108,29 @@ const SearchWrapper = styled.div`
       text-align: right;
     }
   .search-bar {
-    background: #e6e6e6;
+    background: white;
     width: 40%;
     height: fit-content;
     border-radius: 0.8rem 0.9rem 0.9rem 0.8rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    z-index: 1;
   }
   .nav-font {
     font-size: 1.4rem;
+  }
+  .img-design1{
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+    height: 100%;
+    z-index: 0;
+  }
+  .img-design2{
+    position: absolute;
+    right: 0;
+    bottom: -1rem;
+    height: 100%;
+    z-index: 0;
   }
   .navbar-navigation {
     list-style: none;
@@ -133,7 +154,7 @@ const SearchWrapper = styled.div`
     padding: 0 1rem;
     border: none;
     background: #0f9d58;
-    color: var(--mainWhite);
+    color: white;
     border-radius: 0 0.8rem 0.8rem 0;
     outline: none;
   }
@@ -153,6 +174,12 @@ const SearchWrapper = styled.div`
       display: inline;
     }
     .input-form{
+      display: none;
+    }
+    .img-design1{
+      display: none;
+    }
+    .img-design2{
       display: none;
     }
     .title{
