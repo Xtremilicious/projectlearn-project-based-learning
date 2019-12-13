@@ -201,8 +201,50 @@ export const Items = [
       id: 29,
       title: "Simple AI Chatbot With Speech API",
       img: "img/nodejs.png",
-      tech: ["NodeJS"],
+      tech: ["NodeJS", "JavaScript"],
       extURL: `https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js`
+    },
+    {
+      id: 30,
+      title: "Responsive Grid CSS Website Layout",
+      img: "img/design.png",
+      tech: ["HTML", "CSS"],
+      extURL: `https://www.youtube.com/watch?v=moBhzSC455o`
+    },
+    {
+      id: 31,
+      title: "A BitTorrent Client in Node.js",
+      img: "img/nodejs.png",
+      tech: ["NodeJS", "JavaScript"],
+      extURL: `https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html`
+    },
+    {
+      id: 32,
+      title: "Build A Job Scraping Web App",
+      img: "img/nodejs.png",
+      tech: ["NodeJS", "JavaScript"],
+      extURL: `https://www.freecodecamp.org/news/how-i-built-a-job-scraping-web-app-using-node-js-and-indreed-7fbba124bbdc`
+    },
+    {
+      id: 33,
+      title: "Writing a Blockchain in Node.js",
+      img: "img/nodejs.png",
+      tech: ["NodeJS", "JavaScript", "Blockchain"],
+      extURL: `https://www.jsmonday.dev/articles/34/writing-a-blockchain-in-node-js`
+    },
+    {
+      id: 34,
+      title: "Intro to Blockchain with Python",
+      img: "img/python.png",
+      tech: ["Python", "Blockchain"],
+      extURL: `http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python`
+    },
+    {
+      id: 36,
+      title: "Make a Voxel Engine using C/C++",
+      img: "img/C.png",
+      tech: ["C/C++", "OpenGL"],
+      extURL: `https://sites.google.com/site/letsmakeavoxelengine/home`
     }
   ];
   
