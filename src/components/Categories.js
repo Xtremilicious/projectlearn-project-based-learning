@@ -7,8 +7,8 @@ import {Link} from "react-router-dom";
 const Wrapper = styled.nav`
   background: transparent;
   background-repeat: repeat;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
   
@@ -18,21 +18,26 @@ const Wrapper = styled.nav`
   }
   .card-category {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    width: 28.5vw;
+    width: 26.5vw;
     border-radius: 1rem;
+  }
+  .card-category:hover{
+    transform: scale(1.025);
+    transition: 0.7s;
   }
   .icon-container {
     padding: 0.7rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: white;
-    width: 5.5vw;
+    width: 5vw;
     border-radius: 1rem 0 0 1rem;
     background: #0f9d58;
   }
   .category {
-    font-size: 1.6rem;
-    padding-left: 0.7rem;
+    font-size: 1.5rem;
+    padding-left: 0.8rem;
   }
+  
   @media only screen and (max-width: 1200px) {
     display: none;
     margin-left: 0rem;

@@ -9,7 +9,7 @@ export default class Item extends Component {
   render() {
     const { id, title, img, tech, extURL } = this.props.product;
     return (
-      <ProductWrapper className="col-11 mx-auto col-md-6 col-lg-3 my-3">
+      <ItemWrapper className="col-11 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
           <ProductConsumer>
             {value => (
@@ -41,7 +41,7 @@ export default class Item extends Component {
           </button>
           </a>
         </div>
-      </ProductWrapper>
+      </ItemWrapper>
     );
   }
 }
@@ -56,10 +56,10 @@ Item.propTypes = {
   }).isRequired
 };
 
-const ProductWrapper = styled.div`
+const ItemWrapper = styled.div`
   .card {
     border-color: transparent;
-    transition: all 1s linear;
+    transition: all 0.7s linear;
   }
   .card-footer {
     background: transparent;
@@ -68,6 +68,7 @@ const ProductWrapper = styled.div`
   }
   &:hover {
     .card {
+      transform: scale(1.05);
       border: 0.04rem solid rgba(0, 0, 0, 0.2);
       box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
     }
