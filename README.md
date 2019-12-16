@@ -31,6 +31,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - Write Your Own Virtual Machine
 - Tetris Tutorial in C++ Platform Independent
 - Make Breakout game in C++/OpenGL
+- Make a Voxel Engine using C/C++
 
 ## Java:
 - Build an Interpreter in JAVA
@@ -44,9 +45,13 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - A BitTorrent client in Python
 - Barcode & QR Code Scanner using Python & OpenCV
 - Build the Game of Life using Python
+- Intro to Blockchain with Python
 
 ## Node.js:
 - Build a Simple AI Chatbot using Speech API
+- A BitTorrent Client in Node.js
+- Build A Job Scraping Web App
+- Writing a Blockchain in Node.js
 
 ## React:
 - Social Networking Website using React
@@ -56,6 +61,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ## Web Design:
 - Spotify Inspired Web Design
 - Netflix Landing Page Web Design
+- Responsive Grid CSS Website Layout
 
 
 
