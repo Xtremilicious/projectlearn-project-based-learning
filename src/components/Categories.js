@@ -61,7 +61,7 @@ export default function Categories() {
   return (
     <Wrapper className="row">
       <div className="col-lg-4 col-12 d-flex flex-row justify-content-center align-items-center">
-        <Link to="/learn/programming-language" className="nav-linker">
+        <Link to="/programming" className="nav-linker">
           <div className="card-category d-flex flex-row align-items-center">
             <div className="icon-container text-center">
               <FontAwesomeIcon icon={faCode} />
@@ -71,7 +71,7 @@ export default function Categories() {
         </Link>
       </div>
       <div className="col-lg-4 col-12 d-flex flex-row justify-content-center align-items-center">
-      <Link to="/learn/web-development" className="nav-linker">
+      <Link to="/web-dev" className="nav-linker">
         <div className="card-category d-flex flex-row  align-items-center">
           <div className="icon-container text-center">
             <FontAwesomeIcon icon={faGlobe} />
@@ -81,7 +81,7 @@ export default function Categories() {
         </Link>
       </div>
       <div className="col-lg-4 col-12 d-flex flex-row justify-content-center align-items-center">
-      <Link to="/learn/design" className="nav-linker">
+      <Link to="/design" className="nav-linker">
         <div className="card-category d-flex flex-row align-items-center">
           <div className="icon-container text-center">
             <FontAwesomeIcon icon={faPalette} />

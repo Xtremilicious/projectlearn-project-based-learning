@@ -18,9 +18,9 @@ function App() {
       <Navbar />
       <Switch>
       <Route exact path="/" component={Landing} />
-      <Route exact path="/learn/web-development" render={(props) => <Landing type="web-dev" {...props} />} />
-      <Route exact path="/learn/programming-language" render={(props) => <Landing type="programming" {...props} />}  />
-      <Route exact path="/learn/design" render={(props) => <Landing type="design" {...props} />}  />
+      <Route exact path="/web-dev" render={(props) => <Landing type="web-dev" {...props} />} />
+      <Route exact path="/programming" render={(props) => <Landing type="programming" {...props} />}  />
+      <Route exact path="/design" render={(props) => <Landing type="design" {...props} />}  />
       <Route component={Landing} />
       </Switch>
     </React.Fragment>
