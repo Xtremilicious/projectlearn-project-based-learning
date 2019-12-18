@@ -10,9 +10,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - [C/C++](#cc)
 - [Java](#java)
 - [Python](#python)
+- [JavaScript](#javascript)
 - [NodeJS](#node)
 - [ReactJS](#react)
-- [Web Design](#web-design)
+- [Misc](#misc)
 
 ## C#:
 - Learn C# By Building a Simple RPG Game
@@ -47,6 +48,14 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - Build the Game of Life using Python
 - Intro to Blockchain with Python
 
+## JavaScript:
+- Intro to JavaScript on the server, and APIs
+- Designing Animated Book Store with JavaScript, jQuery and CSS
+- Build a simple URL Shortener with JavaScript
+- Build a Todo List App with JavaScript
+- Creating JavaScript Animations with Anime.js
+- Build a Simple Gantt Chart with JavaScript
+
 ## Node.js:
 - Build a Simple AI Chatbot using Speech API
 - A BitTorrent Client in Node.js
@@ -58,7 +67,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - E-Commerce Website using React
 - Create a Job Board using React
 
-## Web Design:
+## Misc:
 - Spotify Inspired Web Design
 - Netflix Landing Page Web Design
 - Responsive Grid CSS Website Layout

@@ -240,11 +240,53 @@ export const Items = [
       extURL: `http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python`
     },
     {
-      id: 36,
+      id: 35,
       title: "Make a Voxel Engine using C/C++",
       img: "img/C.png",
       tech: ["C/C++", "OpenGL"],
       extURL: `https://sites.google.com/site/letsmakeavoxelengine/home`
+    },
+    {
+      id: 36,
+      title: "Intro to JavaScript on the server, and APIs",
+      img: "img/javascript.png",
+      tech: ["JavaScript"],
+      extURL: `https://medium.com/thebit/intro-to-javascript-on-the-server-and-apis-8a117f937360`
+    },
+    {
+      id: 37,
+      title: "Animated Book Store with JavaScript",
+      img: "img/javascript.png",
+      tech: ["JavaScript", "jQuery", "CSS"],
+      extURL: `https://uxplanet.org/designing-animated-book-store-with-javascript-jquery-and-css-f2f7d3335d29`
+    },
+    {
+      id: 38,
+      title: "Build URL Shortener with JavaScript",
+      img: "img/javascript.png",
+      tech: ["JavaScript"],
+      extURL: `https://www.freecodecamp.org/news/building-a-simple-url-shortener-with-just-html-and-javascript-6ea1ecda308c/`
+    },
+    {
+      id: 39,
+      title: "Build a Todo List App with JavaScript",
+      img: "img/javascript.png",
+      tech: ["JavaScript"],
+      extURL: `https://freshman.tech/todo-list`
+    },
+    {
+      id: 40,
+      title: "JavaScript Animations with Anime.js",
+      img: "img/javascript.png",
+      tech: ["JavaScript"],
+      extURL: `https://medium.com/@ajmeyghani/creating-javascript-animations-with-anime-js-f2b14716cdc6`
+    },
+    {
+      id: 41,
+      title: "Build a Simple Gantt Chart with JavaScript",
+      img: "img/javascript.png",
+      tech: ["JavaScript", "CSS"],
+      extURL: `https://webdesign.tutsplus.com/tutorials/build-a-simple-gantt-chart-with-css-and-javascript--cms-33813`
     }
   ];
   
