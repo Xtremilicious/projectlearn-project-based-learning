@@ -1,4 +1,4 @@
-:root{
+:root {
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
@@ -7,24 +7,21 @@
   --mainRed: #d42f15;
 }
 
-
-body{
-  font-family: 'Lato', 'sans-serif' !important;
+body {
+  font-family: "Lato", "sans-serif" !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
-  
-  
 }
-.text-title{
-  font-family: 'Lato';
+.text-title {
+  font-family: "Lato";
 }
-.text-red{
+.text-red {
   color: var(--mainRed);
 }
-.text-bright{
+.text-bright {
   color: var(--lightBlue);
 }
-.btn-black{
+.btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
@@ -32,30 +29,50 @@ body{
   border-radius: 0 !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
-.btn-black:hover{
+.btn-black:hover {
   background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
 }
-.cart-icon{
+.cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
-.intro{
+.intro {
   margin-left: 10rem;
   margin-right: 10rem;
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 2rem;
 }
-.index{
+.index {
   z-index: 10;
 }
 
 @media only screen and (max-width: 1200px) {
-  .intro{
+  .intro {
     font-size: 1rem;
     margin-left: 1rem;
-  margin-right: 1rem;
+    margin-right: 1rem;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .index {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .github-promo{
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .index {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+}
+

@@ -7,6 +7,7 @@ import Intro from "./Intro";
 import pattern1 from "../img/floral-Pattern.png";
 import pattern2 from "../img/floral-Pattern2.png";
 import Navbar from "./Navbar";
+import { withRouter } from "react-router-dom";
 
 class Searchbar extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class Searchbar extends Component {
   state = {
     search: ""
   };
+
   updateSearch = event => {
     event.preventDefault();
     const query = event.target.value;
@@ -39,7 +41,7 @@ class Searchbar extends Component {
               <div className="mt-5 d-flex flex-column align-items-center">
                 <img src={pattern1} alt="" className="img-design1" />
                 <img src={pattern2} alt="" className="img-design2" />
-             <Intro className="intro"/>
+                <Intro className="intro" />
                 {this.props.cond === "true" ? (
                   <div className="title d-flex flex-column">
                     "I hear and I forget. I see and I remember. I do and I
@@ -213,4 +215,4 @@ const SearchWrapper = styled.div`
     }
   }
 `;
-export default Searchbar;
+export default withRouter(Searchbar);

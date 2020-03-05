@@ -67,17 +67,18 @@ class Navbar extends Component {
                     <FontAwesomeIcon icon={faGithub} className="mr-2" />
                     <div className="text-green2 contr">Contribute</div>
                   </a>
-
-                  <GitHubButton
-                    href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
-                    data-color-scheme="no-preference: dark; light: dark; dark: dark;"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star ProjectLearn on GitHub"
-                  >
-                    {` `}Star
-                  </GitHubButton>
+                  <div className="github-promo">
+                    <GitHubButton
+                      href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
+                      data-color-scheme="no-preference: dark; light: dark; dark: dark;"
+                      data-icon="octicon-star"
+                      data-size="large"
+                      data-show-count="true"
+                      aria-label="Star ProjectLearn on GitHub"
+                    >
+                      {` `}Star
+                    </GitHubButton>
+                  </div>
                 </div>
               </div>
             </NavWrapper>
@@ -175,5 +176,6 @@ const NavWrapper = styled.nav`
       display: none;
     }
   }
+  
 `;
 export default Navbar;

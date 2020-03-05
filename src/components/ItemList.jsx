@@ -7,8 +7,8 @@ export default class ProductList extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="index">
-          <div className="container m-0 p-0 mx-auto">
+        <div className="index mb-4">
+          <div className="mx-auto container p-0">
             <div className="row m-0 p-0 d-flex justify-content-center">
               <ProductConsumer>
                 {value => {
