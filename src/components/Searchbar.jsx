@@ -54,29 +54,31 @@ class Searchbar extends Component {
                     <span className="p-2">
                       <i className="fa fa-search nav-font"></i>
                     </span>
-                    <input
-                      type="text"
-                      placeholder="Search for a technology or a project. Eg. React"
-                      value={this.state.search}
-                      onChange={this.updateSearch}
-                      class="input-form"
-                    ></input>
-                    <input
-                      type="text"
-                      placeholder="Eg. React"
-                      value={this.state.search}
-                      onChange={this.updateSearch}
-                      class="input-form-mob"
-                    ></input>
-                    <Link to="/" className="ml-auto">
-                      <button
-                        type="button"
-                        className="submit-btn"
-                        onClick={() => handleSearch(this.state.search)}
-                      >
-                        Search
-                      </button>
-                    </Link>
+                    <form className="d-flex flex-row" style={{ width: "100%" }}>
+                      <input
+                        type="text"
+                        placeholder="Search for a technology or a project. Eg. React"
+                        value={this.state.search}
+                        onChange={this.updateSearch}
+                        class="input-form"
+                      ></input>
+                      <input
+                        type="text"
+                        placeholder="Eg. React"
+                        value={this.state.search}
+                        onChange={this.updateSearch}
+                        class="input-form-mob"
+                      ></input>
+                      <Link to="/" className="ml-auto">
+                        <button
+                          type="submit"
+                          className="submit-btn"
+                          onClick={() => handleSearch(this.state.search)}
+                        >
+                          Search
+                        </button>
+                      </Link>
+                    </form>
                   </div>
                 )}
               </div>
