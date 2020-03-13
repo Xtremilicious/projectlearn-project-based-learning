@@ -67,14 +67,14 @@ export default function Categories() {
   return (
     <ProductConsumer>
       {value => {
-        const { handleSearch } = value;
+        const { resetSearch } = value;
         return (
           <Wrapper className="row mb-4 d-flex flex-row justify-content-center align-items-center mx-auto">
             <div className="col-lg-auto col-12 d-flex flex-row justify-content-center align-items-center">
               <Link
                 to="/"
                 className="nav-linker"
-                onClick={() => handleSearch("")}
+                onClick={() => resetSearch()}
               >
                 <div className=" d-flex flex-column align-items-center">
                   <div

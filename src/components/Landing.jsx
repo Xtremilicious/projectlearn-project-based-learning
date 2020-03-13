@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ItemList from "./ItemList";
 import Categories from "./Categories";
 import Searchbar from "./Searchbar";
+import Footer from "./Footer";
 
 export default class Landing extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class Landing extends Component {
           {/* {(!this.props.type) ? <Searchbar /> : <Searchbar cond="true" />} */}
         <Categories />
         <ItemList type={this.props.type} />
+        {/* <Footer /> */}
       </React.Fragment>
     );
   }

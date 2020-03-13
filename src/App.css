@@ -76,3 +76,16 @@ body {
   
 }
 
+
+.load-more-button{
+  margin-top: 1rem;
+
+  border: 2px #0f9d58 dashed;
+  font-size: 1.4rem;
+    background: white;
+    width: fit-content !important;
+    padding:  0.4rem 1.5rem;
+    color: #0f9d58;
+    outline: none;
+    border-radius:0.6rem;
+}
