@@ -11,6 +11,17 @@ export default class MyDocument extends Document {
     return { ...page, styleTags };
   }
 
+  setGoogleTags() {
+    return {
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-141654226-3');
+      `
+    };
+  }
+
   render() {
     return (
       <html>
@@ -29,29 +40,20 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Lato&display=swap"
             rel="stylesheet"
           />
-           <script
-            async={true}
-            src="https://www.googletagmanager.com/gtag/js?id=UA-141654226-3"
-          />
           <script
             async={true}
             src="https://app.appzi.io/bootstrap/bundle.js?token=OQNTh"
           />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-              function gtag() { dataLayer.push(arguments); }
-              gtag('js', new Date());
-          
-              gtag('config', 'UA-141654226-3');`
-            }}
-          ></script>
 
           {this.props.styleTags}
         </Head>
         <body>
           <Main />
           <NextScript />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141654226-3"></script>
+          {/* We call the function above to inject the contents of the script tag */}
+          <script dangerouslySetInnerHTML={this.setGoogleTags()} />
         </body>
       </html>
     );
