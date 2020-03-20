@@ -47,6 +47,9 @@ export const mobDev = [
     icon: "swift"
   },
   {
+    category: "Flutter",
+  },
+  {
     category: "React Native",
     icon: "react"
   }

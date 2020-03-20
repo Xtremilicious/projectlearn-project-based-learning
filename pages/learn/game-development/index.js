@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Head from "next/head";
-import Layout from "../../../src/components/Dashboards/gameDashboard/Layout";
+import Layout from "../../../src/components/Dashboard/Layout";
 
 //Redux Stuff
 import { connect } from "react-redux";
@@ -25,7 +25,7 @@ class gameDevelopment extends Component {
           {/* <!--Title--> */}
           <title>Learn Game Development | ProjectLearn</title>
         </Head>
-        <Layout/>
+        <Layout url={`game-development`} slug={`game-dev`} title={`Game Development`}/>
       </div>
     );
   }

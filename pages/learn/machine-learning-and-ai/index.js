@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Head from "next/head";
-import Layout from "../../../src/components/Dashboards/mlAIDashboard/Layout";
+import Layout from "../../../src/components/Dashboard/Layout";
 
 //Redux Stuff
 import { connect } from "react-redux";
@@ -25,7 +25,7 @@ class machineLearningAI extends Component {
           {/* <!--Title--> */}
           <title>Learn Machine Learning and AI | ProjectLearn</title>
         </Head>
-        <Layout />
+        <Layout url={`machine-learning-and-ai`} slug={`ml-ai`} title={`Machine Learning & AI`}/>
       </div>
     );
   }

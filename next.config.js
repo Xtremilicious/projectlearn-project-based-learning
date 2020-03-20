@@ -2,7 +2,6 @@
 const withImages = require('next-images')
 
 module.exports = withImages({
-  exportTrailingSlash: false,
     exportPathMap: async function(
       defaultPathMap,
       { dev, dir, outDir, distDir, buildId }

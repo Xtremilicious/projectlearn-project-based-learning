@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Head from "next/head";
-import Layout from "../../../src/components/Dashboards/mobDashboard/Layout";
+import Layout from "../../../src/components/Dashboard/Layout";
 
 //Redux Stuff
 import { connect } from "react-redux";
@@ -25,7 +25,7 @@ class mobileDevelopment extends Component {
           {/* <!--Title--> */}
           <title>Learn Mobile Development | ProjectLearn</title>
         </Head>
-        <Layout />
+        <Layout url={`mobile-development`} slug={`mob-dev`} title={`Mobile Development`} />
       </div>
     );
   }

@@ -1,24 +1,48 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { mobDev } from "../../../../utils/technologies";
+import { webDev, gameDev, mobDev, mlAI } from "../../../utils/technologies";
 import Link from "next/link";
 import { useRouter, withRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
+  faHtml5,
+  faCss3,
+  faJs,
+  faAngular,
+  faNodeJs,
+  faVuejs,
+  faCuttlefish,
+  faMicrosoft,
+  faPython,
+  faGoogle,
+  faKickstarterK,
   faAndroid,
   faApple,
   faJava,
   faSwift,
-  faReact
+  faReact,
+  faUnity
 } from "@fortawesome/free-brands-svg-icons";
-import { faInfinity } from "@fortawesome/free-solid-svg-icons";
+import { faInfinity, faCode } from "@fortawesome/free-solid-svg-icons";
 library.add(
+  faHtml5,
+  faCss3,
+  faJs,
+  faAngular,
+  faNodeJs,
+  faVuejs,
+  faCuttlefish,
+  faMicrosoft,
+  faPython,
+  faGoogle,
+  faKickstarterK,
   faAndroid,
   faApple,
   faJava,
   faSwift,
-  faReact
+  faReact,
+  faUnity
 );
 
 const CategoryWrapper = styled.div`
@@ -70,7 +94,6 @@ const CategoryWrapper = styled.div`
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      /* background-color: var(--dashboard-purple-alt); */
       padding: 1.2vw;
       color: var(--dashboard-purple-alt);
     }
@@ -84,12 +107,25 @@ const Categories = props => {
   const {
     query: { tech }
   } = useRouter();
+
+  const techCategories =
+    props.slug === "web-dev"
+      ? webDev
+      : props.slug === "mob-dev"
+      ? mobDev
+      : props.slug === "game-dev"
+      ? gameDev
+      : mlAI;
+
+  const url = props.url;
+  console.log(URL);
+
   return (
     <CategoryWrapper>
       <div className="cats">
         <div className="section-title">Technologies</div>
         <div className="cat-grid">
-          <Link href={{ pathname: "mobile-development" }}>
+          <Link href={{ pathname: `${url}` }}>
             {tech != null ? (
               <div className="cat-grid-item">
                 <FontAwesomeIcon icon={faInfinity} />
@@ -102,21 +138,29 @@ const Categories = props => {
               </div>
             )}
           </Link>
-          {mobDev.map(item =>
+          {techCategories.map(item =>
             tech === item.category ? (
               <div className="cat-grid-item-selected">
-                <FontAwesomeIcon icon={["fab", item.icon]} />
+                {item.icon ? (
+                  <FontAwesomeIcon icon={["fab", item.icon]} />
+                ) : (
+                  <FontAwesomeIcon icon={faCode} />
+                )}
                 <div className="cat-title">{item.category}</div>
               </div>
             ) : (
               <Link
                 href={{
-                  pathname: "mobile-development",
+                  pathname: `${url}`,
                   query: { tech: item.category }
                 }}
               >
                 <div className="cat-grid-item">
-                  <FontAwesomeIcon icon={["fab", item.icon]} />
+                  {item.icon ? (
+                    <FontAwesomeIcon icon={["fab", item.icon]} />
+                  ) : (
+                    <FontAwesomeIcon icon={faCode} />
+                  )}
                   <div className="cat-title">{item.category}</div>
                 </div>
               </Link>

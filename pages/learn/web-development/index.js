@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Head from "next/head";
-import Layout from "../../../src/components/Dashboards/webDashboard/Layout";
+import Layout from "../../../src/components/Dashboard/Layout";
 
 //Redux Stuff
 import { connect } from "react-redux";
@@ -26,7 +26,7 @@ class webDevelopment extends Component {
           {/* <!--Title--> */}
           <title>Learn Web Development | ProjectLearn</title>
         </Head>
-        <Layout />
+        <Layout url={`web-development`} slug={`web-dev`} title={`Web Development`}/>
       </div>
     );
   }

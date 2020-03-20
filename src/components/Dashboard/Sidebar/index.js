@@ -1,13 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faHtml5,
-  faCss3,
-  faJs,
-  faAngular
-} from "@fortawesome/free-brands-svg-icons";
 
 import CategoryInfo from "./CategoryInfo";
 import Categories from "./Categories";
@@ -29,8 +21,8 @@ export default class Sidebar extends Component {
   render() {
     return (
       <SidebarWrapper>
-        <CategoryInfo />
-        <Categories />
+        <CategoryInfo  slug={this.props.slug} />
+        <Categories slug={this.props.slug} url={this.props.url}/>
         <div className="footer">© 2020 ProjectLearn</div>
       </SidebarWrapper>
     );

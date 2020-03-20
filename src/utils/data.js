@@ -1,5 +1,26 @@
 export const projects = [
   {
+    id: 79,
+    type: "article",
+    title: "Todo App",
+    category: ["mob-dev"],
+    tech: ["Flutter", "Dart", "Android", "iOS"],
+    datePublished: "Jun 7, 2018",
+    projectURL:
+      "https://medium.com/the-web-tub/making-a-todo-app-with-flutter-5c63dab88190"
+  },
+  {
+    id: 78,
+    type: "video",
+    title: "Travel App UI",
+    category: ["mob-dev"],
+    tech: ["Flutter", "Dart", "Android", "iOS"],
+    datePublished: "Oct 23, 2019",
+    source: "YouTube",
+    projectURL:
+      "https://www.youtube.com/watch?v=CSa6Ocyog4U"
+  },
+  {
     id: 77,
     type: "article",
     title: "Taylor Swift Lyrics Generator",

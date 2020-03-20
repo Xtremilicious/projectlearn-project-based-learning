@@ -8,10 +8,10 @@ const LayoutWrapper = styled.div`
   grid-template-columns: 25vw auto;
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     grid-template-columns: 1fr;
-    .layout-first{
+    .layout-first {
       display: none;
     }
-}
+  }
 `;
 
 export default class Layout extends Component {
@@ -19,10 +19,10 @@ export default class Layout extends Component {
     return (
       <LayoutWrapper>
         <div className="layout-first">
-          <Sidebar />
+          <Sidebar slug={this.props.slug} url={this.props.url}/>
         </div>
         <div className="layout-second">
-          <Content />
+          <Content slug={this.props.slug} url={this.props.url} title={this.props.title}/>
         </div>
       </LayoutWrapper>
     );

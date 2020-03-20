@@ -4,13 +4,6 @@ import Link from "next/link";
 import { useRouter, withRouter } from "next/router";
 import { connect } from "react-redux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faHtml5,
-  faCss3,
-  faJs,
-  faAngular
-} from "@fortawesome/free-brands-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const InfoWrapper = styled.div`
@@ -83,11 +76,15 @@ const CategoryInfo = props => {
   } = useRouter();
 
   let { projects } = props;
+
   let totalCount = 0,
     articleCount = 0,
     videoCount = 0;
+
+const categorySlug = props.slug;
+
   if (projects != null) {
-    projects = projects.filter(project => project.category.includes("mob-dev")).map(item=> item);
+    projects = projects.filter(project => project.category.includes(categorySlug)).map(item=> item);
     if (tech != undefined) {
       const filteredProjects = projects
         .filter(projects => projects.tech.includes(tech))
@@ -108,15 +105,12 @@ const CategoryInfo = props => {
   return (
     <InfoWrapper>
       <div className="cat-info">
-        <Link href="../#categories">
+        <Link href="../../#categories">
           <div className="back-to-landing">
             <FontAwesomeIcon icon={faArrowLeft} />
           </div>
         </Link>
         <div className="selected-cat">
-          {/* <div className="cat-art">
-              <FontAwesomeIcon icon={faReact} />
-            </div> */}
           <div className="cat-title">{tech || "Showing All"}</div>
         </div>
         <div className="selected-cat-stats">

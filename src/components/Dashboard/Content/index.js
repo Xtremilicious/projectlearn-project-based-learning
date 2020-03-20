@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import ProjectList from "./ProjectList";
 
 //Redux Stuff
 import { connect } from "react-redux";
+
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const ContentWrapper = styled.div`
   display: grid;
@@ -19,19 +20,11 @@ const ContentWrapper = styled.div`
     z-index: -1;
     height: 30vh;
     width: 75vw;
-    background: linear-gradient(
-      90deg,
-      var(--dashboard-purple),
-      var(--dashboard-purple-alt)
-    );
+    background: linear-gradient(90deg, var(--dashboard-purple), var(--dashboard-purple-alt));
   }
   .section-header {
     display: flex;
-    background: linear-gradient(
-      90deg,
-      var(--dashboard-purple),
-      var(--dashboard-purple-alt)
-    );
+    background: linear-gradient(90deg, var(--dashboard-purple), var(--dashboard-purple-alt));
     color: white;
     .section-title {
       font-size: 5vh;
@@ -48,13 +41,13 @@ const ContentWrapper = styled.div`
     margin-top: 5vh;
     margin-right: 5vh;
     margin-left: auto;
-    .search-bar{
+    .search-bar {
       padding: 1vh;
       font-size: 3vh;
       border-radius: 3vh;
       border: none;
       padding-left: 2.5vh;
-      box-shadow: rgba(0,0,0,0.12) 0px 1px 3px, rgba(0,0,0,0.24) 0px 1px 2px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
       outline: none;
     }
   }
@@ -99,7 +92,6 @@ const ContentWrapper = styled.div`
 `;
 
 class Content extends Component {
-
   state = {
     search: ""
   };
@@ -115,25 +107,22 @@ class Content extends Component {
   };
 
   render() {
+    const categorySlug = this.props.slug;
+    const categoryTitle = this.props.title;
+
     let { projects } = this.props;
 
-    projects
-      ? (projects = projects
-          .filter(project => project.category.includes("game-dev"))
-          .map(item => item))
-      : null;
+    projects = projects
+      .filter(project => project.category.includes(categorySlug))
+      .map(item => item);
 
     if (this.state.search != "") {
       projects = projects
         .filter(project => {
           return (
-            project.title
-              .toLowerCase()
-              .indexOf(this.state.search.toLowerCase()) !== -1 ||
+            project.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 ||
             project.tech.some(t => {
-              return (
-                t.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
-              );
+              return t.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
             }) === true
           );
         })
@@ -150,15 +139,14 @@ class Content extends Component {
         <div className="dummy" />
         <div className="section-header">
           <div className="headers">
-            <h1 className="section-title">Game Development</h1>
-            <div className="section-sub-title">
-              {projects ? projects.length : null} Projects
-            </div>
+            <h1 className="section-title">{categoryTitle}</h1>
+            <div className="section-sub-title">{projects ? projects.length : null} Projects</div>
           </div>
+
           <div className="search-container">
-          <div className="mobile-title">Game Development</div>
+            <div className="mobile-title">{categoryTitle}</div>
             <input
-            className="search-bar"
+              className="search-bar"
               type="text"
               value={this.state.search}
               onChange={this.updateSearch}
@@ -178,7 +166,5 @@ const mapStateToProps = state => {
     projects: state.data.projects
   };
 };
-
-
 
 export default connect(mapStateToProps, {})(Content);
