@@ -6,7 +6,7 @@ import Link from "next/link";
 import YouTube from "react-youtube";
 import RelatedProjects from "./RelatedProjects";
 
-import { getRandomInt, shuffle } from "../../../../utils/functions";
+import { getRandomInt, shuffle } from "../../../utils/functions";
 
 import {
   faVideo,
