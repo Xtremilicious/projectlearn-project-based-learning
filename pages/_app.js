@@ -5,9 +5,28 @@ import withRedux from "next-redux-wrapper";
 import { Provider } from "react-redux";
 import globalStyles from "../src/utils/styles.js";
 import store from "../src/redux/store";
+import Router from "next/router";
+import withAnalytics from "next-analytics";
+
+// function trackPageView(url) {
+//   try {
+//     window.gtag('config', 'UA-141654226-3', {
+//       page_location: url
+//     });
+//   } catch (error) {
+//     // silences the error in dev mode
+//     // and/or if gtag fails to load
+//   }
+// }
+
 
 const _App = withRedux(store)(
   class _App extends App {
+    // componentDidMount() {
+    //   Router.onRouteChangeComplete = url => {
+    //     trackPageView(url);
+    //   };
+    // }
     static async getInitialProps({ Component, ctx }) {
       return {
         pageProps: Component.getInitialProps
@@ -42,4 +61,4 @@ const _App = withRedux(store)(
 
 
 
-export default _App;
+export default withAnalytics(Router, { ga: "UA-141654226-3"})(_App);
