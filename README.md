@@ -1,30 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# [ProjectLearn](https://projectlearn.io) - Project Based Learning
+https://projectlearn.io
 
-## Getting Started
+A list of programming tutorials in which learners build an application from scratch. These are divided into different primary programming languages and frameworks. Some have intermixed technologies and languages.
 
-First, run the development server:
+To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/CONTRIBUTE.md) for more details. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Table of Contents:
+- [C#](#c)
+- [C/C++](#cc)
+- [Java](#java)
+- [Python](#python)
+- [JavaScript](#javascript)
+- [NodeJS](#node)
+- [ReactJS](#react)
+- [React Native](#react-native)
+- [Misc](#misc)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## C#:
+- Learn C# By Building a Simple RPG Game
+- Create a Rogue-like game in C#
+- Create a Blank App with C# and Xamarin
+- Build iOS Photo Library App with C#
+- Building the CoreWiki CMS with C#
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## C/C++:
+- Build an Interpreter
+- Build Your Own Text Editor
+- How to Program an NES Game in C
+- Write an OS from scratch
+- How to Write an Emulator (CHIP-8 interpreter)
+- Game Programming with C++ and SDL
+- Write Your Own Virtual Machine
+- Tetris Tutorial in C++ Platform Independent
+- Make Breakout game in C++/OpenGL
+- Make a Voxel Engine using C/C++
 
-## Learn More
+## Java:
+- Build an Interpreter in JAVA
+- Build a Simple HTTP Server with Java
+- Build an Android Flashlight App
+- Spring Boot App with User Authentication
 
-To learn more about Next.js, take a look at the following resources:
+## Python:
+- Build a Reddit Bot using Python
+- Create a Simple Python Text Editor
+- A BitTorrent client in Python
+- Barcode & QR Code Scanner using Python & OpenCV
+- Build the Game of Life using Python
+- Intro to Blockchain with Python
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## JavaScript:
+- Intro to JavaScript on the server, and APIs
+- Designing Animated Book Store with JavaScript, jQuery and CSS
+- Build a simple URL Shortener with JavaScript
+- Build a Todo List App with JavaScript
+- Creating JavaScript Animations with Anime.js
+- Build a Simple Gantt Chart with JavaScript
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
+## Node.js:
+- Build a Simple AI Chatbot using Speech API
+- A BitTorrent Client in Node.js
+- Build A Job Scraping Web App
+- Writing a Blockchain in Node.js
 
-## Deploy on ZEIT Now
+## React:
+- Social Networking Website using React
+- E-Commerce Website using React
+- Create a Job Board using React
 
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## React Native:
+- Whatsapp Clone using React Native
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Misc:
+- Spotify Inspired Web Design
+- Netflix Landing Page Web Design
+- Responsive Grid CSS Website Layout
+- Microsoft Homepage Clone
+
+
+
+
+
+

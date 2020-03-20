@@ -6,7 +6,6 @@ import { Provider } from "react-redux";
 import globalStyles from "../src/utils/styles.js";
 import store from "../src/redux/store";
 
-
 const _App = withRedux(store)(
   class _App extends App {
     static async getInitialProps({ Component, ctx }) {
