@@ -1,0 +1,2 @@
+export const GET_GITHUB_STARS = 'GET_GITHUB_STARS';
+export const GET_PROJECTS = 'GET_PROJECTS';
