@@ -1,5 +1,45 @@
 export const projects = [
   {
+    id: 83,
+    type: "video",
+    title: "TrueCaller Clone",
+    category: ["mob-dev"],
+    tech: ["Java", "MySQL", "XAMPP", "Android"],
+    datePublished: "Jun 15, 2015",
+    projectURL:
+      "https://www.youtube.com/watch?v=mlEdGe4vui4"
+  },
+  {
+    id: 82,
+    type: "video",
+    title: "Weather App",
+    category: ["mob-dev"],
+    tech: ["Java", "API", "Android"],
+    datePublished: "Oct 4, 2016",
+    projectURL:
+      "https://www.youtube.com/watch?v=wAV2Uqv9KLo"
+  },
+  {
+    id: 81,
+    type: "video",
+    title: "E-Commerce App",
+    category: ["mob-dev"],
+    tech: ["Java", "Firebase", "Android"],
+    datePublished: "Oct 11, 2018",
+    projectURL:
+      "https://www.youtube.com/watch?v=6keVIot98QU&list=PLxefhmF0pcPlqmH_VfWneUjfuqhreUz-O&index=1"
+  },
+  {
+    id: 80,
+    type: "video",
+    title: "Chat App",
+    category: ["mob-dev"],
+    tech: ["Java", "Firebase", "Android"],
+    datePublished: "Aug 18, 2018",
+    projectURL:
+      "https://www.youtube.com/watch?v=fJWFeW09qeE&list=PLzLFqCABnRQftQQETzoVMuteXzNiXmnj8&index=1"
+  },
+  {
     id: 79,
     type: "article",
     title: "Todo App",
