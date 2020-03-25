@@ -1,5 +1,105 @@
 export const projects = [
   {
+    id: 93,
+    type: "video",
+    title: "Tanks Shooter",
+    category: ["game-dev"],
+    tech: ["3D", "Unity", "C#"],
+    datePublished: "Jul 24, 2019",
+    projectURL:
+      "https://learn.unity.com/project/tanks-tutorial"
+  },
+  {
+    id: 92,
+    type: "video",
+    title: "2D Roguelike",
+    category: ["game-dev"],
+    tech: ["2D", "Unity", "C#"],
+    datePublished: "May 22, 2019",
+    projectURL:
+      "https://learn.unity.com/project/2d-roguelike-tutorial"
+  },
+  {
+    id: 91,
+    type: "video",
+    title: "John Lemon's Haunted Jaunt 3D",
+    category: ["game-dev"],
+    tech: ["3D", "Unity", "C#"],
+    datePublished: "Apr 12, 2019",
+    projectURL:
+      "https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner"
+  },
+  {
+    id: 90,
+    type: "video",
+    title: "VR Beginner: The Escape Room",
+    category: ["game-dev"],
+    tech: ["VR", "Unity", "C#"],
+    datePublished: "Feb 24, 2020",
+    projectURL:
+      "https://learn.unity.com/project/vr-beginner-the-escape-room"
+  },
+  {
+    id: 89,
+    type: "video",
+    title: "Ruby's Adventure",
+    category: ["game-dev"],
+    tech: ["2D", "Unity", "C#"],
+    datePublished: "March 2, 2019",
+    projectURL:
+      "https://learn.unity.com/project/ruby-s-2d-rpg"
+  },
+  {
+    id: 88,
+    type: "video",
+    title: "RPG Game",
+    category: ["game-dev"],
+    tech: ["2D", "Unity", "C#"],
+    datePublished: "Jun 11, 2019",
+    projectURL:
+      "https://learn.unity.com/project/creator-kit-rpg"
+  },
+  {
+    id: 87,
+    type: "video",
+    title: "Roll-a-ball",
+    category: ["game-dev"],
+    tech: ["3D", "Unity", "C#"],
+    datePublished: "Mar 2, 2019",
+    projectURL:
+      "https://learn.unity.com/project/roll-a-ball-tutorial"
+  },
+  {
+    id: 86,
+    type: "video",
+    title: "FPS Microgame",
+    category: ["game-dev"],
+    tech: ["Unity", "C#"],
+    datePublished: "Oct 24, 2019",
+    projectURL:
+      "https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d"
+  },
+  {
+    id: 85,
+    type: "video",
+    title: "Platformer Microgame",
+    category: ["game-dev"],
+    tech: ["Unity", "C#", "2D"],
+    datePublished: "Apr 12, 2019",
+    projectURL:
+      "https://learn.unity.com/project/2d-platformer-template?courseId=5c59cf22edbc2a001f59aa5d"
+  },
+  {
+    id: 84,
+    type: "video",
+    title: "Karting Microgame",
+    category: ["game-dev"],
+    tech: ["Unity", "C#"],
+    datePublished: "Mar 20, 2019",
+    projectURL:
+      "https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d"
+  },
+  {
     id: 83,
     type: "video",
     title: "TrueCaller Clone",

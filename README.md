@@ -52,6 +52,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Mobile Development:
 
+- [Build a TrueCaller Clone (Java, MySQL, XAMPP)](https://projectlearn.io/learn/mobile-development?from=github)
+- [Build a Weather App (Java, API, Android)](https://projectlearn.io/learn/mobile-development?from=github)
+- [Build an E-Commerce App (Java, Firebase, Android)](https://projectlearn.io/learn/mobile-development?from=github)
+- [Build a Chat App (Java, Firebase, Android)](https://projectlearn.io/learn/mobile-development?from=github)
 - [Build a Todo App (Flutter, Dart, Android)](https://projectlearn.io/learn/mobile-development?from=github)
 - [Build a Travel App UI (Flutter, Dart, Android)](https://projectlearn.io/learn/mobile-development?from=github)
 - [Build a Reddit Client (Android, Kotlin)](https://projectlearn.io/learn/mobile-development?from=github)
@@ -61,6 +65,16 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Game Development:
 
+- [Build a Tanks Shooter (3D, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a 2D Roguelike (2D, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a John Lemon's Haunted Jaunt 3D (3D, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a VR Beginner: The Escape Room (VR, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a Ruby's Adventure (2D, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a RPG Game (2D, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a Roll-a-ball (3D, Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a FPS Microgame (Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a Platformer Microgame (Unity, C#, 2D)](https://projectlearn.io/learn/game-development?from=github)
+- [Build a Karting Microgame (Unity, C#)](https://projectlearn.io/learn/game-development?from=github)
 - [Build an Arcade Shooter (LUA, LÖVE)](https://projectlearn.io/learn/game-development?from=github)
 - [Build a Game of Life (React, 2D, JavaScript)](https://projectlearn.io/learn/game-development?from=github)
 - [Build a Handmade Hero (C/C++, OpenGL, 2D)](https://projectlearn.io/learn/game-development?from=github)
