@@ -85,22 +85,28 @@ const CategoriesWrapper = styled.div`
       grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr;
     }
-
+    .section-category {
+      padding: 2vw;
+      grid-template-columns: 0.8fr 2fr !important;
+      align-items: center;
+    }
     .section-title-container {
       display: none;
     }
     .cat-title {
-      font-size: 5vw;
+      font-size: 6vw;
       margin-bottom: 1vh;
     }
     .cat-subtitle {
-      font-size: 2.75vw;
+      font-size: 3.8vw;
     }
     .cat-img {
-      height: 15vw;
+      height: 20vw;
     }
     .category-art {
-      width: 20vw;
+      width: 25vw;
+      margin: 0.8rem;
+      display: flex;
     }
     .cat-redirect {
       font-size: 4vw;
