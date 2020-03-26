@@ -54,7 +54,8 @@ const ContentWrapper = styled.div`
   .mobile-title {
     display: none;
   }
-  .back-to-landing {
+  .back-to-landing,
+  .mobile-filter-reset {
     display: none;
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -76,6 +77,14 @@ const ContentWrapper = styled.div`
       justify-content: center;
       font-size: 4vh;
       margin-bottom: 2vh;
+    }
+    .mobile-filter-reset {
+      display: block;
+      display: flex;
+      justify-content: center;
+      font-size: 4.5vw;
+      margin-top: 1.5vh;
+      text-decoration: underline;
     }
     .search-bar {
       font-size: 2.5vh !important;
@@ -106,9 +115,18 @@ class Content extends Component {
     });
   };
 
+  resetSearch = () => {
+    this.setState(() => {
+      return {
+        search: ""
+      };
+    });
+  };
+
   render() {
     const categorySlug = this.props.slug;
     const categoryTitle = this.props.title;
+    const url = this.props.url;
 
     let { projects } = this.props;
 
@@ -152,6 +170,11 @@ class Content extends Component {
               onChange={this.updateSearch}
               placeholder="Search"
             />
+            <Link href={{ pathname: `${url}` }}>
+              <div className="mobile-filter-reset" onClick={() => this.resetSearch()}>
+                Reset Filters
+              </div>
+            </Link>
           </div>
         </div>
 

@@ -103,7 +103,7 @@ const CategoriesWrapper = styled.div`
       width: 20vw;
     }
     .cat-redirect {
-      display: none;
+      font-size: 4vw;
     }
   }
 `;
@@ -127,8 +127,7 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">Web Development</h2>
               <div className="cat-subtitle">
-                Learn how to create web applications using HTML, CSS,
-                JavaScript, React and more.
+                Learn how to create web applications using HTML, CSS, JavaScript, React and more.
               </div>
             </div>
 
@@ -153,8 +152,8 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">Mobile Development</h2>
               <div className="cat-subtitle">
-                Learn how to create mobile applications using Android, Flutter,
-                React Native and more.
+                Learn how to create mobile applications using Android, Flutter, React Native and
+                more.
               </div>
             </div>
 
@@ -175,8 +174,7 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">Game Development</h2>
               <div className="cat-subtitle">
-                Learn how to build awesome video games. C#, PyGame, OpenGL,
-                Unity and more.
+                Learn how to build awesome video games. C#, PyGame, OpenGL, Unity and more.
               </div>
             </div>
 
@@ -197,8 +195,7 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">ML & Artificial Intelligence</h2>
               <div className="cat-subtitle">
-                Learn how a machine learns. Python, NumPy, Pandas, SciKit,
-                Tensorflow and more.
+                Learn how a machine learns. Python, NumPy, Pandas, SciKit, Tensorflow and more.
               </div>
             </div>
             <div className="cat-redirect">

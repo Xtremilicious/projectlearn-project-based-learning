@@ -111,37 +111,49 @@ const ProjectWrapper = styled.div`
     }
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .project-grid-items {
+      padding: 3vw;
+    }
+
     .details-2 {
-      font-size: 3.8vw !important;
+      font-size: 5.7vw !important;
       margin: 0;
       margin-bottom: 3vh;
       font-weight: normal;
     }
     .details-3 {
       .section-title {
-        font-size: 3vw !important;
+        font-size: 4vw !important;
+        margin-bottom: 1.5vh;
       }
       .tags-container {
         margin: 0 !important;
-        line-height: 100% !important;
+        line-height: 110% !important;
         .tag {
+          margin-left: 1vw;
+          padding: 0.7vw !important;
           cursor: pointer;
-          font-size: 3vw !important;
+          font-size: 4vw !important;
         }
       }
+      margin-bottom: 1vh;
     }
     .svg-inline--fa {
-      font-size: 4vw !important;
+      font-size: 6vw !important;
       padding: 0vh !important;
     }
     .cat-title {
-      font-size: 2.5vw !important;
+      font-size: 4vw !important;
     }
     .section-title {
-      font-size: 2vw !important;
+      font-size: 3.5vw !important;
     }
     .date-value {
-      font-size: 2.5vw !important;
+      font-size: 4vw !important;
+    }
+    .cat-art {
+      width: 10vw !important;
+      height: 10vw !important;
     }
   }
 `;
