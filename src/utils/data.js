@@ -6,8 +6,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["3D", "Unity", "C#"],
     datePublished: "Jul 24, 2019",
-    projectURL:
-      "https://learn.unity.com/project/tanks-tutorial"
+    projectURL: "https://learn.unity.com/project/tanks-tutorial"
   },
   {
     id: 92,
@@ -16,8 +15,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["2D", "Unity", "C#"],
     datePublished: "May 22, 2019",
-    projectURL:
-      "https://learn.unity.com/project/2d-roguelike-tutorial"
+    projectURL: "https://learn.unity.com/project/2d-roguelike-tutorial"
   },
   {
     id: 91,
@@ -26,8 +24,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["3D", "Unity", "C#"],
     datePublished: "Apr 12, 2019",
-    projectURL:
-      "https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner"
+    projectURL: "https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner"
   },
   {
     id: 90,
@@ -36,8 +33,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["VR", "Unity", "C#"],
     datePublished: "Feb 24, 2020",
-    projectURL:
-      "https://learn.unity.com/project/vr-beginner-the-escape-room"
+    projectURL: "https://learn.unity.com/project/vr-beginner-the-escape-room"
   },
   {
     id: 89,
@@ -46,8 +42,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["2D", "Unity", "C#"],
     datePublished: "March 2, 2019",
-    projectURL:
-      "https://learn.unity.com/project/ruby-s-2d-rpg"
+    projectURL: "https://learn.unity.com/project/ruby-s-2d-rpg"
   },
   {
     id: 88,
@@ -56,8 +51,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["2D", "Unity", "C#"],
     datePublished: "Jun 11, 2019",
-    projectURL:
-      "https://learn.unity.com/project/creator-kit-rpg"
+    projectURL: "https://learn.unity.com/project/creator-kit-rpg"
   },
   {
     id: 87,
@@ -66,8 +60,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["3D", "Unity", "C#"],
     datePublished: "Mar 2, 2019",
-    projectURL:
-      "https://learn.unity.com/project/roll-a-ball-tutorial"
+    projectURL: "https://learn.unity.com/project/roll-a-ball-tutorial"
   },
   {
     id: 86,
@@ -76,8 +69,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["Unity", "C#"],
     datePublished: "Oct 24, 2019",
-    projectURL:
-      "https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d"
+    projectURL: "https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d"
   },
   {
     id: 85,
@@ -96,8 +88,7 @@ export const projects = [
     category: ["game-dev"],
     tech: ["Unity", "C#"],
     datePublished: "Mar 20, 2019",
-    projectURL:
-      "https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d"
+    projectURL: "https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d"
   },
   {
     id: 83,
@@ -106,8 +97,7 @@ export const projects = [
     category: ["mob-dev"],
     tech: ["Java", "MySQL", "XAMPP", "Android"],
     datePublished: "Jun 15, 2015",
-    projectURL:
-      "https://www.youtube.com/watch?v=mlEdGe4vui4"
+    projectURL: "https://www.youtube.com/watch?v=mlEdGe4vui4"
   },
   {
     id: 82,
@@ -116,8 +106,7 @@ export const projects = [
     category: ["mob-dev"],
     tech: ["Java", "API", "Android"],
     datePublished: "Oct 4, 2016",
-    projectURL:
-      "https://www.youtube.com/watch?v=wAV2Uqv9KLo"
+    projectURL: "https://www.youtube.com/watch?v=wAV2Uqv9KLo"
   },
   {
     id: 81,
@@ -146,8 +135,7 @@ export const projects = [
     category: ["mob-dev"],
     tech: ["Flutter", "Dart", "Android", "iOS"],
     datePublished: "Jun 7, 2018",
-    projectURL:
-      "https://medium.com/the-web-tub/making-a-todo-app-with-flutter-5c63dab88190"
+    projectURL: "https://medium.com/the-web-tub/making-a-todo-app-with-flutter-5c63dab88190"
   },
   {
     id: 78,
@@ -157,8 +145,7 @@ export const projects = [
     tech: ["Flutter", "Dart", "Android", "iOS"],
     datePublished: "Oct 23, 2019",
     source: "YouTube",
-    projectURL:
-      "https://www.youtube.com/watch?v=CSa6Ocyog4U"
+    projectURL: "https://www.youtube.com/watch?v=CSa6Ocyog4U"
   },
   {
     id: 77,
@@ -167,23 +154,14 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "Keras", "Numpy", "Pandas"],
     datePublished: "Apr 19, 2018",
-    projectURL:
-      "https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e"
+    projectURL: "https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e"
   },
   {
     id: 76,
     type: "article",
     title: "MNIST Digit Recognizer",
     category: ["ml-ai"],
-    tech: [
-      "Python",
-      "Keras",
-      "TensorFlow",
-      "Numpy",
-      "SciKit",
-      "Pandas",
-      "Matplotlib"
-    ],
+    tech: ["Python", "Keras", "TensorFlow", "Numpy", "SciKit", "Pandas", "Matplotlib"],
     datePublished: "Apr 19, 2018",
     projectURL:
       "https://medium.com/@lvarruda/how-to-get-top-2-position-on-kaggles-mnist-digit-recognizer-48185d80a2d4"
@@ -205,8 +183,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "Matplotlib", "Numpy", "Pandas"],
     datePublished: "Dec 8, 2017",
-    projectURL:
-      "https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90"
+    projectURL: "https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90"
   },
 
   {
@@ -236,8 +213,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy", "C/C++"],
     datePublished: "MAY 7, 2016",
-    projectURL:
-      "https://www.learnopencv.com/average-face-opencv-c-python-tutorial/"
+    projectURL: "https://www.learnopencv.com/average-face-opencv-c-python-tutorial/"
   },
   {
     id: 71,
@@ -246,8 +222,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "December 17, 2018",
-    projectURL:
-      "https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/"
+    projectURL: "https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/"
   },
   {
     id: 70,
@@ -295,8 +270,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "DLib", "Numpy"],
     datePublished: "April 3, 2017",
-    projectURL:
-      "https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/"
+    projectURL: "https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/"
   },
   {
     id: 65,
@@ -305,8 +279,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "February 20, 2017",
-    projectURL:
-      "https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/"
+    projectURL: "https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/"
   },
   {
     id: 64,
@@ -325,8 +298,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "August 13, 2018",
-    projectURL:
-      "https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/"
+    projectURL: "https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/"
   },
   {
     id: 62,
@@ -335,8 +307,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "August 20, 2018",
-    projectURL:
-      "https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/"
+    projectURL: "https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/"
   },
   {
     id: 61,
@@ -366,8 +337,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "July 9, 2018",
-    projectURL:
-      "https://www.pyimagesearch.com/2018/07/09/face-clustering-with-python/"
+    projectURL: "https://www.pyimagesearch.com/2018/07/09/face-clustering-with-python/"
   },
   {
     id: 58,
@@ -386,8 +356,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "July 16, 2018",
-    projectURL:
-      "https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/"
+    projectURL: "https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/"
   },
   {
     id: 56,
@@ -416,8 +385,7 @@ export const projects = [
     category: ["ml-ai"],
     tech: ["Python", "SciKit", "Numpy", "Pandas"],
     datePublished: "Apr 24, 2017",
-    projectURL:
-      "https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85"
+    projectURL: "https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85"
   },
   {
     id: 53,
@@ -516,8 +484,7 @@ export const projects = [
     category: ["web-dev"],
     tech: ["Vue", "GraphQL", "Apollo", "JavaScript", "CSS3", "HTML5"],
     datePublished: "February 22, 2018",
-    projectURL:
-      "https://scotch.io/tutorials/build-a-blog-with-vue-graphql-and-apollo-client"
+    projectURL: "https://scotch.io/tutorials/build-a-blog-with-vue-graphql-and-apollo-client"
   },
   {
     id: 43,
@@ -555,8 +522,7 @@ export const projects = [
     category: ["web-dev"],
     tech: ["Node", "JavaScript", "Express", "Redis", "HTML5", "CSS3"],
     datePublished: "July 01, 2015",
-    projectURL:
-      "https://scotch.io/tutorials/building-a-real-time-markdown-viewer"
+    projectURL: "https://scotch.io/tutorials/building-a-real-time-markdown-viewer"
   },
   {
     id: 39,
@@ -565,13 +531,12 @@ export const projects = [
     category: ["web-dev"],
     tech: ["Angular", "TypeScript", "RxJS", "HTML5", "CSS3"],
     datePublished: "2/2/2018",
-    projectURL:
-      "http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web"
+    projectURL: "http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web"
   },
   {
     id: 38,
     type: "article",
-    title: "Hacker New Client",
+    title: "Hacker News Client",
     category: ["web-dev"],
     tech: ["Angular", "RxJS", "Webpack", "HTML5", "CSS3", "JavaScript"],
     datePublished: "September 16, 2016",
@@ -602,16 +567,7 @@ export const projects = [
     type: "article",
     title: "Chat App with Sentiment Analysis",
     category: ["web-dev", "ml-ai"],
-    tech: [
-      "NextJS",
-      "Pusher",
-      "Sentiment",
-      "Node",
-      "React",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    tech: ["NextJS", "Pusher", "Sentiment", "Node", "React", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2018-06-08",
     source: "Hackernoon",
     projectURL:
@@ -622,15 +578,7 @@ export const projects = [
     type: "article",
     title: "Appointment Scheduler",
     category: ["web-dev"],
-    tech: [
-      "React",
-      "Twilio",
-      "CosmicJS",
-      "Material-UI",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    tech: ["React", "Twilio", "CosmicJS", "Material-UI", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2020-03-13",
     source: "Hackernoon",
     projectURL:
@@ -652,15 +600,7 @@ export const projects = [
     type: "article",
     title: "News App",
     category: ["web-dev"],
-    tech: [
-      "React Native",
-      "Node",
-      "API",
-      "React",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    tech: ["React Native", "Node", "API", "React", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2018-04-21",
     source: "freeCodeCamp",
     projectURL:
@@ -671,16 +611,7 @@ export const projects = [
     type: "article",
     title: "Chat App",
     category: ["web-dev"],
-    tech: [
-      "React",
-      "Redux",
-      "Redux Saga",
-      "Web Sockets",
-      "Node",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    tech: ["React", "Redux", "Redux Saga", "Web Sockets", "Node", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2017-12-07",
     source: "freeCodeCamp",
     projectURL:
@@ -747,8 +678,7 @@ export const projects = [
     category: ["web-dev"],
     tech: ["React", "Redux", "API", "Immutable", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2016-02-24",
-    projectURL:
-      "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html"
+    projectURL: "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html"
   },
   {
     id: 26,
@@ -757,8 +687,7 @@ export const projects = [
     category: ["web-dev"],
     tech: ["React", "Google Maps", "API", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2016-05-19",
-    projectURL:
-      "https://www.newline.co/fullstack-react/articles/react-tutorial-cloning-yelp"
+    projectURL: "https://www.newline.co/fullstack-react/articles/react-tutorial-cloning-yelp"
   },
   {
     id: 25,
@@ -777,8 +706,7 @@ export const projects = [
     category: ["mob-dev"],
     tech: ["React Native", "Android", "iOS", "JavaScript"],
     datePublished: "2016-11-15",
-    projectURL:
-      "https://egghead.io/courses/build-a-react-native-todo-application"
+    projectURL: "https://egghead.io/courses/build-a-react-native-todo-application"
   },
   {
     id: 23,
@@ -834,8 +762,7 @@ export const projects = [
     category: ["web-dev"],
     tech: ["C#", ".NET", "Razor Pages"],
     datePublished: "2018-11-11",
-    projectURL:
-      "https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p"
+    projectURL: "https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p"
   },
   {
     id: 17,
@@ -890,15 +817,7 @@ export const projects = [
     type: "article",
     title: "Job Scraping App",
     category: ["web-dev"],
-    tech: [
-      "Node",
-      "JavaScript",
-      "REST",
-      "API",
-      "Express",
-      "Handlebars",
-      "Material Design Lite"
-    ],
+    tech: ["Node", "JavaScript", "REST", "API", "Express", "Handlebars", "Material Design Lite"],
     source: "freeCodeCamp",
     datePublished: "2018-07-11",
     projectURL:
@@ -909,15 +828,7 @@ export const projects = [
     type: "video",
     title: "E-Commerce App",
     category: ["web-dev"],
-    tech: [
-      "React",
-      "Bootstrap",
-      "JavaScript",
-      "HTML5",
-      "CSS3",
-      "JQuery",
-      "Context API"
-    ],
+    tech: ["React", "Bootstrap", "JavaScript", "HTML5", "CSS3", "JQuery", "Context API"],
     source: "YouTube",
     datePublished: "2018-12-22",
     projectURL: "https://www.youtube.com/watch?v=wPQ1-33teR4"
@@ -946,8 +857,7 @@ export const projects = [
       "Artificial Intelligence"
     ],
     datePublished: "2017-08-07",
-    projectURL:
-      "https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js"
+    projectURL: "https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js"
   },
   {
     id: 8,
@@ -978,8 +888,7 @@ export const projects = [
     category: ["web-dev"],
     tech: ["Node", "JavaScript", "Cryptography", "Blockchain"],
     datePublished: "2019-09-15",
-    projectURL:
-      "https://www.hackdoor.io/articles/BwJeDQnm/writing-a-blockchain-in-node-js"
+    projectURL: "https://www.hackdoor.io/articles/BwJeDQnm/writing-a-blockchain-in-node-js"
   },
   {
     id: 6,

@@ -3,8 +3,8 @@ import styled from "styled-components";
 import Project from "./RelatedProject";
 
 const ListWrapper = styled.div`
-min-height: 100vh;
-overflow-y: auto;
+  min-height: 100vh;
+  overflow-y: auto;
   .projects-grid {
     margin-left: 3vw;
     margin-right: 3vw;
@@ -13,8 +13,7 @@ overflow-y: auto;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
 
-    height: 90vh;
-
+    height: 85vh;
   }
   .section-title {
     height: 12vh;
@@ -34,7 +33,7 @@ const ProjectList = props => {
       <div className="projects-grid">
         {projects != null
           ? projects.map(project => (
-              <Project key={project.id} project={project} />
+              <Project key={project.id} project={project} slug={props.slug} />
             ))
           : null}
       </div>

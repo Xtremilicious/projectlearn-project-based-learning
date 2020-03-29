@@ -38,10 +38,10 @@ const ProjectList = props => {
               ? projects
                   .filter(project => project.tech.includes(tech))
                   .map(project => (
-                    <Project key={project.id} project={project} />
+                    <Project key={project.id} project={project} url={props.url}/>
                   ))
               : projects.map(project => (
-                  <Project key={project.id} project={project} />
+                  <Project key={project.id} project={project} url={props.url}/>
                 ))
             : null}
         </div>

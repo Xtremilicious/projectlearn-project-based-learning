@@ -2,15 +2,11 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 
-import {
-  faVideo,
-  faNewspaper,
-  faArrowCircleRight
-} from "@fortawesome/free-solid-svg-icons";
+import { faVideo, faNewspaper, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectWrapper = styled.div`
-margin-bottom: 4vh;
+  margin-bottom: 4vh;
   .project-grid-items {
     display: flex;
     position: relative;
@@ -49,8 +45,7 @@ margin-bottom: 4vh;
           padding: 1vh;
         }
         .cat-art {
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
-            rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
           border-radius: 1vh;
           height: 4vw;
           width: 4vw;
@@ -101,8 +96,7 @@ margin-bottom: 4vh;
         word-wrap: normal;
         .tag {
           cursor: pointer;
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
-            rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
@@ -124,8 +118,8 @@ margin-bottom: 4vh;
 
 const PostLink = props => (
   <Link
-    href="/learn/web-development/project/[id]"
-    as={`/learn/web-development/project/${props.title}-${props.id}`}
+    href={`/learn/${props.url}/project/[id]`}
+    as={`/learn/${props.url}/project/${props.title}-${props.id}`}
   >
     <div className="link">
       <FontAwesomeIcon icon={faArrowCircleRight} />
@@ -178,7 +172,7 @@ export default class Content extends Component {
     return (
       <ProjectWrapper>
         <div className="project-grid-items">
-          <PostLink id={id} title={urlTitle} />
+          <PostLink id={id} title={urlTitle} url={this.props.slug} />
           <div className="details-1">
             <div className="main-cat">
               <div className="cat-art">{appIcon}</div>
@@ -193,9 +187,7 @@ export default class Content extends Component {
             <div className="section-title">Top Technologies:</div>
             <div className="tags-container">
               {tech.slice(0, 3).map(t => (
-                <Link
-                  href={{ pathname: "../../web-development", query: { tech: t } }}
-                >
+                <Link href={{ pathname: `../../${this.props.slug}`, query: { tech: t } }}>
                   <span className="tag">{t} </span>
                 </Link>
               ))}

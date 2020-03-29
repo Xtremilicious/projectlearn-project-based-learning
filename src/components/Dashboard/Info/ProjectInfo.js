@@ -11,7 +11,9 @@ import { getRandomInt, shuffle } from "../../../utils/functions";
 import {
   faVideo,
   faNewspaper,
-  faArrowCircleRight
+  faArrowCircleRight,
+  faExternalLinkAlt,
+  faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -19,22 +21,17 @@ const ProjectInfoWrapper = styled.div`
   display: grid;
   grid-template-columns: 70vw 30vw;
   overflow-x: hidden;
-  height: 100vh;
+  height: fit-content;
   .video {
     margin-top: 5vh;
     display: flex;
     margin-left: 2rem;
     align-items: center;
+    padding: 2rem 2rem 2rem 0;
     .video-content {
-      height: 50vh;
-      width: 90vh;
+      height: 20vw;
+      width: 30vw;
       border-radius: 1vh;
-    }
-    .external-link {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
     }
   }
   .headings {
@@ -42,8 +39,9 @@ const ProjectInfoWrapper = styled.div`
     display: flex;
     padding: 2rem;
     border-radius: 2vh;
-    margin: 1vh 0 1vh 1vh;
+    margin: 1vh 0 0vh 1vh;
     .section-one {
+      margin-top: 2vh;
       margin-right: 15vw;
     }
     .date {
@@ -57,22 +55,28 @@ const ProjectInfoWrapper = styled.div`
     }
     .project-category {
       font-size: 3vh;
-      margin-bottom: 1vh;
+      cursor: pointer;
+      color: var(--button-blue);
     }
     .tags-container {
       margin-top: 1vh;
       flex-flow: row wrap;
-      line-height: 170%;
-      word-wrap: normal;
+      display: flex;
+      word-wrap: break-word;
       .tag {
         cursor: pointer;
-        background-color: var(--dashboard-purple-alt);
-        color: white;
+        background-color: #f2f2f2;
         width: fit-content;
         margin-right: 0.7vw;
-        padding: 0.1vw 0.6vw;
+        margin-bottom: 0.7vw;
+        padding: 0.2vw 0.6vw;
         border-radius: 1vh;
-        font-size: 1.2vw;
+        font-size: 1.15vw;
+        border: 1px solid #bdbdbd;
+        transition: 0.3s;
+        &:hover {
+          border: 1px solid #848484;
+        }
       }
     }
     .section-two {
@@ -82,15 +86,14 @@ const ProjectInfoWrapper = styled.div`
       margin-left: auto;
       margin-bottom: 3vh;
       .svg-inline--fa {
-        font-size: 3vw;
-        padding: 1vh;
+        font-size: 2vw;
+        padding: 0.5vh;
       }
       .cat-art {
-        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
-          rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         border-radius: 1vh;
-        height: 6vw;
-        width: 6vw;
+        height: 4.5vw;
+        width: 4.5vw;
         padding: 1.5vh;
         display: flex;
         flex-direction: column;
@@ -99,22 +102,162 @@ const ProjectInfoWrapper = styled.div`
       }
       .cat-title {
         margin-top: 0.5vh;
-        font-size: 1.5vw;
+        font-size: 1.2vw;
       }
+    }
+  }
+  .description {
+    margin-left: 2rem;
+    width: 80%;
+    font-size: 3vh;
+    margin-bottom: 2rem;
+  }
+  .description-title {
+    margin-left: 2rem;
+    width: 93%;
+    font-size: 4vh;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .external-link-container {
+    width: fit-content;
+    display: flex;
+  }
+  .external-link {
+    background: var(--theme-green);
+    padding: 2vh;
+    border-radius: 1vh;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+  }
+  .back-to-landing {
+    position: absolute;
+    top: 1.5vh;
+    left: 2vh;
+    font-size: 3vh;
+    cursor: pointer;
+  }
+  .bg-red {
+    background: var(--theme-red);
+  }
+  .modal-window {
+    position: fixed;
+    background-color: rgba(200, 200, 200, 0.75);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .modal-window:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal-window > div {
+    width: fit-content;
+    position: relative;
+    margin: 6% auto;
+    padding: 1rem;
+    background: #fff;
+    color: #444;
+    border-radius: 1vh;
+  }
+
+  .modal-window header {
+    font-weight: bold;
+  }
+
+  .modal-close {
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    right: 4px;
+    text-align: center;
+    top: 4px;
+    background: white;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+  }
+
+  .modal-close:hover {
+    color: #000;
+  }
+
+  .modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    .related {
+      display: none;
+    }
+    .headings {
+      margin: unset;
+      .section-one {
+        margin-top: 2vw;
+        margin-right: 2vw;
+      }
+      .date {
+        font-size: 4.5vw !important;
+      }
+      .project-title {
+        font-size: 10vw;
+      }
+      .project-category {
+        font-size: 4.5vw;
+      }
+      .tags-container {
+        .tag {
+          font-size: 3.5vw;
+          margin-right: 2vw;
+          padding: 0vw 2vw;
+          line-height: 200%;
+          margin-bottom: 2vw;
+        }
+      }
+      .section-two {
+        display: none;
+      }
+    }
+    .video-content {
+      height: 40vw !important;
+      width: 70vw !important;
+      border-radius: 1vh;
+    }
+    .modal-window > div {
+      margin: 10% auto !important;
+    }
+    .description {
+      font-size: 4.5vw;
     }
   }
 `;
 function ProjectInfo(props) {
   const { project } = props;
-  const webDevProjects = props.projects
+  const relatedProjects = props.projects
     .filter(
       filteredProject =>
-        filteredProject.category.includes("web-dev") &&
-        filteredProject.id != project.id
+        filteredProject.category.includes(project.category[0]) && filteredProject.id !== project.id
     )
     .map(item => item);
 
-  const range = getRandomInt(webDevProjects.length - 2);
+  const range = getRandomInt(relatedProjects.length - 2);
 
   const date = new Date(project.datePublished); // 2009-11-10
   const day = date.getDate();
@@ -123,9 +266,7 @@ function ProjectInfo(props) {
 
   function YouTubeGetID(url) {
     var ID = "";
-    url = url
-      .replace(/(>|<)/gi, "")
-      .split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
+    url = url.replace(/(>|<)/gi, "").split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
     if (url[2] !== undefined) {
       ID = url[2].split(/[^0-9a-z_\-]/i);
       ID = ID[0];
@@ -153,31 +294,24 @@ function ProjectInfo(props) {
 
   return (
     <ProjectInfoWrapper>
-      <div>
-        {project.type === "video" ? <div className="video">
-          <YouTube
-            videoId={YouTubeGetID(project.projectURL)}
-            className="video-content"
-          />
-          <div className="external-link">
-            {" "}
-            <a href={project.projectURL} className="external-link-content">
-              External Link
-            </a>
+      <div style={{ height: "fit-content" }}>
+        <Link href="../">
+          <div className="back-to-landing">
+            <FontAwesomeIcon icon={faArrowLeft} />
           </div>
-        </div> : null}
+        </Link>
         <div className="headings">
           <div className="section-one">
-            <div className="project-category">Web Development Project</div>
+            <Link href="../">
+              <div className="project-category">{props.projectCategory} Project</div>
+            </Link>
             <h1 className="project-title">{project.title}</h1>
-            <div className="date">
-              Date Published: {`${day} ${month} ${year}`}
-            </div>
+            <div className="date">Date Published: {`${day} ${month} ${year}`}</div>
             <div className="tags-container">
               {project.tech.map(t => (
                 <Link
                   href={{
-                    pathname: "../../web-development",
+                    pathname: `../../${props.slug}`,
                     query: { tech: t }
                   }}
                 >
@@ -192,11 +326,46 @@ function ProjectInfo(props) {
             </div>
           </div>
         </div>
+        <div className="description-title">Description</div>
+        <div className="description">
+          Learn {props.projectCategory} by building the project {project.title} using concepts and
+          technologies like {project.tech.map(t => t).join(", ")} and more!
+        </div>
+        <div className="description-title">Project Link</div>
+        <div className="external-link-container">
+          {project.type === "video" ? (
+            <React.Fragment>
+              <a href="#watch-video" className="external-link-container">
+                <div className="external-link bg-red">Watch Video</div>
+              </a>
+              <div id="watch-video" className="modal-window">
+                <div>
+                  <a href="" title="Close" className="modal-close">
+                    &times;
+                  </a>
+                  <YouTube videoId={YouTubeGetID(project.projectURL)} className="video-content" />
+                </div>
+              </div>
+            </React.Fragment>
+          ) : null}
+          <a href={project.projectURL} className="external-link-container" target="_blank">
+            <div className="external-link">
+              External Link <FontAwesomeIcon icon={faExternalLinkAlt} />
+            </div>
+          </a>
+        </div>
+        {/* {project.type === "video" ? (
+          <div className="video">
+            <YouTube videoId={YouTubeGetID(project.projectURL)} className="video-content" />
+          </div>
+        ) : null} */}
       </div>
-
-      <RelatedProjects
-        projects={shuffle(webDevProjects.slice(range, range + 3))}
-      />
+      <div className="related">
+        <RelatedProjects
+          projects={shuffle(relatedProjects.slice(range, range + 3))}
+          slug={props.slug}
+        />
+      </div>
     </ProjectInfoWrapper>
   );
 }

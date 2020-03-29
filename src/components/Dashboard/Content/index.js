@@ -178,7 +178,7 @@ class Content extends Component {
           </div>
         </div>
 
-        <ProjectList projects={projects} />
+        <ProjectList projects={projects} url={url} />
       </ContentWrapper>
     );
   }

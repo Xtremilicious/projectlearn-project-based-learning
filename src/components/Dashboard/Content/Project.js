@@ -160,8 +160,8 @@ const ProjectWrapper = styled.div`
 
 const PostLink = props => (
   <Link
-    href="/learn/web-development/project/[id]"
-    as={`/learn/web-development/project/${props.title}-${props.id}`}
+    href={`/learn/${props.url}/project/[id]`}
+    as={`/learn/${props.url}/project/${props.title}-${props.id}`}
   >
     <div className="link">
       <FontAwesomeIcon icon={faArrowCircleRight} />
@@ -213,12 +213,12 @@ const Content = props => {
   return (
     <ProjectWrapper>
       <div className="project-grid-items">
-        {/* <PostLink id={id} title={urlTitle} /> */}
-        <a href={projectURL} target=")blank">
+        <PostLink id={id} title={urlTitle} url={props.url} />
+        {/* <a href={projectURL} target=")blank">
           <div className="link">
             <FontAwesomeIcon icon={faArrowCircleRight} />
           </div>
-        </a>
+        </a> */}
         <div className="details-1">
           <div className="main-cat">
             <div className="cat-art">{appIcon}</div>
