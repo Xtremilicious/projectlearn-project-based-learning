@@ -5,6 +5,7 @@ import ProjectList from "./ProjectList";
 
 //Redux Stuff
 import { connect } from "react-redux";
+import { getProjects } from "../../../redux/actions/dataActions";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
