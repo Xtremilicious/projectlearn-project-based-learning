@@ -10,7 +10,7 @@ export default class Landing extends Component {
     return (
       <div>
         <Head>
-          <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
+          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
             name="description"
             content="A project-based learning approach in web development, mobile development, game development, machine learning and artificial intelligence. Learn code the right way!"

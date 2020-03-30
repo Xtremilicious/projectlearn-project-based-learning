@@ -6,7 +6,7 @@ import Link from "next/link";
 import YouTube from "react-youtube";
 import RelatedProjects from "./RelatedProjects";
 
-import { getRandomInt, shuffle } from "../../../utils/functions";
+import { getRandomInt, shuffle, youtubeGetID } from "../../../utils/functions";
 
 import {
   faVideo,
@@ -264,17 +264,7 @@ function ProjectInfo(props) {
   const month = date.toLocaleString("default", { month: "short" });
   const year = date.getFullYear();
 
-  function YouTubeGetID(url) {
-    var ID = "";
-    url = url.replace(/(>|<)/gi, "").split(/(vi\/|v=|\/v\/|youtu\.be\/|\/embed\/)/);
-    if (url[2] !== undefined) {
-      ID = url[2].split(/[^0-9a-z_\-]/i);
-      ID = ID[0];
-    } else {
-      ID = url;
-    }
-    return ID;
-  }
+  const youtubeRegex = /^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+/gm;
 
   const appIcon = (
     <React.Fragment>
@@ -333,7 +323,7 @@ function ProjectInfo(props) {
         </div>
         <div className="description-title">Project Link</div>
         <div className="external-link-container">
-          {project.type === "video" ? (
+          {youtubeRegex.test(project.projectURL) ? (
             <React.Fragment>
               <a href="#watch-video" className="external-link-container">
                 <div className="external-link bg-red">Watch Video</div>
@@ -343,7 +333,7 @@ function ProjectInfo(props) {
                   <a href="" title="Close" className="modal-close">
                     &times;
                   </a>
-                  <YouTube videoId={YouTubeGetID(project.projectURL)} className="video-content" />
+                  <YouTube videoId={youtubeGetID(project.projectURL)} className="video-content" />
                 </div>
               </div>
             </React.Fragment>
@@ -356,7 +346,7 @@ function ProjectInfo(props) {
         </div>
         {/* {project.type === "video" ? (
           <div className="video">
-            <YouTube videoId={YouTubeGetID(project.projectURL)} className="video-content" />
+            <YouTube videoId={youtubeGetID(project.projectURL)} className="video-content" />
           </div>
         ) : null} */}
       </div>

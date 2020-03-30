@@ -117,15 +117,12 @@ const Categories = props => {
       ? gameDev
       : mlAI;
 
-  const url = props.url;
-  console.log(URL);
-
   return (
     <CategoryWrapper>
       <div className="cats">
         <div className="section-title">Technologies</div>
         <div className="cat-grid">
-          <Link href={{ pathname: `${url}` }}>
+          <Link href={{ query: "" }}>
             {tech != null ? (
               <div className="cat-grid-item">
                 <FontAwesomeIcon icon={faInfinity} />
@@ -151,7 +148,6 @@ const Categories = props => {
             ) : (
               <Link
                 href={{
-                  pathname: `${url}`,
                   query: { tech: item.category }
                 }}
               >

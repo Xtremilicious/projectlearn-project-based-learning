@@ -1,4 +1,250 @@
-exports.projectsData = [{
+exports.projectsData = [
+  {
+    id: 119,
+    type: "article",
+    title: "Meme Maker with React",
+    category: ["web-dev"],
+    tech: ["React", "JavaScript", "HTML", "CSS"],
+    datePublished: "Dec 24, 2018",
+    projectURL: "https://medium.com/free-code-camp/react-for-beginners-building-a-meme-maker-with-react-7164d3d3e55f"
+  },
+  {
+    id: 118,
+    type: "video",
+    title: "Evernote Clone with React",
+    category: ["web-dev"],
+    tech: ["React", "Firebase", "Node", "JavaScript", "HTML", "CSS"],
+    datePublished: "Jul 15, 2019",
+    projectURL: "https://www.youtube.com/watch?v=I250xdtUvy8"
+  },
+  {
+    id: 117,
+    type: "video",
+    title: "Developer Meetup App with Vue",
+    category: ["web-dev"],
+    tech: ["Vue", "Firebase", "Vuetify", "JavaScript", "HTML", "CSS"],
+    datePublished: "Mar 4, 2020",
+    projectURL: "https://www.youtube.com/watch?v=FXY1UyQfSFw&list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt&index=2&t=32s"
+  },
+  {
+    id: 116,
+    type: "article",
+    title: "Real-Time Chat App with Vue",
+    category: ["web-dev"],
+    tech: ["Vue", "Firebase", "Vuex", "JavaScript", "HTML", "CSS"],
+    datePublished: "Oct 16, 2017",
+    projectURL: "https://vuejsdevelopers.com/2017/10/16/vue-js-firestore/"
+  },
+  {
+    id: 115,
+    type: "article",
+    title: "Cryptocurrency Tracker with Vue",
+    category: ["web-dev"],
+    tech: ["Vue", "Vuetify", "API", "JavaScript", "HTML", "CSS"],
+    datePublished: "Feb 15, 2018",
+    projectURL: "https://medium.com/eliteng/build-a-cryptocurrency-tracker-with-vue-js-c0efd4c0139e"
+  },
+  {
+    id: 114,
+    type: "article",
+    title: "Multiplayer Quiz Game with Vue",
+    category: ["game-dev", "web-dev"],
+    tech: ["Vue", "Pusher", "Node", "Express", "JavaScript", "HTML", "CSS"],
+    datePublished: "Apr 8, 2018",
+    projectURL:
+      "https://medium.com/front-end-weekly/build-a-multiplayer-quiz-game-with-vue-js-ca22bad8fb52"
+  },
+  {
+    id: 113,
+    type: "article",
+    title: "Minesweeper Game with Vue",
+    category: ["game-dev", "web-dev"],
+    tech: ["Vue", "Vuex", "Vuetify", "JavaScript", "HTML", "CSS"],
+    datePublished: "Sep 2, 2019",
+    projectURL:
+      "https://medium.com/javascript-in-plain-english/minesweeper-rebuild-with-vue-vuex-and-vuetify-ab1921e5258e"
+  },
+  {
+    id: 112,
+    type: "article",
+    title: "Instagram Clone with Vue",
+    category: ["web-dev"],
+    tech: ["Vue", "CSSGram", "JavaScript", "HTML", "CSS"],
+    datePublished: "Dec 19, 2019",
+    projectURL:
+      "https://medium.com/fullstackio/tutorial-build-an-instagram-clone-with-vue-js-and-cssgram-24a9f3de0408"
+  },
+  {
+    id: 111,
+    type: "article",
+    title: "Hacker News Clone with Angular",
+    category: ["web-dev"],
+    tech: ["Angular", "Lighthouse", "JavaScript", "HTML", "CSS"],
+    datePublished: "Oct 24, 2018",
+    projectURL:
+      "https://medium.com/crowdbotics/learn-to-build-a-simple-progressive-web-app-pwa-with-angular-and-lighthouse-hacker-news-clone-51aca763032f"
+  },
+  {
+    id: 110,
+    type: "article",
+    title: "Chat Interface",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Dec 19, 2019",
+    projectURL: "https://www.florin-pop.com/blog/2019/04/chat-interface/"
+  },
+  {
+    id: 109,
+    type: "article",
+    title: "Pure CSS Tooltip",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Dec 18, 2019",
+    projectURL: "https://www.florin-pop.com/blog/2019/05/pure-css-tooltip/"
+  },
+  {
+    id: 108,
+    type: "article",
+    title: "Social Media Buttons",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Jul 11, 2019",
+    projectURL: "https://www.florin-pop.com/blog/2019/07/social-media-buttons/"
+  },
+  {
+    id: 107,
+    type: "article",
+    title: "Testimonial Card",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Jul 17, 2019",
+    projectURL: "https://www.florin-pop.com/blog/2019/07/testimonial-card/"
+  },
+  {
+    id: 106,
+    type: "article",
+    title: "Navigation Bar with CSS Flexbox",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Jul 9, 2019",
+    projectURL: "https://freshman.tech/flexbox-navbar/"
+  },
+  {
+    id: 105,
+    type: "article",
+    title: "Mobile App Layout with CSS Flexbox",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Oct 23, 2019",
+    projectURL: "https://freshman.tech/flexbox-mobile-app/"
+  },
+  {
+    id: 104,
+    type: "article",
+    title: "Reddit-inspired Loading Spinner",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Feb 19, 2019",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-a-reddit-inspired-loading-spinner-with-only-html-and-css-5b2fca3fdca/"
+  },
+  {
+    id: 103,
+    type: "article",
+    title: "Calendar with CSS Grid",
+    category: ["web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Jul 16, 2019",
+    projectURL: "https://www.freecodecamp.org/news/how-to-build-a-calendar-with-css-grid/"
+  },
+  {
+    id: 102,
+    type: "video",
+    title: "Tetris Game in React",
+    category: ["game-dev", "web-dev"],
+    tech: ["React", "JavaScript", "HTML", "CSS"],
+    datePublished: "Aug 14, 2019",
+    projectURL: "https://www.youtube.com/watch?v=ZGOaCxX8HIU"
+  },
+  {
+    id: 101,
+    type: "article",
+    title: "2D Breakout Game",
+    category: ["game-dev", "web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Oct 26, 2016",
+    projectURL:
+      "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"
+  },
+  {
+    id: 100,
+    type: "article",
+    title: "Sprite Animation",
+    category: ["game-dev", "web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Jan 13, 2018",
+    projectURL:
+      "https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa"
+  },
+  {
+    id: 99,
+    type: "article",
+    title: "Snake Game",
+    category: ["game-dev", "web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Jul 5, 2018",
+    projectURL:
+      "https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/"
+  },
+  {
+    id: 98,
+    type: "article",
+    title: "Memory Game",
+    category: ["game-dev", "web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Aug 28, 2018",
+    projectURL:
+      "https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae"
+  },
+  {
+    id: 97,
+    type: "article",
+    title: "Simple Authentication and Authorization",
+    category: ["web-dev"],
+    tech: ["GraphQL", "Apollo", "Node", "JavaScript", "HTML", "CSS"],
+    datePublished: "Mar 27, 2020",
+    projectURL:
+      "https://medium.com/javascript-in-plain-english/simple-authentication-and-authorization-in-graphql-5293c0458fc"
+  },
+  {
+    id: 96,
+    type: "article",
+    title: "Cryptocurrency Tracker",
+    category: ["web-dev"],
+    tech: ["NextJS", "GraphQL", "Apollo", "Node", "JavaScript", "HTML", "CSS"],
+    datePublished: "Mar 24, 2020",
+    projectURL:
+      "https://medium.com/javascript-in-plain-english/build-a-cryptocurrency-tracker-with-next-js-and-apollo-graphql-c776cff6b8bf"
+  },
+  {
+    id: 95,
+    type: "article",
+    title: "Instant Search With Vanilla Javascript",
+    category: ["web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Jun 21, 2019",
+    projectURL: "https://www.florin-pop.com/blog/2019/06/vanilla-javascript-instant-search/"
+  },
+  {
+    id: 94,
+    type: "article",
+    title: "Calculator App",
+    category: ["web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "Mar 21, 2018",
+    projectURL: "https://zellwk.com/blog/calculator-part-1"
+  },
+  {
     id: 93,
     type: "video",
     title: "Tanks Shooter",
@@ -922,7 +1168,7 @@ exports.projectsData = [{
   {
     id: 3,
     type: "article",
-    title: "Animations with Anime.js",
+    title: "JavaScript Animations with Anime.js",
     category: ["web-dev"],
     tech: ["JavaScript", "CSS3", "Library", "HTML5", "API"],
     datePublished: "2018-08-23",
@@ -975,4 +1221,4 @@ exports.projectsData = [{
     source: "YouTube",
     projectURL: "https://www.youtube.com/watch?v=lauywdXKEXI"
   }
-]
+];
