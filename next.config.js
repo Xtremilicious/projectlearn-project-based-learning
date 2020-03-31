@@ -19,9 +19,6 @@ module.exports = (phase, { defaultConfig }) =>
         },
         "/learn/machine-learning-and-ai": {
           page: "/learn/machine-learning-and-ai"
-        },
-        "/sitemap.xml": {
-          page: "/sitemap.xml"
         }
       };
       if (phase !== PHASE_DEVELOPMENT_SERVER) {
