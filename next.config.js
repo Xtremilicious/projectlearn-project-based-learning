@@ -19,6 +19,9 @@ module.exports = (phase, { defaultConfig }) =>
         },
         "/learn/machine-learning-and-ai": {
           page: "/learn/machine-learning-and-ai"
+        },
+        "/sitemap.xml": {
+          page: "/sitemap.xml"
         }
       };
       if (phase !== PHASE_DEVELOPMENT_SERVER) {
@@ -48,4 +51,13 @@ module.exports = (phase, { defaultConfig }) =>
 
       return paths;
     }
+    // experimental: {
+    //   modern: true,
+    //   async rewrites () {
+    //     return [
+    //       {source: '/sitemap.xml', destination: '/api/sitemap'},
+    //     ]
+    //   },
+    //   catchAllRouting: true
+    // }
   });

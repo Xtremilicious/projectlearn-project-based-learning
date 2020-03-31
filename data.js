@@ -529,7 +529,7 @@ exports.projectsData = [
   {
     id: 64,
     type: "article",
-    title: "OCR & Text Recognition",
+    title: "OCR and Text Recognition",
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Tesseract", "Numpy"],
     datePublished: "September 17, 2018",
