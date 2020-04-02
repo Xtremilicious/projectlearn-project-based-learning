@@ -11,7 +11,6 @@ import { getRandomInt, shuffle, youtubeGetID } from "../../../utils/functions";
 import {
   faVideo,
   faNewspaper,
-  faArrowCircleRight,
   faExternalLinkAlt,
   faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
@@ -250,10 +249,20 @@ const ProjectInfoWrapper = styled.div`
 `;
 function ProjectInfo(props) {
   const { project } = props;
+
+  const category =
+    props.slug === "web-development"
+      ? "web-dev"
+      : props.slug === "mobile-development"
+      ? "mob-dev"
+      : props.slug === "game-development"
+      ? "game-dev"
+      : "ml-ai";
+
   const relatedProjects = props.projects
     .filter(
       filteredProject =>
-        filteredProject.category.includes(project.category[0]) && filteredProject.id !== project.id
+        filteredProject.category.includes(category) && filteredProject.id !== project.id
     )
     .map(item => item);
 
@@ -344,11 +353,6 @@ function ProjectInfo(props) {
             </div>
           </a>
         </div>
-        {/* {project.type === "video" ? (
-          <div className="video">
-            <YouTube videoId={youtubeGetID(project.projectURL)} className="video-content" />
-          </div>
-        ) : null} */}
       </div>
       <div className="related">
         <RelatedProjects
