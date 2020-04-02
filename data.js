@@ -4,7 +4,7 @@ exports.projectsData = [
     type: "article",
     title: "Meme Maker with React",
     category: ["web-dev"],
-    tech: ["React", "JavaScript", "HTML", "CSS"],
+    tech: ["React", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Dec 24, 2018",
     projectURL: "https://medium.com/free-code-camp/react-for-beginners-building-a-meme-maker-with-react-7164d3d3e55f"
   },
@@ -13,7 +13,7 @@ exports.projectsData = [
     type: "video",
     title: "Evernote Clone with React",
     category: ["web-dev"],
-    tech: ["React", "Firebase", "Node", "JavaScript", "HTML", "CSS"],
+    tech: ["React", "Firebase", "Node", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Jul 15, 2019",
     projectURL: "https://www.youtube.com/watch?v=I250xdtUvy8"
   },
@@ -22,7 +22,7 @@ exports.projectsData = [
     type: "video",
     title: "Developer Meetup App with Vue",
     category: ["web-dev"],
-    tech: ["Vue", "Firebase", "Vuetify", "JavaScript", "HTML", "CSS"],
+    tech: ["Vue", "Firebase", "Vuetify", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Mar 4, 2020",
     projectURL: "https://www.youtube.com/watch?v=FXY1UyQfSFw&list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt&index=2&t=32s"
   },
@@ -31,7 +31,7 @@ exports.projectsData = [
     type: "article",
     title: "Real-Time Chat App with Vue",
     category: ["web-dev"],
-    tech: ["Vue", "Firebase", "Vuex", "JavaScript", "HTML", "CSS"],
+    tech: ["Vue", "Firebase", "Vuex", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Oct 16, 2017",
     projectURL: "https://vuejsdevelopers.com/2017/10/16/vue-js-firestore/"
   },
@@ -40,7 +40,7 @@ exports.projectsData = [
     type: "article",
     title: "Cryptocurrency Tracker with Vue",
     category: ["web-dev"],
-    tech: ["Vue", "Vuetify", "API", "JavaScript", "HTML", "CSS"],
+    tech: ["Vue", "Vuetify", "API", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Feb 15, 2018",
     projectURL: "https://medium.com/eliteng/build-a-cryptocurrency-tracker-with-vue-js-c0efd4c0139e"
   },
@@ -49,7 +49,7 @@ exports.projectsData = [
     type: "article",
     title: "Multiplayer Quiz Game with Vue",
     category: ["game-dev", "web-dev"],
-    tech: ["Vue", "Pusher", "Node", "Express", "JavaScript", "HTML", "CSS"],
+    tech: ["Vue", "Pusher", "Node", "Express", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Apr 8, 2018",
     projectURL:
       "https://medium.com/front-end-weekly/build-a-multiplayer-quiz-game-with-vue-js-ca22bad8fb52"
@@ -59,7 +59,7 @@ exports.projectsData = [
     type: "article",
     title: "Minesweeper Game with Vue",
     category: ["game-dev", "web-dev"],
-    tech: ["Vue", "Vuex", "Vuetify", "JavaScript", "HTML", "CSS"],
+    tech: ["Vue", "Vuex", "Vuetify", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Sep 2, 2019",
     projectURL:
       "https://medium.com/javascript-in-plain-english/minesweeper-rebuild-with-vue-vuex-and-vuetify-ab1921e5258e"
@@ -69,7 +69,7 @@ exports.projectsData = [
     type: "article",
     title: "Instagram Clone with Vue",
     category: ["web-dev"],
-    tech: ["Vue", "CSSGram", "JavaScript", "HTML", "CSS"],
+    tech: ["Vue", "CSSGram", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Dec 19, 2019",
     projectURL:
       "https://medium.com/fullstackio/tutorial-build-an-instagram-clone-with-vue-js-and-cssgram-24a9f3de0408"
@@ -79,7 +79,7 @@ exports.projectsData = [
     type: "article",
     title: "Hacker News Clone with Angular",
     category: ["web-dev"],
-    tech: ["Angular", "Lighthouse", "JavaScript", "HTML", "CSS"],
+    tech: ["Angular", "Lighthouse", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Oct 24, 2018",
     projectURL:
       "https://medium.com/crowdbotics/learn-to-build-a-simple-progressive-web-app-pwa-with-angular-and-lighthouse-hacker-news-clone-51aca763032f"
@@ -89,16 +89,16 @@ exports.projectsData = [
     type: "article",
     title: "Chat Interface",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Dec 19, 2019",
     projectURL: "https://www.florin-pop.com/blog/2019/04/chat-interface/"
   },
   {
     id: 109,
     type: "article",
-    title: "Pure CSS Tooltip",
+    title: "Pure CSS3 Tooltip",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Dec 18, 2019",
     projectURL: "https://www.florin-pop.com/blog/2019/05/pure-css-tooltip/"
   },
@@ -107,7 +107,7 @@ exports.projectsData = [
     type: "article",
     title: "Social Media Buttons",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Jul 11, 2019",
     projectURL: "https://www.florin-pop.com/blog/2019/07/social-media-buttons/"
   },
@@ -116,25 +116,25 @@ exports.projectsData = [
     type: "article",
     title: "Testimonial Card",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Jul 17, 2019",
     projectURL: "https://www.florin-pop.com/blog/2019/07/testimonial-card/"
   },
   {
     id: 106,
     type: "article",
-    title: "Navigation Bar with CSS Flexbox",
+    title: "Navigation Bar with CSS3 Flexbox",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Jul 9, 2019",
     projectURL: "https://freshman.tech/flexbox-navbar/"
   },
   {
     id: 105,
     type: "article",
-    title: "Mobile App Layout with CSS Flexbox",
+    title: "Mobile App Layout with CSS3 Flexbox",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Oct 23, 2019",
     projectURL: "https://freshman.tech/flexbox-mobile-app/"
   },
@@ -143,7 +143,7 @@ exports.projectsData = [
     type: "article",
     title: "Reddit-inspired Loading Spinner",
     category: ["web-dev"],
-    tech: ["HTML", "CSS"],
+    tech: ["HTML5", "CSS3"],
     datePublished: "Feb 19, 2019",
     projectURL:
       "https://www.freecodecamp.org/news/how-to-build-a-reddit-inspired-loading-spinner-with-only-html-and-css-5b2fca3fdca/"
@@ -151,9 +151,9 @@ exports.projectsData = [
   {
     id: 103,
     type: "article",
-    title: "Calendar with CSS Grid",
+    title: "Calendar with CSS3 Grid",
     category: ["web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Jul 16, 2019",
     projectURL: "https://www.freecodecamp.org/news/how-to-build-a-calendar-with-css-grid/"
   },
@@ -162,7 +162,7 @@ exports.projectsData = [
     type: "video",
     title: "Tetris Game in React",
     category: ["game-dev", "web-dev"],
-    tech: ["React", "JavaScript", "HTML", "CSS"],
+    tech: ["React", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Aug 14, 2019",
     projectURL: "https://www.youtube.com/watch?v=ZGOaCxX8HIU"
   },
@@ -171,7 +171,7 @@ exports.projectsData = [
     type: "article",
     title: "2D Breakout Game",
     category: ["game-dev", "web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Oct 26, 2016",
     projectURL:
       "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"
@@ -181,7 +181,7 @@ exports.projectsData = [
     type: "article",
     title: "Sprite Animation",
     category: ["game-dev", "web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Jan 13, 2018",
     projectURL:
       "https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa"
@@ -191,7 +191,7 @@ exports.projectsData = [
     type: "article",
     title: "Snake Game",
     category: ["game-dev", "web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Jul 5, 2018",
     projectURL:
       "https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/"
@@ -201,7 +201,7 @@ exports.projectsData = [
     type: "article",
     title: "Memory Game",
     category: ["game-dev", "web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Aug 28, 2018",
     projectURL:
       "https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae"
@@ -211,7 +211,7 @@ exports.projectsData = [
     type: "article",
     title: "Simple Authentication and Authorization",
     category: ["web-dev"],
-    tech: ["GraphQL", "Apollo", "Node", "JavaScript", "HTML", "CSS"],
+    tech: ["GraphQL", "Apollo", "Node", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Mar 27, 2020",
     projectURL:
       "https://medium.com/javascript-in-plain-english/simple-authentication-and-authorization-in-graphql-5293c0458fc"
@@ -221,7 +221,7 @@ exports.projectsData = [
     type: "article",
     title: "Cryptocurrency Tracker",
     category: ["web-dev"],
-    tech: ["NextJS", "GraphQL", "Apollo", "Node", "JavaScript", "HTML", "CSS"],
+    tech: ["NextJS", "GraphQL", "Apollo", "Node", "JavaScript", "HTML5", "CSS3"],
     datePublished: "Mar 24, 2020",
     projectURL:
       "https://medium.com/javascript-in-plain-english/build-a-cryptocurrency-tracker-with-next-js-and-apollo-graphql-c776cff6b8bf"
@@ -231,7 +231,7 @@ exports.projectsData = [
     type: "article",
     title: "Instant Search With Vanilla Javascript",
     category: ["web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Jun 21, 2019",
     projectURL: "https://www.florin-pop.com/blog/2019/06/vanilla-javascript-instant-search/"
   },
@@ -240,7 +240,7 @@ exports.projectsData = [
     type: "article",
     title: "Calculator App",
     category: ["web-dev"],
-    tech: ["JavaScript", "HTML", "CSS"],
+    tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Mar 21, 2018",
     projectURL: "https://zellwk.com/blog/calculator-part-1"
   },
@@ -1148,7 +1148,7 @@ exports.projectsData = [
   {
     id: 5,
     type: "article",
-    title: "URL Shortener",
+    title: "URL Shortener with JavaScript",
     category: ["web-dev"],
     tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "2018-10-11",
@@ -1159,7 +1159,7 @@ exports.projectsData = [
   {
     id: 4,
     type: "article",
-    title: "Todo List App",
+    title: "Todo List App with JavaScript",
     category: ["web-dev"],
     tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "2019-10-23",
@@ -1179,7 +1179,7 @@ exports.projectsData = [
   {
     id: 2,
     type: "article",
-    title: "WhatsApp Clone",
+    title: "WhatsApp Clone with React Native",
     category: ["mob-dev"],
     tech: [
       "React Native",
@@ -1203,7 +1203,7 @@ exports.projectsData = [
   {
     id: 1,
     type: "video",
-    title: "Job Board App",
+    title: "Job Board App with React",
     category: ["web-dev"],
     tech: [
       "React",

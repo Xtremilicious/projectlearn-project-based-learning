@@ -32,21 +32,8 @@ const Project = props => {
         .join("") == projectTitle.join("") && project.id == parseInt(projectID)
   )[0];
 
-  const projectCategory = project.category.includes("web-dev")
-    ? "Web Development"
-    : project.category.includes("mob-dev")
-    ? "Mobile App Development"
-    : project.category.includes("game-dev")
-    ? "Game Development"
-    : "Machine Learning & AI";
-
-  const slug = project.category.includes("web-dev")
-    ? "web-development"
-    : project.category.includes("mob-dev")
-    ? "mobile-development"
-    : project.category.includes("game-dev")
-    ? "game-development"
-    : "machine-learning-and-ai";
+  const projectCategory = "Mobile Development";
+  const slug = "mobile-development";
 
   let article;
   let flag = 0;
