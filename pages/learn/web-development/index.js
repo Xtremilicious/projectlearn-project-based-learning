@@ -14,7 +14,7 @@ class webDevelopment extends Component {
     return (
       <div>
         <Head>
-          <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
+          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
             name="description"
             content="Learn how to create web applications using HTML, CSS, JavaScript, React and more using the project based learning approach."

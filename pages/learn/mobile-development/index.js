@@ -14,9 +14,10 @@ class mobileDevelopment extends Component {
     return (
       <div>
         <Head>
-          <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
+          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
-            name="description" content="Learn how to create mobile applications using Android, Flutter, React Native and more."
+            name="description"
+            content="Learn how to create mobile applications using Java, Kotlin, Swift, React Native and more using the project based learning approach."
           />
           <meta
             name="keywords"

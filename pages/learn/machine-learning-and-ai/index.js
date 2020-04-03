@@ -14,9 +14,9 @@ class machineLearningAI extends Component {
     return (
       <div>
         <Head>
-          <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
+          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
-            name="description" content="Learn how a machine learns. Python, NumPy, Pandas, SciKit, Tensorflow and more."
+            name="description" content="Learn about machine learning and artificial intelligence using Python, NumPy, Pandas, SciKit, Tensorflow and more using the project based learning approach."
           />
           <meta
             name="keywords"

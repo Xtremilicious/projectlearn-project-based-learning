@@ -26,7 +26,6 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "sitemap": "^6.1.0",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
