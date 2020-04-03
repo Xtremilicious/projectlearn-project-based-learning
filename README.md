@@ -4,7 +4,7 @@ Website: https://projectlearn.io
 
 Tutorials are great, but building projects is the best way to learn. Do project based learning and learn code the right way!
 
-ProjectLearn provides an exhaustive list of project tutorials in which learners build an application from scratch. These are divided into different categories, namely, web development, mobile development, game development, machine learning, deep learning and artificial intelligence.
+ProjectLearn provides a curated list of project tutorials in which learners build an application from scratch. These are divided into different categories, namely, web development, mobile development, game development, machine learning, deep learning and artificial intelligence.
 
 The list has project tutorials on many in-demand languages and technologies including ReactJS, NodeJS, VueJS, Flutter, React Native, .NET Core, Unity, TensorFlow, OpenCV, Keras, and more.
 
