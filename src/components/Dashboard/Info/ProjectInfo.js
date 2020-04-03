@@ -268,7 +268,7 @@ function ProjectInfo(props) {
 
   const range = getRandomInt(relatedProjects.length - 2);
 
-  const date = new Date(project.datePublished); // 2009-11-10
+  const date = new Date(project.datePublished);
   const day = date.getDate();
   const month = date.toLocaleString("default", { month: "short" });
   const year = date.getFullYear();
