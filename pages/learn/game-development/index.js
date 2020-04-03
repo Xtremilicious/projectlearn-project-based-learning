@@ -16,7 +16,7 @@ class gameDevelopment extends Component {
         <Head>
           <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
-            name="description" content="Learn how to create video games using C#, Python, JavaScript, OpenGL, Unity and more. and more using the project based learning approach."
+            name="description" content="Learn how to create video games using C#, Python, JavaScript, OpenGL, Unity and more using the project based learning approach."
           />
           <meta
             name="keywords"
