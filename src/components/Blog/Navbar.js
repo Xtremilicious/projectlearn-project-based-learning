@@ -9,14 +9,15 @@ import { getGitHubStars } from "../../redux/actions/dataActions";
 //Icons and Images
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faPenNib, faHome, faListAlt } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faHome, faPenNib } from "@fortawesome/free-solid-svg-icons";
 
 const NavWrapper = styled.div`
-  margin: 2vh 5vw;
+  margin: 0vh 0vw;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 3fr 7fr;
-  padding: 2vh;
+  padding: 4vh calc(2vh + 5vw);
+  background: #fafafa;
   .nav-components-container {
     display: flex;
     margin-left: auto;
@@ -89,6 +90,7 @@ class Navbar extends Component {
               Blog
             </div>
           </Link>
+
           <a
             href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
             target="_blank"
@@ -105,14 +107,14 @@ class Navbar extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    stars: state.data.stars
+    stars: state.data.stars,
   };
 };
 
 const mapDispatchToProps = {
-  getGitHubStars
+  getGitHubStars,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Navbar);

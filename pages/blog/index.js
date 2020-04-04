@@ -1,11 +1,19 @@
 import matter from "gray-matter";
 import BlogList from "../../src/components/Blog/BlogList";
+import Navbar from "../../src/components/Blog/Navbar";
+
+import styled from "styled-components";
+
+const BlogWrapper = styled.div`
+
+`
 
 const Index = (props) => {
   return (
-      <section>
-        <BlogList allBlogs={props.allBlogs} />
-      </section>
+    <BlogWrapper>
+      <Navbar/>
+      <BlogList allBlogs={props.allBlogs} />
+    </BlogWrapper>
   );
 };
 
