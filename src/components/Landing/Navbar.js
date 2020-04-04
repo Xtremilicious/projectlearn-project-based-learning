@@ -83,12 +83,12 @@ class Navbar extends Component {
               Home
             </div>
           </Link>
-          <Link href="/blog">
+          {/* <Link href="/blog">
             <div className="nav-component">
               <FontAwesomeIcon icon={faPenNib} />
               Blog
             </div>
-          </Link>
+          </Link> */}
           <a
             href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
             target="_blank"
