@@ -101,7 +101,6 @@ export default function BlogTemplate(props) {
 BlogTemplate.getInitialProps = async function (ctx) {
   const { slug } = ctx.query;
   const content = await import(`../../posts/${slug}.md`);
-  const config = await import(`../../data/config.json`);
   const data = matter(content.default);
 
   return {
@@ -110,6 +109,5 @@ BlogTemplate.getInitialProps = async function (ctx) {
       frontmatter: data.data,
       markdownBody: data.content,
     },
-    title: config.default.title,
   };
 };
