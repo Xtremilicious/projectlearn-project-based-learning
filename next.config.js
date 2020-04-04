@@ -6,7 +6,6 @@ const glob = require("glob");
 
 module.exports = (phase, { defaultConfig }) =>
   withImages({
-    exportTrailingSlash: true,
     webpack: function (config) {
       config.module.rules.push({
         test: /\.md$/,
