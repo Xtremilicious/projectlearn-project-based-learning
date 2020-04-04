@@ -1,7 +1,7 @@
 ---
 author: Grace Hopper
 date: '2019-07-09T16:04:44.000Z'
-hero_image: ../static/johannes-andersson-joshua-tree.jpg
+hero_image: /static/johannes-andersson-joshua-tree.jpg
 title: An otherworldly desert
 ---
 The Joshua tree is also called _izote de desierto_ (Spanish, "desert dagger").[\[6\]](https://en.m.wikipedia.org/wiki/Yucca_brevifolia#cite_note-ITIS-6) It was first formally described in the botanical literature as _Yucca brevifolia_ by [George Engelmann](https://en.m.wikipedia.org/wiki/George_Engelmann "George Engelmann") in 1871 as part of the Geological Exploration of the 100th meridian (or "[Wheeler Survey](https://en.m.wikipedia.org/wiki/Wheeler_Survey "Wheeler Survey")").[\[7\]](https://en.m.wikipedia.org/wiki/Yucca_brevifolia#cite_note-IPNI-7)
