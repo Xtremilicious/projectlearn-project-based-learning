@@ -9,14 +9,14 @@ import { getGitHubStars } from "../../redux/actions/dataActions";
 //Icons and Images
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faPenNib, faHome, faListAlt } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faHome, faPenNib } from "@fortawesome/free-solid-svg-icons";
 
 const NavWrapper = styled.div`
-  margin: 2vh 5vw;
+  margin: 0vh 0vw;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 3fr 7fr;
-  padding: 2vh;
+  padding: 4vh calc(2vh + 5vw);
   .nav-components-container {
     display: flex;
     margin-left: auto;
@@ -57,9 +57,25 @@ const NavWrapper = styled.div`
     font-size: 2.1rem;
     margin: 0;
   }
+  .mobile-nav {
+    display: none;
+  }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .nav-components-container {
+    padding: 2vh;
+    grid-template-columns: 1fr;
+    .nav-components-container,
+    .pl-branding {
       display: none;
+    }
+    .mobile-nav {
+      display: flex;
+      width: 100%;
+    }
+    .nav-component {
+      margin: 2vh;
+    }
+    .m-github {
+      margin-left: auto;
     }
   }
 `;
@@ -76,6 +92,30 @@ class Navbar extends Component {
           {/* <img src={plLogo} alt="ProjectLearn Logo" className="pl-logo" /> */}
           <h1 className="pl-title">ProjectLearn.io</h1>
         </div>
+        <div className="mobile-nav">
+          <Link href="/">
+            <div className="nav-component">
+              <FontAwesomeIcon icon={faHome} />
+            </div>
+          </Link>
+          <Link href="/blog">
+            <div className="nav-component">
+              <FontAwesomeIcon icon={faPenNib} />
+            </div>
+          </Link>
+
+          <a
+            href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
+            target="_blank"
+            className="m-github"
+          >
+            <div className="nav-component gt-container">
+              <FontAwesomeIcon icon={faGithub} />
+              {stars}
+              {" stars"}
+            </div>
+          </a>
+        </div>
         <div className="nav-components-container">
           <Link href="/">
             <div className="nav-component">
@@ -83,12 +123,13 @@ class Navbar extends Component {
               Home
             </div>
           </Link>
-          {/* <Link href="/blog">
+          <Link href="/blog">
             <div className="nav-component">
               <FontAwesomeIcon icon={faPenNib} />
               Blog
             </div>
-          </Link> */}
+          </Link>
+
           <a
             href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
             target="_blank"
@@ -105,14 +146,14 @@ class Navbar extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    stars: state.data.stars
+    stars: state.data.stars,
   };
 };
 
 const mapDispatchToProps = {
-  getGitHubStars
+  getGitHubStars,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Navbar);

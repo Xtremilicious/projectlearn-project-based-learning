@@ -12,6 +12,16 @@ const SplashWrapper = styled.div`
   .title {
     font-size: 12vh;
     text-align: center;
+    line-height: 110%;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .title {
+    font-size: 10vw;
+    line-height: 110%;
+  }
+  .title-container {
+    padding: 1% 1vw;
+  }
   }
 `;
 

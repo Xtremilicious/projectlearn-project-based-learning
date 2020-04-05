@@ -37,11 +37,13 @@ const ListWrapper = styled.div`
         height: 100%;
         h2 {
           margin-top: 0;
+          font-size: 3vh;
+          margin-bottom: 7vh;
         }
         h3 {
           font-weight: normal;
           margin: 0;
-          font-size: 2.8vh;
+          font-size: 2.6vh;
         }
         .date {
           font-weight: 300;
@@ -72,6 +74,60 @@ const ListWrapper = styled.div`
       }
     }
   }
+  .article-meta {
+    display: flex;
+    align-items: center;
+  }
+  .author-image {
+    display: flex;
+    align-items: center;
+    margin-right: 1vh;
+  }
+  .author-image img {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+  }
+  .meta-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    padding-bottom: 7vw;
+    .list {
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 7vw;
+      margin-top: 7vw;
+      .article {
+        min-height: 40vh;
+      }
+      .outer-circle {
+        padding: 10vw !important;
+        font-size: 5vw !important;
+      }
+      .create {
+        opacity: 1 !important;
+      }
+      .blog__info {
+        padding: 4vh 6vw !important;
+        h2 {
+          font-size: 3.3vh !important;
+        }
+      }
+    }
+    .author-image img {
+      height: 11vw;
+      width: 11vw;
+    }
+    .article-meta {
+      margin-top: 2vh;
+      margin-left: 0vh;
+    }
+  }
 `;
 
 const BlogList = (props) => {
@@ -88,32 +144,35 @@ const BlogList = (props) => {
   }
 
   const posts = props.allBlogs;
-
   return (
     <ListWrapper>
       <BlogSplash />
       <ul className="list">
-        {posts.length > 1 &&
-          posts.map((post) => (
-            <Link key={post.slug} href={{ pathname: `/blog/${post.slug}` }}>
-              <a>
-                <li className="article">
-                  <div className="hero_image">
-                    <img src={post.document.data.hero_image} alt={post.document.data.hero_image} />
-                  </div>
-                  <div className="blog__info">
-                    <h2>{post.document.data.title}</h2>
-                    <div className="meta">
-                      <h3> {post.document.data.author}</h3>
-                      <h3 className="date"> {reformatDate(post.document.data.date)}</h3>
+        {posts.map((post) => (
+          <Link key={post.slug} href={{ pathname: `/blog/${post.slug}` }}>
+            <a>
+              <li className="article">
+                <div className="hero_image">
+                  <img src={post.document.data.hero_image} alt={post.document.data.hero_image} />
+                </div>
+                <div className="blog__info">
+                  <h2>{post.document.data.title}</h2>
+                  <div className="article-meta">
+                    <div className="author-image">
+                      <img src={post.document.data.author_image} />
+                    </div>
+                    <div className="meta-info">
+                      <h3 className="author">{post.document.data.author}</h3>
+                      <h3 className="date">{reformatDate(post.document.data.date)}</h3>
                     </div>
                   </div>
-                </li>
-              </a>
-            </Link>
-          ))}
+                </div>
+              </li>
+            </a>
+          </Link>
+        ))}
 
-          {/* Github create new file pre-fill:
+        {/* Github create new file pre-fill:
           filename: the file name
           value: the file content
           message: commit title
