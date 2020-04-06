@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export && node ./src/utils/generate_sitemap.js",
-    "generate-readme": "node ./src/utils/readmegen.js && git add ."
+    "generate-readme": "node ./src/utils/generate_readme.js && git add ."
   },
   "pre-commit": [ "generate-readme" ],
   "dependencies": {
