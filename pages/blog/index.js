@@ -1,6 +1,8 @@
 import matter from "gray-matter";
 import BlogList from "../../src/components/Blog/BlogList";
 import Navbar from "../../src/components/Landing/Navbar";
+import Newsletter from "../../src/components/Landing/Newsletter";
+import Footer from "../../src/components/Landing/Footer";
 import Head from "next/head";
 
 import styled from "styled-components";
@@ -8,12 +10,15 @@ import styled from "styled-components";
 const BlogWrapper = styled.div`
   min-height: 100vh;
   background: #fafafa;
-  padding-bottom: 3vw;
+  padding-bottom: 5vh;
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    padding-bottom:0vh;
+  }
 `;
 
 const Index = (props) => {
   return (
-    <React.Fragment>
+    <div style={{ background: "#fafafa" }}>
       <Head>
         <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
         <meta
@@ -34,7 +39,9 @@ const Index = (props) => {
         <Navbar />
         <BlogList allBlogs={props.allBlogs} />
       </BlogWrapper>
-    </React.Fragment>
+      <Newsletter />
+      <Footer />
+    </div>
   );
 };
 

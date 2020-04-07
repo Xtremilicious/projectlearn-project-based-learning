@@ -84,6 +84,7 @@ class Navbar extends Component {
   componentDidMount() {
     this.props.getGitHubStars();
   }
+
   render() {
     const { stars } = this.props;
     return (

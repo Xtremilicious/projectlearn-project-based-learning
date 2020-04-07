@@ -9,7 +9,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const ListWrapper = styled.div`
   background: #fafafa;
-  padding-bottom: 2vw;
+  margin-bottom: 5vh;
   .list {
     width: 80%;
     margin: 0 auto;
