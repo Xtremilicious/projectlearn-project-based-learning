@@ -1,4 +1,5 @@
 // next.config.js
+
 const withImages = require("next-images");
 const projectsData = require("./data.js");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
@@ -12,6 +13,9 @@ module.exports = (phase, { defaultConfig }) =>
         use: "raw-loader",
       });
       return config;
+    },
+    env: {
+      EMAIL_API: process.env.EMAIL_API
     },
     exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
       const paths = {

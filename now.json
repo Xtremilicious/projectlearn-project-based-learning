@@ -1,0 +1,7 @@
+{
+    "build": {
+      "env": {
+        "EMAIL_API": "@email_api"
+      }
+    }
+  }

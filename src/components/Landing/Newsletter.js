@@ -99,8 +99,7 @@ export default function Newsletter() {
       headers: {
         accept: "application/json",
         "content-type": "application/json",
-        "api-key":
-          process.env.email_api,
+        "api-key": process.env.EMAIL_API,
       },
     };
 
