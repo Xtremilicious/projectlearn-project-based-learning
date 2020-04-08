@@ -92,7 +92,7 @@ export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [componentState, setcomponentState] = useState("");
   const [loading, setLoading] = useState(false);
-  
+
   const handleSubmit = (evt) => {
     evt.preventDefault();
     setLoading(true);
@@ -127,7 +127,7 @@ export default function Newsletter() {
       <form id="sib-form" onSubmit={handleSubmit} className="form">
         <input
           className="input-field"
-          type="text"
+          type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           autoComplete="off"
