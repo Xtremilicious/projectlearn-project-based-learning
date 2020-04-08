@@ -91,10 +91,11 @@ const NewsWrapper = styled.div`
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [componentState, setcomponentState] = useState("");
-
+  const [loading, setLoading] = useState(false);
+  
   const handleSubmit = (evt) => {
     evt.preventDefault();
-
+    setLoading(true);
     const options = {
       headers: {
         accept: "application/json",
@@ -111,9 +112,11 @@ export default function Newsletter() {
       )
       .then((response) => {
         setcomponentState("success");
+        setLoading(false);
       })
       .catch((error) => {
         setcomponentState("error");
+        setLoading(false);
       });
   };
 
