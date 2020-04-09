@@ -14,6 +14,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)
+- [Build a NOKIA 3310 Snake Game using JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)
+- [Build a Rock Paper Scissors in vanilla JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)
+- [Build a Tetris with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/tetris-with-pure-javascript-121?from=github)
 - [Build a Meme Maker with React (React, JavaScript, HTML5)](https://projectlearn.io/learn/web-development/project/meme-maker-with-react-119?from=github)
 - [Build an Evernote Clone with React (React, Firebase, Node)](https://projectlearn.io/learn/web-development/project/evernote-clone-with-react-118?from=github)
 - [Build a Developer Meetup App with Vue (Vue, Firebase, Vuetify)](https://projectlearn.io/learn/web-development/project/developer-meetup-app-with-vue-117?from=github)
@@ -92,6 +96,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Game Development: 
 
+- [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)
+- [Build a NOKIA 3310 Snake Game using JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/nokia-3310-snake-game-using-javascript-123?from=github)
+- [Build a Rock Paper Scissors in vanilla JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)
+- [Build a Tetris with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/tetris-with-pure-javascript-121?from=github)
 - [Build a Multiplayer Quiz Game with Vue (Vue, Pusher, Node)](https://projectlearn.io/learn/game-development/project/multiplayer-quiz-game-with-vue-114?from=github)
 - [Build a Minesweeper Game with Vue (Vue, Vuex, Vuetify)](https://projectlearn.io/learn/game-development/project/minesweeper-game-with-vue-113?from=github)
 - [Build a Tetris Game in React (React, JavaScript, HTML5)](https://projectlearn.io/learn/game-development/project/tetris-game-in-react-102?from=github)
@@ -120,10 +128,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Machine Learning & AI: 
 
+- [Build a Twitter Sentiment Analysis using CNN (Python, Matplotlib, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-using-cnn-120?from=github)
 - [Build a Taylor Swift Lyrics Generator (Python, Keras, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/taylor-swift-lyrics-generator-77?from=github)
 - [Build a MNIST Digit Recognizer (Python, Keras, TensorFlow)](https://projectlearn.io/learn/machine-learning-and-ai/project/mnist-digit-recognizer-76?from=github)
 - [Build a Train a Model to Generate Colors (Python, Keras, TensorFlow)](https://projectlearn.io/learn/machine-learning-and-ai/project/train-a-model-to-generate-colors-75?from=github)
-- [Build a Twitter Sentiment Analysis using CNN (Python, Matplotlib, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-using-cnn-74?from=github)
 - [Build an Image Caption Generator (Python, TensorFlow, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/image-caption-generator-74?from=github)
 - [Build a Break a Captcha System using CNN (Python, Keras, TensorFlow)](https://projectlearn.io/learn/machine-learning-and-ai/project/break-a-captcha-system-using-cnn-73?from=github)
 - [Build a Generate an Average Face (Python, OpenCV, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/generate-an-average-face-72?from=github)
