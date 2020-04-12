@@ -1,5 +1,14 @@
 exports.projectsData = [
   {
+    id: 125,
+    type: "video",
+    title: "Flashcard Quiz With React",
+    category: ["web-dev"],
+    tech: ["React", "API", "JavaScript", "HTML5", "CSS3"],
+    datePublished: "Apr 11, 2020",
+    projectURL: "https://www.youtube.com/watch?v=hEtZ040fsD8",
+  },
+  {
     id: 124,
     type: "video",
     title: "Whack-a-Mole with pure JavaScript",

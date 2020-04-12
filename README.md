@@ -14,6 +14,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Flashcard Quiz With React (React, API, JavaScript)](https://projectlearn.io/learn/web-development/project/flashcard-quiz-with-react-125?from=github)
 - [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)
 - [Build a NOKIA 3310 Snake Game using JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)
 - [Build a Rock Paper Scissors in vanilla JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)
