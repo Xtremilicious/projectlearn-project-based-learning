@@ -84,6 +84,11 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Mobile Development: 
 
+- [Build a Flappy Bird iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/mobile-development/project/flappy-bird-ios-game-using-swift-130?from=github)
+- [Build a Bull's Eye iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/mobile-development/project/bull's-eye-ios-game-using-swift-129?from=github)
+- [Build a Task List iOS App using SwiftUI (Swift, XCode, iOS)](https://projectlearn.io/learn/mobile-development/project/task-list-ios-app-using-swiftui-128?from=github)
+- [Build a Restaurant iOS App using SwiftUI (Swift, XCode, iOS)](https://projectlearn.io/learn/mobile-development/project/restaurant-ios-app-using-swiftui-127?from=github)
+- [Build a Dice iOS App with Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/mobile-development/project/dice-ios-app-with-swift-126?from=github)
 - [Build a TrueCaller Clone (Java, MySQL, XAMPP)](https://projectlearn.io/learn/mobile-development/project/truecaller-clone-83?from=github)
 - [Build a Weather App (Java, API, Android)](https://projectlearn.io/learn/mobile-development/project/weather-app-82?from=github)
 - [Build an E-Commerce App (Java, Firebase, Android)](https://projectlearn.io/learn/mobile-development/project/e-commerce-app-81?from=github)
@@ -97,6 +102,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Game Development: 
 
+- [Build a Flappy Bird iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/game-development/project/flappy-bird-ios-game-using-swift-130?from=github)
+- [Build a Bull's Eye iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/game-development/project/bull's-eye-ios-game-using-swift-129?from=github)
 - [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)
 - [Build a NOKIA 3310 Snake Game using JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/nokia-3310-snake-game-using-javascript-123?from=github)
 - [Build a Rock Paper Scissors in vanilla JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)
