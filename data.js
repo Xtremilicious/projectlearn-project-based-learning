@@ -32,7 +32,7 @@ exports.projectsData = [
     title: "Restaurant iOS App using SwiftUI",
     category: ["mob-dev"],
     tech: ["Swift", "XCode", "iOS"],
-    datePublished: "September 18th 2019",
+    datePublished: "September 18 2019",
     projectURL:
       "https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project",
   },
