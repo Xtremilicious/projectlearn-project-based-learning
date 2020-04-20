@@ -102,6 +102,12 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Game Development: 
 
+- [Build a Roguelike Tutorial in Rust (2D, Rust)](https://projectlearn.io/learn/game-development/project/roguelike-tutorial-in-rust-136?from=github)
+- [Build an Adventures in Rust - A Basic 2D Game (2D, Rust)](https://projectlearn.io/learn/game-development/project/adventures-in-rust---a-basic-2d-game-135?from=github)
+- [Build a Terminal Snake Game with Ruby (2D, Ruby)](https://projectlearn.io/learn/game-development/project/terminal-snake-game-with-ruby-134?from=github)
+- [Build a Space Invaders using OpenGL (2D, OpenGL, C/C++)](https://projectlearn.io/learn/game-development/project/space-invaders-using-opengl-133?from=github)
+- [Build a Sudoku Solver in C (2D, C/C++)](https://projectlearn.io/learn/game-development/project/sudoku-solver-in-c-132?from=github)
+- [Build a Chess Engine In C (2D, C/C++)](https://projectlearn.io/learn/game-development/project/chess-engine-in-c-131?from=github)
 - [Build a Flappy Bird iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/game-development/project/flappy-bird-ios-game-using-swift-130?from=github)
 - [Build a Bull's Eye iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/game-development/project/bull's-eye-ios-game-using-swift-129?from=github)
 - [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)
