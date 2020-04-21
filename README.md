@@ -14,6 +14,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Summer Road Trip Mapping App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/summer-road-trip-mapping-app-with-gatsby-140?from=github)
+- [Build a Multiplayer Card Game with Socket.io (Phaser 3, Express, Socket.io)](https://projectlearn.io/learn/web-development/project/multiplayer-card-game-with-socket.io-139?from=github)
+- [Build a COVID-19 Dashboard & Map App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/covid-19-dashboard-&-map-app-with-gatsby-138?from=github)
 - [Build a Flashcard Quiz With React (React, API, JavaScript)](https://projectlearn.io/learn/web-development/project/flashcard-quiz-with-react-125?from=github)
 - [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)
 - [Build a NOKIA 3310 Snake Game using JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)
@@ -102,12 +105,14 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Game Development: 
 
-- [Build a Roguelike Tutorial in Rust (2D, Rust)](https://projectlearn.io/learn/game-development/project/roguelike-tutorial-in-rust-136?from=github)
-- [Build an Adventures in Rust - A Basic 2D Game (2D, Rust)](https://projectlearn.io/learn/game-development/project/adventures-in-rust---a-basic-2d-game-135?from=github)
-- [Build a Terminal Snake Game with Ruby (2D, Ruby)](https://projectlearn.io/learn/game-development/project/terminal-snake-game-with-ruby-134?from=github)
-- [Build a Space Invaders using OpenGL (2D, OpenGL, C/C++)](https://projectlearn.io/learn/game-development/project/space-invaders-using-opengl-133?from=github)
-- [Build a Sudoku Solver in C (2D, C/C++)](https://projectlearn.io/learn/game-development/project/sudoku-solver-in-c-132?from=github)
-- [Build a Chess Engine In C (2D, C/C++)](https://projectlearn.io/learn/game-development/project/chess-engine-in-c-131?from=github)
+- [Build a Multiplayer Card Game with Socket.io (Phaser 3, Express, Socket.io)](https://projectlearn.io/learn/game-development/project/multiplayer-card-game-with-socket.io-139?from=github)
+- [Build a Multiplayer Card Game with Unity 2D and Mirror (C#, Unity, 2D)](https://projectlearn.io/learn/game-development/project/multiplayer-card-game-with-unity-2d-and-mirror-137?from=github)
+- [Build a Roguelike Tutorial in Rust (Rust, 2D)](https://projectlearn.io/learn/game-development/project/roguelike-tutorial-in-rust-136?from=github)
+- [Build an Adventures in Rust - A Basic 2D Game (Rust, 2D)](https://projectlearn.io/learn/game-development/project/adventures-in-rust---a-basic-2d-game-135?from=github)
+- [Build a Terminal Snake Game with Ruby (Ruby, 2D)](https://projectlearn.io/learn/game-development/project/terminal-snake-game-with-ruby-134?from=github)
+- [Build a Space Invaders using OpenGL (OpenGL, C/C++, 2D)](https://projectlearn.io/learn/game-development/project/space-invaders-using-opengl-133?from=github)
+- [Build a Sudoku Solver in C (C/C++, 2D)](https://projectlearn.io/learn/game-development/project/sudoku-solver-in-c-132?from=github)
+- [Build a Chess Engine In C (C/C++, 2D)](https://projectlearn.io/learn/game-development/project/chess-engine-in-c-131?from=github)
 - [Build a Flappy Bird iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/game-development/project/flappy-bird-ios-game-using-swift-130?from=github)
 - [Build a Bull's Eye iOS Game using Swift (Swift, XCode, iOS)](https://projectlearn.io/learn/game-development/project/bull's-eye-ios-game-using-swift-129?from=github)
 - [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)
