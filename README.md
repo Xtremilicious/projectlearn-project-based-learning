@@ -14,6 +14,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Full Stack RPG Character Generator with MEVN stack (MongoDB, Express, Vue)](https://projectlearn.io/learn/web-development/project/full-stack-rpg-character-generator-with-mevn-stack-142?from=github)
+- [Build a Todo App with the PERN stack (PostgreSQL, Express, React)](https://projectlearn.io/learn/web-development/project/todo-app-with-the-pern-stack-141?from=github)
 - [Build a Summer Road Trip Mapping App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/summer-road-trip-mapping-app-with-gatsby-140?from=github)
 - [Build a Multiplayer Card Game with Socket.io (Phaser 3, Express, Socket.io)](https://projectlearn.io/learn/web-development/project/multiplayer-card-game-with-socket.io-139?from=github)
 - [Build a COVID-19 Dashboard & Map App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/covid-19-dashboard-&-map-app-with-gatsby-138?from=github)

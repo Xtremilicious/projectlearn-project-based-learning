@@ -1,5 +1,23 @@
 exports.projectsData = [
   {
+    id: 142,
+    type: "article",
+    title: "Full Stack RPG Character Generator with MEVN stack",
+    category: ["web-dev"],
+    tech: ["MongoDB", "Express", "Vue", "Node", "HTML", "CSS", "JavaScript"],
+    datePublished: "9 MARCH 2020",
+    projectURL: "https://www.freecodecamp.org/news/build-a-full-stack-mevn-app/",
+  },
+  {
+    id: 141,
+    type: "article",
+    title: "Todo App with the PERN stack",
+    category: ["web-dev"],
+    tech: ["PostgreSQL", "Express", "React", "Node", "HTML", "CSS", "JavaScript"],
+    datePublished: "20 MARCH 2020",
+    projectURL: "https://www.freecodecamp.org/news/learn-the-pern-stack-full-course/",
+  },
+  {
     id: 140,
     type: "article",
     title: "Summer Road Trip Mapping App with Gatsby",
