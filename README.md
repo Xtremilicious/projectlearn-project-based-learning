@@ -14,6 +14,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Chat App with Redis, WebSocket and Go (Redis, Web Socket, Go)](https://projectlearn.io/learn/web-development/project/chat-app-with-redis,-websocket-and-go-146?from=github)
+- [Build a Spotify Login Animation With React Navigation (React, HTML, CSS)](https://projectlearn.io/learn/web-development/project/spotify-login-animation-with-react-navigation-145?from=github)
+- [Build a Dynamic Qeather Interface with just CSS (HTML, CSS)](https://projectlearn.io/learn/web-development/project/dynamic-qeather-interface-with-just-css-144?from=github)
+- [Build a Simple CRUD App with Airtable and Vue (Airtable, Vue, Vuetify)](https://projectlearn.io/learn/web-development/project/simple-crud-app-with-airtable-and-vue-143?from=github)
 - [Build a Full Stack RPG Character Generator with MEVN stack (MongoDB, Express, Vue)](https://projectlearn.io/learn/web-development/project/full-stack-rpg-character-generator-with-mevn-stack-142?from=github)
 - [Build a Todo App with the PERN stack (PostgreSQL, Express, React)](https://projectlearn.io/learn/web-development/project/todo-app-with-the-pern-stack-141?from=github)
 - [Build a Summer Road Trip Mapping App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/summer-road-trip-mapping-app-with-gatsby-140?from=github)
