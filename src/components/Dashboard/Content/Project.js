@@ -15,6 +15,9 @@ const ProjectWrapper = styled.div`
     padding: 1.1vw;
     background-color: white;
     transition: 0.4s;
+    background: white;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.04);
     :hover {
       transform: scale(1.025);
       background-color: var(--dashboard-purple);
@@ -92,12 +95,13 @@ const ProjectWrapper = styled.div`
         word-wrap: normal;
         .tag {
           cursor: pointer;
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
           border-radius: 1vh;
           font-size: 1.2vw;
+          border: 1px solid rgba(230, 230, 230, 0.7);
         }
       }
     }
@@ -158,7 +162,7 @@ const ProjectWrapper = styled.div`
   }
 `;
 
-const PostLink = props => (
+const PostLink = (props) => (
   <Link
     href={`/learn/${props.url}/project/[id]`}
     as={`/learn/${props.url}/project/${props.title}-${props.id}`}
@@ -169,7 +173,7 @@ const PostLink = props => (
   </Link>
 );
 
-const Content = props => {
+const Content = (props) => {
   const {
     id,
     type,
@@ -181,7 +185,7 @@ const Content = props => {
     source,
     datePublished,
     projectURL,
-    submittedBy
+    submittedBy,
   } = props.project;
 
   const appIcon = (
@@ -205,10 +209,7 @@ const Content = props => {
   const month = date.toLocaleString("default", { month: "short" });
   const year = date.getFullYear();
 
-  let urlTitle = title
-    .toLowerCase()
-    .split(" ")
-    .join("-");
+  let urlTitle = title.toLowerCase().split(" ").join("-");
 
   return (
     <ProjectWrapper>
@@ -232,7 +233,7 @@ const Content = props => {
         <div className="details-3">
           <div className="section-title">Top Technologies:</div>
           <div className="tags-container">
-            {tech.slice(0, 3).map(t => (
+            {tech.slice(0, 3).map((t) => (
               <Link href={{ query: { tech: t } }}>
                 <span className="tag">{t} </span>
               </Link>

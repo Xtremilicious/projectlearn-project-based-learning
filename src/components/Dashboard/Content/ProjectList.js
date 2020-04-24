@@ -15,11 +15,11 @@ const ListWrapper = styled.div`
     margin-bottom: 5vh;
     @media only screen and (min-width: 320px) and (max-width: 480px) {
       grid-template-columns: 1fr;
-      grid-row-gap: 4vh;
+      grid-row-gap: 5vh;
       margin-left: 10%;
       margin-right: 10%;
       grid-column-gap: 2vh;
-      margin-top: -7vh;
+      margin-top: -6vh;
   }
   }
 `;
