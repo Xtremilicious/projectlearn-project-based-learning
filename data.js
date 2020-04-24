@@ -1,12 +1,50 @@
 exports.projectsData = [
   {
+    id: 150,
+    type: "video",
+    title: "Simple 3D Game using Godot 3.1",
+    category: ["game-dev"],
+    tech: ["Godot", "C#", "3D"],
+    datePublished: "Jul 26, 2019",
+    projectURL:
+      "https://www.youtube.com/watch?v=VeCrE-ge8xM&list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ",
+  },
+  {
+    id: 149,
+    type: "video",
+    title: "Simple Puzzle Game in Godot - Box and Switch",
+    category: ["game-dev"],
+    tech: ["Godot", "C#", "2D"],
+    datePublished: "Feb 7, 2019",
+    projectURL: "https://www.youtube.com/watch?v=l2wF2gj_hlA",
+  },
+  {
+    id: 148,
+    type: "video",
+    title: "Game Interface From Scratch in Godot 3",
+    category: ["game-dev"],
+    tech: ["Godot", "C#", "2D"],
+    datePublished: "May 16, 2018",
+    projectURL: "https://www.youtube.com/watch?v=y1E_y9AIqow",
+  },
+  {
+    id: 147,
+    type: "video",
+    title: "2D Game with Godot: Player and Enemy",
+    category: ["game-dev"],
+    tech: ["Godot", "C#", "2D"],
+    datePublished: "Oct 2, 2019",
+    projectURL: "https://www.youtube.com/watch?v=Mc13Z2gboEk",
+  },
+  {
     id: 146,
     type: "article",
     title: "Chat App with Redis, WebSocket and Go",
     category: ["web-dev"],
     tech: ["Redis", "Web Socket", "Go", "Azure"],
     datePublished: "Apr 13, 2020",
-    projectURL: "https://dev.to/azure/let-s-learn-how-to-to-build-a-chat-application-with-redis-websocket-and-go-5cck",
+    projectURL:
+      "https://dev.to/azure/let-s-learn-how-to-to-build-a-chat-application-with-redis-websocket-and-go-5cck",
   },
   {
     id: 145,
@@ -15,7 +53,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["React", "HTML", "CSS", "JavaScript"],
     datePublished: "Apr 22, 2020",
-    projectURL: "https://dev.to/elaziziyoussouf/spotify-login-animation-with-react-navigation-v5-4od7",
+    projectURL:
+      "https://dev.to/elaziziyoussouf/spotify-login-animation-with-react-navigation-v5-4od7",
   },
   {
     id: 144,

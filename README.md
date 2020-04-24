@@ -111,6 +111,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Game Development: 
 
+- [Build a Simple 3D Game using Godot 3.1 (Godot, C#, 3D)](https://projectlearn.io/learn/game-development/project/simple-3d-game-using-godot-3.1-150?from=github)
+- [Build a Simple Puzzle Game in Godot - Box and Switch (Godot, C#, 2D)](https://projectlearn.io/learn/game-development/project/simple-puzzle-game-in-godot---box-and-switch-149?from=github)
+- [Build a Game Interface From Scratch in Godot 3 (Godot, C#, 2D)](https://projectlearn.io/learn/game-development/project/game-interface-from-scratch-in-godot-3-148?from=github)
+- [Build a 2D Game with Godot: Player and Enemy (Godot, C#, 2D)](https://projectlearn.io/learn/game-development/project/2d-game-with-godot:-player-and-enemy-147?from=github)
 - [Build a Multiplayer Card Game with Socket.io (Phaser 3, Express, Socket.io)](https://projectlearn.io/learn/game-development/project/multiplayer-card-game-with-socket.io-139?from=github)
 - [Build a Multiplayer Card Game with Unity 2D and Mirror (C#, Unity, 2D)](https://projectlearn.io/learn/game-development/project/multiplayer-card-game-with-unity-2d-and-mirror-137?from=github)
 - [Build a Roguelike Tutorial in Rust (Rust, 2D)](https://projectlearn.io/learn/game-development/project/roguelike-tutorial-in-rust-136?from=github)
