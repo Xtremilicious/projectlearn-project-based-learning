@@ -1,5 +1,42 @@
 exports.projectsData = [
   {
+    id: 154,
+    type: "article",
+    title: "Pokémon Web App with React Hooks and Context API",
+    category: ["web-dev"],
+    tech: ["React", "HTML", "CSS", "JavaScript"],
+    datePublished: "Apr 24, 2020",
+    projectURL:
+      "https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/",
+  },
+  {
+    id: 153,
+    type: "article",
+    title: "Watershed Monitor using JavaScript and Rails",
+    category: ["web-dev"],
+    tech: ["Ruby", "Rails", "JavaScript"],
+    datePublished: "Apr 28, 2020",
+    projectURL: "https://dev.to/jessesbyers/watershed-monitor-javascript-and-rails-project-576c",
+  },
+  {
+    id: 152,
+    type: "article",
+    title: "Climate Data Dashboard using React and Redux",
+    category: ["web-dev"],
+    tech: ["React", "Redux", "HTML", "CSS", "JavaScript"],
+    datePublished: "Apr 28, 2020",
+    projectURL: "https://dev.to/jessesbyers/climate-data-dashboard-react-redux-project-1ilb",
+  },
+  {
+    id: 151,
+    type: "article",
+    title: "Flipping UNO Cards using only CSS",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "Apr 28, 2020",
+    projectURL: "https://dev.to/comscience/flipping-uno-cards-using-only-css-4jb9",
+  },
+  {
     id: 150,
     type: "video",
     title: "Simple 3D Game using Godot 3.1",

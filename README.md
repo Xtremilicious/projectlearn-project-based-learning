@@ -14,6 +14,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Pokémon Web App with React Hooks and Context API (React, HTML, CSS)](https://projectlearn.io/learn/web-development/project/pokémon-web-app-with-react-hooks-and-context-api-154?from=github)
+- [Build a Watershed Monitor using JavaScript and Rails (Ruby, Rails, JavaScript)](https://projectlearn.io/learn/web-development/project/watershed-monitor-using-javascript-and-rails-153?from=github)
+- [Build a Climate Data Dashboard using React and Redux (React, Redux, HTML)](https://projectlearn.io/learn/web-development/project/climate-data-dashboard-using-react-and-redux-152?from=github)
+- [Build a Flipping UNO Cards using only CSS (HTML, CSS)](https://projectlearn.io/learn/web-development/project/flipping-uno-cards-using-only-css-151?from=github)
 - [Build a Chat App with Redis, WebSocket and Go (Redis, Web Socket, Go)](https://projectlearn.io/learn/web-development/project/chat-app-with-redis,-websocket-and-go-146?from=github)
 - [Build a Spotify Login Animation With React Navigation (React, HTML, CSS)](https://projectlearn.io/learn/web-development/project/spotify-login-animation-with-react-navigation-145?from=github)
 - [Build a Dynamic Qeather Interface with just CSS (HTML, CSS)](https://projectlearn.io/learn/web-development/project/dynamic-qeather-interface-with-just-css-144?from=github)
