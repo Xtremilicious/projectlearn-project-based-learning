@@ -70,7 +70,7 @@ const Project = props => {
         <title>{`Build ${article} ${project.title} - ${projectCategory} Project | ProjectLearn`}</title>
         {/* <!--Title--> */}
       </Head>
-      <ProjectInfo project={project} projectCategory={projectCategory} slug={slug} />
+      <ProjectInfo project={project} projectCategory={projectCategory} slug={slug}/>
     </div>
   ) : (
     "Project Not Found"

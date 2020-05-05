@@ -25,7 +25,7 @@ class gameDevelopment extends Component {
           {/* <!--Title--> */}
           <title>Learn Game Development | ProjectLearn</title>
         </Head>
-        <Layout url={`game-development`} slug={`game-dev`} title={`Game Development`}/>
+        <Layout url={`game-development`} slug={`game-dev`} title={`Game Development`} color='--theme-yellow'/>
       </div>
     );
   }

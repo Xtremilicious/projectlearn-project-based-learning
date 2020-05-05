@@ -26,7 +26,7 @@ class webDevelopment extends Component {
           {/* <!--Title--> */}
           <title>Learn Web Development | ProjectLearn</title>
         </Head>
-        <Layout url={`web-development`} slug={`web-dev`} title={`Web Development`}/>
+        <Layout url={`web-development`} slug={`web-dev`} title={`Web Development`} color='--theme-green'/>
       </div>
     );
   }

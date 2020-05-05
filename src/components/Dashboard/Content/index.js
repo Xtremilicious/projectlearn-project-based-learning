@@ -21,12 +21,12 @@ const ContentWrapper = styled.div`
     z-index: -1;
     height: 30vh;
     width: 75vw;
-    background: linear-gradient(90deg, var(--dashboard-purple), var(--dashboard-purple-alt));
+    background: linear-gradient(90deg, var(${props => props.bg}), var(${props => props.bg}-alt));
   }
   .section-header {
     display: flex;
-    background: linear-gradient(90deg, var(--dashboard-purple), var(--dashboard-purple-alt));
-    color: white;
+    background: linear-gradient(90deg, var(${props => props.bg}), var(${props => props.bg}-alt));
+    color: ${props => props.color};
     .section-title {
       font-size: 5vh;
       padding: 4vh 4vh 0 4vh;
@@ -149,7 +149,7 @@ class Content extends Component {
     }
 
     return (
-      <ContentWrapper>
+      <ContentWrapper bg={this.props.color}>
         <Link href="../../#categories">
           <div className="back-to-landing">
             <FontAwesomeIcon icon={faArrowLeft} />
@@ -179,7 +179,7 @@ class Content extends Component {
           </div>
         </div>
 
-        <ProjectList projects={projects} url={url} />
+        <ProjectList projects={projects} url={url} color={this.props.color}/>
       </ContentWrapper>
     );
   }

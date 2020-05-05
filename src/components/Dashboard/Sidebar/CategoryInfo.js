@@ -9,14 +9,14 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 const InfoWrapper = styled.div`
   width: 25vw;
   .cat-info {
-    background: var(--dashboard-purple);
+    background: var(${props => props.bg});
     position: relative;
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(${props => props.color});
   }
   .selected-cat {
     display: flex;
@@ -24,12 +24,13 @@ const InfoWrapper = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 3vh;
+    color: white;
     .svg-inline--fa {
       font-size: 7vh;
       padding: 1vh;
     }
     .cat-art {
-      background: var(--dashboard-purple-alt);
+      background: var(${props => props.bg}-alt);
       border-radius: 2vh;
       height: 9vh;
       width: 9vh;
@@ -40,7 +41,7 @@ const InfoWrapper = styled.div`
     .cat-title {
       margin-top: 1vh;
       font-size: 3.3vh;
-      background: var(--dashboard-purple-alt);
+      background: var(${props => props.bg}-alt);
       padding: 1vh;
       border-radius: 1vh;
     }
@@ -103,7 +104,7 @@ const categorySlug = props.slug;
   }
 
   return (
-    <InfoWrapper>
+    <InfoWrapper bg={props.color}>
       <div className="cat-info">
         <Link href="../../#categories">
           <div className="back-to-landing">

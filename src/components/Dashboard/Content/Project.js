@@ -20,18 +20,20 @@ const ProjectWrapper = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.04);
     :hover {
       transform: scale(1.025);
-      background-color: var(--dashboard-purple);
-      color: white;
+      background-color: var(${(props) => props.bg});
+
       .cat-art {
-        background-color: var(--dashboard-purple-alt);
+        background-color: var(${(props) => props.bg}-alt);
         box-shadow: none !important;
+        color: white;
       }
       .tag {
-        background-color: var(--dashboard-purple-alt);
+        background-color: var(${(props) => props.bg}-alt);
         box-shadow: none !important;
+        color: white;
       }
       .link {
-        color: white;
+        color: black;
       }
     }
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -101,7 +103,6 @@ const ProjectWrapper = styled.div`
           padding: 0.1vw 0.6vw;
           border-radius: 1vh;
           font-size: 1.2vw;
-          border: 1px solid rgba(230, 230, 230, 0.7);
         }
       }
     }
@@ -210,9 +211,10 @@ const Content = (props) => {
   const year = date.getFullYear();
 
   let urlTitle = title.toLowerCase().split(" ").join("-");
+  const background = props.color
 
   return (
-    <ProjectWrapper>
+    <ProjectWrapper bg={background}>
       <div className="project-grid-items">
         <PostLink id={id} title={urlTitle} url={props.url} />
         {/* <a href={projectURL} target=")blank">

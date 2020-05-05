@@ -25,7 +25,7 @@ class machineLearningAI extends Component {
           {/* <!--Title--> */}
           <title>Learn Machine Learning and AI | ProjectLearn</title>
         </Head>
-        <Layout url={`machine-learning-and-ai`} slug={`ml-ai`} title={`Machine Learning & AI`}/>
+        <Layout url={`machine-learning-and-ai`} slug={`ml-ai`} title={`Machine Learning & AI`} color='--theme-blue'/>
       </div>
     );
   }

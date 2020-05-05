@@ -77,10 +77,10 @@ const CategoryWrapper = styled.div`
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      /* background-color: var(--dashboard-purple-alt); */
+      /* background-color: var(${props => props.bg}-alt); */
       padding: 1.2vw;
       :hover {
-        color: var(--dashboard-purple-alt);
+        color: var(${props => props.bg}-alt);
         transition: 0.4s;
       }
     }
@@ -95,7 +95,7 @@ const CategoryWrapper = styled.div`
       align-items: center;
       cursor: pointer;
       padding: 1.2vw;
-      color: var(--dashboard-purple-alt);
+      color: var(${props => props.bg}-alt);
     }
     .cat-title {
       margin-top: 1vh;
@@ -118,7 +118,7 @@ const Categories = props => {
       : mlAI;
 
   return (
-    <CategoryWrapper>
+    <CategoryWrapper bg={props.color}>
       <div className="cats">
         <div className="section-title">Technologies</div>
         <div className="cat-grid">

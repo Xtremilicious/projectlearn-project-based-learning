@@ -26,7 +26,7 @@ class mobileDevelopment extends Component {
           {/* <!--Title--> */}
           <title>Learn Mobile Development | ProjectLearn</title>
         </Head>
-        <Layout url={`mobile-development`} slug={`mob-dev`} title={`Mobile Development`} />
+        <Layout url={`mobile-development`} slug={`mob-dev`} title={`Mobile Development`} color='--theme-pink'/>
       </div>
     );
   }

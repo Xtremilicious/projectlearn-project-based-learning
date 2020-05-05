@@ -19,10 +19,10 @@ export default class Layout extends Component {
     return (
       <LayoutWrapper>
         <div className="layout-first">
-          <Sidebar slug={this.props.slug} url={this.props.url}/>
+          <Sidebar slug={this.props.slug} url={this.props.url} color={this.props.color}/>
         </div>
         <div className="layout-second">
-          <Content slug={this.props.slug} url={this.props.url} title={this.props.title}/>
+          <Content slug={this.props.slug} url={this.props.url} title={this.props.title} color={this.props.color}/>
         </div>
       </LayoutWrapper>
     );
