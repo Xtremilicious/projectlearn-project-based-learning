@@ -1,5 +1,63 @@
 exports.projectsData = [
   {
+    id: 160,
+    type: "article",
+    title: "Keyword Density Tool with Laravel from Scratch",
+    category: ["web-dev"],
+    tech: ["Laravel", "PHP", "JQuery", "AJAX", "SEO"],
+    datePublished: "Apr 28, 2020",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-a-keyword-density-tool-with-laravel/",
+  },
+  {
+    id: 159,
+    type: "video",
+    title: "YouTube Clone using Yii2 PHP Framework",
+    category: ["web-dev"],
+    tech: ["Yii2", "PHP"],
+    datePublished: "Apr 28, 2020",
+    projectURL: "https://www.youtube.com/watch?v=whuIf33v2Ug",
+  },
+  {
+    id: 158,
+    type: "article",
+    title: "Auto-Updating Data Visualizations in Python with IEX Cloud, Matplotlib, and AWS",
+    category: ["ml-ai"],
+    tech: ["Python", "AWS", "Matplotlib"],
+    datePublished: "3 MAY 2020",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-create-auto-updating-data-visualizations-in-python-with-matplotlib-and-aws/",
+  },
+  {
+    id: 157,
+    type: "article",
+    title: "Reddit Clone with React, GraphQL and Amplify",
+    category: ["web-dev"],
+    tech: ["React", "Amplify", "AWS", "GraphQL", "Node", "JavaScript"],
+    datePublished: "4 MAY 2020",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-a-full-stack-serverless-application-with-react-and-amplify/",
+  },
+  {
+    id: 156,
+    type: "article",
+    title: "Twitter Sentiment Analysis Tool using Google Cloud Platform and Node",
+    category: ["ml-ai"],
+    tech: ["API", "GCP", "Node", "JavaScript"],
+    datePublished: "4 MAY 2020",
+    projectURL: "https://www.freecodecamp.org/news/how-to-build-a-twitter-sentiment-analysis-tool/",
+  },
+  {
+    id: 155,
+    type: "article",
+    title: "Full-Stack Yelp Clone with React & GraphQL",
+    category: ["web-dev"],
+    tech: ["React", "GraphQL", "HTML", "CSS", "JavaScript"],
+    datePublished: "5 MAY 2020",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-create-a-full-stack-yelp-clone-with-react-graphql/",
+  },
+  {
     id: 154,
     type: "article",
     title: "Pokémon Web App with React Hooks and Context API",

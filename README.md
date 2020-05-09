@@ -14,6 +14,10 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Keyword Density Tool with Laravel from Scratch (Laravel, PHP, JQuery)](https://projectlearn.io/learn/web-development/project/keyword-density-tool-with-laravel-from-scratch-160?from=github)
+- [Build a YouTube Clone using Yii2 PHP Framework (Yii2, PHP)](https://projectlearn.io/learn/web-development/project/youtube-clone-using-yii2-php-framework-159?from=github)
+- [Build a Reddit Clone with React, GraphQL and Amplify (React, Amplify, AWS)](https://projectlearn.io/learn/web-development/project/reddit-clone-with-react,-graphql-and-amplify-157?from=github)
+- [Build a Full-Stack Yelp Clone with React & GraphQL (React, GraphQL, HTML)](https://projectlearn.io/learn/web-development/project/full-stack-yelp-clone-with-react-&-graphql-155?from=github)
 - [Build a Pokémon Web App with React Hooks and Context API (React, HTML, CSS)](https://projectlearn.io/learn/web-development/project/pokémon-web-app-with-react-hooks-and-context-api-154?from=github)
 - [Build a Watershed Monitor using JavaScript and Rails (Ruby, Rails, JavaScript)](https://projectlearn.io/learn/web-development/project/watershed-monitor-using-javascript-and-rails-153?from=github)
 - [Build a Climate Data Dashboard using React and Redux (React, Redux, HTML)](https://projectlearn.io/learn/web-development/project/climate-data-dashboard-using-react-and-redux-152?from=github)
@@ -161,6 +165,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Machine Learning & AI: 
 
+- [Build an Auto-Updating Data Visualizations in Python with IEX Cloud, Matplotlib, and AWS (Python, AWS, Matplotlib)](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-iex-cloud,-matplotlib,-and-aws-158?from=github)
+- [Build a Twitter Sentiment Analysis Tool using Google Cloud Platform and Node (API, GCP, Node)](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-google-cloud-platform-and-node-156?from=github)
 - [Build a Twitter Sentiment Analysis using CNN (Python, Matplotlib, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-using-cnn-120?from=github)
 - [Build a Taylor Swift Lyrics Generator (Python, Keras, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/taylor-swift-lyrics-generator-77?from=github)
 - [Build a MNIST Digit Recognizer (Python, Keras, TensorFlow)](https://projectlearn.io/learn/machine-learning-and-ai/project/mnist-digit-recognizer-76?from=github)
