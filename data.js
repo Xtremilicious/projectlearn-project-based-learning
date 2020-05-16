@@ -21,7 +21,7 @@ exports.projectsData = [
   {
     id: 158,
     type: "article",
-    title: "Auto-Updating Data Visualizations in Python with IEX Cloud, Matplotlib, and AWS",
+    title: "Auto-Updating Data Visualizations in Python with AWS",
     category: ["ml-ai"],
     tech: ["Python", "AWS", "Matplotlib"],
     datePublished: "3 MAY 2020",
@@ -41,7 +41,7 @@ exports.projectsData = [
   {
     id: 156,
     type: "article",
-    title: "Twitter Sentiment Analysis Tool using Google Cloud Platform and Node",
+    title: "Twitter Sentiment Analysis Tool using GCP and Node",
     category: ["ml-ai"],
     tech: ["API", "GCP", "Node", "JavaScript"],
     datePublished: "4 MAY 2020",
