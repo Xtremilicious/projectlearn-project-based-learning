@@ -50,7 +50,7 @@ exports.projectsData = [
   {
     id: 155,
     type: "article",
-    title: "Full-Stack Yelp Clone with React & GraphQL",
+    title: "Full-Stack Yelp Clone with React and GraphQL",
     category: ["web-dev"],
     tech: ["React", "GraphQL", "HTML", "CSS", "JavaScript"],
     datePublished: "5 MAY 2020",
