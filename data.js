@@ -1307,15 +1307,6 @@ exports.projectsData = [
     projectURL: "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
   },
   {
-    id: 26,
-    type: "article",
-    title: "Yelp Clone",
-    category: ["web-dev"],
-    tech: ["React", "Google Maps", "API", "JavaScript", "HTML5", "CSS3"],
-    datePublished: "2016-05-19",
-    projectURL: "https://www.newline.co/fullstack-react/articles/react-tutorial-cloning-yelp",
-  },
-  {
     id: 25,
     type: "article",
     title: "Trello Clone",
