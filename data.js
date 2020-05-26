@@ -1,5 +1,15 @@
 exports.projectsData = [
   {
+    id: 161,
+    type: "video",
+    title: "Pomodoro Clock",
+    category: ["web-dev"],
+    tech: ["React", "JavaScript", "HTML", "CSS"],
+    datePublished: "Mar 28, 2020",
+    projectURL:
+      "https://www.youtube.com/watch?v=VPrmzk-1Gps&list=PL3cz80ehFCalRswkbzwTJ-zdZxu3iBjkJ",
+  },
+  {
     id: 160,
     type: "article",
     title: "Keyword Density Tool with Laravel from Scratch",
