@@ -14,6 +14,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
+- [Build a Pomodoro Clock (React, JavaScript, HTML)](https://projectlearn.io/learn/web-development/project/pomodoro-clock-161?from=github)
 - [Build a Keyword Density Tool with Laravel from Scratch (Laravel, PHP, JQuery)](https://projectlearn.io/learn/web-development/project/keyword-density-tool-with-laravel-from-scratch-160?from=github)
 - [Build a YouTube Clone using Yii2 PHP Framework (Yii2, PHP)](https://projectlearn.io/learn/web-development/project/youtube-clone-using-yii2-php-framework-159?from=github)
 - [Build a Reddit Clone with React, GraphQL and Amplify (React, Amplify, AWS)](https://projectlearn.io/learn/web-development/project/reddit-clone-with-react,-graphql-and-amplify-157?from=github)
@@ -30,7 +31,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - [Build a Todo App with the PERN stack (PostgreSQL, Express, React)](https://projectlearn.io/learn/web-development/project/todo-app-with-the-pern-stack-141?from=github)
 - [Build a Summer Road Trip Mapping App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/summer-road-trip-mapping-app-with-gatsby-140?from=github)
 - [Build a Multiplayer Card Game with Socket.io (Phaser 3, Express, Socket.io)](https://projectlearn.io/learn/web-development/project/multiplayer-card-game-with-socket.io-139?from=github)
-- [Build a COVID-19 Dashboard & Map App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/covid-19-dashboard-&-map-app-with-gatsby-138?from=github)
+- [Build a COVID-19 Dashboard and Map App with Gatsby (React, Gatsby, Leaflet)](https://projectlearn.io/learn/web-development/project/covid-19-dashboard-and-map-app-with-gatsby-138?from=github)
 - [Build a Flashcard Quiz With React (React, API, JavaScript)](https://projectlearn.io/learn/web-development/project/flashcard-quiz-with-react-125?from=github)
 - [Build a Whack-a-Mole with pure JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)
 - [Build a NOKIA 3310 Snake Game using JavaScript (JavaScript, HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)
@@ -81,7 +82,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 - [Build a Chrome Extension (React, Parcel, JavaScript)](https://projectlearn.io/learn/web-development/project/chrome-extension-29?from=github)
 - [Build a Real-Time Twitter Stream (React, Node, API)](https://projectlearn.io/learn/web-development/project/real-time-twitter-stream-28?from=github)
 - [Build a Movie Voting App (React, Redux, API)](https://projectlearn.io/learn/web-development/project/movie-voting-app-27?from=github)
-- [Build a Yelp Clone (React, Google Maps, API)](https://projectlearn.io/learn/web-development/project/yelp-clone-26?from=github)
 - [Build a Trello Clone (React, Elixir, Phoenix)](https://projectlearn.io/learn/web-development/project/trello-clone-25?from=github)
 - [Build a Wiki-Style CMS (C#, .NET, Razor Pages)](https://projectlearn.io/learn/web-development/project/wiki-style-cms-18?from=github)
 - [Build a Spotify Inspired Web Design (HTML5, CSS3)](https://projectlearn.io/learn/web-development/project/spotify-inspired-web-design-15?from=github)

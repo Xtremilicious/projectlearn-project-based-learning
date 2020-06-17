@@ -220,7 +220,7 @@ exports.projectsData = [
   {
     id: 138,
     type: "article",
-    title: "COVID-19 Dashboard & Map App with Gatsby",
+    title: "COVID-19 Dashboard and Map App with Gatsby",
     category: ["web-dev"],
     tech: ["React", "Gatsby", "Leaflet"],
     datePublished: "31 MARCH 2020",

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Link from "next/link";
 import styled from "styled-components";
 
+import Circle from "../../utils/loading-spinner";
+
 //Redux Stuff
 import { connect } from "react-redux";
 import { getGitHubStars } from "../../redux/actions/dataActions";
@@ -112,8 +114,7 @@ class Navbar extends Component {
           >
             <div className="nav-component gt-container">
               <FontAwesomeIcon icon={faGithub} />
-              {stars}
-              {" stars"}
+              {stars ? `${stars} stars` : <Circle/>}
             </div>
           </a>
         </div>
@@ -137,8 +138,7 @@ class Navbar extends Component {
           >
             <div className="nav-component gt-container">
               <FontAwesomeIcon icon={faGithub} />
-              {stars}
-              {" stars"}
+              {stars ? `${stars} stars` : <Circle/>}
             </div>
           </a>
         </div>
