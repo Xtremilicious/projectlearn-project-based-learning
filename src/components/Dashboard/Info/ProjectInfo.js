@@ -12,7 +12,7 @@ import {
   faVideo,
   faNewspaper,
   faExternalLinkAlt,
-  faArrowLeft
+  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -64,17 +64,16 @@ const ProjectInfoWrapper = styled.div`
       word-wrap: break-word;
       .tag {
         cursor: pointer;
-        background-color: #f2f2f2;
         width: fit-content;
         margin-right: 0.7vw;
         margin-bottom: 0.7vw;
         padding: 0.2vw 0.6vw;
         border-radius: 1vh;
         font-size: 1.15vw;
-        border: 1px solid #bdbdbd;
-        transition: 0.3s;
+        transition: 0.4s;
+        border: 1px dashed var(--dashboard-purple-alt);
         &:hover {
-          border: 1px solid #848484;
+          border: 1px solid var(--dashboard-purple-alt);
         }
       }
     }
@@ -261,10 +260,10 @@ function ProjectInfo(props) {
 
   const relatedProjects = props.projects
     .filter(
-      filteredProject =>
+      (filteredProject) =>
         filteredProject.category.includes(category) && filteredProject.id !== project.id
     )
-    .map(item => item);
+    .map((item) => item);
 
   const range = getRandomInt(relatedProjects.length - 2);
 
@@ -307,12 +306,13 @@ function ProjectInfo(props) {
             <h1 className="project-title">{project.title}</h1>
             <div className="date">Date Published: {`${day} ${month} ${year}`}</div>
             <div className="tags-container">
-              {project.tech.map(t => (
+              {project.tech.map((t) => (
                 <Link
                   href={{
                     pathname: `../../${props.slug}`,
-                    query: { tech: t }
+                    query: { tech: t },
                   }}
+                  key={t}
                 >
                   <span className="tag">{t} </span>
                 </Link>
@@ -328,7 +328,7 @@ function ProjectInfo(props) {
         <div className="description-title">Description</div>
         <div className="description">
           Learn {props.projectCategory} by building the project {project.title} using concepts and
-          technologies like {project.tech.map(t => t).join(", ")} and more!
+          technologies like {project.tech.map((t) => t).join(", ")} and more!
         </div>
         <div className="description-title">Project Link</div>
         <div className="external-link-container">
@@ -364,9 +364,9 @@ function ProjectInfo(props) {
   );
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    projects: state.data.projects
+    projects: state.data.projects,
   };
 };
 

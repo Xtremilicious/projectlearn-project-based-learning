@@ -9,14 +9,14 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 const InfoWrapper = styled.div`
   width: 25vw;
   .cat-info {
-    background: var(${props => props.bg});
+    background: var(${(props) => props.bg});
     position: relative;
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(${props => props.color});
+    color: var(${(props) => props.color});
   }
   .selected-cat {
     display: flex;
@@ -30,7 +30,7 @@ const InfoWrapper = styled.div`
       padding: 1vh;
     }
     .cat-art {
-      background: var(${props => props.bg}-alt);
+      background: var(${(props) => props.bg}-alt);
       border-radius: 2vh;
       height: 9vh;
       width: 9vh;
@@ -41,7 +41,7 @@ const InfoWrapper = styled.div`
     .cat-title {
       margin-top: 1vh;
       font-size: 3.3vh;
-      background: var(${props => props.bg}-alt);
+      background: var(${(props) => props.bg}-alt);
       padding: 1vh;
       border-radius: 1vh;
     }
@@ -71,9 +71,9 @@ const InfoWrapper = styled.div`
   }
 `;
 
-const CategoryInfo = props => {
+const CategoryInfo = (props) => {
   const {
-    query: { tech }
+    query: { tech },
   } = useRouter();
 
   let { projects } = props;
@@ -82,23 +82,22 @@ const CategoryInfo = props => {
     articleCount = 0,
     videoCount = 0;
 
-const categorySlug = props.slug;
+  const categorySlug = props.slug;
 
   if (projects != null) {
-    projects = projects.filter(project => project.category.includes(categorySlug)).map(item=> item);
+    projects = projects
+      .filter((project) => project.category.includes(categorySlug))
+      .map((item) => item);
     if (tech != undefined) {
       const filteredProjects = projects
-        .filter(projects => projects.tech.includes(tech))
-        .map(item => item);
+        .filter((projects) => projects.tech.includes(tech))
+        .map((item) => item);
       totalCount = filteredProjects.length;
-      articleCount = filteredProjects.filter(
-        project => project.type === "article"
-      ).length;
+      articleCount = filteredProjects.filter((project) => project.type === "article").length;
       videoCount = totalCount - articleCount;
     } else {
       totalCount = projects.length;
-      articleCount = projects.filter(project => project.type === "article")
-        .length;
+      articleCount = projects.filter((project) => project.type === "article").length;
       videoCount = totalCount - articleCount;
     }
   }
@@ -132,9 +131,9 @@ const categorySlug = props.slug;
     </InfoWrapper>
   );
 };
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    projects: state.data.projects
+    projects: state.data.projects,
   };
 };
 

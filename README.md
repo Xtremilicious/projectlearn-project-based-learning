@@ -14,7 +14,14 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Web Development: 
 
-- [Build a Pomodoro Clock (React, JavaScript, HTML)](https://projectlearn.io/learn/web-development/project/pomodoro-clock-161?from=github)
+- [Build a Travel Bucket List Map with Gatsby, React Leaflet, and GraphCMS (Gatsby, Leaflet, GraphCMS)](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby,-react-leaflet,-and-graphcms-168?from=github)
+- [Build a Memory Card Game with Vue.js (Vue, JavaScript, HTML)](https://projectlearn.io/learn/web-development/project/memory-card-game-with-vue.js-167?from=github)
+- [Build a Strapi & GatsbyJS Course - Portfolio Project (Strapi, Gatsby, JavaScript)](https://projectlearn.io/learn/web-development/project/strapi-&-gatsbyjs-course---portfolio-project-166?from=github)
+- [Build a Storybook - Node, Express, MongoDB and Google OAuth (MongoDB, Node, JavaScript)](https://projectlearn.io/learn/web-development/project/storybook---node,-express,-mongodb-and-google-oauth-165?from=github)
+- [Build a Breathe & Relax App - JavaScript and CSS Animations (JavaScript, HTML, CSS)](https://projectlearn.io/learn/web-development/project/breathe-&-relax-app---javascript-and-css-animations-164?from=github)
+- [Build a Node.js CLI For Cryptocurrency Prices (Node, JavaScript)](https://projectlearn.io/learn/web-development/project/node.js-cli-for-cryptocurrency-prices-163?from=github)
+- [Build a React and Tailwind CSS Image Gallery (React, Tailwind, JavaScript)](https://projectlearn.io/learn/web-development/project/react-and-tailwind-css-image-gallery-162?from=github)
+- [Build a Pomodoro Clock using React (React, JavaScript, HTML)](https://projectlearn.io/learn/web-development/project/pomodoro-clock-using-react-161?from=github)
 - [Build a Keyword Density Tool with Laravel from Scratch (Laravel, PHP, JQuery)](https://projectlearn.io/learn/web-development/project/keyword-density-tool-with-laravel-from-scratch-160?from=github)
 - [Build a YouTube Clone using Yii2 PHP Framework (Yii2, PHP)](https://projectlearn.io/learn/web-development/project/youtube-clone-using-yii2-php-framework-159?from=github)
 - [Build a Reddit Clone with React, GraphQL and Amplify (React, Amplify, AWS)](https://projectlearn.io/learn/web-development/project/reddit-clone-with-react,-graphql-and-amplify-157?from=github)
@@ -165,6 +172,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
 ### Machine Learning & AI: 
 
+- [Build a CNN that Detects Pneumonia from Chest X-Rays (CNN, Python)](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)
 - [Build an Auto-Updating Data Visualizations in Python with AWS (Python, AWS, Matplotlib)](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-aws-158?from=github)
 - [Build a Twitter Sentiment Analysis Tool using GCP and Node (API, GCP, Node)](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-gcp-and-node-156?from=github)
 - [Build a Twitter Sentiment Analysis using CNN (Python, Matplotlib, Numpy)](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-using-cnn-120?from=github)

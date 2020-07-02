@@ -15,8 +15,8 @@ const ProjectWrapper = styled.div`
     padding: 1.1vw;
     background-color: white;
     transition: 0.4s;
+    border-top: 4px solid var(--dashboard-purple-alt);
     :hover {
-      transform: scale(1.025);
       background-color: var(--dashboard-purple);
       color: white;
       .cat-art {
@@ -96,7 +96,7 @@ const ProjectWrapper = styled.div`
         word-wrap: normal;
         .tag {
           cursor: pointer;
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          border: 1px dashed var(--dashboard-purple-alt);
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
@@ -116,7 +116,7 @@ const ProjectWrapper = styled.div`
   }
 `;
 
-const PostLink = props => (
+const PostLink = (props) => (
   <Link
     href={`/learn/${props.url}/project/[id]`}
     as={`/learn/${props.url}/project/${props.title}-${props.id}`}
@@ -140,7 +140,7 @@ export default class Content extends Component {
       source,
       datePublished,
       projectURL,
-      submittedBy
+      submittedBy,
     } = this.props.project;
 
     const appIcon = (
@@ -164,10 +164,7 @@ export default class Content extends Component {
     const month = date.toLocaleString("default", { month: "short" });
     const year = date.getFullYear();
 
-    let urlTitle = title
-      .toLowerCase()
-      .split(" ")
-      .join("-");
+    let urlTitle = title.toLowerCase().split(" ").join("-");
 
     return (
       <ProjectWrapper>
@@ -186,8 +183,8 @@ export default class Content extends Component {
           <div className="details-3">
             <div className="section-title">Top Technologies:</div>
             <div className="tags-container">
-              {tech.slice(0, 3).map(t => (
-                <Link href={{ pathname: `../../${this.props.slug}`, query: { tech: t } }}>
+              {tech.slice(0, 3).map((t) => (
+                <Link href={{ pathname: `../../${this.props.slug}`, query: { tech: t } }} key={t}>
                   <span className="tag">{t} </span>
                 </Link>
               ))}

@@ -43,6 +43,7 @@ const CategoriesWrapper = styled.div`
     align-content: center;
     position: relative;
     padding-right: 0.6rem;
+    cursor: pointer;
   }
   .category-art {
     margin: 1.5rem;
@@ -148,7 +149,7 @@ export default function Categories() {
             style={{
               backgroundColor: "var(--theme-pink)",
               backgroundImage:
-                "repeating-linear-gradient(45deg,#f9d9eb,#f9d9eb 50px,#f7cfe2 0,#f7cfe2 100px)"
+                "repeating-linear-gradient(45deg,#f9d9eb,#f9d9eb 50px,#f7cfe2 0,#f7cfe2 100px)",
             }}
             style={{ backgroundColor: "var(--theme-pink)" }}
           >

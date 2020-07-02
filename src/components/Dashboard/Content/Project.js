@@ -18,10 +18,10 @@ const ProjectWrapper = styled.div`
     background: white;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.04);
+    border-top: 4px solid var(${(props) => props.bg}-alt);
     :hover {
-      transform: scale(1.025);
+      box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
       background-color: var(${(props) => props.bg});
-
       .cat-art {
         background-color: var(${(props) => props.bg}-alt);
         box-shadow: none !important;
@@ -36,7 +36,6 @@ const ProjectWrapper = styled.div`
         color: black;
       }
     }
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     .details-1 {
       display: flex;
       .main-cat {
@@ -98,6 +97,7 @@ const ProjectWrapper = styled.div`
         .tag {
           cursor: pointer;
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+          border: 1px dashed var(${(props) => props.bg}-alt);
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
@@ -211,7 +211,7 @@ const Content = (props) => {
   const year = date.getFullYear();
 
   let urlTitle = title.toLowerCase().split(" ").join("-");
-  const background = props.color
+  const background = props.color;
 
   return (
     <ProjectWrapper bg={background}>
@@ -236,7 +236,7 @@ const Content = (props) => {
           <div className="section-title">Top Technologies:</div>
           <div className="tags-container">
             {tech.slice(0, 3).map((t) => (
-              <Link href={{ query: { tech: t } }}>
+              <Link href={{ query: { tech: t } }} key={t}>
                 <span className="tag">{t} </span>
               </Link>
             ))}

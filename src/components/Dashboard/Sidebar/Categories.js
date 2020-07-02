@@ -22,7 +22,7 @@ import {
   faJava,
   faSwift,
   faReact,
-  faUnity
+  faUnity,
 } from "@fortawesome/free-brands-svg-icons";
 import { faInfinity, faCode } from "@fortawesome/free-solid-svg-icons";
 library.add(
@@ -77,10 +77,10 @@ const CategoryWrapper = styled.div`
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      /* background-color: var(${props => props.bg}-alt); */
+      /* background-color: var(${(props) => props.bg}-alt); */
       padding: 1.2vw;
       :hover {
-        color: var(${props => props.bg}-alt);
+        color: var(${(props) => props.bg}-alt);
         transition: 0.4s;
       }
     }
@@ -95,7 +95,7 @@ const CategoryWrapper = styled.div`
       align-items: center;
       cursor: pointer;
       padding: 1.2vw;
-      color: var(${props => props.bg}-alt);
+      color: var(${(props) => props.bg}-alt);
     }
     .cat-title {
       margin-top: 1vh;
@@ -103,9 +103,9 @@ const CategoryWrapper = styled.div`
     }
   }
 `;
-const Categories = props => {
+const Categories = (props) => {
   const {
-    query: { tech }
+    query: { tech },
   } = useRouter();
 
   const techCategories =
@@ -135,9 +135,9 @@ const Categories = props => {
               </div>
             )}
           </Link>
-          {techCategories.map(item =>
+          {techCategories.map((item, index) =>
             tech === item.category ? (
-              <div className="cat-grid-item-selected">
+              <div className="cat-grid-item-selected" key={index}>
                 {item.icon ? (
                   <FontAwesomeIcon icon={["fab", item.icon]} />
                 ) : (
@@ -148,8 +148,9 @@ const Categories = props => {
             ) : (
               <Link
                 href={{
-                  query: { tech: item.category }
+                  query: { tech: item.category },
                 }}
+                key={index}
               >
                 <div className="cat-grid-item">
                   {item.icon ? (
