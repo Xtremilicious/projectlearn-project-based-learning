@@ -23,7 +23,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
   fileContents = fileContents.concat(`
 ### Web Development: \n
-| Project | Technologies | Link |
+| Project &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Technologies | Link |
 | :-------------- |:-|:----|
 `);
 
