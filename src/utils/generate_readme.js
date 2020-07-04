@@ -53,9 +53,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
               .join("-")}-${projects[i].id}?from=github)`.concat("\n")
           ))
         : (fileContents = fileContents.concat(
-            `- [Build a ${projects[i].title} (${projects[i].tech
+            `| [Build a ${projects[i].title} | (${projects[i].tech
               .slice(0, 3)
-              .join(", ")})](https://projectlearn.io/learn/${slug}/project/${projects[i].title
+              .join(", ")}) |](https://projectlearn.io/learn/${slug}/project/${projects[i].title
               .toLowerCase()
               .split(" ")
               .join("-")}-${projects[i].id}?from=github)`.concat("\n")
