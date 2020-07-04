@@ -29,9 +29,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
   for (domain of domains) {
     fileContents = fileContents.concat(`
-### ${domain[2]}: \n
-| Project | Technologies | Link |
-| :--- |:---|:---|
+### ${domain[2]}: \n| Project | Technologies | Link |\n| :--- |:---|:---|
     `);
 
     for (let i = 0; i < projects.length; i++) {
@@ -40,7 +38,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
       if (projects[i].category.includes(t)) {
         fileContents = fileContents.concat(
-          `| ${projects[i].title} | ${projects[i].tech
+          `
+| ${projects[i].title} | ${projects[i].tech
             .slice(0, 5)
             .join(", ")} | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
             .toLowerCase()
