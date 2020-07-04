@@ -38,7 +38,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
           .join(", ")}) | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
           .toLowerCase()
           .split(" ")
-          .join("-")}-${projects[i].id}?from=github)`
+          .join("-")}-${projects[i].id}?from=github)`.concat("\n")
       );
     }
   }
