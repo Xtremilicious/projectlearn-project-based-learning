@@ -23,6 +23,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
   fileContents = fileContents.concat(`
 ### Web Development: \n
+| Tables        | Tech Stack    | Link | \n
+| ------------- |:-------------:|:----:|
 `);
 
   for (let i = 0; i < projects.length; i++) {
@@ -43,9 +45,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
     if (projects[i].category.includes(t)) {
       flag === 1
         ? (fileContents = fileContents.concat(
-            `- [Build an ${projects[i].title} (${projects[i].tech
+            `| [Build an ${projects[i].title} | (${projects[i].tech
               .slice(0, 3)
-              .join(", ")})](https://projectlearn.io/learn/${slug}/project/${projects[i].title
+              .join(", ")}) |](https://projectlearn.io/learn/${slug}/project/${projects[i].title
               .toLowerCase()
               .split(" ")
               .join("-")}-${projects[i].id}?from=github)`.concat("\n")
