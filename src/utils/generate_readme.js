@@ -20,7 +20,36 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
   const projectsData = require("../../data");
   const projects = projectsData[Object.keys(projectsData)[0]];
+  const domains = [
+    ["web-dev", "web-development", "Web Devlopment"],
+    ["mob-dev", "mobile-development", "Mobile Devlopment"],
+    ["game-dev", "game-development", "Game Devlopment"],
+    ["ml-ai", "machine-learning-and-ai", "Machine Learning & AI"],
+  ];
 
+  for (domain of domains) {
+    fileContents = fileContents.concat(`
+    ### ${domain[2]}: \n
+    | Project | Technologies | Link |
+    | :--- |:---|:---|
+    `);
+
+    for (let i = 0; i < projects.length; i++) {
+      slug = domain[1];
+      t = domain[0];
+
+      if (projects[i].category.includes(t)) {
+        fileContents = fileContents.concat(
+          `| ${projects[i].title} | ${projects[i].tech
+            .slice(0, 5)
+            .join(", ")} | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
+            .toLowerCase()
+            .split(" ")
+            .join("-")}-${projects[i].id}?from=github)|`.concat("\n")
+        );
+      }
+    }
+  }
   fileContents = fileContents.concat(`
 ### Web Development: \n
 | Project | Technologies | Link |
