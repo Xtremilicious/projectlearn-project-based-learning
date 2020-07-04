@@ -15,7 +15,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 
 | Project | Technologies | Link |
-| :--- |:---|:---|
+| :-------------- |:---|:---|
 | Travel Bucket List Map with Gatsby, React Leaflet, and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby,-react-leaflet,-and-graphcms-168?from=github)|
 | Memory Card Game with Vue.js | Vue, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/memory-card-game-with-vue.js-167?from=github)|
 | Strapi & GatsbyJS Course - Portfolio Project | Strapi, Gatsby, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/strapi-&-gatsbyjs-course---portfolio-project-166?from=github)|
