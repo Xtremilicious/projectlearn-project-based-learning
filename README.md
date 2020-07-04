@@ -13,7 +13,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ## List of Project Tutorials:
 ### Web Devlopment: 
 | Project | Technologies | Link |
-| :--- |:---|:---|| Travel Bucket List Map with Gatsby, React Leaflet, and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby,-react-leaflet,-and-graphcms-168?from=github)|
+| :--- |:---|:---|
+| Travel Bucket List Map with Gatsby, React Leaflet, and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby,-react-leaflet,-and-graphcms-168?from=github)|
 | Memory Card Game with Vue.js | Vue, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/memory-card-game-with-vue.js-167?from=github)|
 | Strapi & GatsbyJS Course - Portfolio Project | Strapi, Gatsby, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/strapi-&-gatsbyjs-course---portfolio-project-166?from=github)|
 | Storybook - Node, Express, MongoDB and Google OAuth | MongoDB, Node, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/storybook---node,-express,-mongodb-and-google-oauth-165?from=github)|
@@ -106,7 +107,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Job Board App with React | React, Node, Cron, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/job-board-app-with-react-1?from=github)|
 ### Mobile Devlopment: 
 | Project | Technologies | Link |
-| :--- |:---|:---|| Flappy Bird iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/flappy-bird-ios-game-using-swift-130?from=github)|
+| :--- |:---|:---|
+| Flappy Bird iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/flappy-bird-ios-game-using-swift-130?from=github)|
 | Bull's Eye iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/bull's-eye-ios-game-using-swift-129?from=github)|
 | Task List iOS App using SwiftUI | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/task-list-ios-app-using-swiftui-128?from=github)|
 | Restaurant iOS App using SwiftUI | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/restaurant-ios-app-using-swiftui-127?from=github)|
@@ -123,7 +125,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | WhatsApp Clone with React Native | React Native, Node, GraphQL, Apollo, JavaScript | [Link](https://projectlearn.io/learn/mobile-development/project/whatsapp-clone-with-react-native-2?from=github)|
 ### Game Devlopment: 
 | Project | Technologies | Link |
-| :--- |:---|:---|| Simple 3D Game using Godot 3.1 | Godot, C#, 3D | [Link](https://projectlearn.io/learn/game-development/project/simple-3d-game-using-godot-3.1-150?from=github)|
+| :--- |:---|:---|
+| Simple 3D Game using Godot 3.1 | Godot, C#, 3D | [Link](https://projectlearn.io/learn/game-development/project/simple-3d-game-using-godot-3.1-150?from=github)|
 | Simple Puzzle Game in Godot - Box and Switch | Godot, C#, 2D | [Link](https://projectlearn.io/learn/game-development/project/simple-puzzle-game-in-godot---box-and-switch-149?from=github)|
 | Game Interface From Scratch in Godot 3 | Godot, C#, 2D | [Link](https://projectlearn.io/learn/game-development/project/game-interface-from-scratch-in-godot-3-148?from=github)|
 | 2D Game with Godot: Player and Enemy | Godot, C#, 2D | [Link](https://projectlearn.io/learn/game-development/project/2d-game-with-godot:-player-and-enemy-147?from=github)|
@@ -168,7 +171,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Simple RPG Game | C#, SQL, 2D | [Link](https://projectlearn.io/learn/game-development/project/simple-rpg-game-16?from=github)|
 ### Machine Learning & AI: 
 | Project | Technologies | Link |
-| :--- |:---|:---|| CNN that Detects Pneumonia from Chest X-Rays | CNN, Python | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)|
+| :--- |:---|:---|
+| CNN that Detects Pneumonia from Chest X-Rays | CNN, Python | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)|
 | Auto-Updating Data Visualizations in Python with AWS | Python, AWS, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-aws-158?from=github)|
 | Twitter Sentiment Analysis Tool using GCP and Node | API, GCP, Node, JavaScript | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-gcp-and-node-156?from=github)|
 | Twitter Sentiment Analysis using CNN | Python, Matplotlib, Numpy, Pandas | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-using-cnn-120?from=github)|
