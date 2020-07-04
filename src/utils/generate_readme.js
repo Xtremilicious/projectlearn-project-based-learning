@@ -33,9 +33,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
     if (projects[i].category.includes(t)) {
       fileContents = fileContents.concat(
-        `| ${projects[i].title} | ${projects[i].tech
-          .slice(0, 3)
-          .join(", ")} | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
+        `| ${projects[i].title} | ${projects[i].tech.join(
+          ", "
+        )} | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
           .toLowerCase()
           .split(" ")
           .join("-")}-${projects[i].id}?from=github)|`.concat("\n")
