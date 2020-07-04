@@ -35,7 +35,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
       fileContents = fileContents.concat(
         `| ${projects[i].title} | ${projects[i].tech
           .slice(0, 3)
-          .join(", ")} | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
+          .join(", ")} | [:link:](https://projectlearn.io/learn/${slug}/project/${projects[i].title
           .toLowerCase()
           .split(" ")
           .join("-")}-${projects[i].id}?from=github)`.concat("\n")
