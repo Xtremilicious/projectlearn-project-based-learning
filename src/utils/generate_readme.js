@@ -23,43 +23,23 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
   fileContents = fileContents.concat(`
 ### Web Development: \n
-| Tables        | Tech Stack    | Link |
+| Project        | Tech Stack    | Link |
 | ------------- |:-------------:|:----:|
 `);
 
   for (let i = 0; i < projects.length; i++) {
-    let flag = 0;
-    if (
-      projects[i].title.toLowerCase()[0] === "a" ||
-      projects[i].title.toLowerCase()[0] === "e" ||
-      projects[i].title.toLowerCase()[0] === "i" ||
-      projects[i].title.toLowerCase()[0] === "o" ||
-      projects[i].title.toLowerCase()[0] === "u"
-    ) {
-      flag = 1;
-    }
-
     slug = "web-development";
     t = "web-dev";
 
     if (projects[i].category.includes(t)) {
-      flag === 1
-        ? (fileContents = fileContents.concat(
-            `| [Build an ${projects[i].title} | (${projects[i].tech
-              .slice(0, 3)
-              .join(", ")}) |](https://projectlearn.io/learn/${slug}/project/${projects[i].title
-              .toLowerCase()
-              .split(" ")
-              .join("-")}-${projects[i].id}?from=github)`.concat("")
-          ))
-        : (fileContents = fileContents.concat(
-            `| [Build a ${projects[i].title} | (${projects[i].tech
-              .slice(0, 3)
-              .join(", ")}) |](https://projectlearn.io/learn/${slug}/project/${projects[i].title
-              .toLowerCase()
-              .split(" ")
-              .join("-")}-${projects[i].id}?from=github)`.concat("")
-          ));
+      fileContents = fileContents.concat(
+        `| ${projects[i].title} | (${projects[i].tech
+          .slice(0, 3)
+          .join(", ")}) | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
+          .toLowerCase()
+          .split(" ")
+          .join("-")}-${projects[i].id}?from=github)`
+      );
     }
   }
 
