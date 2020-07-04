@@ -29,9 +29,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 
   for (domain of domains) {
     fileContents = fileContents.concat(`
-    ### ${domain[2]}: \n
-    | Project | Technologies | Link |
-    | :--- |:---|:---|
+### ${domain[2]}: \n
+| Project | Technologies | Link |
+| :--- |:---|:---|
     `);
 
     for (let i = 0; i < projects.length; i++) {
