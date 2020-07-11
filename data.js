@@ -31,7 +31,7 @@ exports.projectsData = [
   {
     id: 166,
     type: "video",
-    title: "Strapi & GatsbyJS Course - Portfolio Project",
+    title: "Strapi and GatsbyJS Course - Portfolio Project",
     category: ["web-dev"],
     tech: ["Strapi", "Gatsby", "JavaScript", "HTML", "CSS"],
     datePublished: "Jun 25, 2020",
@@ -49,7 +49,7 @@ exports.projectsData = [
   {
     id: 164,
     type: "video",
-    title: "Breathe & Relax App - JavaScript and CSS Animations",
+    title: "Breathe and Relax App - JavaScript and CSS Animations",
     category: ["web-dev"],
     tech: ["JavaScript", "HTML", "CSS"],
     datePublished: "jun 7, 2020",

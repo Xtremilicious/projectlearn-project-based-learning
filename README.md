@@ -16,9 +16,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | :--- |:---|:---|
 | Travel Bucket List Map with Gatsby, React Leaflet, and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby,-react-leaflet,-and-graphcms-168?from=github)|
 | Memory Card Game with Vue.js | Vue, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/memory-card-game-with-vue.js-167?from=github)|
-| Strapi & GatsbyJS Course - Portfolio Project | Strapi, Gatsby, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/strapi-&-gatsbyjs-course---portfolio-project-166?from=github)|
+| Strapi and GatsbyJS Course - Portfolio Project | Strapi, Gatsby, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/strapi-and-gatsbyjs-course---portfolio-project-166?from=github)|
 | Storybook - Node, Express, MongoDB and Google OAuth | MongoDB, Node, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/storybook---node,-express,-mongodb-and-google-oauth-165?from=github)|
-| Breathe & Relax App - JavaScript and CSS Animations | JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/breathe-&-relax-app---javascript-and-css-animations-164?from=github)|
+| Breathe and Relax App - JavaScript and CSS Animations | JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/breathe-and-relax-app---javascript-and-css-animations-164?from=github)|
 | Node.js CLI For Cryptocurrency Prices | Node, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/node.js-cli-for-cryptocurrency-prices-163?from=github)|
 | React and Tailwind CSS Image Gallery | React, Tailwind, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/react-and-tailwind-css-image-gallery-162?from=github)|
 | Pomodoro Clock using React | React, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/pomodoro-clock-using-react-161?from=github)|
