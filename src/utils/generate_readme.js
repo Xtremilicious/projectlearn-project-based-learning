@@ -3,9 +3,20 @@ let path = require("path");
 
 function generateMD() {
   let fileName = "README";
-  let fileContents = `# :beginner:[ProjectLearn](https://projectlearn.io) - Project Based Learning
+  let fileContents = `<h1>
+:beginner:<a href="https://projectlearn.io">ProjectLearn</a> - Project Based Learning</h1>
 
-Website: https://projectlearn.io
+<p>
+  Website: <a href="https://projectlearn.io">https://projectlearn.io</a></p>
+<p>
+   <a href="https://opencollective.com/projectlearn" alt="Donate">
+        <img src="https://img.shields.io/badge/donate-support%20ProjectLearn-green" /></a>
+    <a href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/Xtremilicious/ProjectLearn-Project-Based-Learning" /></a>
+    <a href="https://twitter.com/intent/follow?screen_name=ProjectLearn_io">
+        <img src="https://img.shields.io/twitter/follow/ProjectLearn_io?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
+</p>
 
 Tutorials are great, but building projects is the best way to learn. Do project based learning and learn code the right way!
   
