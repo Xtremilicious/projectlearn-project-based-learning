@@ -238,7 +238,7 @@ exports.projectsData = [
   {
     id: 144,
     type: "article",
-    title: "Dynamic Qeather Interface with just CSS",
+    title: "Dynamic Weather Interface with just CSS",
     category: ["web-dev"],
     tech: ["HTML", "CSS"],
     datePublished: "Apr 22, 2020",
