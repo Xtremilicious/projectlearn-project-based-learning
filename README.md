@@ -43,7 +43,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Flipping UNO Cards using only CSS | HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/flipping-uno-cards-using-only-css-151?from=github)|
 | Chat App with Redis, WebSocket and Go | Redis, Web Socket, Go, Azure | [Link](https://projectlearn.io/learn/web-development/project/chat-app-with-redis,-websocket-and-go-146?from=github)|
 | Spotify Login Animation With React Navigation | React, HTML, CSS, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/spotify-login-animation-with-react-navigation-145?from=github)|
-| Dynamic Qeather Interface with just CSS | HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/dynamic-qeather-interface-with-just-css-144?from=github)|
+| Dynamic Weather Interface with just CSS | HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/dynamic-weather-interface-with-just-css-144?from=github)|
 | Simple CRUD App with Airtable and Vue | Airtable, Vue, Vuetify, API, HTML | [Link](https://projectlearn.io/learn/web-development/project/simple-crud-app-with-airtable-and-vue-143?from=github)|
 | Full Stack RPG Character Generator with MEVN stack | MongoDB, Express, Vue, Node, HTML | [Link](https://projectlearn.io/learn/web-development/project/full-stack-rpg-character-generator-with-mevn-stack-142?from=github)|
 | Todo App with the PERN stack | PostgreSQL, Express, React, Node, HTML | [Link](https://projectlearn.io/learn/web-development/project/todo-app-with-the-pern-stack-141?from=github)|

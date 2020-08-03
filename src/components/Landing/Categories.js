@@ -46,8 +46,6 @@ const CategoriesWrapper = styled.div`
     cursor: pointer;
   }
   .category-art {
-    margin: 1.5rem;
-    border: 4px solid white;
     border-radius: 1vh;
     width: 14vw;
     display: flex;
@@ -59,6 +57,7 @@ const CategoriesWrapper = styled.div`
   }
   .category-details {
     display: flex;
+    padding: 0.5rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -95,7 +94,7 @@ const CategoriesWrapper = styled.div`
       display: none;
     }
     .cat-title {
-      font-size: 6vw;
+      font-size: 5.3vw;
       margin-bottom: 1vh;
     }
     .cat-subtitle {
@@ -106,7 +105,6 @@ const CategoriesWrapper = styled.div`
     }
     .category-art {
       width: 25vw;
-      margin: 0.8rem;
       display: flex;
     }
     .cat-redirect {

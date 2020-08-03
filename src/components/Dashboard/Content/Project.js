@@ -235,7 +235,7 @@ const Content = (props) => {
         <div className="details-3">
           <div className="section-title">Top Technologies:</div>
           <div className="tags-container">
-            {tech.slice(0, 3).map((t) => (
+            {tech.slice(0, 2).map((t) => (
               <Link href={{ query: { tech: t } }} key={t}>
                 <span className="tag">{t} </span>
               </Link>
