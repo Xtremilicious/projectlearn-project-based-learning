@@ -43,6 +43,7 @@ const CategoriesWrapper = styled.div`
     align-content: center;
     position: relative;
     padding-right: 0.6rem;
+    align-items: center;
     cursor: pointer;
   }
   .category-art {
@@ -51,6 +52,7 @@ const CategoriesWrapper = styled.div`
     display: flex;
     height: fit-content;
     justify-content: center;
+
   }
   .cat-img {
     height: 10vw;
@@ -62,13 +64,13 @@ const CategoriesWrapper = styled.div`
     justify-content: center;
   }
   .cat-title {
-    font-size: 2vw;
+    font-size: 4vh;
     margin: 0;
     font-weight: normal;
     margin-bottom: 2vh;
   }
   .cat-subtitle {
-    font-size: 1.2vw;
+    font-size: 2.5vh;
     padding-right: 0.7vw;
   }
   .cat-redirect {

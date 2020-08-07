@@ -36,6 +36,7 @@ const ContentWrapper = styled.div`
     .section-sub-title {
       padding: 1vh 4vh;
       font-weight: 100;
+      font-size: 2.7vh;
     }
   }
   .search-container {

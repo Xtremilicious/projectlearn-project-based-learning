@@ -29,7 +29,7 @@ const NavWrapper = styled.div`
     align-items: center;
     margin-left: 1em;
     margin-right: 1em;
-    font-size: 1.25rem;
+    font-size: 3.3vh;
     .svg-inline--fa {
       font-size: 1.4em;
       margin-right: 0.2em;
@@ -56,7 +56,7 @@ const NavWrapper = styled.div`
     padding: 1rem;
   }
   .pl-title {
-    font-size: 2.1rem;
+    font-size: 5.5vh;
     margin: 0;
   }
   .mobile-nav {
@@ -75,6 +75,7 @@ const NavWrapper = styled.div`
     }
     .nav-component {
       margin: 2vh;
+      font-size: 1.25rem;
     }
     .m-github {
       margin-left: auto;

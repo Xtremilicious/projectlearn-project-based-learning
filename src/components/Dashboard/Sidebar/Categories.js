@@ -52,6 +52,7 @@ const CategoryWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
     .section-title {
       font-size: 4.5vh;
       padding: 3vh;
@@ -60,7 +61,7 @@ const CategoryWrapper = styled.div`
     }
     .cat-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       width: 100%;
       justify-items: center;
       align-content: center;
@@ -102,6 +103,7 @@ const CategoryWrapper = styled.div`
       font-size: 2.5vh;
     }
   }
+
 `;
 const Categories = (props) => {
   const {

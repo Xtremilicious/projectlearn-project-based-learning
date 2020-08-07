@@ -13,7 +13,9 @@ const SidebarWrapper = styled.div`
   .footer {
     display: flex;
     padding-left: 3vh;
+    font-size: 2.5vh;
     color: var(--theme-grey);
+    align-items: center;
   }
 `;
 
