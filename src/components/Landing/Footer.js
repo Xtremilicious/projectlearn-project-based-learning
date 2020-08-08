@@ -18,11 +18,12 @@ const FooterWrapper = styled.div`
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin: 0vh 1vw;
     font-size: 4vw;
-    .mobile{
+    .mobile {
       display: none;
     }
     .footer-content {
       margin-right: 0rem;
+      margin-left: 3.5vw;
     }
   }
 `;
@@ -32,7 +33,11 @@ export default function Footer() {
     <FooterWrapper>
       <div>© 2020 ProjectLearn</div>
       <div className="footer-container">
-        <a href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/README.md" className="footer-content" target="_blank">
+        <a
+          href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/README.md"
+          className="footer-content"
+          target="_blank"
+        >
           About
         </a>
         <a
@@ -41,6 +46,13 @@ export default function Footer() {
           target="_blank"
         >
           Contribution Guidelines
+        </a>
+        <a
+          href="https://opencollective.com/projectlearn"
+          className="footer-content"
+          target="_blank"
+        >
+          Donate
         </a>
       </div>
     </FooterWrapper>
