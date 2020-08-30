@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://projectlearn.io">ProjectLearn</a>
+  <a href="https://projectlearn.io"><img src="https://i.ibb.co/YycTZq4/Screen-Shot-20200830180734-removebg-preview.png" alt="ProjectLearn"></a>
 </h1>
 
 <p align="center">
@@ -28,7 +28,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Devlopment: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
-| Travel Bucket List Map with Gatsby, React Leaflet, and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby,-react-leaflet,-and-graphcms-168?from=github)|
+| Travel Bucket List Map with Gatsby and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby-and-graphcms-168?from=github)|
 | Memory Card Game with Vue.js | Vue, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/memory-card-game-with-vue.js-167?from=github)|
 | Strapi and GatsbyJS Course - Portfolio Project | Strapi, Gatsby, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/strapi-and-gatsbyjs-course---portfolio-project-166?from=github)|
 | Storybook - Node, Express, MongoDB and Google OAuth | MongoDB, Node, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/storybook---node,-express,-mongodb-and-google-oauth-165?from=github)|

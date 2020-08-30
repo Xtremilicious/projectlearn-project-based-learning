@@ -4,7 +4,7 @@ let path = require("path");
 function generateMD() {
   let fileName = "README";
   let fileContents = `<h1 align="center">
-<a href="https://projectlearn.io">ProjectLearn</a>
+  <a href="https://projectlearn.io"><img src="https://i.ibb.co/YycTZq4/Screen-Shot-20200830180734-removebg-preview.png" alt="ProjectLearn"></a>
 </h1>
 
 <p align="center">
