@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 import mobDev from "../../img/mob-dev-cat.png";
 import webDev from "../../img/prog-lang-cat.png";
 import ml from "../../img/ml-cat-alt.png";
@@ -42,9 +42,14 @@ const CategoriesWrapper = styled.div`
     grid-template-columns: 1fr 2fr;
     align-content: center;
     position: relative;
-    padding-right: 0.6rem;
+    padding: 1.3vh 1vh;
     align-items: center;
     cursor: pointer;
+  }
+  .section-category:hover {
+    .cat-redirect {
+      transform: translateX(-0.7vh);
+    }
   }
   .category-art {
     border-radius: 1vh;
@@ -52,7 +57,6 @@ const CategoriesWrapper = styled.div`
     display: flex;
     height: fit-content;
     justify-content: center;
-
   }
   .cat-img {
     height: 10vw;
@@ -70,15 +74,22 @@ const CategoriesWrapper = styled.div`
     margin-bottom: 2vh;
   }
   .cat-subtitle {
-    font-size: 2.5vh;
+    font-size: 2.65vh;
     padding-right: 0.7vw;
   }
   .cat-redirect {
     position: absolute;
+    display: flex;
+    align-items: center;
     bottom: 1.5vh;
     right: 2vh;
-    font-size: 4vh;
+    font-size: 1.4vw;
     cursor: pointer;
+    transition: 0.3s;
+  }
+  .cat-redirect-text {
+    font-size: 2.8vh;
+    margin-right: 1vh;
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin: 5vh 5vw;
@@ -139,7 +150,8 @@ export default function Categories() {
             </div>
 
             <div className="cat-redirect">
-              <FontAwesomeIcon icon={faAngleRight} />
+              {/* <span class="cat-redirect-text">Explore</span> */}
+              <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>
@@ -165,7 +177,7 @@ export default function Categories() {
             </div>
 
             <div className="cat-redirect">
-              <FontAwesomeIcon icon={faAngleRight} />
+              <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>
@@ -186,7 +198,7 @@ export default function Categories() {
             </div>
 
             <div className="cat-redirect">
-              <FontAwesomeIcon icon={faAngleRight} />
+              <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>
@@ -206,7 +218,7 @@ export default function Categories() {
               </div>
             </div>
             <div className="cat-redirect">
-              <FontAwesomeIcon icon={faAngleRight} />
+              <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>

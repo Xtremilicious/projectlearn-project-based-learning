@@ -34,6 +34,7 @@ const ProjectWrapper = styled.div`
       }
       .link {
         color: black;
+        transform: translateX(-0.7vh);
       }
     }
     .details-1 {
@@ -58,6 +59,7 @@ const ProjectWrapper = styled.div`
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          transition: 0.4s;
         }
         .cat-title {
           margin-top: 0.5vh;
@@ -78,7 +80,7 @@ const ProjectWrapper = styled.div`
       }
     }
     .details-2 {
-      font-size: 1.8vw;
+      font-size: 1.7vw;
       margin: 0;
       margin-bottom: 3vh;
       font-weight: normal;
@@ -95,6 +97,7 @@ const ProjectWrapper = styled.div`
         line-height: 170%;
         word-wrap: normal;
         .tag {
+          transition: 0.2s;
           cursor: pointer;
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
           border: 1px dashed var(${(props) => props.bg}-alt);
@@ -113,6 +116,8 @@ const ProjectWrapper = styled.div`
       right: 1vh;
       cursor: pointer;
       z-index: 10;
+      transition: 0.2s;
+      color: var(${(props) => props.bg}-alt);
     }
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
