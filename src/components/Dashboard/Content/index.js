@@ -6,6 +6,7 @@ import ProjectList from "./ProjectList";
 //Redux Stuff
 import { connect } from "react-redux";
 import { getProjects } from "../../../redux/actions/dataActions";
+import { useRouter, withRouter } from "next/router";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -21,12 +22,24 @@ const ContentWrapper = styled.div`
     z-index: -1;
     height: 30vh;
     width: 75vw;
-    background: linear-gradient(90deg, var(${props => props.bg}), var(${props => props.bg}-alt));
+    background: linear-gradient(
+      90deg,
+      var(${(props) => props.bg}),
+      var(${(props) => props.bg}-alt)
+    );
   }
   .section-header {
     display: flex;
-    background: linear-gradient(90deg, var(${props => props.bg}), var(${props => props.bg}-alt));
-    color: ${props => props.color};
+    background: linear-gradient(
+      90deg,
+      var(${(props) => props.bg}),
+      var(${(props) => props.bg}-alt)
+    );
+    color: ${(props) => props.color};
+    position: fixed;
+    z-index: 100;
+    width: 74vw;
+    padding-bottom: 4vh;
     .section-title {
       font-size: 5vh;
       padding: 4vh 4vh 0 4vh;
@@ -64,29 +77,43 @@ const ContentWrapper = styled.div`
     .headers {
       display: none;
     }
+    .section-header {
+      position: fixed;
+      width: 100vw;
+      padding-bottom: 3vh;
+    }
     .dummy {
       width: 100vw;
+      height: 35vh;
     }
     .search-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin: 5vh auto;
+      margin-bottom: 0;
     }
     .mobile-title {
       display: block;
       display: flex;
       justify-content: center;
-      font-size: 4vh;
+      font-size: 3.5vh;
       margin-bottom: 2vh;
     }
     .mobile-filter-reset {
-      display: block;
       display: flex;
-      justify-content: center;
+      align-items: center;
       font-size: 4.5vw;
-      margin-top: 1.5vh;
-      text-decoration: underline;
+      margin-top: 3vh;
+      .cat-title{
+        background: var(${(props) => props.bg}-alt);
+        padding: 1vh;
+        border-radius: 1vh;
+      }
+      .clear {
+        text-decoration: underline;
+        margin-left: 2vw;
+      }
     }
     .search-bar {
       font-size: 2.5vh !important;
@@ -98,21 +125,22 @@ const ContentWrapper = styled.div`
       left: 2vh;
       font-size: 3vh;
       cursor: pointer;
+      z-index: 110;
     }
   }
 `;
 
 class Content extends Component {
   state = {
-    search: ""
+    search: "",
   };
 
-  updateSearch = event => {
+  updateSearch = (event) => {
     event.preventDefault();
     const query = event.target.value;
     this.setState(() => {
       return {
-        search: query
+        search: query,
       };
     });
   };
@@ -120,12 +148,16 @@ class Content extends Component {
   resetSearch = () => {
     this.setState(() => {
       return {
-        search: ""
+        search: "",
       };
     });
   };
 
   render() {
+    const {
+      query: { tech },
+    } = this.props.router;
+
     const categorySlug = this.props.slug;
     const categoryTitle = this.props.title;
     const url = this.props.url;
@@ -133,31 +165,31 @@ class Content extends Component {
     let { projects } = this.props;
 
     projects = projects
-      .filter(project => project.category.includes(categorySlug))
-      .map(item => item);
+      .filter((project) => project.category.includes(categorySlug))
+      .map((item) => item);
 
     if (this.state.search != "") {
       projects = projects
-        .filter(project => {
+        .filter((project) => {
           return (
             project.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 ||
-            project.tech.some(t => {
+            project.tech.some((t) => {
               return t.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
             }) === true
           );
         })
-        .map(item => item);
+        .map((item) => item);
     }
 
     return (
       <ContentWrapper bg={this.props.color}>
+        <div className="dummy" />
+        <div className="section-header">
         <Link href="../../#categories">
           <div className="back-to-landing">
             <FontAwesomeIcon icon={faArrowLeft} />
           </div>
         </Link>
-        <div className="dummy" />
-        <div className="section-header">
           <div className="headers">
             <h1 className="section-title">{categoryTitle}</h1>
             <div className="section-sub-title">{projects ? projects.length : null} Projects</div>
@@ -174,22 +206,25 @@ class Content extends Component {
             />
             <Link href={{ pathname: `${url}` }}>
               <div className="mobile-filter-reset" onClick={() => this.resetSearch()}>
-                Reset Filters
+                <div className="selected-cat">
+                  <div className="cat-title">{tech || "Showing All"}</div>
+                </div>
+                <span className="clear"> Clear Filter</span>
               </div>
             </Link>
           </div>
         </div>
 
-        <ProjectList projects={projects} url={url} color={this.props.color}/>
+        <ProjectList projects={projects} url={url} color={this.props.color} />
       </ContentWrapper>
     );
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    projects: state.data.projects
+    projects: state.data.projects,
   };
 };
 
-export default connect(mapStateToProps, {})(Content);
+export default connect(mapStateToProps, {})(withRouter(Content));

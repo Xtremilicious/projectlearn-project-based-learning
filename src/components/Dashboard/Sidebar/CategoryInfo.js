@@ -69,6 +69,11 @@ const InfoWrapper = styled.div`
     font-size: 4vh;
     cursor: pointer;
   }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .back-to-landing {
+      font-size: 2.5vh;
+    }
+  }
 `;
 
 const CategoryInfo = (props) => {

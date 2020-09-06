@@ -7,7 +7,7 @@ const ListWrapper = styled.div`
   .projects-grid {
     margin-left: 2vw;
     margin-right: 2vw;
-    margin-top: -10vh;
+    margin-top: 20vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2vw;
@@ -15,11 +15,11 @@ const ListWrapper = styled.div`
     margin-bottom: 5vh;
     @media only screen and (min-width: 320px) and (max-width: 480px) {
       grid-template-columns: 1fr;
-      grid-row-gap: 5vh;
+      grid-row-gap: 4vh;
       margin-left: 10%;
       margin-right: 10%;
       grid-column-gap: 2vh;
-      margin-top: -6vh;
+      margin-top: 27vh;
   }
   }
 `;
