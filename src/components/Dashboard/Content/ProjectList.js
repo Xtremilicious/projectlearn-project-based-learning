@@ -19,7 +19,7 @@ const ListWrapper = styled.div`
       margin-left: 10%;
       margin-right: 10%;
       grid-column-gap: 2vh;
-      margin-top: 27vh;
+      margin-top: 28.5vh;
   }
   }
 `;
