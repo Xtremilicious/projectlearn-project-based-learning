@@ -1,5 +1,15 @@
 exports.projectsData = [
   {
+    id: 170,
+    type: "video",
+    title: "JavaScript30 - 30 Day Vanilla JS Coding Challenge",
+    category: ["web-dev"],
+    tech: ["JavaScript"],
+    datePublished: "Oct 2, 2020",
+    projectURL:
+      "https://javascript30.com/",
+  },
+  {
     id: 169,
     type: "article",
     title: "CNN that Detects Pneumonia from Chest X-Rays",
