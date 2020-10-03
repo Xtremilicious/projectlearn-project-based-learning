@@ -4,7 +4,7 @@ exports.projectsData = [
     type: "video",
     title: "JavaScript30 - 30 Day Vanilla JS Coding Challenge",
     category: ["web-dev"],
-    tech: ["javaScript"],
+    tech: ["JavaScript"],
     datePublished: "Oct 2, 2020",
     projectURL:
       "https://javascript30.com/",
