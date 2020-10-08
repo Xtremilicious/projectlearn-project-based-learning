@@ -1,4 +1,44 @@
 exports.projectsData = [
+    {
+    id: 174,
+    type: "article",
+    title: "Medium Clone using React.js and Node.js",
+    category: ["web-dev"],
+    tech: ["React", "Node", "CSS3", "JavaScript","HTML5"],
+    datePublished: "Mar 31, 2018",
+    projectURL:
+      "https://codeburst.io/build-simple-medium-com-on-node-js-and-react-js-a278c5192f47",
+  },
+    {
+    id: 173,
+    type: "video",
+    title: "Python Online Multiplayer Game",
+    category: ["game-dev"],
+    tech: ["Python",],
+    datePublished: "Mar 26, 2019",
+    projectURL:
+      "https://youtu.be/McoDjOCb2Zo",
+  },
+    {
+    id: 172,
+    type: "video",
+    title: "Beat Em Up Fight Game",
+    category: ["game-dev"],
+    tech: ["Unity", "C#",],
+    datePublished: "Feb 29, 2019",
+    projectURL:
+      "https://youtu.be/gcF66q-UPCs",
+  },
+  {
+    id: 171,
+    type: "video",
+    title: "Facebook Clone with React JS",
+    category: ["web-dev"],
+    tech: ["React", "Firebase", "CSS3", "JavaScript", "HTML5"],
+    datePublished: "Aug 27, 2020",
+    projectURL:
+      "https://www.youtube.com/watch?v=B-kxUMHBxNo&t=1s",
+  },
   {
     id: 170,
     type: "video",
