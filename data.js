@@ -1,5 +1,41 @@
 exports.projectsData = [
     {
+      id: 178,
+      type: "article",
+      title: "Wine Quality predictor",
+      category: ["ml-ai"],
+      tech: ["Python", "Numpy", "SciKit", "Pandas", "Matplotlib"],
+      datePublished: "Feb 07, 2018",
+      projectURL: "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/"
+    },
+    {
+      id: 177,
+      type: "article",
+      title: "Build your own Uber-for-X Application",
+      category: ["web-dev"],
+      tech: ["HTML5", "JavaScript", "Node", "Express", "MongoDB", "Mapbox"],
+      datePublished: "Oct 22, 2016",
+      projectURL: "https://blog.booleanhunter.com/how-to-build-your-own-uber-for-x-app/"
+    },
+    {
+      id: 176,
+      type: "article",
+      title: "Build a community-driven delivery application",
+      category: ["web-dev"],
+      tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
+      datePublished: "Dec 09, 2020",
+      projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2-d391e143fe67"
+    },
+    {
+      id: 175,
+      type: "article",
+      title: "Build a local Store search-and-discovery application",
+      category: ["web-dev"],
+      tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
+      datePublished: "Nov 04, 2020",
+      projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-4522e1d98739"
+    },
+    {
     id: 174,
     type: "article",
     title: "Medium Clone using React.js and Node.js",
