@@ -1249,7 +1249,7 @@ exports.projectsData = [
     type: "article",
     title: "Arcade Shooter",
     category: ["game-dev"],
-    tech: ["LUA", "LÖVE"],
+    tech: ["Lua", "LÖVE"],
     datePublished: "Feb 14, 2018",
     projectURL: "https://github.com/adnzzzzZ/blog/issues/30",
   },
