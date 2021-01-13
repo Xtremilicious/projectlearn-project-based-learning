@@ -1,5 +1,14 @@
 exports.projectsData = [
     {
+      id: 179,
+      type: "article",
+      title: "Simple Games",
+      category: ["game-dev"],
+      tech: ["Lua", "LÖVE", "Python", "Pygame Zero"],
+      datePublished: "Nov 26, 2020",
+      projectURL: "https://simplegametutorials.github.io/"
+    },
+    {
       id: 178,
       type: "article",
       title: "Wine Quality predictor",
@@ -1249,7 +1258,7 @@ exports.projectsData = [
     type: "article",
     title: "Arcade Shooter",
     category: ["game-dev"],
-    tech: ["LUA", "LÖVE"],
+    tech: ["Lua", "LÖVE"],
     datePublished: "Feb 14, 2018",
     projectURL: "https://github.com/adnzzzzZ/blog/issues/30",
   },
