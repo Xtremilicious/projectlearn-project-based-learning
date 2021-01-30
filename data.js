@@ -1,60 +1,60 @@
 exports.projectsData = [
-    {
-      id: 179,
-      type: "article",
-      title: "Simple Games",
-      category: ["game-dev"],
-      tech: ["Lua", "LÖVE", "Python", "Pygame Zero"],
-      datePublished: "Nov 26, 2020",
-      projectURL: "https://simplegametutorials.github.io/"
-    },
-    {
-      id: 178,
-      type: "article",
-      title: "Wine Quality predictor",
-      category: ["ml-ai"],
-      tech: ["Python", "Numpy", "SciKit", "Pandas", "Matplotlib"],
-      datePublished: "Feb 07, 2018",
-      projectURL: "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/"
-    },
-    {
-      id: 177,
-      type: "article",
-      title: "Build your own Uber-for-X Application",
-      category: ["web-dev"],
-      tech: ["HTML5", "JavaScript", "Node", "Express", "MongoDB", "Mapbox"],
-      datePublished: "Oct 22, 2016",
-      projectURL: "https://blog.booleanhunter.com/how-to-build-your-own-uber-for-x-app/"
-    },
-    {
-      id: 176,
-      type: "article",
-      title: "Build a community-driven delivery application",
-      category: ["web-dev"],
-      tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
-      datePublished: "Dec 09, 2020",
-      projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2-d391e143fe67"
-    },
-    {
-      id: 175,
-      type: "article",
-      title: "Build a local Store search-and-discovery application",
-      category: ["web-dev"],
-      tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
-      datePublished: "Nov 04, 2020",
-      projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-4522e1d98739"
-    },
-    {
+  {
+    id: 179,
+    type: "article",
+    title: "Simple Games",
+    category: ["game-dev"],
+    tech: ["Lua", "LÖVE", "Python", "Pygame Zero"],
+    datePublished: "Nov 26, 2020",
+    projectURL: "https://simplegametutorials.github.io/"
+  },
+  {
+    id: 178,
+    type: "article",
+    title: "Wine Quality predictor",
+    category: ["ml-ai"],
+    tech: ["Python", "Numpy", "SciKit", "Pandas", "Matplotlib"],
+    datePublished: "Feb 07, 2018",
+    projectURL: "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/"
+  },
+  {
+    id: 177,
+    type: "article",
+    title: "Build your own Uber-for-X Application",
+    category: ["web-dev"],
+    tech: ["HTML5", "JavaScript", "Node", "Express", "MongoDB", "Mapbox"],
+    datePublished: "Oct 22, 2016",
+    projectURL: "https://blog.booleanhunter.com/how-to-build-your-own-uber-for-x-app/"
+  },
+  {
+    id: 176,
+    type: "article",
+    title: "Build a community-driven delivery application",
+    category: ["web-dev"],
+    tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
+    datePublished: "Dec 09, 2020",
+    projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2-d391e143fe67"
+  },
+  {
+    id: 175,
+    type: "article",
+    title: "Build a local Store search-and-discovery application",
+    category: ["web-dev"],
+    tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
+    datePublished: "Nov 04, 2020",
+    projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-4522e1d98739"
+  },
+  {
     id: 174,
     type: "article",
     title: "Medium Clone using React.js and Node.js",
     category: ["web-dev"],
-    tech: ["React", "Node", "CSS3", "JavaScript","HTML5"],
+    tech: ["React", "Node", "CSS3", "JavaScript", "HTML5"],
     datePublished: "Mar 31, 2018",
     projectURL:
       "https://codeburst.io/build-simple-medium-com-on-node-js-and-react-js-a278c5192f47",
   },
-    {
+  {
     id: 173,
     type: "video",
     title: "Python Online Multiplayer Game",
@@ -64,7 +64,7 @@ exports.projectsData = [
     projectURL:
       "https://youtu.be/McoDjOCb2Zo",
   },
-    {
+  {
     id: 172,
     type: "video",
     title: "Beat Em Up Fight Game",
@@ -1453,30 +1453,6 @@ exports.projectsData = [
       "https://www.freecodecamp.org/news/building-chrome-extensions-in-react-parcel-79d0240dd58f/",
   },
   {
-    id: 28,
-    type: "article",
-    title: "Real-Time Twitter Stream",
-    category: ["web-dev"],
-    tech: [
-      "React",
-      "Node",
-      "API",
-      "Express",
-      "Handlebars",
-      "Browserify",
-      "Mongoose",
-      "MongoDB",
-      "Socket.io",
-      "nTwitter",
-      "JavaScript",
-      "HTML5",
-      "CSS3",
-    ],
-    datePublished: "2014-10-21",
-    projectURL:
-      "https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js",
-  },
-  {
     id: 27,
     type: "article",
     title: "Movie Voting App",
@@ -1695,17 +1671,6 @@ exports.projectsData = [
     datePublished: "2016-05-04",
     projectURL:
       "https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html",
-  },
-  {
-    id: 5,
-    type: "article",
-    title: "URL Shortener with JavaScript",
-    category: ["web-dev"],
-    tech: ["JavaScript", "HTML5", "CSS3"],
-    datePublished: "2018-10-11",
-    source: "freeCodeCamp",
-    projectURL:
-      "https://www.freecodecamp.org/news/building-a-simple-url-shortener-with-just-html-and-javascript-6ea1ecda308c/",
   },
   {
     id: 4,
