@@ -28,6 +28,12 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Devlopment: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build your own Uber-for-X Application | HTML5, JavaScript, Node, Express, MongoDB | [Link](https://projectlearn.io/learn/web-development/project/build-your-own-uber-for-x-application-177?from=github)|
+| Build a community-driven delivery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-community-driven-delivery-application-176?from=github)|
+| Build a local Store search-and-discovery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-local-store-search-and-discovery-application-175?from=github)|
+| Medium Clone using React.js and Node.js | React, Node, CSS3, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/medium-clone-using-react.js-and-node.js-174?from=github)|
+| Facebook Clone with React JS | React, Firebase, CSS3, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/facebook-clone-with-react-js-171?from=github)|
+| JavaScript30 - 30 Day Vanilla JS Coding Challenge | JavaScript | [Link](https://projectlearn.io/learn/web-development/project/javascript30---30-day-vanilla-js-coding-challenge-170?from=github)|
 | Travel Bucket List Map with Gatsby and GraphCMS | Gatsby, Leaflet, GraphCMS, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/travel-bucket-list-map-with-gatsby-and-graphcms-168?from=github)|
 | Memory Card Game with Vue.js | Vue, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/memory-card-game-with-vue.js-167?from=github)|
 | Strapi and GatsbyJS Course - Portfolio Project | Strapi, Gatsby, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/strapi-and-gatsbyjs-course---portfolio-project-166?from=github)|
@@ -101,7 +107,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Chat App | React, Redux, Redux Saga, Web Sockets, Node | [Link](https://projectlearn.io/learn/web-development/project/chat-app-31?from=github)|
 | Todo App | React Native, GraphQL, Apollo, API, Hasura | [Link](https://projectlearn.io/learn/web-development/project/todo-app-30?from=github)|
 | Chrome Extension | React, Parcel, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/chrome-extension-29?from=github)|
-| Real-Time Twitter Stream | React, Node, API, Express, Handlebars | [Link](https://projectlearn.io/learn/web-development/project/real-time-twitter-stream-28?from=github)|
 | Movie Voting App | React, Redux, API, Immutable, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/movie-voting-app-27?from=github)|
 | Trello Clone | React, Elixir, Phoenix, JWT, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/trello-clone-25?from=github)|
 | Wiki-Style CMS | C#, .NET, Razor Pages | [Link](https://projectlearn.io/learn/web-development/project/wiki-style-cms-18?from=github)|
@@ -115,7 +120,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Social Networking App | React, Node, Redux, Firebase, REST | [Link](https://projectlearn.io/learn/web-development/project/social-networking-app-8?from=github)|
 | Blockchain | Node, JavaScript, Cryptography, Blockchain | [Link](https://projectlearn.io/learn/web-development/project/blockchain-7?from=github)|
 | BitTorrent Client | Node, JavaScript, TCP, Computer Networks | [Link](https://projectlearn.io/learn/web-development/project/bittorrent-client-6?from=github)|
-| URL Shortener with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/url-shortener-with-javascript-5?from=github)|
 | Todo List App with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/todo-list-app-with-javascript-4?from=github)|
 | JavaScript Animations with Anime.js | JavaScript, CSS3, Library, HTML5, API | [Link](https://projectlearn.io/learn/web-development/project/javascript-animations-with-anime.js-3?from=github)|
 | Job Board App with React | React, Node, Cron, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/job-board-app-with-react-1?from=github)|
@@ -140,6 +144,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Game Devlopment: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Simple Games | Lua, LÖVE, Python, Pygame Zero | [Link](https://projectlearn.io/learn/game-development/project/simple-games-179?from=github)|
+| Python Online Multiplayer Game | Python | [Link](https://projectlearn.io/learn/game-development/project/python-online-multiplayer-game-173?from=github)|
+| Beat Em Up Fight Game | Unity, C# | [Link](https://projectlearn.io/learn/game-development/project/beat-em-up-fight-game-172?from=github)|
 | Simple 3D Game using Godot 3.1 | Godot, C#, 3D | [Link](https://projectlearn.io/learn/game-development/project/simple-3d-game-using-godot-3.1-150?from=github)|
 | Simple Puzzle Game in Godot - Box and Switch | Godot, C#, 2D | [Link](https://projectlearn.io/learn/game-development/project/simple-puzzle-game-in-godot---box-and-switch-149?from=github)|
 | Game Interface From Scratch in Godot 3 | Godot, C#, 2D | [Link](https://projectlearn.io/learn/game-development/project/game-interface-from-scratch-in-godot-3-148?from=github)|
@@ -175,7 +182,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | FPS Microgame | Unity, C# | [Link](https://projectlearn.io/learn/game-development/project/fps-microgame-86?from=github)|
 | Platformer Microgame | Unity, C#, 2D | [Link](https://projectlearn.io/learn/game-development/project/platformer-microgame-85?from=github)|
 | Karting Microgame | Unity, C# | [Link](https://projectlearn.io/learn/game-development/project/karting-microgame-84?from=github)|
-| Arcade Shooter | LUA, LÖVE | [Link](https://projectlearn.io/learn/game-development/project/arcade-shooter-47?from=github)|
+| Arcade Shooter | Lua, LÖVE | [Link](https://projectlearn.io/learn/game-development/project/arcade-shooter-47?from=github)|
 | Game of Life | React, 2D, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/game-of-life-33?from=github)|
 | Handmade Hero | C/C++, OpenGL, 2D | [Link](https://projectlearn.io/learn/game-development/project/handmade-hero-23?from=github)|
 | Breakout | C/C++, OpenGL, 2D | [Link](https://projectlearn.io/learn/game-development/project/breakout-22?from=github)|
@@ -186,6 +193,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Machine Learning & AI: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Wine Quality predictor | Python, Numpy, SciKit, Pandas, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/wine-quality-predictor-178?from=github)|
 | CNN that Detects Pneumonia from Chest X-Rays | CNN, Python | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)|
 | Auto-Updating Data Visualizations in Python with AWS | Python, AWS, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-aws-158?from=github)|
 | Twitter Sentiment Analysis Tool using GCP and Node | API, GCP, Node, JavaScript | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-gcp-and-node-156?from=github)|
