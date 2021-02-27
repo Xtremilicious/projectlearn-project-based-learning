@@ -1557,12 +1557,12 @@ exports.projectsData = [
   {
     id: 15,
     type: "video",
-    title: "Spotify Inspired Web Design",
+    title: "Spotify Clone with ReactJS",
     category: ["web-dev"],
-    tech: ["HTML5", "CSS3"],
+    tech: ["React", "HTML5", "CSS3"],
     source: "YouTube",
     datePublished: "2019-03-09",
-    projectURL: "https://www.youtube.com/watch?v=uKgn-To1C4Q",
+    projectURL: "https://www.youtube.com/watch?v=pnkuI8KXW_8",
   },
   {
     id: 14,
