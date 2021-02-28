@@ -1546,6 +1546,16 @@ exports.projectsData = [
     projectURL: "https://roguesharp.wordpress.com/",
   },
   {
+    id: 15,
+    type: "video",
+    title: "Spotify Clone with ReactJS",
+    category: ["web-dev"],
+    tech: ["React", "HTML5", "CSS3"],
+    source: "YouTube",
+    datePublished: "2020-08-03",
+    projectURL: "https://www.youtube.com/watch?v=pnkuI8KXW_8",
+  },
+  {
     id: 16,
     type: "article",
     title: "Simple RPG Game",

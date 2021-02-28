@@ -110,7 +110,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Movie Voting App | React, Redux, API, Immutable, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/movie-voting-app-27?from=github)|
 | Trello Clone | React, Elixir, Phoenix, JWT, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/trello-clone-25?from=github)|
 | Wiki-Style CMS | C#, .NET, Razor Pages | [Link](https://projectlearn.io/learn/web-development/project/wiki-style-cms-18?from=github)|
-| Spotify Inspired Web Design | HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/spotify-inspired-web-design-15?from=github)|
+| Spotify Clone with ReactJS | React, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/spotify-clone-with-reactjs-15?from=github)|
 | Microsoft Homepage Clone | HTML5, CSS3, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/microsoft-homepage-clone-14?from=github)|
 | Simple Gantt Chart | HTML5, CSS3, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/simple-gantt-chart-13?from=github)|
 | Job Scraping App | Node, JavaScript, REST, API, Express | [Link](https://projectlearn.io/learn/web-development/project/job-scraping-app-12?from=github)|
