@@ -1555,16 +1555,6 @@ exports.projectsData = [
     projectURL: "http://scottlilly.com/learn-c-by-building-a-simple-rpg-index",
   },
   {
-    id: 15,
-    type: "video",
-    title: "Spotify Clone with ReactJS",
-    category: ["web-dev"],
-    tech: ["React", "HTML5", "CSS3"],
-    source: "YouTube",
-    datePublished: "2019-03-09",
-    projectURL: "https://www.youtube.com/watch?v=pnkuI8KXW_8",
-  },
-  {
     id: 14,
     type: "video",
     title: "Microsoft Homepage Clone",
