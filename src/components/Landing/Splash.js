@@ -22,7 +22,7 @@ const SplashWrapper = styled.div`
   }
   .sub-title {
     font-size: 3.2vh;
-    margin: 0 0 4vh 0;
+    margin: 0 10vh 4vh 0;
   }
   .learn-more {
     width: fit-content;
