@@ -70,7 +70,7 @@ const CategoriesWrapper = styled.div`
   .cat-title {
     font-size: 4vh;
     margin: 0;
-    font-weight: normal;
+    font-family: "LatoBold";
     margin-bottom: 2vh;
   }
   .cat-subtitle {
@@ -212,7 +212,7 @@ export default function Categories() {
               <img src={ml} alt="Machine Learning" className="cat-img" />
             </div>
             <div className="category-details">
-              <h2 className="cat-title">ML & Artificial Intelligence</h2>
+              <h2 className="cat-title">ML & AI</h2>
               <div className="cat-subtitle">
                 Learn how a machine learns. Python, NumPy, Pandas, SciKit, Tensorflow and more.
               </div>

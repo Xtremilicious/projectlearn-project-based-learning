@@ -9,19 +9,19 @@ const SplashWrapper = styled.div`
   border-radius: 2vw;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 4fr 5.5fr;
+  grid-template-columns: auto auto;
   .pl-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem;
+    padding-left: 4rem;
   }
   .title {
-    font-size: 9vh;
+    font-size: 9.5vh;
     margin: 0 0 3vh 0;
   }
   .sub-title {
-    font-size: 3vh;
+    font-size: 3.2vh;
     margin: 0 0 4vh 0;
   }
   .learn-more {
@@ -38,7 +38,6 @@ const SplashWrapper = styled.div`
   .splash-image-container {
     margin-left: auto;
     padding: 2rem;
-    margin-right: 3rem;
     display: flex;
     align-items: center;
   }

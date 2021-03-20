@@ -16,14 +16,32 @@ export default css.global`
     --theme-grey: #586069;
     --dashboard-purple: #8d8eee;
     --dashboard-purple-alt: #6b6be5;
+    --mainDark: #2E2E2E;
+    --secondaryDark: #424242;
   }
+
+  @font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "LatoBold";
+    src: url("/fonts/Lato-Bold.ttf");
+    font-style: normal;
+    font-display: swap;
+  }
+
+
   html {
     scroll-behavior: smooth;
   }
   body {
-    font-family: "Lato", "sans-serif" !important;
-    background: var(--mainWhite) !important;
-    color: var(--mainDark) !important;
+    font-family: "Lato", "sans-serif";
+    background: var(--mainWhite);
+    color: var(--mainDark);
     margin: 0;
     padding: 0;
   }
