@@ -17,8 +17,8 @@ const NavWrapper = styled.div`
   margin: 0vh 0vw;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 3fr 7fr;
-  padding: 4vh calc(2vh + 5vw);
+  grid-template-columns: auto auto;
+  padding: 4vh 5vw;
   .nav-components-container {
     display: flex;
     margin-left: auto;
@@ -27,8 +27,7 @@ const NavWrapper = styled.div`
   .nav-component {
     display: flex;
     align-items: center;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 2em;
     font-size: 3.3vh;
     .svg-inline--fa {
       font-size: 1.4em;

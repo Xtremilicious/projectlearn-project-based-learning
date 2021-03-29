@@ -11,7 +11,7 @@ import gameDev from "../../img/game-dev-cat.png";
 const CategoriesWrapper = styled.div`
   margin: 10vh 5vw;
   display: grid;
-  grid-template-columns: 9vw 79vw;
+  grid-template-columns: 9vw auto;
   grid-template-rows: 1fr;
   height: fit-content;
   .section-title-container {
