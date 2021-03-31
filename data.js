@@ -1,5 +1,14 @@
 exports.projectsData = [
   {
+    id: 180,
+    type: "article",
+    title: "RSS feed reader website ",
+    category: ["web-dev"],
+    tech: ["JavaScript, PHP, Node.Js, Python, React, Ruby, Angular"],
+    datePublished: "Dec 15, 2020",
+    projectURL: "https://www.codementor.io/projects/rss-feed-reader-website-atx32j280x"
+  },
+  {
     id: 179,
     type: "article",
     title: "Simple Games",
