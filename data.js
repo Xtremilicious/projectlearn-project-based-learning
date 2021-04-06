@@ -4,7 +4,7 @@ exports.projectsData = [
     type: "video",
     title: "Build a Super Mario themed Google map with JavaScript",
     category: ["web-dev"],
-    tech: ["JavaScript, PHP, Node, Python, React, Ruby, Angular"],
+    tech: ["JavaScript", "PHP", "Node", "Python", "React", "Ruby", "Angular"],
     datePublished: "March 01, 2021",
     projectURL: "https://www.youtube.com/watch?v=CdDXbvBFXLY"
   },
