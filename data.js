@@ -1,5 +1,14 @@
 exports.projectsData = [
   {
+    id: 180,
+    type: "video",
+    title: "Build a Super Mario themed Google map with JavaScript",
+    category: ["web-dev"],
+    tech: ["JavaScript, PHP, Node, Python, React, Ruby, Angular"],
+    datePublished: "March 01, 2021",
+    projectURL: "https://www.youtube.com/watch?v=CdDXbvBFXLY"
+  },
+  {
     id: 179,
     type: "article",
     title: "Simple Games",
