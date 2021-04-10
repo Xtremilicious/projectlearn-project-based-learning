@@ -1665,11 +1665,11 @@ exports.projectsData = [
   {
     id: 7,
     type: "article",
-    title: "Blockchain",
+    title: "Build A Simple Cryptocurrency Blockchain In Node.js",
     category: ["web-dev"],
     tech: ["Node", "JavaScript", "Cryptography", "Blockchain"],
-    datePublished: "2019-09-15",
-    projectURL: "https://www.hackdoor.io/articles/BwJeDQnm/writing-a-blockchain-in-node-js",
+    datePublished: "2020-02-20",
+    projectURL: "https://www.smashingmagazine.com/2020/02/cryptocurrency-blockchain-node-js/",
   },
   {
     id: 6,
