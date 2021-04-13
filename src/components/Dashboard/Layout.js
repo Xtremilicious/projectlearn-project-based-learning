@@ -6,7 +6,13 @@ import Content from "./Content";
 const LayoutWrapper = styled.div`
   display: grid;
   grid-template-columns: 25vw auto;
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    .layout-first {
+      display: none;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     grid-template-columns: 1fr;
     .layout-first {
       display: none;
@@ -19,10 +25,19 @@ export default class Layout extends Component {
     return (
       <LayoutWrapper>
         <div className="layout-first">
-          <Sidebar slug={this.props.slug} url={this.props.url} color={this.props.color}/>
+          <Sidebar
+            slug={this.props.slug}
+            url={this.props.url}
+            color={this.props.color}
+          />
         </div>
         <div className="layout-second">
-          <Content slug={this.props.slug} url={this.props.url} title={this.props.title} color={this.props.color}/>
+          <Content
+            slug={this.props.slug}
+            url={this.props.url}
+            title={this.props.title}
+            color={this.props.color}
+          />
         </div>
       </LayoutWrapper>
     );

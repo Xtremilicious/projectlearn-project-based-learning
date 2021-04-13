@@ -14,7 +14,7 @@ const SplashWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 4rem;
+    padding: 4rem;
   }
   .title {
     font-size: 9.5vh;
@@ -44,32 +44,62 @@ const SplashWrapper = styled.div`
   .splash-image {
     width: 40vw;
   }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 767px) {
     grid-template-columns: 1fr;
     .pl-details {
-    padding: 2rem;
-  }
+      padding: 2rem;
+    }
     .title {
-    font-size: 12vw;
-    margin: 0 0 3vh 0;
+      font-size: 10vw;
+      margin: 0 0 3vh 0;
+    }
+    .sub-title {
+      font-size: 5vw;
+      margin: 0 0 4vh 0;
+    }
+    .splash-image-container {
+      margin-left: unset;
+      padding: 0rem;
+      margin-right: 0rem;
+      display: flex;
+      align-items: center;
+    }
+    .splash-image {
+      width: 100%;
+    }
+    .learn-more {
+      font-size: 4.7vw;
+    }
   }
-  .sub-title {
-    font-size: 5vw;
-    margin: 0 0 4vh 0;
-  }
-  .splash-image-container {
-    margin-left: unset;
-    padding: 0rem;
-    margin-right: 0rem;
-    display: flex;
-    align-items: center;
-  }
-  .splash-image {
-    width: 100%;
-  }
-  .learn-more {
-    font-size: 4.7vw;
-  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    grid-template-columns: 1fr;
+    .pl-details {
+      padding: 2rem;
+      text-align: center;
+      justify-content: center;
+    }
+    .title {
+      font-size: 8vw;
+      margin: 0 0 3vh 0;
+    }
+    .sub-title {
+      font-size: 4.5vw;
+      margin: 0 0 4vh 0;
+    }
+    .splash-image-container {
+      margin-left: unset;
+      padding: 0rem;
+      margin-right: 0rem;
+      display: flex;
+      align-items: center;
+    }
+    .splash-image {
+      width: 100%;
+    }
+    .learn-more {
+      font-size: 4.7vw;
+      margin: 0 auto;
+    }
   }
 `;
 

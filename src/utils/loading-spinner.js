@@ -29,7 +29,7 @@ const Loader = styled.div`
 export default function Circle() {
     return (
         <Loader>
-        <div class="loader"></div>
+        <div className="loader"></div>
         </Loader>
     )
 }

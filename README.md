@@ -28,6 +28,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Devlopment: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build a Super Mario themed Google map with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/build-a-super-mario-themed-google-map-with-javascript-180?from=github)|
 | Build your own Uber-for-X Application | HTML5, JavaScript, Node, Express, MongoDB | [Link](https://projectlearn.io/learn/web-development/project/build-your-own-uber-for-x-application-177?from=github)|
 | Build a community-driven delivery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-community-driven-delivery-application-176?from=github)|
 | Build a local Store search-and-discovery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-local-store-search-and-discovery-application-175?from=github)|
@@ -118,7 +119,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Netflix Landing Page | HTML5, CSS3, JavaScript | [Link](https://projectlearn.io/learn/web-development/project/netflix-landing-page-10?from=github)|
 | AI Chatbot | Web Speech API, Node, JavaScript, Express, Socket.io | [Link](https://projectlearn.io/learn/web-development/project/ai-chatbot-9?from=github)|
 | Social Networking App | React, Node, Redux, Firebase, REST | [Link](https://projectlearn.io/learn/web-development/project/social-networking-app-8?from=github)|
-| Blockchain | Node, JavaScript, Cryptography, Blockchain | [Link](https://projectlearn.io/learn/web-development/project/blockchain-7?from=github)|
+| Build A Simple Cryptocurrency Blockchain In Node.js | Node, JavaScript, Cryptography, Blockchain | [Link](https://projectlearn.io/learn/web-development/project/build-a-simple-cryptocurrency-blockchain-in-node.js-7?from=github)|
 | BitTorrent Client | Node, JavaScript, TCP, Computer Networks | [Link](https://projectlearn.io/learn/web-development/project/bittorrent-client-6?from=github)|
 | Todo List App with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/todo-list-app-with-javascript-4?from=github)|
 | JavaScript Animations with Anime.js | JavaScript, CSS3, Library, HTML5, API | [Link](https://projectlearn.io/learn/web-development/project/javascript-animations-with-anime.js-3?from=github)|

@@ -12,6 +12,7 @@ const CategoriesWrapper = styled.div`
   margin: 10vh 5vw;
   display: grid;
   grid-template-columns: 9vw auto;
+  grid-column-gap: 1.5vw;
   grid-template-rows: 1fr;
   height: fit-content;
   .section-title-container {
@@ -70,7 +71,7 @@ const CategoriesWrapper = styled.div`
   .cat-title {
     font-size: 4vh;
     margin: 0;
-    font-family: "LatoBold";
+    font-family: "Lato";
     margin-bottom: 2vh;
   }
   .cat-subtitle {
@@ -91,7 +92,7 @@ const CategoriesWrapper = styled.div`
     font-size: 2.8vh;
     margin-right: 1vh;
   }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 768px) {
     margin: 5vh 5vw;
     grid-template-columns: 1fr;
     .section-content {
@@ -108,6 +109,39 @@ const CategoriesWrapper = styled.div`
     }
     .cat-title {
       font-size: 5.3vw;
+      margin-bottom: 1vh;
+    }
+    .cat-subtitle {
+      font-size: 3.8vw;
+    }
+    .cat-img {
+      height: 20vw;
+    }
+    .category-art {
+      width: 25vw;
+      display: flex;
+    }
+    .cat-redirect {
+      font-size: 4vw;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    margin: 5vh 5vw;
+    grid-template-columns: 1fr;
+    .section-content {
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+    }
+    .section-category {
+      padding: 2vw;
+      grid-template-columns: 0.8fr 2fr !important;
+      align-items: center;
+    }
+    .section-title-container {
+      display: none;
+    }
+    .cat-title {
+      font-size: 5vw;
       margin-bottom: 1vh;
     }
     .cat-subtitle {
@@ -145,7 +179,8 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">Web Development</h2>
               <div className="cat-subtitle">
-                Learn how to create web applications using HTML, CSS, JavaScript, React and more.
+                Learn how to create web applications using HTML, CSS,
+                JavaScript, React and more.
               </div>
             </div>
 
@@ -171,8 +206,8 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">Mobile Development</h2>
               <div className="cat-subtitle">
-                Learn how to create mobile applications using Android, Flutter, React Native and
-                more.
+                Learn how to create mobile applications using Android, Flutter,
+                React Native and more.
               </div>
             </div>
 
@@ -193,7 +228,8 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">Game Development</h2>
               <div className="cat-subtitle">
-                Learn how to build awesome video games. C#, PyGame, OpenGL, Unity and more.
+                Learn how to build awesome video games. C#, PyGame, OpenGL,
+                Unity and more.
               </div>
             </div>
 
@@ -214,7 +250,8 @@ export default function Categories() {
             <div className="category-details">
               <h2 className="cat-title">ML & AI</h2>
               <div className="cat-subtitle">
-                Learn how a machine learns. Python, NumPy, Pandas, SciKit, Tensorflow and more.
+                Learn how a machine learns. Python, NumPy, Pandas, SciKit,
+                Tensorflow and more.
               </div>
             </div>
             <div className="cat-redirect">

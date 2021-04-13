@@ -2,7 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
 
-import { faVideo, faNewspaper, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faVideo,
+  faNewspaper,
+  faArrowCircleRight,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectWrapper = styled.div`
@@ -16,8 +20,7 @@ const ProjectWrapper = styled.div`
     background-color: white;
     transition: 0.4s;
     background: white;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.075);
     border-top: 4px solid var(${(props) => props.bg}-alt);
     :hover {
       box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
@@ -50,7 +53,8 @@ const ProjectWrapper = styled.div`
           padding: 1vh;
         }
         .cat-art {
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+            rgba(0, 0, 0, 0.24) 0px 1px 2px;
           border-radius: 1vh;
           height: 4vw;
           width: 4vw;
@@ -120,13 +124,13 @@ const ProjectWrapper = styled.div`
       color: var(${(props) => props.bg}-alt);
     }
   }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and  (max-width: 480px) {
     .project-grid-items {
       padding: 3vw;
     }
 
     .details-2 {
-      font-size: 5.7vw !important;
+      font-size: 6vw !important;
       margin: 0;
       margin-bottom: 3vh;
       font-weight: normal;
@@ -153,17 +157,65 @@ const ProjectWrapper = styled.div`
       padding: 0vh !important;
     }
     .cat-title {
-      font-size: 4vw !important;
+      font-size: 4.5vw !important;
     }
     .section-title {
-      font-size: 3.5vw !important;
+      font-size: 4.5vw !important;
     }
     .date-value {
-      font-size: 4vw !important;
+      font-size: 5vw !important;
     }
     .cat-art {
       width: 10vw !important;
       height: 10vw !important;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .project-grid-items {
+      padding: 3vw;
+      border-radius: 2vw;
+      border-top: 5px solid var(${(props) => props.bg}-alt);
+    }
+
+    .details-2 {
+      font-size: 4vw !important;
+      margin: 0;
+      margin-bottom: 3vh;
+      font-weight: normal;
+    }
+    .details-3 {
+      .section-title {
+        font-size: 3vw !important;
+        margin-bottom: 1.5vh;
+      }
+      .tags-container {
+        margin: 0 !important;
+        line-height: 110% !important;
+        .tag {
+          margin-left: 1vw;
+          padding: 0.7vw !important;
+          cursor: pointer;
+          font-size: 3vw !important;
+        }
+      }
+      margin-bottom: 1vh;
+    }
+    .svg-inline--fa {
+      font-size: 4vw !important;
+      padding: 0vh !important;
+    }
+    .cat-title {
+      font-size: 3.2vw !important;
+    }
+    .section-title {
+      font-size: 3vw !important;
+    }
+    .date-value {
+      font-size: 3vw !important;
+    }
+    .cat-art {
+      width: 8vw !important;
+      height: 8vw !important;
     }
   }
 `;

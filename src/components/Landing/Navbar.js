@@ -61,7 +61,7 @@ const NavWrapper = styled.div`
   .mobile-nav {
     display: none;
   }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 768px) {
     padding: 2vh;
     grid-template-columns: 1fr;
     .nav-components-container,
@@ -75,6 +75,25 @@ const NavWrapper = styled.div`
     .nav-component {
       margin: 2vh;
       font-size: 1.25rem;
+    }
+    .m-github {
+      margin-left: auto;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    padding: 2vh;
+    grid-template-columns: 1fr;
+    .nav-components-container,
+    .pl-branding {
+      display: none;
+    }
+    .mobile-nav {
+      display: flex;
+      width: 100%;
+    }
+    .nav-component {
+      margin: 2vh;
+      font-size: 2.5rem;
     }
     .m-github {
       margin-left: auto;
@@ -114,7 +133,7 @@ class Navbar extends Component {
           >
             <div className="nav-component gt-container">
               <FontAwesomeIcon icon={faGithub} />
-              {stars ? `${stars} stars` : <Circle/>}
+              {stars ? `${stars} stars` : <Circle />}
             </div>
           </a>
         </div>
@@ -138,7 +157,7 @@ class Navbar extends Component {
           >
             <div className="nav-component gt-container">
               <FontAwesomeIcon icon={faGithub} />
-              {stars ? `${stars} stars` : <Circle/>}
+              {stars ? `${stars} stars` : <Circle />}
             </div>
           </a>
         </div>

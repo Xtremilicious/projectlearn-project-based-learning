@@ -62,7 +62,8 @@ const ContentWrapper = styled.div`
       border-radius: 3vh;
       border: none;
       padding-left: 2.5vh;
-      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+        rgba(0, 0, 0, 0.24) 0px 1px 2px;
       outline: none;
     }
   }
@@ -73,7 +74,63 @@ const ContentWrapper = styled.div`
   .mobile-filter-reset {
     display: none;
   }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and  (max-width: 480px) {
+    .headers {
+      display: none;
+    }
+    .section-header {
+      position: fixed;
+      width: 100vw;
+      padding-bottom: 3vh;
+    }
+    .dummy {
+      width: 100vw;
+      height: 35vh;
+    }
+    .search-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 5vh auto;
+      margin-bottom: 0;
+    }
+    .mobile-title {
+      display: block;
+      display: flex;
+      justify-content: center;
+      font-size: 7vw;
+      margin-bottom: 2vh;
+    }
+    .mobile-filter-reset {
+      display: flex;
+      align-items: center;
+      font-size: 7vw;
+      margin-top: 3vh;
+      .cat-title {
+        background: var(${(props) => props.bg}-alt);
+        padding: 1vh;
+        border-radius: 1vh;
+        font-size: 7vw;
+      }
+      .clear {
+        text-decoration: underline;
+        margin-left: 2vw;
+      }
+    }
+    .search-bar {
+      font-size: 2.5vh !important;
+    }
+    .back-to-landing {
+      display: block;
+      position: absolute;
+      top: 1.5vh;
+      left: 2vh;
+      font-size: 3vh;
+      cursor: pointer;
+      z-index: 110;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .headers {
       display: none;
     }
@@ -103,12 +160,13 @@ const ContentWrapper = styled.div`
     .mobile-filter-reset {
       display: flex;
       align-items: center;
-      font-size: 4.5vw;
+      font-size: 3.5vh;
       margin-top: 3vh;
-      .cat-title{
+      .cat-title {
         background: var(${(props) => props.bg}-alt);
         padding: 1vh;
         border-radius: 1vh;
+        font-size: 3.5vh;
       }
       .clear {
         text-decoration: underline;
@@ -172,9 +230,13 @@ class Content extends Component {
       projects = projects
         .filter((project) => {
           return (
-            project.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 ||
+            project.title
+              .toLowerCase()
+              .indexOf(this.state.search.toLowerCase()) !== -1 ||
             project.tech.some((t) => {
-              return t.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
+              return (
+                t.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
+              );
             }) === true
           );
         })
@@ -185,14 +247,16 @@ class Content extends Component {
       <ContentWrapper bg={this.props.color}>
         <div className="dummy" />
         <div className="section-header">
-        <Link href="../../#categories">
-          <div className="back-to-landing">
-            <FontAwesomeIcon icon={faArrowLeft} />
-          </div>
-        </Link>
+          <Link href="../../#categories">
+            <div className="back-to-landing">
+              <FontAwesomeIcon icon={faArrowLeft} />
+            </div>
+          </Link>
           <div className="headers">
             <h1 className="section-title">{categoryTitle}</h1>
-            <div className="section-sub-title">{projects ? projects.length : null} Projects</div>
+            <div className="section-sub-title">
+              {projects ? projects.length : null} Projects
+            </div>
           </div>
 
           <div className="search-container">
@@ -205,7 +269,10 @@ class Content extends Component {
               placeholder="Search"
             />
             <Link href={{ pathname: `${url}` }}>
-              <div className="mobile-filter-reset" onClick={() => this.resetSearch()}>
+              <div
+                className="mobile-filter-reset"
+                onClick={() => this.resetSearch()}
+              >
                 <div className="selected-cat">
                   <div className="cat-title">{tech || "Showing All"}</div>
                 </div>

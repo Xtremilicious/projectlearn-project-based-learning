@@ -88,7 +88,8 @@ const ProjectInfoWrapper = styled.div`
         padding: 0.5vh;
       }
       .cat-art {
-        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+          rgba(0, 0, 0, 0.24) 0px 1px 2px;
         border-radius: 1vh;
         height: 4.5vw;
         width: 4.5vw;
@@ -122,6 +123,7 @@ const ProjectInfoWrapper = styled.div`
   .external-link-container {
     width: fit-content;
     display: flex;
+    font-size: 3vh;
   }
   .external-link {
     background: var(--theme-green);
@@ -200,7 +202,7 @@ const ProjectInfoWrapper = styled.div`
     font-size: 150%;
     margin: 0 0 15px;
   }
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and  (max-width: 480px) {
     grid-template-columns: 1fr;
     .related {
       display: none;
@@ -244,6 +246,58 @@ const ProjectInfoWrapper = styled.div`
     .description {
       font-size: 4.5vw;
     }
+
+    .external-link-container {
+      font-size: 4vw;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    grid-template-columns: 1fr;
+    .related {
+      display: none;
+    }
+    .headings {
+      margin: unset;
+      .section-one {
+        margin-top: 2vw;
+        margin-right: 2vw;
+      }
+      .date {
+        font-size: 4vw !important;
+      }
+      .project-title {
+        font-size: 8vw;
+      }
+      .project-category {
+        font-size: 4.5vw;
+      }
+      .tags-container {
+        .tag {
+          font-size: 3.5vw;
+          margin-right: 2vw;
+          padding: 0vw 2vw;
+          line-height: 200%;
+          margin-bottom: 2vw;
+        }
+      }
+      .section-two {
+        display: none;
+      }
+    }
+    .video-content {
+      height: 40vw !important;
+      width: 70vw !important;
+      border-radius: 1vh;
+    }
+    .modal-window > div {
+      margin: 10% auto !important;
+    }
+    .description {
+      font-size: 4vw;
+    }
+    .external-link-container {
+      font-size: 4vw;
+    }
   }
 `;
 function ProjectInfo(props) {
@@ -261,7 +315,8 @@ function ProjectInfo(props) {
   const relatedProjects = props.projects
     .filter(
       (filteredProject) =>
-        filteredProject.category.includes(category) && filteredProject.id !== project.id
+        filteredProject.category.includes(category) &&
+        filteredProject.id !== project.id
     )
     .map((item) => item);
 
@@ -301,10 +356,14 @@ function ProjectInfo(props) {
         <div className="headings">
           <div className="section-one">
             <Link href="../">
-              <div className="project-category">{props.projectCategory} Project</div>
+              <div className="project-category">
+                {props.projectCategory} Project
+              </div>
             </Link>
             <h1 className="project-title">{project.title}</h1>
-            <div className="date">Date Published: {`${day} ${month} ${year}`}</div>
+            <div className="date">
+              Date Published: {`${day} ${month} ${year}`}
+            </div>
             <div className="tags-container">
               {project.tech.map((t) => (
                 <Link
@@ -327,8 +386,9 @@ function ProjectInfo(props) {
         </div>
         <div className="description-title">Description</div>
         <div className="description">
-          Learn {props.projectCategory} by building the project {project.title} using concepts and
-          technologies like {project.tech.map((t) => t).join(", ")} and more!
+          Learn {props.projectCategory} by building the project {project.title}{" "}
+          using concepts and technologies like{" "}
+          {project.tech.map((t) => t).join(", ")} and more!
         </div>
         <div className="description-title">Project Link</div>
         <div className="external-link-container">
@@ -342,12 +402,19 @@ function ProjectInfo(props) {
                   <a href="" title="Close" className="modal-close">
                     &times;
                   </a>
-                  <YouTube videoId={youtubeGetID(project.projectURL)} className="video-content" />
+                  <YouTube
+                    videoId={youtubeGetID(project.projectURL)}
+                    className="video-content"
+                  />
                 </div>
               </div>
             </React.Fragment>
           ) : null}
-          <a href={project.projectURL} className="external-link-container" target="_blank">
+          <a
+            href={project.projectURL}
+            className="external-link-container"
+            target="_blank"
+          >
             <div className="external-link">
               External Link <FontAwesomeIcon icon={faExternalLinkAlt} />
             </div>

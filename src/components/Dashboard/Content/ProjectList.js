@@ -13,21 +13,29 @@ const ListWrapper = styled.div`
     grid-column-gap: 2vw;
     grid-row-gap: 4vh;
     margin-bottom: 5vh;
-    @media only screen and (min-width: 320px) and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
       grid-template-columns: 1fr;
       grid-row-gap: 4vh;
       margin-left: 10%;
       margin-right: 10%;
       grid-column-gap: 2vh;
       margin-top: 28.5vh;
-  }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 8vw;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      grid-column-gap: 4vw;
+      margin-top: 28.5vh;
+    }
   }
 `;
 
-const ProjectList = props => {
+const ProjectList = (props) => {
   const { projects } = props;
   const {
-    query: { tech }
+    query: { tech },
   } = useRouter();
   return (
     <ListWrapper>
@@ -36,12 +44,22 @@ const ProjectList = props => {
           {projects != null
             ? tech !== undefined
               ? projects
-                  .filter(project => project.tech.includes(tech))
-                  .map(project => (
-                    <Project key={project.id} project={project} url={props.url} color={props.color}/>
+                  .filter((project) => project.tech.includes(tech))
+                  .map((project) => (
+                    <Project
+                      key={project.id}
+                      project={project}
+                      url={props.url}
+                      color={props.color}
+                    />
                   ))
-              : projects.map(project => (
-                  <Project key={project.id} project={project} url={props.url} color={props.color}/>
+              : projects.map((project) => (
+                  <Project
+                    key={project.id}
+                    project={project}
+                    url={props.url}
+                    color={props.color}
+                  />
                 ))
             : null}
         </div>
