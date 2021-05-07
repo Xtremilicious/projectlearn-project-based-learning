@@ -35,9 +35,9 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
   const projectsData = require("../../data");
   const projects = projectsData[Object.keys(projectsData)[0]];
   const domains = [
-    ["web-dev", "web-development", "Web Devlopment"],
-    ["mob-dev", "mobile-development", "Mobile Devlopment"],
-    ["game-dev", "game-development", "Game Devlopment"],
+    ["web-dev", "web-development", "Web Development"],
+    ["mob-dev", "mobile-development", "Mobile Development"],
+    ["game-dev", "game-development", "Game Development"],
     ["ml-ai", "machine-learning-and-ai", "Machine Learning & AI"],
   ];
 

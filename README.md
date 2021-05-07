@@ -25,7 +25,7 @@ The list has project tutorials on many in-demand languages and technologies incl
 To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/CONTRIBUTE.md) for more details :)
   
 ## List of Project Tutorials:
-### Web Devlopment: 
+### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
 | Build a Super Mario themed Google map with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/build-a-super-mario-themed-google-map-with-javascript-180?from=github)|
@@ -124,7 +124,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Todo List App with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/todo-list-app-with-javascript-4?from=github)|
 | JavaScript Animations with Anime.js | JavaScript, CSS3, Library, HTML5, API | [Link](https://projectlearn.io/learn/web-development/project/javascript-animations-with-anime.js-3?from=github)|
 | Job Board App with React | React, Node, Cron, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/job-board-app-with-react-1?from=github)|
-### Mobile Devlopment: 
+### Mobile Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
 | Flappy Bird iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/flappy-bird-ios-game-using-swift-130?from=github)|
@@ -142,7 +142,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Todo App | React Native, Android, iOS, JavaScript | [Link](https://projectlearn.io/learn/mobile-development/project/todo-app-24?from=github)|
 | Photo Library Viewer | C#, iOS, Xamarin, Visual Studio, Android | [Link](https://projectlearn.io/learn/mobile-development/project/photo-library-viewer-19?from=github)|
 | WhatsApp Clone with React Native | React Native, Node, GraphQL, Apollo, JavaScript | [Link](https://projectlearn.io/learn/mobile-development/project/whatsapp-clone-with-react-native-2?from=github)|
-### Game Devlopment: 
+### Game Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
 | Simple Games | Lua, LÖVE, Python, Pygame Zero | [Link](https://projectlearn.io/learn/game-development/project/simple-games-179?from=github)|
