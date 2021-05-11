@@ -76,7 +76,7 @@ exports.projectsData = [
     type: "article",
     title: "Cryptocurrency price listing mobile app",
     category: ["mob-dev"],
-    tech: ["React", "Swift", "Flutter", "Dart"],
+    tech: ["React Native", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/cryptocurrency-price-listing-mobile-app-atx32meo88"
   },
@@ -85,7 +85,7 @@ exports.projectsData = [
     type: "article",
     title: "Restaurants social mobile app",
     category: ["mob-dev"],
-    tech: ["React", "Swift", "Flutter", "Dart"],
+    tech: ["React Native", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/restaurants-social-mobile-app-atx32rvbqo"
   },
@@ -94,7 +94,7 @@ exports.projectsData = [
     type: "article",
     title: "Break time reminder mobile app",
     category: ["mob-dev"],
-    tech: ["React", "Kotlin", "Java", "Swift"],
+    tech: ["React Native", "Kotlin", "Java", "Swift"],
     datePublished: "March 15, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/break-time-reminder-mobile-app-bjzm27c836"
   },
@@ -103,7 +103,7 @@ exports.projectsData = [
     type: "article",
     title: "Invoicing and payment reminder mobile app",
     category: ["mob-dev"],
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    tech: ["React", "Node", "Express", "MongoDB"],
     datePublished: "December 10, 2020",
     projectURL: "https://www.codementor.io/projects/mobile/invoicing-and-payment-reminder-mobile-app-atx32o85yj"
   },
@@ -112,7 +112,7 @@ exports.projectsData = [
     type: "article",
     title: "Countdown mobile app",
     category: ["mob-dev"],
-    tech: ["Swift", "Java", "React"],
+    tech: ["Swift", "Java", "React Native"],
     datePublished: "March 02, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/countdown-mobile-app-bjzn08zcon"
   },
