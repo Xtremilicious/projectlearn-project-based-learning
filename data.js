@@ -76,7 +76,7 @@ exports.projectsData = [
     type: "article",
     title: "Cryptocurrency price listing mobile app",
     category: ["mob-dev"],
-    tech: ["React Native", "Swift", "Flutter", "Dart"],
+    tech: ["React", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/cryptocurrency-price-listing-mobile-app-atx32meo88"
   },
@@ -85,7 +85,7 @@ exports.projectsData = [
     type: "article",
     title: "Restaurants social mobile app",
     category: ["mob-dev"],
-    tech: ["React Native", "Swift", "Flutter", "Dart"],
+    tech: ["React", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/restaurants-social-mobile-app-atx32rvbqo"
   },
@@ -94,7 +94,7 @@ exports.projectsData = [
     type: "article",
     title: "Break time reminder mobile app",
     category: ["mob-dev"],
-    tech: ["React Native", "Kotlin", "Java", "Swift"],
+    tech: ["React", "Kotlin", "Java", "Swift"],
     datePublished: "March 15, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/break-time-reminder-mobile-app-bjzm27c836"
   },
@@ -112,7 +112,7 @@ exports.projectsData = [
     type: "article",
     title: "Countdown mobile app",
     category: ["mob-dev"],
-    tech: ["Swift", "Java", "React Native"],
+    tech: ["Swift", "Java", "React"],
     datePublished: "March 02, 2021",
     projectURL: "https://www.codementor.io/projects/mobile/countdown-mobile-app-bjzn08zcon"
   },
