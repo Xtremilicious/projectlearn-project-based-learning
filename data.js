@@ -1,12 +1,79 @@
 exports.projectsData = [
   {
+    id: 200,
+    type: "article",
+    title: "Build a YouTube Clone with React",
+    category: ["web-dev"],
+    tech: ["Express", "Node", "JavaScript", "HTML", "CSS", "React"],
+    datePublished: "NFebruary 10, 2021",
+    projectURL: "https://www.freecodecamp.org/news/build-youtube-with-react/",
+  },
+  {
+    id: 199,
+    type: "article",
+    title: "Build a Chat App with Stories Using the Flutter SDK",
+    category: ["mob-dev"],
+    tech: ["Flutter", "Dart"],
+    datePublished: "February 10, 2021",
+    projectURL: "https://www.freecodecamp.org/news/flutter-messenger-clone/",
+  },
+  {
+    id: 198,
+    type: "video",
+    title: "Build a Robinhood Style App to Track COVID-19 Cases",
+    category: ["mob-dev"],
+    tech: ["Kotlin", "Android"],
+    datePublished: "February 17, 2021",
+    projectURL: "https://www.youtube.com/watch?v=4gMDR69DB6A",
+  },
+  {
+    id: 197,
+    type: "article",
+    title: "Create a Diverging Bar Chart with a JavaScript Charting Library",
+    category: ["web-dev"],
+    tech: ["JavaScript", "HTML", "CSS"],
+    datePublished: "February 24, 2021",
+    projectURL:
+      "https://www.freecodecamp.org/news/diverging-bar-chart-javascript/",
+  },
+  {
+    id: 196,
+    type: "article",
+    title: "Learn CSS Basics by Building a Card Component",
+    category: ["web-dev"],
+    tech: ["HTML", "CSS"],
+    datePublished: "February 25, 2021",
+    projectURL:
+      "ehttps://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/",
+  },
+  {
+    id: 195,
+    type: "video",
+    title: "Create an Arkanoid Game with TypeScript",
+    category: ["game-dev"],
+    tech: ["TypeScript", "HTML", "CSS", "JavaScript"],
+    datePublished: "February 25, 2021",
+    projectURL: "https://www.youtube.com/watch?v=7bejSTim38A",
+  },
+  {
+    id: 194,
+    type: "article",
+    title: "Create a Serverless Meme as a Service",
+    category: ["web-dev"],
+    tech: ["JavaScript", "Rust", "CSS", "HTML"],
+    datePublished: "February 25, 2021",
+    projectURL:
+      "https://www.freecodecamp.org/news/create-a-serverless-meme-as-a-service/",
+  },
+  {
     id: 193,
     type: "article",
     title: "Weather forecast website",
     category: ["web-dev"],
     tech: ["JavaScript", "HTML", "CSS", "React"],
     datePublished: "November 20, 2020",
-    projectURL: "https://www.codementor.io/projects/web/weather-forecast-website-atx32lz7zb"
+    projectURL:
+      "https://www.codementor.io/projects/web/weather-forecast-website-atx32lz7zb",
   },
   {
     id: 192,
@@ -15,7 +82,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript", "Vue", "HTML", "CSS", "React", "Angular"],
     datePublished: "April 15, 2021",
-    projectURL: "https://www.codementor.io/projects/web/link-shortener-website-brqjanf6zq"
+    projectURL:
+      "https://www.codementor.io/projects/web/link-shortener-website-brqjanf6zq",
   },
   {
     id: 191,
@@ -24,7 +92,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript", "Google Analytics", "HTML", "CSS"],
     datePublished: "January 6, 2021",
-    projectURL: "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1"
+    projectURL:
+      "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1",
   },
   {
     id: 190,
@@ -33,7 +102,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["PHP", "HTML", "CSS"],
     datePublished: "January 6, 2021",
-    projectURL: "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1"
+    projectURL:
+      "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1",
   },
   {
     id: 189,
@@ -42,7 +112,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Python", "Bootstrap"],
     datePublished: "December 20, 2020",
-    projectURL: "https://www.codementor.io/projects/web/plagiarism-checker-website-atx32nf0oa"
+    projectURL:
+      "https://www.codementor.io/projects/web/plagiarism-checker-website-atx32nf0oa",
   },
   {
     id: 188,
@@ -51,7 +122,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["PHP", "HTML", "CSS"],
     datePublished: "January 6, 2021",
-    projectURL: "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1"
+    projectURL:
+      "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1",
   },
   {
     id: 187,
@@ -60,7 +132,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript", "HTML", "CSS"],
     datePublished: "February 24, 2021",
-    projectURL: "https://www.codementor.io/projects/web/build-a-custom-google-maps-theme-bf8levr6eg"
+    projectURL:
+      "https://www.codementor.io/projects/web/build-a-custom-google-maps-theme-bf8levr6eg",
   },
   {
     id: 186,
@@ -69,7 +142,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["Kotlin", "Java", "Swift"],
     datePublished: "April 09, 2021",
-    projectURL: "https://www.codementor.io/projects/mobile/tinder-style-swipe-mechanism-for-an-ios-app-bh9ph8n1co"
+    projectURL:
+      "https://www.codementor.io/projects/mobile/tinder-style-swipe-mechanism-for-an-ios-app-bh9ph8n1co",
   },
   {
     id: 185,
@@ -78,7 +152,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["React Native", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
-    projectURL: "https://www.codementor.io/projects/mobile/cryptocurrency-price-listing-mobile-app-atx32meo88"
+    projectURL:
+      "https://www.codementor.io/projects/mobile/cryptocurrency-price-listing-mobile-app-atx32meo88",
   },
   {
     id: 184,
@@ -87,7 +162,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["React Native", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
-    projectURL: "https://www.codementor.io/projects/mobile/restaurants-social-mobile-app-atx32rvbqo"
+    projectURL:
+      "https://www.codementor.io/projects/mobile/restaurants-social-mobile-app-atx32rvbqo",
   },
   {
     id: 183,
@@ -96,7 +172,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["React Native", "Kotlin", "Java", "Swift"],
     datePublished: "March 15, 2021",
-    projectURL: "https://www.codementor.io/projects/mobile/break-time-reminder-mobile-app-bjzm27c836"
+    projectURL:
+      "https://www.codementor.io/projects/mobile/break-time-reminder-mobile-app-bjzm27c836",
   },
   {
     id: 182,
@@ -105,7 +182,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["React", "Node", "Express", "MongoDB"],
     datePublished: "December 10, 2020",
-    projectURL: "https://www.codementor.io/projects/mobile/invoicing-and-payment-reminder-mobile-app-atx32o85yj"
+    projectURL:
+      "https://www.codementor.io/projects/mobile/invoicing-and-payment-reminder-mobile-app-atx32o85yj",
   },
   {
     id: 181,
@@ -114,7 +192,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["Swift", "Java", "React Native"],
     datePublished: "March 02, 2021",
-    projectURL: "https://www.codementor.io/projects/mobile/countdown-mobile-app-bjzn08zcon"
+    projectURL:
+      "https://www.codementor.io/projects/mobile/countdown-mobile-app-bjzn08zcon",
   },
   {
     id: 180,
@@ -123,7 +202,7 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "March 01, 2021",
-    projectURL: "https://www.youtube.com/watch?v=CdDXbvBFXLY"
+    projectURL: "https://www.youtube.com/watch?v=CdDXbvBFXLY",
   },
   {
     id: 179,
@@ -132,7 +211,7 @@ exports.projectsData = [
     category: ["game-dev"],
     tech: ["Lua", "LÖVE", "Python", "Pygame Zero"],
     datePublished: "Nov 26, 2020",
-    projectURL: "https://simplegametutorials.github.io/"
+    projectURL: "https://simplegametutorials.github.io/",
   },
   {
     id: 178,
@@ -141,7 +220,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "Numpy", "SciKit", "Pandas", "Matplotlib"],
     datePublished: "Feb 07, 2018",
-    projectURL: "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/"
+    projectURL:
+      "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/",
   },
   {
     id: 177,
@@ -150,7 +230,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["HTML5", "JavaScript", "Node", "Express", "MongoDB", "Mapbox"],
     datePublished: "Oct 22, 2016",
-    projectURL: "https://blog.booleanhunter.com/how-to-build-your-own-uber-for-x-app/"
+    projectURL:
+      "https://blog.booleanhunter.com/how-to-build-your-own-uber-for-x-app/",
   },
   {
     id: 176,
@@ -159,7 +240,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
     datePublished: "Dec 09, 2020",
-    projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2-d391e143fe67"
+    projectURL:
+      "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2-d391e143fe67",
   },
   {
     id: 175,
@@ -168,7 +250,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
     datePublished: "Nov 04, 2020",
-    projectURL: "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-4522e1d98739"
+    projectURL:
+      "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-4522e1d98739",
   },
   {
     id: 174,
@@ -185,20 +268,18 @@ exports.projectsData = [
     type: "video",
     title: "Python Online Multiplayer Game",
     category: ["game-dev"],
-    tech: ["Python",],
+    tech: ["Python"],
     datePublished: "Mar 26, 2019",
-    projectURL:
-      "https://youtu.be/McoDjOCb2Zo",
+    projectURL: "https://youtu.be/McoDjOCb2Zo",
   },
   {
     id: 172,
     type: "video",
     title: "Beat Em Up Fight Game",
     category: ["game-dev"],
-    tech: ["Unity", "C#",],
+    tech: ["Unity", "C#"],
     datePublished: "Feb 29, 2019",
-    projectURL:
-      "https://youtu.be/gcF66q-UPCs",
+    projectURL: "https://youtu.be/gcF66q-UPCs",
   },
   {
     id: 171,
@@ -207,8 +288,7 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["React", "Firebase", "CSS3", "JavaScript", "HTML5"],
     datePublished: "Aug 27, 2020",
-    projectURL:
-      "https://www.youtube.com/watch?v=B-kxUMHBxNo&t=1s",
+    projectURL: "https://www.youtube.com/watch?v=B-kxUMHBxNo&t=1s",
   },
   {
     id: 170,
@@ -217,8 +297,7 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript"],
     datePublished: "Oct 2, 2020",
-    projectURL:
-      "https://javascript30.com/",
+    projectURL: "https://javascript30.com/",
   },
   {
     id: 169,
@@ -247,7 +326,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Vue", "JavaScript", "HTML", "CSS"],
     datePublished: "Jun 24, 2020",
-    projectURL: "https://www.freecodecamp.org/news/how-to-build-a-memory-card-game-with-vuejs/",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-a-memory-card-game-with-vuejs/",
   },
   {
     id: 166,
@@ -350,7 +430,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["API", "GCP", "Node", "JavaScript"],
     datePublished: "4 MAY 2020",
-    projectURL: "https://www.freecodecamp.org/news/how-to-build-a-twitter-sentiment-analysis-tool/",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-a-twitter-sentiment-analysis-tool/",
   },
   {
     id: 155,
@@ -379,7 +460,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Ruby", "Rails", "JavaScript"],
     datePublished: "Apr 28, 2020",
-    projectURL: "https://dev.to/jessesbyers/watershed-monitor-javascript-and-rails-project-576c",
+    projectURL:
+      "https://dev.to/jessesbyers/watershed-monitor-javascript-and-rails-project-576c",
   },
   {
     id: 152,
@@ -388,7 +470,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["React", "Redux", "HTML", "CSS", "JavaScript"],
     datePublished: "Apr 28, 2020",
-    projectURL: "https://dev.to/jessesbyers/climate-data-dashboard-react-redux-project-1ilb",
+    projectURL:
+      "https://dev.to/jessesbyers/climate-data-dashboard-react-redux-project-1ilb",
   },
   {
     id: 151,
@@ -397,7 +480,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["HTML", "CSS"],
     datePublished: "Apr 28, 2020",
-    projectURL: "https://dev.to/comscience/flipping-uno-cards-using-only-css-4jb9",
+    projectURL:
+      "https://dev.to/comscience/flipping-uno-cards-using-only-css-4jb9",
   },
   {
     id: 150,
@@ -463,7 +547,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["HTML", "CSS"],
     datePublished: "Apr 22, 2020",
-    projectURL: "https://dev.to/comscience/dynamic-weather-app-using-just-css-cp2",
+    projectURL:
+      "https://dev.to/comscience/dynamic-weather-app-using-just-css-cp2",
   },
   {
     id: 143,
@@ -472,7 +557,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Airtable", "Vue", "Vuetify", "API", "HTML", "CSS", "JavaScript"],
     datePublished: "Apr 22, 2020",
-    projectURL: "https://dev.to/codeply/build-a-simple-crud-app-with-airtable-api-vue-vuetify-5565",
+    projectURL:
+      "https://dev.to/codeply/build-a-simple-crud-app-with-airtable-api-vue-vuetify-5565",
   },
   {
     id: 142,
@@ -481,16 +567,26 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["MongoDB", "Express", "Vue", "Node", "HTML", "CSS", "JavaScript"],
     datePublished: "9 MARCH 2020",
-    projectURL: "https://www.freecodecamp.org/news/build-a-full-stack-mevn-app/",
+    projectURL:
+      "https://www.freecodecamp.org/news/build-a-full-stack-mevn-app/",
   },
   {
     id: 141,
     type: "article",
     title: "Todo App with the PERN stack",
     category: ["web-dev"],
-    tech: ["PostgreSQL", "Express", "React", "Node", "HTML", "CSS", "JavaScript"],
+    tech: [
+      "PostgreSQL",
+      "Express",
+      "React",
+      "Node",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
     datePublished: "20 MARCH 2020",
-    projectURL: "https://www.freecodecamp.org/news/learn-the-pern-stack-full-course/",
+    projectURL:
+      "https://www.freecodecamp.org/news/learn-the-pern-stack-full-course/",
   },
   {
     id: 140,
@@ -566,7 +662,8 @@ exports.projectsData = [
     category: ["game-dev"],
     tech: ["OpenGL", "C/C++", "2D"],
     datePublished: "Mar 20, 2018",
-    projectURL: "http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html",
+    projectURL:
+      "http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html",
   },
   {
     id: 132,
@@ -595,7 +692,8 @@ exports.projectsData = [
     category: ["mob-dev", "game-dev"],
     tech: ["Swift", "XCode", "iOS"],
     datePublished: "Mar 14 2017",
-    projectURL: "https://www.raywenderlich.com/3875-how-to-make-a-game-like-flappy-bird",
+    projectURL:
+      "https://www.raywenderlich.com/3875-how-to-make-a-game-like-flappy-bird",
   },
   {
     id: 129,
@@ -604,7 +702,8 @@ exports.projectsData = [
     category: ["mob-dev", "game-dev"],
     tech: ["Swift", "XCode", "iOS"],
     datePublished: "Sep 3 2019",
-    projectURL: "https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app",
+    projectURL:
+      "https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app",
   },
   {
     id: 128,
@@ -613,7 +712,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["Swift", "XCode", "iOS"],
     datePublished: "Oct 8 2019",
-    projectURL: "https://www.raywenderlich.com/5662524-your-second-ios-and-swiftui-app",
+    projectURL:
+      "https://www.raywenderlich.com/5662524-your-second-ios-and-swiftui-app",
   },
   {
     id: 127,
@@ -632,7 +732,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["Swift", "XCode", "iOS"],
     datePublished: "February 13, 2020",
-    projectURL: "https://www.ralfebert.de/ios/beginner-tutorials/iphone-app-xcode/",
+    projectURL:
+      "https://www.ralfebert.de/ios/beginner-tutorials/iphone-app-xcode/",
   },
   {
     id: 125,
@@ -686,7 +787,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "Matplotlib", "Numpy", "Pandas"],
     datePublished: "Dec 8, 2017",
-    projectURL: "https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90",
+    projectURL:
+      "https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90",
   },
   {
     id: 119,
@@ -847,7 +949,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Jul 16, 2019",
-    projectURL: "https://www.freecodecamp.org/news/how-to-build-a-calendar-with-css-grid/",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-a-calendar-with-css-grid/",
   },
   {
     id: 102,
@@ -913,7 +1016,15 @@ exports.projectsData = [
     type: "article",
     title: "Cryptocurrency Tracker",
     category: ["web-dev"],
-    tech: ["NextJS", "GraphQL", "Apollo", "Node", "JavaScript", "HTML5", "CSS3"],
+    tech: [
+      "NextJS",
+      "GraphQL",
+      "Apollo",
+      "Node",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+    ],
     datePublished: "Mar 24, 2020",
     projectURL:
       "https://medium.com/javascript-in-plain-english/build-a-cryptocurrency-tracker-with-next-js-and-apollo-graphql-c776cff6b8bf",
@@ -925,7 +1036,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["JavaScript", "HTML5", "CSS3"],
     datePublished: "Jun 21, 2019",
-    projectURL: "https://www.florin-pop.com/blog/2019/06/vanilla-javascript-instant-search/",
+    projectURL:
+      "https://www.florin-pop.com/blog/2019/06/vanilla-javascript-instant-search/",
   },
   {
     id: 94,
@@ -961,7 +1073,8 @@ exports.projectsData = [
     category: ["game-dev"],
     tech: ["3D", "Unity", "C#"],
     datePublished: "Apr 12, 2019",
-    projectURL: "https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner",
+    projectURL:
+      "https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner",
   },
   {
     id: 90,
@@ -1006,7 +1119,8 @@ exports.projectsData = [
     category: ["game-dev"],
     tech: ["Unity", "C#"],
     datePublished: "Oct 24, 2019",
-    projectURL: "https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d",
+    projectURL:
+      "https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d",
   },
   {
     id: 85,
@@ -1073,7 +1187,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["Flutter", "Dart", "Android", "iOS"],
     datePublished: "Jun 7, 2018",
-    projectURL: "https://medium.com/the-web-tub/making-a-todo-app-with-flutter-5c63dab88190",
+    projectURL:
+      "https://medium.com/the-web-tub/making-a-todo-app-with-flutter-5c63dab88190",
   },
   {
     id: 78,
@@ -1100,7 +1215,15 @@ exports.projectsData = [
     type: "article",
     title: "MNIST Digit Recognizer",
     category: ["ml-ai"],
-    tech: ["Python", "Keras", "TensorFlow", "Numpy", "SciKit", "Pandas", "Matplotlib"],
+    tech: [
+      "Python",
+      "Keras",
+      "TensorFlow",
+      "Numpy",
+      "SciKit",
+      "Pandas",
+      "Matplotlib",
+    ],
     datePublished: "Apr 19, 2018",
     projectURL:
       "https://medium.com/@lvarruda/how-to-get-top-2-position-on-kaggles-mnist-digit-recognizer-48185d80a2d4",
@@ -1143,7 +1266,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy", "C/C++"],
     datePublished: "MAY 7, 2016",
-    projectURL: "https://www.learnopencv.com/average-face-opencv-c-python-tutorial/",
+    projectURL:
+      "https://www.learnopencv.com/average-face-opencv-c-python-tutorial/",
   },
   {
     id: 71,
@@ -1152,7 +1276,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "December 17, 2018",
-    projectURL: "https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/",
+    projectURL:
+      "https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/",
   },
   {
     id: 70,
@@ -1200,7 +1325,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "DLib", "Numpy"],
     datePublished: "April 3, 2017",
-    projectURL: "https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/",
+    projectURL:
+      "https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/",
   },
   {
     id: 65,
@@ -1209,7 +1335,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "February 20, 2017",
-    projectURL: "https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/",
+    projectURL:
+      "https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/",
   },
   {
     id: 64,
@@ -1228,7 +1355,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "August 13, 2018",
-    projectURL: "https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/",
+    projectURL:
+      "https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/",
   },
   {
     id: 62,
@@ -1268,7 +1396,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "July 9, 2018",
-    projectURL: "https://www.pyimagesearch.com/2018/07/09/face-clustering-with-python/",
+    projectURL:
+      "https://www.pyimagesearch.com/2018/07/09/face-clustering-with-python/",
   },
   {
     id: 58,
@@ -1287,7 +1416,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "OpenCV", "Numpy"],
     datePublished: "July 16, 2018",
-    projectURL: "https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/",
+    projectURL:
+      "https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/",
   },
   {
     id: 56,
@@ -1316,7 +1446,8 @@ exports.projectsData = [
     category: ["ml-ai"],
     tech: ["Python", "SciKit", "Numpy", "Pandas"],
     datePublished: "Apr 24, 2017",
-    projectURL: "https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85",
+    projectURL:
+      "https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85",
   },
   {
     id: 53,
@@ -1415,7 +1546,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Vue", "GraphQL", "Apollo", "JavaScript", "CSS3", "HTML5"],
     datePublished: "February 22, 2018",
-    projectURL: "https://scotch.io/tutorials/build-a-blog-with-vue-graphql-and-apollo-client",
+    projectURL:
+      "https://scotch.io/tutorials/build-a-blog-with-vue-graphql-and-apollo-client",
   },
   {
     id: 43,
@@ -1453,7 +1585,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Node", "JavaScript", "Express", "Redis", "HTML5", "CSS3"],
     datePublished: "July 01, 2015",
-    projectURL: "https://scotch.io/tutorials/building-a-real-time-markdown-viewer",
+    projectURL:
+      "https://scotch.io/tutorials/building-a-real-time-markdown-viewer",
   },
   {
     id: 39,
@@ -1462,7 +1595,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Angular", "TypeScript", "RxJS", "HTML5", "CSS3"],
     datePublished: "2/2/2018",
-    projectURL: "http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web",
+    projectURL:
+      "http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web",
   },
   {
     id: 38,
@@ -1498,7 +1632,16 @@ exports.projectsData = [
     type: "article",
     title: "Chat App with Sentiment Analysis",
     category: ["web-dev", "ml-ai"],
-    tech: ["NextJS", "Pusher", "Sentiment", "Node", "React", "JavaScript", "HTML5", "CSS3"],
+    tech: [
+      "NextJS",
+      "Pusher",
+      "Sentiment",
+      "Node",
+      "React",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+    ],
     datePublished: "2018-06-08",
     source: "Hackernoon",
     projectURL:
@@ -1509,7 +1652,15 @@ exports.projectsData = [
     type: "article",
     title: "Appointment Scheduler",
     category: ["web-dev"],
-    tech: ["React", "Twilio", "CosmicJS", "Material-UI", "JavaScript", "HTML5", "CSS3"],
+    tech: [
+      "React",
+      "Twilio",
+      "CosmicJS",
+      "Material-UI",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+    ],
     datePublished: "2020-03-13",
     source: "Hackernoon",
     projectURL:
@@ -1531,7 +1682,15 @@ exports.projectsData = [
     type: "article",
     title: "News App",
     category: ["web-dev"],
-    tech: ["React Native", "Node", "API", "React", "JavaScript", "HTML5", "CSS3"],
+    tech: [
+      "React Native",
+      "Node",
+      "API",
+      "React",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+    ],
     datePublished: "2018-04-21",
     source: "freeCodeCamp",
     projectURL:
@@ -1542,7 +1701,16 @@ exports.projectsData = [
     type: "article",
     title: "Chat App",
     category: ["web-dev"],
-    tech: ["React", "Redux", "Redux Saga", "Web Sockets", "Node", "JavaScript", "HTML5", "CSS3"],
+    tech: [
+      "React",
+      "Redux",
+      "Redux Saga",
+      "Web Sockets",
+      "Node",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+    ],
     datePublished: "2017-12-07",
     source: "freeCodeCamp",
     projectURL:
@@ -1585,7 +1753,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["React", "Redux", "API", "Immutable", "JavaScript", "HTML5", "CSS3"],
     datePublished: "2016-02-24",
-    projectURL: "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
+    projectURL:
+      "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
   },
   {
     id: 25,
@@ -1604,7 +1773,8 @@ exports.projectsData = [
     category: ["mob-dev"],
     tech: ["React Native", "Android", "iOS", "JavaScript"],
     datePublished: "2016-11-15",
-    projectURL: "https://egghead.io/courses/build-a-react-native-todo-application",
+    projectURL:
+      "https://egghead.io/courses/build-a-react-native-todo-application",
   },
   {
     id: 23,
@@ -1660,7 +1830,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["C#", ".NET", "Razor Pages"],
     datePublished: "2018-11-11",
-    projectURL: "https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p",
+    projectURL:
+      "https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p",
   },
   {
     id: 17,
@@ -1715,7 +1886,15 @@ exports.projectsData = [
     type: "article",
     title: "Job Scraping App",
     category: ["web-dev"],
-    tech: ["Node", "JavaScript", "REST", "API", "Express", "Handlebars", "Material Design Lite"],
+    tech: [
+      "Node",
+      "JavaScript",
+      "REST",
+      "API",
+      "Express",
+      "Handlebars",
+      "Material Design Lite",
+    ],
     source: "freeCodeCamp",
     datePublished: "2018-07-11",
     projectURL:
@@ -1726,7 +1905,15 @@ exports.projectsData = [
     type: "video",
     title: "E-Commerce App",
     category: ["web-dev"],
-    tech: ["React", "Bootstrap", "JavaScript", "HTML5", "CSS3", "JQuery", "Context API"],
+    tech: [
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "JQuery",
+      "Context API",
+    ],
     source: "YouTube",
     datePublished: "2018-12-22",
     projectURL: "https://www.youtube.com/watch?v=wPQ1-33teR4",
@@ -1755,7 +1942,8 @@ exports.projectsData = [
       "Artificial Intelligence",
     ],
     datePublished: "2017-08-07",
-    projectURL: "https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js",
+    projectURL:
+      "https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js",
   },
   {
     id: 8,
@@ -1786,7 +1974,8 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Node", "JavaScript", "Cryptography", "Blockchain"],
     datePublished: "2020-02-20",
-    projectURL: "https://www.smashingmagazine.com/2020/02/cryptocurrency-blockchain-node-js/",
+    projectURL:
+      "https://www.smashingmagazine.com/2020/02/cryptocurrency-blockchain-node-js/",
   },
   {
     id: 6,
