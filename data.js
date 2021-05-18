@@ -5,7 +5,7 @@ exports.projectsData = [
     title: "Build a YouTube Clone with React",
     category: ["web-dev"],
     tech: ["Express", "Node", "JavaScript", "HTML", "CSS", "React"],
-    datePublished: "NFebruary 10, 2021",
+    datePublished: "February 10, 2021",
     projectURL: "https://www.freecodecamp.org/news/build-youtube-with-react/",
   },
   {
