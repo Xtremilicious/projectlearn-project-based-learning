@@ -224,16 +224,6 @@ exports.projectsData = [
       "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/",
   },
   {
-    id: 177,
-    type: "article",
-    title: "Build your own Uber-for-X Application",
-    category: ["web-dev"],
-    tech: ["HTML5", "JavaScript", "Node", "Express", "MongoDB", "Mapbox"],
-    datePublished: "Oct 22, 2016",
-    projectURL:
-      "https://blog.booleanhunter.com/how-to-build-your-own-uber-for-x-app/",
-  },
-  {
     id: 176,
     type: "article",
     title: "Build a community-driven delivery application",
