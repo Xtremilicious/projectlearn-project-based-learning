@@ -1,5 +1,14 @@
 exports.projectsData = [
   {
+    id: 201,
+    type: "article",
+    title: "Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js",
+    category: ["game-dev"],
+    tech: ["JavaScript", "Kaboom"],
+    datePublished: "May 10, 2021",
+    projectURL: "https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/",
+  },
+  {
     id: 200,
     type: "article",
     title: "Build a YouTube Clone with React",
