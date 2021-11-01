@@ -40,7 +40,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Simple web contact form | PHP, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/simple-web-contact-form-188?from=github)|
 | Build a custom Google Maps theme | JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/build-a-custom-google-maps-theme-187?from=github)|
 | Build a Super Mario themed Google map with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/build-a-super-mario-themed-google-map-with-javascript-180?from=github)|
-| Build your own Uber-for-X Application | HTML5, JavaScript, Node, Express, MongoDB | [Link](https://projectlearn.io/learn/web-development/project/build-your-own-uber-for-x-application-177?from=github)|
 | Build a community-driven delivery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-community-driven-delivery-application-176?from=github)|
 | Build a local Store search-and-discovery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-local-store-search-and-discovery-application-175?from=github)|
 | Medium Clone using React.js and Node.js | React, Node, CSS3, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/medium-clone-using-react.js-and-node.js-174?from=github)|
@@ -164,6 +163,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Game Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js | JavaScript, Kaboom | [Link](https://projectlearn.io/learn/game-development/project/build-super-mario-bros,-zelda,-and-space-invaders-with-kaboom.js-201?from=github)|
 | Create an Arkanoid Game with TypeScript | TypeScript, HTML, CSS, JavaScript | [Link](https://projectlearn.io/learn/game-development/project/create-an-arkanoid-game-with-typescript-195?from=github)|
 | Simple Games | Lua, LÖVE, Python, Pygame Zero | [Link](https://projectlearn.io/learn/game-development/project/simple-games-179?from=github)|
 | Python Online Multiplayer Game | Python | [Link](https://projectlearn.io/learn/game-development/project/python-online-multiplayer-game-173?from=github)|

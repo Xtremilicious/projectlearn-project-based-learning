@@ -47,13 +47,13 @@ export default function Footer() {
         >
           Contribution Guidelines
         </a>
-        <a
+        {/* <a
           href="https://opencollective.com/projectlearn"
           className="footer-content"
           target="_blank"
         >
           Donate
-        </a>
+        </a> */}
       </div>
     </FooterWrapper>
   );
