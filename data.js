@@ -223,16 +223,6 @@ exports.projectsData = [
     projectURL: "https://simplegametutorials.github.io/",
   },
   {
-    id: 178,
-    type: "article",
-    title: "Wine Quality predictor",
-    category: ["ml-ai"],
-    tech: ["Python", "Numpy", "SciKit", "Pandas", "Matplotlib"],
-    datePublished: "Feb 07, 2018",
-    projectURL:
-      "https://blog.booleanhunter.com/using-data-science-to-understand-what-makes-wine-taste-good/",
-  },
-  {
     id: 176,
     type: "article",
     title: "Build a community-driven delivery application",
