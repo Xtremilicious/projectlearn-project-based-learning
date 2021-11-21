@@ -1,5 +1,15 @@
 exports.projectsData = [
   {
+    id: 202,
+    type: "article",
+    title: "Build a web scraper using BeautifulSoup",
+    category: ["ml-ai"],
+    tech: ["Python","BeautifulSoup"],
+    datePublished: "Aug 11, 2019",
+    projectURL:"https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
+
+  },
+  {
     id: 201,
     type: "article",
     title: "Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js",
