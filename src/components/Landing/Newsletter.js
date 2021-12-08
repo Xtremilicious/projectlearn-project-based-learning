@@ -7,15 +7,15 @@ const NewsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10vh;
+  ${'' /* margin-bottom: 10vh; */}
   h1 {
     font-weight: normal;
     margin: 0vh;
     font-size: 4vh;
   }
   h2 {
-    font-weight: normal;
-    color: var(--theme-grey);
+    font-weight: bold;
+    color: var(--mainDark);
     font-size: 3vh;
     margin: 0vh;
     margin-bottom: 2vh;
@@ -54,9 +54,13 @@ const NewsWrapper = styled.div`
     padding: 2vh;
     border-radius: 0 1vh 1vh 0;
     font-size: 3vh;
-    background: var(--theme-pink);
+    background: pink;
     cursor: pointer;
     color: var(--theme-grey);
+    transition: 0.8s;
+  }
+  .submit-btn:hover{
+    background:var(--theme-pink-alt-2);
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin-bottom: 5vh;

@@ -214,7 +214,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Machine Learning & AI: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
-| Wine Quality predictor | Python, Numpy, SciKit, Pandas, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/wine-quality-predictor-178?from=github)|
+| Build a web scraper using BeautifulSoup | Python, BeautifulSoup | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/build-a-web-scraper-using-beautifulsoup-202?from=github)|
 | CNN that Detects Pneumonia from Chest X-Rays | CNN, Python | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)|
 | Auto-Updating Data Visualizations in Python with AWS | Python, AWS, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-aws-158?from=github)|
 | Twitter Sentiment Analysis Tool using GCP and Node | API, GCP, Node, JavaScript | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-gcp-and-node-156?from=github)|

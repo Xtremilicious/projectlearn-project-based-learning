@@ -3,7 +3,6 @@ import Head from "next/head";
 import Navbar from "../src/components/Landing/Navbar";
 import Splash from "../src/components/Landing/Splash";
 import Categories from "../src/components/Landing/Categories";
-import Newsletter from "../src/components/Landing/Newsletter";
 import Footer from "../src/components/Landing/Footer";
 
 export default class Landing extends Component {
@@ -27,7 +26,6 @@ export default class Landing extends Component {
           <Navbar />
           <Splash />
           <Categories />
-          <Newsletter />
           <Footer />
         </div>
       </div>

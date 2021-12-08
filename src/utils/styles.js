@@ -5,6 +5,7 @@ export default css.global`
     --button-blue: #3040c4;
     --theme-pink: #f9d9eb;
     --theme-pink-alt: #d4919a;
+    --theme-pink-alt-2:#f5bddc;
     --theme-blue: #aac6fc;
     --theme-blue-alt: #719FF0;
     --theme-green: #7fd6c2;
