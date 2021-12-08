@@ -40,6 +40,21 @@ const FooterWrapper = styled.div`
     }
   }
  }
+ @media only screen and (max-width: 820px){
+   .footer-container{
+    flex-direction:column;
+   }
+     .left{
+
+    }
+    .right{
+        flex:1;
+        flex-direction:row;
+        ${'' /* justify-content: center; */}
+        align-items: center;
+        margin-top: 25px;
+    }
+ }
 `;
 
 export default function Footer() {
