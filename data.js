@@ -1,5 +1,25 @@
 exports.projectsData = [
   {
+    id: 204,
+    type: "article",
+    title: "Build an Uber Eats Clone with React Native",
+    category: ["mob-dev"],
+    tech: ["React Native","Javascript","Android","iOS"],
+    datePublished: "Sep 19, 2021",
+    projectURL:"https://youtu.be/jmvbhuJXFow",
+
+  },
+  {
+    id: 203,
+    type: "article",
+    title: "Build an Uber Clone with React Native",
+    category: ["mob-dev"],
+    tech: ["React Native","Javascript","Android","iOS"],
+    datePublished: "Jul 30, 2021",
+    projectURL:"https://youtu.be/bvn_HYpix6s",
+
+  },
+  {
     id: 202,
     type: "article",
     title: "Build a web scraper using BeautifulSoup",
