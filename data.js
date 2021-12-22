@@ -63,7 +63,7 @@ exports.projectsData = [
     tech: ["HTML", "CSS"],
     datePublished: "February 25, 2021",
     projectURL:
-      "ehttps://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/",
+      "https://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/",
   },
   {
     id: 195,
