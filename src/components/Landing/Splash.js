@@ -4,12 +4,13 @@ import styled from "styled-components";
 import plSplash from "../../img/pl-splash.png";
 
 const SplashWrapper = styled.div`
-  margin: 0 5vw;
+  margin: 5vw 5vw;
   background: var(--theme-pink);
   border-radius: 2vw;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: auto auto;
+  margin-top:7rem;
   .pl-details {
     display: flex;
     flex-direction: column;
