@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
+import { BsCalendar, BsJournalText } from "react-icons/bs";
+
 
 import {
   faVideo,
   faNewspaper,
   faArrowCircleRight,
+  faBoxOpen,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -104,7 +108,7 @@ const ProjectWrapper = styled.div`
           transition: 0.2s;
           cursor: pointer;
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-          border: 1px dashed var(${(props) => props.bg}-alt);
+          border: 1px solid var(${(props) => props.bg}-alt);
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
@@ -255,7 +259,7 @@ const Content = (props) => {
         </React.Fragment>
       ) : (
         <React.Fragment>
-          <FontAwesomeIcon icon={faNewspaper} />
+          <BsJournalText style={{fontSize: '50px'}} />
           <div className="cat-title">Article</div>
         </React.Fragment>
       )}
@@ -273,19 +277,22 @@ const Content = (props) => {
   return (
     <ProjectWrapper bg={background}>
       <div className="project-grid-items">
-        <PostLink id={id} title={urlTitle} url={props.url} />
+      <PostLink id={id} title={urlTitle} url={props.url} />
         {/* <a href={projectURL} target=")blank">
           <div className="link">
             <FontAwesomeIcon icon={faArrowCircleRight} />
           </div>
         </a> */}
+
+
         <div className="details-1">
           <div className="main-cat">
             <div className="cat-art">{appIcon}</div>
           </div>
           <div className="date-added">
-            <div className="section-title">Date Published</div>
-            <div className="date-value">{`${day} ${month} ${year}`}</div>
+            {/* <div className="section-title">Date Published</div> */}  
+            <div className="cat-art"><BsCalendar style={{fontSize:'55px', position:'absolute', zIndex:'1', right: '15px'}}/></div>
+            <div className="date-value" style={{fontSize:'20px' ,position:'relative', zIndex:'2', top: '26px', right: '2px'}}>{`${year}`}</div>
           </div>
         </div>
         <h2 className="details-2">{title}</h2>
