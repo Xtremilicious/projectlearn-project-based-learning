@@ -137,6 +137,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Mobile Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build an Uber Eats Clone with React Native | React Native, Javascript, Android, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/build-an-uber-eats-clone-with-react-native-204?from=github)|
+| Build an Uber Clone with React Native | React Native, Javascript, Android, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/build-an-uber-clone-with-react-native-203?from=github)|
 | Build a Chat App with Stories Using the Flutter SDK | Flutter, Dart | [Link](https://projectlearn.io/learn/mobile-development/project/build-a-chat-app-with-stories-using-the-flutter-sdk-199?from=github)|
 | Build a Robinhood Style App to Track COVID-19 Cases | Kotlin, Android | [Link](https://projectlearn.io/learn/mobile-development/project/build-a-robinhood-style-app-to-track-covid-19-cases-198?from=github)|
 | Tinder style swipe mobile app | Kotlin, Java, Swift | [Link](https://projectlearn.io/learn/mobile-development/project/tinder-style-swipe-mobile-app-186?from=github)|
@@ -214,7 +216,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Machine Learning & AI: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
-| Wine Quality predictor | Python, Numpy, SciKit, Pandas, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/wine-quality-predictor-178?from=github)|
+| Build a web scraper using BeautifulSoup | Python, BeautifulSoup | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/build-a-web-scraper-using-beautifulsoup-202?from=github)|
 | CNN that Detects Pneumonia from Chest X-Rays | CNN, Python | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)|
 | Auto-Updating Data Visualizations in Python with AWS | Python, AWS, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-aws-158?from=github)|
 | Twitter Sentiment Analysis Tool using GCP and Node | API, GCP, Node, JavaScript | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-gcp-and-node-156?from=github)|
