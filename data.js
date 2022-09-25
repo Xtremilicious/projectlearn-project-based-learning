@@ -1,4 +1,14 @@
 exports.projectsData = [
+    {
+    id: 205,
+    type: "video",
+    title: "Build Reddit 2.0 clone with Next.JS",
+    category: ["web-dev"],
+    tech: ["React", "SQL", "Supabase", "Next.js", "GraphQL", "TypeScript","Tailwind"],
+    datePublished: "May 18, 2022",
+    projectURL:"https://youtu.be/O0AhmAVzOo4",
+
+  },
   {
     id: 204,
     type: "article",
