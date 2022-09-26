@@ -1,43 +1,57 @@
 exports.projectsData = [
-    {
+  {
+    id: 206,
+    type: "video",
+    title: "Build A Full Recipe App Tutorial",
+    category: ["web-dev"],
+    tech: ["JavaScript", "HTML", "CSS", "React"],
+    datePublished: "Mar 10, 2022",
+    projectURL: "https://www.youtube.com/watch?v=xc4uOzlndAk",
+  },
+  {
     id: 205,
     type: "video",
     title: "Build Reddit 2.0 clone with Next.JS",
     category: ["web-dev"],
-    tech: ["React", "SQL", "Supabase", "Next.js", "GraphQL", "TypeScript","Tailwind"],
+    tech: [
+      "React",
+      "SQL",
+      "Supabase",
+      "Next.js",
+      "GraphQL",
+      "TypeScript",
+      "Tailwind",
+    ],
     datePublished: "May 18, 2022",
-    projectURL:"https://youtu.be/O0AhmAVzOo4",
-
+    projectURL: "https://youtu.be/O0AhmAVzOo4",
   },
   {
     id: 204,
     type: "article",
     title: "Build an Uber Eats Clone with React Native",
     category: ["mob-dev"],
-    tech: ["React Native","Javascript","Android","iOS"],
+    tech: ["React Native", "Javascript", "Android", "iOS"],
     datePublished: "Sep 19, 2021",
-    projectURL:"https://youtu.be/jmvbhuJXFow",
-
+    projectURL: "https://youtu.be/jmvbhuJXFow",
   },
   {
     id: 203,
     type: "article",
     title: "Build an Uber Clone with React Native",
     category: ["mob-dev"],
-    tech: ["React Native","Javascript","Android","iOS"],
+    tech: ["React Native", "Javascript", "Android", "iOS"],
     datePublished: "Jul 30, 2021",
-    projectURL:"https://youtu.be/bvn_HYpix6s",
-
+    projectURL: "https://youtu.be/bvn_HYpix6s",
   },
   {
     id: 202,
     type: "article",
     title: "Build a web scraper using BeautifulSoup",
     category: ["ml-ai"],
-    tech: ["Python","BeautifulSoup"],
+    tech: ["Python", "BeautifulSoup"],
     datePublished: "Aug 11, 2019",
-    projectURL:"https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
-
+    projectURL:
+      "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741",
   },
   {
     id: 201,
@@ -46,7 +60,8 @@ exports.projectsData = [
     category: ["game-dev"],
     tech: ["JavaScript", "Kaboom"],
     datePublished: "May 10, 2021",
-    projectURL: "https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/",
+    projectURL:
+      "https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/",
   },
   {
     id: 200,
