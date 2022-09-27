@@ -5,8 +5,8 @@ import plSplash from "../../img/pl-splash.png";
 
 const SplashWrapper = styled.div`
   margin: 0 5vw;
-  background: var(--theme-pink);
   border-radius: 2vw;
+  background: var(--theme-pink);
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: auto auto;
@@ -17,12 +17,12 @@ const SplashWrapper = styled.div`
     padding: 4rem;
   }
   .title {
-    font-size: 9.5vh;
+    font-size: 5.2vw;
     margin: 0 0 3vh 0;
   }
   .sub-title {
-    font-size: 3.2vh;
-    margin: 0 10vh 4vh 0;
+    font-size: 1.8vw;
+    margin: 0 0vh 4vh 0;
   }
   .learn-more {
     width: fit-content;
@@ -113,7 +113,7 @@ export default function Splash() {
           Do project based learning and learn code the right way!
         </div>
         <Link href="#categories">
-          <button className="learn-more">Get Started</button>
+          <button className="learn-more">Start Building</button>
         </Link>
       </div>
       <div className="splash-image-container">

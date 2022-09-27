@@ -2,7 +2,7 @@ exports.projectsData = [
     {
     id: 205,
     type: "video",
-    title: "Build Reddit 2.0 clone with Next.JS",
+    title: "Build Reddit 2.0 clone with NextJS",
     category: ["web-dev"],
     tech: ["React", "SQL", "Supabase", "Next.js", "GraphQL", "TypeScript","Tailwind"],
     datePublished: "May 18, 2022",
@@ -32,7 +32,7 @@ exports.projectsData = [
   {
     id: 202,
     type: "article",
-    title: "Build a web scraper using BeautifulSoup",
+    title: "Build a Web Scraper using BeautifulSoup",
     category: ["ml-ai"],
     tech: ["Python","BeautifulSoup"],
     datePublished: "Aug 11, 2019",
@@ -117,7 +117,7 @@ exports.projectsData = [
   {
     id: 193,
     type: "article",
-    title: "Weather forecast website",
+    title: "Weather Forecast Website",
     category: ["web-dev"],
     tech: ["JavaScript", "HTML", "CSS", "React"],
     datePublished: "November 20, 2020",
@@ -127,7 +127,7 @@ exports.projectsData = [
   {
     id: 192,
     type: "article",
-    title: "Link shortener website",
+    title: "Link Shortener Website",
     category: ["web-dev"],
     tech: ["JavaScript", "Vue", "HTML", "CSS", "React", "Angular"],
     datePublished: "April 15, 2021",
@@ -135,29 +135,9 @@ exports.projectsData = [
       "https://www.codementor.io/projects/web/link-shortener-website-brqjanf6zq",
   },
   {
-    id: 191,
-    type: "article",
-    title: "Personal website SEO setup",
-    category: ["web-dev"],
-    tech: ["JavaScript", "Google Analytics", "HTML", "CSS"],
-    datePublished: "January 6, 2021",
-    projectURL:
-      "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1",
-  },
-  {
-    id: 190,
-    type: "article",
-    title: "Simple web contact form",
-    category: ["web-dev"],
-    tech: ["PHP", "HTML", "CSS"],
-    datePublished: "January 6, 2021",
-    projectURL:
-      "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1",
-  },
-  {
     id: 189,
     type: "article",
-    title: "Plagiarism checker website",
+    title: "Plagiarism Checker Website",
     category: ["web-dev"],
     tech: ["Python", "Bootstrap"],
     datePublished: "December 20, 2020",
@@ -165,19 +145,9 @@ exports.projectsData = [
       "https://www.codementor.io/projects/web/plagiarism-checker-website-atx32nf0oa",
   },
   {
-    id: 188,
-    type: "article",
-    title: "Simple web contact form",
-    category: ["web-dev"],
-    tech: ["PHP", "HTML", "CSS"],
-    datePublished: "January 6, 2021",
-    projectURL:
-      "https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1",
-  },
-  {
     id: 187,
     type: "article",
-    title: "Build a custom Google Maps theme",
+    title: "Build a Custom Google Maps Theme",
     category: ["web-dev"],
     tech: ["JavaScript", "HTML", "CSS"],
     datePublished: "February 24, 2021",
@@ -187,7 +157,7 @@ exports.projectsData = [
   {
     id: 186,
     type: "article",
-    title: "Tinder style swipe mobile app",
+    title: "Tinder style Swipe Mobile App",
     category: ["mob-dev"],
     tech: ["Kotlin", "Java", "Swift"],
     datePublished: "April 09, 2021",
@@ -197,7 +167,7 @@ exports.projectsData = [
   {
     id: 185,
     type: "article",
-    title: "Cryptocurrency price listing mobile app",
+    title: "Cryptocurrency Price Listing Mobile App",
     category: ["mob-dev"],
     tech: ["React Native", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
@@ -207,7 +177,7 @@ exports.projectsData = [
   {
     id: 184,
     type: "article",
-    title: "Restaurants social mobile app",
+    title: "Restaurants Social Mobile App",
     category: ["mob-dev"],
     tech: ["React Native", "Swift", "Flutter", "Dart"],
     datePublished: "December 01, 2021",
@@ -217,7 +187,7 @@ exports.projectsData = [
   {
     id: 183,
     type: "article",
-    title: "Break time reminder mobile app",
+    title: "Break Time Reminder Mobile App",
     category: ["mob-dev"],
     tech: ["React Native", "Kotlin", "Java", "Swift"],
     datePublished: "March 15, 2021",
@@ -227,7 +197,7 @@ exports.projectsData = [
   {
     id: 182,
     type: "article",
-    title: "Invoicing and payment reminder mobile app",
+    title: "Invoicing and Payment Reminder Mobile App",
     category: ["mob-dev"],
     tech: ["React", "Node", "Express", "MongoDB"],
     datePublished: "December 10, 2020",
@@ -237,7 +207,7 @@ exports.projectsData = [
   {
     id: 181,
     type: "article",
-    title: "Countdown mobile app",
+    title: "Countdown Mobile App",
     category: ["mob-dev"],
     tech: ["Swift", "Java", "React Native"],
     datePublished: "March 02, 2021",

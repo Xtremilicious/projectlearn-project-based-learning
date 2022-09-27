@@ -9,7 +9,8 @@ const ListWrapper = styled.div`
     margin-right: 2vw;
     margin-top: 20vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 4vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 2vw;
     grid-row-gap: 4vh;
     margin-bottom: 5vh;

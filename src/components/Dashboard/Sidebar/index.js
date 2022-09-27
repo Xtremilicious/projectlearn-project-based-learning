@@ -9,11 +9,11 @@ const SidebarWrapper = styled.div`
   position: fixed;
   left: 0;
   grid-template-rows: 30vh 63vh 7vh;
-  width: 25vw;
+  width: 20vw;
   .footer {
     display: flex;
     padding-left: 3vh;
-    font-size: 2.5vh;
+    font-size: 1.1vw;
     color: var(--theme-grey);
     align-items: center;
   }
@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
       <SidebarWrapper>
         <CategoryInfo  slug={this.props.slug} color={this.props.color}/>
         <Categories slug={this.props.slug} url={this.props.url} color={this.props.color}/>
-        <div className="footer">© 2020 ProjectLearn</div>
+        <div className="footer">© 2022 ProjectLearn</div>
       </SidebarWrapper>
     );
   }

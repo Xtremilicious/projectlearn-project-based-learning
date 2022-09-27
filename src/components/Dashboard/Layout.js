@@ -5,7 +5,7 @@ import Content from "./Content";
 
 const LayoutWrapper = styled.div`
   display: grid;
-  grid-template-columns: 25vw auto;
+  grid-template-columns: 20vw auto;
   @media only screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     .layout-first {

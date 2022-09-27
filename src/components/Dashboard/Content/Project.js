@@ -20,6 +20,7 @@ const ProjectWrapper = styled.div`
     background-color: white;
     transition: 0.4s;
     background: white;
+    cursor: pointer;
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.075);
     border-top: 4px solid var(${(props) => props.bg}-alt);
     :hover {
@@ -84,9 +85,9 @@ const ProjectWrapper = styled.div`
       }
     }
     .details-2 {
-      font-size: 1.7vw;
+      font-size: 1.3vw;
       margin: 0;
-      margin-bottom: 3vh;
+      margin-bottom: 1vh;
       font-weight: normal;
     }
     .details-3 {
@@ -97,19 +98,24 @@ const ProjectWrapper = styled.div`
       }
       .tags-container {
         margin-top: 1vh;
-        flex-flow: row wrap;
-        line-height: 170%;
-        word-wrap: normal;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1vh;
+        min-width: 0;
         .tag {
           transition: 0.2s;
           cursor: pointer;
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-          border: 1px dashed var(${(props) => props.bg}-alt);
+          border: 1px solid var(${(props) => props.bg}-alt);
+          border-radius: 1vh;
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
-          border-radius: 1vh;
-          font-size: 1.2vw;
+          min-width: 0;
+          text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+          font-size: 1.1vw;
         }
       }
     }
@@ -132,7 +138,7 @@ const ProjectWrapper = styled.div`
     .details-2 {
       font-size: 6vw !important;
       margin: 0;
-      margin-bottom: 3vh;
+      margin-bottom: 2vh;
       font-weight: normal;
     }
     .details-3 {
@@ -272,8 +278,12 @@ const Content = (props) => {
 
   return (
     <ProjectWrapper bg={background}>
-      <div className="project-grid-items">
-        <PostLink id={id} title={urlTitle} url={props.url} />
+      <Link
+    href={`/learn/${props.url}/project/[id]`}
+    as={`/learn/${props.url}/project/${urlTitle}-${id}`}
+  >
+    <div className="project-grid-items">
+        {/* <PostLink id={id} title={urlTitle} url={props.url} /> */}
         {/* <a href={projectURL} target=")blank">
           <div className="link">
             <FontAwesomeIcon icon={faArrowCircleRight} />
@@ -290,7 +300,7 @@ const Content = (props) => {
         </div>
         <h2 className="details-2">{title}</h2>
         <div className="details-3">
-          <div className="section-title">Top Technologies:</div>
+      {/*     <div className="section-title">Top Technologies:</div> */}
           <div className="tags-container">
             {tech.slice(0, 2).map((t) => (
               <Link href={{ query: { tech: t } }} key={t}>
@@ -300,6 +310,8 @@ const Content = (props) => {
           </div>
         </div>
       </div>
+  </Link>
+      
       {/* </a> */}
     </ProjectWrapper>
   );

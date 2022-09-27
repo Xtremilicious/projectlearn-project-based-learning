@@ -28,17 +28,15 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build Reddit 2.0 clone with NextJS | React, SQL, Supabase, Next.js, GraphQL | [Link](https://projectlearn.io/learn/web-development/project/build-reddit-2.0-clone-with-nextjs-205?from=github)|
 | Build a YouTube Clone with React | Express, Node, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/build-a-youtube-clone-with-react-200?from=github)|
 | Create a Diverging Bar Chart with a JavaScript Charting Library | JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/create-a-diverging-bar-chart-with-a-javascript-charting-library-197?from=github)|
 | Learn CSS Basics by Building a Card Component | HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/learn-css-basics-by-building-a-card-component-196?from=github)|
 | Create a Serverless Meme as a Service | JavaScript, Rust, CSS, HTML | [Link](https://projectlearn.io/learn/web-development/project/create-a-serverless-meme-as-a-service-194?from=github)|
-| Weather forecast website | JavaScript, HTML, CSS, React | [Link](https://projectlearn.io/learn/web-development/project/weather-forecast-website-193?from=github)|
-| Link shortener website | JavaScript, Vue, HTML, CSS, React | [Link](https://projectlearn.io/learn/web-development/project/link-shortener-website-192?from=github)|
-| Personal website SEO setup | JavaScript, Google Analytics, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/personal-website-seo-setup-191?from=github)|
-| Simple web contact form | PHP, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/simple-web-contact-form-190?from=github)|
-| Plagiarism checker website | Python, Bootstrap | [Link](https://projectlearn.io/learn/web-development/project/plagiarism-checker-website-189?from=github)|
-| Simple web contact form | PHP, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/simple-web-contact-form-188?from=github)|
-| Build a custom Google Maps theme | JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/build-a-custom-google-maps-theme-187?from=github)|
+| Weather Forecast Website | JavaScript, HTML, CSS, React | [Link](https://projectlearn.io/learn/web-development/project/weather-forecast-website-193?from=github)|
+| Link Shortener Website | JavaScript, Vue, HTML, CSS, React | [Link](https://projectlearn.io/learn/web-development/project/link-shortener-website-192?from=github)|
+| Plagiarism Checker Website | Python, Bootstrap | [Link](https://projectlearn.io/learn/web-development/project/plagiarism-checker-website-189?from=github)|
+| Build a Custom Google Maps Theme | JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/build-a-custom-google-maps-theme-187?from=github)|
 | Build a Super Mario themed Google map with JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/build-a-super-mario-themed-google-map-with-javascript-180?from=github)|
 | Build a community-driven delivery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-community-driven-delivery-application-176?from=github)|
 | Build a local Store search-and-discovery application | Python, Django, PostgreSQL, JavaScript, Mapbox | [Link](https://projectlearn.io/learn/web-development/project/build-a-local-store-search-and-discovery-application-175?from=github)|
@@ -137,14 +135,16 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Mobile Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build an Uber Eats Clone with React Native | React Native, Javascript, Android, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/build-an-uber-eats-clone-with-react-native-204?from=github)|
+| Build an Uber Clone with React Native | React Native, Javascript, Android, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/build-an-uber-clone-with-react-native-203?from=github)|
 | Build a Chat App with Stories Using the Flutter SDK | Flutter, Dart | [Link](https://projectlearn.io/learn/mobile-development/project/build-a-chat-app-with-stories-using-the-flutter-sdk-199?from=github)|
 | Build a Robinhood Style App to Track COVID-19 Cases | Kotlin, Android | [Link](https://projectlearn.io/learn/mobile-development/project/build-a-robinhood-style-app-to-track-covid-19-cases-198?from=github)|
-| Tinder style swipe mobile app | Kotlin, Java, Swift | [Link](https://projectlearn.io/learn/mobile-development/project/tinder-style-swipe-mobile-app-186?from=github)|
-| Cryptocurrency price listing mobile app | React Native, Swift, Flutter, Dart | [Link](https://projectlearn.io/learn/mobile-development/project/cryptocurrency-price-listing-mobile-app-185?from=github)|
-| Restaurants social mobile app | React Native, Swift, Flutter, Dart | [Link](https://projectlearn.io/learn/mobile-development/project/restaurants-social-mobile-app-184?from=github)|
-| Break time reminder mobile app | React Native, Kotlin, Java, Swift | [Link](https://projectlearn.io/learn/mobile-development/project/break-time-reminder-mobile-app-183?from=github)|
-| Invoicing and payment reminder mobile app | React, Node, Express, MongoDB | [Link](https://projectlearn.io/learn/mobile-development/project/invoicing-and-payment-reminder-mobile-app-182?from=github)|
-| Countdown mobile app | Swift, Java, React Native | [Link](https://projectlearn.io/learn/mobile-development/project/countdown-mobile-app-181?from=github)|
+| Tinder style Swipe Mobile App | Kotlin, Java, Swift | [Link](https://projectlearn.io/learn/mobile-development/project/tinder-style-swipe-mobile-app-186?from=github)|
+| Cryptocurrency Price Listing Mobile App | React Native, Swift, Flutter, Dart | [Link](https://projectlearn.io/learn/mobile-development/project/cryptocurrency-price-listing-mobile-app-185?from=github)|
+| Restaurants Social Mobile App | React Native, Swift, Flutter, Dart | [Link](https://projectlearn.io/learn/mobile-development/project/restaurants-social-mobile-app-184?from=github)|
+| Break Time Reminder Mobile App | React Native, Kotlin, Java, Swift | [Link](https://projectlearn.io/learn/mobile-development/project/break-time-reminder-mobile-app-183?from=github)|
+| Invoicing and Payment Reminder Mobile App | React, Node, Express, MongoDB | [Link](https://projectlearn.io/learn/mobile-development/project/invoicing-and-payment-reminder-mobile-app-182?from=github)|
+| Countdown Mobile App | Swift, Java, React Native | [Link](https://projectlearn.io/learn/mobile-development/project/countdown-mobile-app-181?from=github)|
 | Flappy Bird iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/flappy-bird-ios-game-using-swift-130?from=github)|
 | Bull's Eye iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/bull's-eye-ios-game-using-swift-129?from=github)|
 | Task List iOS App using SwiftUI | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/task-list-ios-app-using-swiftui-128?from=github)|
@@ -214,7 +214,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Machine Learning & AI: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
-| Wine Quality predictor | Python, Numpy, SciKit, Pandas, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/wine-quality-predictor-178?from=github)|
+| Build a Web Scraper using BeautifulSoup | Python, BeautifulSoup | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/build-a-web-scraper-using-beautifulsoup-202?from=github)|
 | CNN that Detects Pneumonia from Chest X-Rays | CNN, Python | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/cnn-that-detects-pneumonia-from-chest-x-rays-169?from=github)|
 | Auto-Updating Data Visualizations in Python with AWS | Python, AWS, Matplotlib | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/auto-updating-data-visualizations-in-python-with-aws-158?from=github)|
 | Twitter Sentiment Analysis Tool using GCP and Node | API, GCP, Node, JavaScript | [Link](https://projectlearn.io/learn/machine-learning-and-ai/project/twitter-sentiment-analysis-tool-using-gcp-and-node-156?from=github)|

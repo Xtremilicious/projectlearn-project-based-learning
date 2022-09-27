@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const InfoWrapper = styled.div`
-  width: 25vw;
+  width: 20vw;
   .cat-info {
     background: var(${(props) => props.bg});
     position: relative;
@@ -40,7 +40,7 @@ const InfoWrapper = styled.div`
     }
     .cat-title {
       margin-top: 1vh;
-      font-size: 3.3vh;
+      font-size: 1.8vw;
       background: var(${(props) => props.bg}-alt);
       padding: 1vh;
       border-radius: 1vh;
@@ -54,10 +54,10 @@ const InfoWrapper = styled.div`
     text-align: center;
     .stat {
       .stat-title {
-        font-size: 2.7vh;
+        font-size: 1.3vw;
       }
       .stat-sub-title {
-        font-size: 2.3vh;
+        font-size: 1.2vw;
         font-weight: 100;
       }
     }

@@ -53,7 +53,7 @@ const CategoryWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     .section-title {
-      font-size: 4.5vh;
+      font-size: 2vw;
       padding: 3vh;
       color: var(--theme-grey);
       margin-top: 1vh;
@@ -68,7 +68,7 @@ const CategoryWrapper = styled.div`
       overflow-y: scroll;
     }
     .cat-grid-item {
-      font-size: 2.8vw;
+      font-size: 2vw;
       height: 5.3vw;
       width: 5.3vw;
       border-radius: 2vh;
@@ -99,7 +99,7 @@ const CategoryWrapper = styled.div`
     }
     .cat-title {
       margin-top: 1vh;
-      font-size: 2.5vh;
+      font-size: 1.2vw;
     }
   }
 
@@ -113,10 +113,10 @@ const Categories = (props) => {
     props.slug === "web-dev"
       ? webDev
       : props.slug === "mob-dev"
-      ? mobDev
-      : props.slug === "game-dev"
-      ? gameDev
-      : mlAI;
+        ? mobDev
+        : props.slug === "game-dev"
+          ? gameDev
+          : mlAI;
 
   return (
     <CategoryWrapper bg={props.color}>

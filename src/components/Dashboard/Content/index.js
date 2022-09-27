@@ -16,12 +16,12 @@ const ContentWrapper = styled.div`
   display: grid;
   height: 100vh;
   width: auto;
-  grid-template-rows: 30vh auto;
+  grid-template-rows: 25vh auto;
   .dummy {
     position: fixed;
     z-index: -1;
     height: 30vh;
-    width: 75vw;
+    width: 80vw;
     background: linear-gradient(
       90deg,
       var(${(props) => props.bg}),
@@ -38,10 +38,10 @@ const ContentWrapper = styled.div`
     color: ${(props) => props.color};
     position: fixed;
     z-index: 100;
-    width: 74vw;
+    width: 79vw;
     padding-bottom: 4vh;
     .section-title {
-      font-size: 5vh;
+      font-size: 2vw;
       padding: 4vh 4vh 0 4vh;
       font-weight: normal;
       margin: 0;
@@ -58,7 +58,7 @@ const ContentWrapper = styled.div`
     margin-left: auto;
     .search-bar {
       padding: 1vh;
-      font-size: 3vh;
+      font-size: 1.3vw;
       border-radius: 3vh;
       border: none;
       padding-left: 2.5vh;
