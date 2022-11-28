@@ -32,11 +32,11 @@ const NewsWrapper = styled.div`
     outline: none;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.04) !important;
-    padding: 2vh;
+    padding: 1.5vh 2vh;
     border-radius: 1vh 0 0 1vh;
     background: linear-gradient(135deg,rgba(255,255,255,0.05) 10.93%,rgba(255,255,255,0) 90%);
     color: white;
-    border-radius: 9999px;
+    border-radius: 1.5vh;
     font-size: 2.8vh;
   }
   .on-error {
@@ -55,8 +55,8 @@ const NewsWrapper = styled.div`
     outline: none;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.04) !important;
-    padding: 2vh;
-    border-radius: 0 9999px 9999px 0;
+    padding: 1.5vh 2vh;
+    border-radius: 0 1.5vh 1.5vh 0;
     font-size: 2.8vh;
     background: var(--button-blue);
     cursor: pointer;

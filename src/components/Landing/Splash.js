@@ -36,7 +36,7 @@ const SplashWrapper = styled.div`
     width: fit-content;
     padding: 1.5vh 2vh;
     font-size: 2.8vh;
-    background-color: var(--button-blue);
+    background: var(--button-blue);
     color: white;
     border: none;
     border-radius: 1.5vh;
@@ -47,7 +47,7 @@ const SplashWrapper = styled.div`
     width: fit-content;
     padding: 1.5vh 2vh;
     font-size: 2.8vh;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     color: white;
     border: none;
     border-radius: 1.5vh;
@@ -64,8 +64,8 @@ const SplashWrapper = styled.div`
   .splash-image {
     width: 40vw;
   }
-  .rainbow-text{
-    background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+  .rainbow-text {
+    background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
@@ -135,18 +135,23 @@ export default function Splash() {
   return (
     <SplashWrapper>
       <div className="pl-details">
-        <h1 className="title">Learn by Doing</h1>
+        <h1 className="title">Learn By Doing</h1>
         <div className="sub-title">
           Tutorials are great, but building projects is the best way to learn.
-          Do <span className="rainbow-text">project based learning</span> and learn code the right way!
+          Do <span className="rainbow-text">project based learning</span> and
+          learn code the right way!
         </div>
-        <div> <Link href="#categories">
-          <button className="learn-more">Start Building</button>
-        </Link>
-        <Link href="#">
-          <button className="contribute-btn">Contribute to ProjectLearn</button>
-        </Link></div>
-       
+        <div>
+          {" "}
+          <Link href="#categories">
+            <button className="learn-more">Start Building</button>
+          </Link>
+          <Link href="#">
+            <button className="contribute-btn">
+              Contribute to ProjectLearn
+            </button>
+          </Link>
+        </div>
       </div>
       <div className="splash-image-container">
         <img src={plSplash} alt="Learn by Doing" className="splash-image" />
