@@ -2,7 +2,7 @@ import css from "styled-jsx/css";
 
 export default css.global`
   :root {
-    --button-blue: #3040c4;
+    --button-blue: #6c63ff;
     --theme-pink: #f9d9eb;
     --theme-pink-alt: #d4919a;
     --theme-blue: #aac6fc;
@@ -18,6 +18,8 @@ export default css.global`
     --dashboard-purple-alt: #6b6be5;
     --mainDark: #2E2E2E;
     --secondaryDark: #424242;
+    --themeDark: #0d1117;
+    --themeTextSecondaryDark: rgb(163 179 188);
   }
 
   @font-face {

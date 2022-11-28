@@ -5,11 +5,19 @@ import Splash from "../src/components/Landing/Splash";
 import Categories from "../src/components/Landing/Categories";
 import Newsletter from "../src/components/Landing/Newsletter";
 import Footer from "../src/components/Landing/Footer";
+import styled from "styled-components";
+
+
+const IndexWrapper = styled.div`
+  background-color: var(--themeDark);
+`
+
+
 
 export default class Landing extends Component {
   render() {
     return (
-      <div>
+      <IndexWrapper>
         <Head>
           <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
@@ -30,7 +38,7 @@ export default class Landing extends Component {
           <Newsletter />
           <Footer />
         </div>
-      </div>
+      </IndexWrapper>
     );
   }
 }

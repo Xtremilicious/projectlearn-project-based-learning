@@ -16,6 +16,7 @@ import { faSearch, faHome, faPenNib } from "@fortawesome/free-solid-svg-icons";
 const NavWrapper = styled.div`
   margin: 0vh 0vw;
   display: grid;
+  color: white;
   grid-template-rows: 1fr;
   grid-template-columns: auto auto;
   padding: 4vh 5vw;
@@ -28,7 +29,7 @@ const NavWrapper = styled.div`
     display: flex;
     align-items: center;
     margin-left: 2em;
-    font-size: 3.3vh;
+    font-size: 3vh;
     .svg-inline--fa {
       font-size: 1.4em;
       margin-right: 0.2em;
@@ -38,7 +39,8 @@ const NavWrapper = styled.div`
   .gt-container {
     display: flex;
     flex-direction: row;
-    background: black;
+    background: linear-gradient(135deg,rgba(255,255,255,0.05) 10.93%,rgba(255,255,255,0) 90%);
+    padding: 30px 35px;
     color: white;
     border-radius: 4vh;
     padding: 0rem 0.8rem 0rem 0;
@@ -55,7 +57,7 @@ const NavWrapper = styled.div`
     padding: 1rem;
   }
   .pl-title {
-    font-size: 5.5vh;
+    font-size: 5vh;
     margin: 0;
   }
   .mobile-nav {
@@ -144,12 +146,12 @@ class Navbar extends Component {
               Home
             </div>
           </Link>
-          <Link href="/blog">
+          {/* <Link href="/blog">
             <div className="nav-component">
               <FontAwesomeIcon icon={faPenNib} />
               Blog
             </div>
-          </Link>
+          </Link> */}
 
           <a
             href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning"
