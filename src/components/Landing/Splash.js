@@ -21,6 +21,7 @@ const SplashWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     padding: 3rem 0 3rem 3rem;
   }
   .title {
@@ -96,7 +97,10 @@ const SplashWrapper = styled.div`
       width: 100%;
     }
     .learn-more {
-      font-size: 4.7vw;
+      font-size: 4.5vw;
+    }
+    .contribute-btn{
+      display: none;
     }
   }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -146,10 +150,13 @@ export default function Splash() {
           <Link href="#categories">
             <button className="learn-more">Start Building</button>
           </Link>
-          <Link href="#">
-            <button className="contribute-btn">
+          <Link href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/CONTRIBUTE.md" target="_blank" passHref>
+          <a target="_blank">
+          <button className="contribute-btn">
               Contribute to ProjectLearn
             </button>
+          </a>
+           
           </Link>
         </div>
       </div>

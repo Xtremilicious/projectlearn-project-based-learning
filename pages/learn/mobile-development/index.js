@@ -12,7 +12,7 @@ class mobileDevelopment extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: "#0d1117"}}>
         <Head>
           <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta

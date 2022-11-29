@@ -17,23 +17,34 @@ const ProjectWrapper = styled.div`
     border-radius: 1vh;
     flex-direction: column;
     padding: 1.1vw;
-    background-color: white;
     transition: 0.4s;
-    background: white;
+    background: var(--themeDark);
+    color: white;
     cursor: pointer;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
     border-top: 4px solid var(${(props) => props.bg}-alt);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 10.93%,
+      rgba(255, 255, 255, 0) 90%
+    );
+    backdrop-filter: blur(55px);
     :hover {
       box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
-      background-color: var(${(props) => props.bg});
+      background-color: var(--themeDark);
+      transform: scale(1.1);
       .cat-art {
         background-color: var(${(props) => props.bg}-alt);
-        box-shadow: none !important;
+        //box-shadow: none !important;
         color: white;
       }
       .tag {
-        background-color: var(${(props) => props.bg}-alt);
-        box-shadow: none !important;
+        background-color: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.05) 10.93%,
+          rgba(255, 255, 255, 0) 90%
+        );
+       //box-shadow: none !important;
         color: white;
       }
       .link {
@@ -65,6 +76,12 @@ const ProjectWrapper = styled.div`
           justify-content: center;
           align-items: center;
           transition: 0.4s;
+          background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.05) 10.93%,
+            rgba(255, 255, 255, 0) 90%
+          );
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
         }
         .cat-title {
           margin-top: 0.5vh;
@@ -87,7 +104,7 @@ const ProjectWrapper = styled.div`
     .details-2 {
       font-size: 1.3vw;
       margin: 0;
-      margin-bottom: 1vh;
+      margin-bottom: 2vh;
       font-weight: normal;
     }
     .details-3 {
@@ -106,15 +123,17 @@ const ProjectWrapper = styled.div`
           transition: 0.2s;
           cursor: pointer;
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-          border: 1px solid var(${(props) => props.bg}-alt);
-          border-radius: 1vh;
+          //border: 1px solid var(${(props) => props.bg}-alt);
+          //border: 1px dashed var(${(props) => props.bg}-alt);
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
+          border-radius: 0.5vh;
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
           min-width: 0;
           text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+          white-space: nowrap;
+          overflow: hidden;
           font-size: 1.1vw;
         }
       }
@@ -130,7 +149,7 @@ const ProjectWrapper = styled.div`
       color: var(${(props) => props.bg}-alt);
     }
   }
-  @media only screen and  (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     .project-grid-items {
       padding: 3vw;
     }
@@ -279,39 +298,39 @@ const Content = (props) => {
   return (
     <ProjectWrapper bg={background}>
       <Link
-    href={`/learn/${props.url}/project/[id]`}
-    as={`/learn/${props.url}/project/${urlTitle}-${id}`}
-  >
-    <div className="project-grid-items">
-        {/* <PostLink id={id} title={urlTitle} url={props.url} /> */}
-        {/* <a href={projectURL} target=")blank">
+        href={`/learn/${props.url}/project/[id]`}
+        as={`/learn/${props.url}/project/${urlTitle}-${id}`}
+      >
+        <div className="project-grid-items">
+          {/* <PostLink id={id} title={urlTitle} url={props.url} /> */}
+          {/* <a href={projectURL} target=")blank">
           <div className="link">
             <FontAwesomeIcon icon={faArrowCircleRight} />
           </div>
         </a> */}
-        <div className="details-1">
-          <div className="main-cat">
-            <div className="cat-art">{appIcon}</div>
+          <div className="details-1">
+            <div className="main-cat">
+              <div className="cat-art">{appIcon}</div>
+            </div>
+            <div className="date-added">
+              <div className="section-title">Date Published</div>
+              <div className="date-value">{`${day} ${month} ${year}`}</div>
+            </div>
           </div>
-          <div className="date-added">
-            <div className="section-title">Date Published</div>
-            <div className="date-value">{`${day} ${month} ${year}`}</div>
+          <h2 className="details-2">{title}</h2>
+          <div className="details-3">
+            {/*     <div className="section-title">Top Technologies:</div> */}
+            <div className="tags-container">
+              {tech.slice(0, 2).map((t) => (
+                <Link href={{ query: { tech: t } }} key={t}>
+                  <span className="tag">{t} </span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
-        <h2 className="details-2">{title}</h2>
-        <div className="details-3">
-      {/*     <div className="section-title">Top Technologies:</div> */}
-          <div className="tags-container">
-            {tech.slice(0, 2).map((t) => (
-              <Link href={{ query: { tech: t } }} key={t}>
-                <span className="tag">{t} </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
-  </Link>
-      
+      </Link>
+
       {/* </a> */}
     </ProjectWrapper>
   );

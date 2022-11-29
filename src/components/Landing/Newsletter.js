@@ -62,6 +62,7 @@ const NewsWrapper = styled.div`
     cursor: pointer;
     color: white;
   }
+  
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin-bottom: 5vh;
     .form {
@@ -86,7 +87,7 @@ const NewsWrapper = styled.div`
       padding: 2vh;
       border-radius: 1vh;
       font-size: 2.5vh;
-      color: var(--theme-grey);
+      color: white;
     }
     h2 {
       font-size: 2.5vh;

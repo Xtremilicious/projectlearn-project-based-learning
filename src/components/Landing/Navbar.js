@@ -63,6 +63,14 @@ const NavWrapper = styled.div`
   .mobile-nav {
     display: none;
   }
+  .rainbow-text {
+    background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+  }
   @media only screen and (max-width: 768px) {
     padding: 2vh;
     grid-template-columns: 1fr;

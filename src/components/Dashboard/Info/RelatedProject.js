@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import Link from "next/link";
 
-import { faVideo, faNewspaper, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faVideo,
+  faNewspaper,
+  faArrowCircleRight,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectWrapper = styled.div`
@@ -16,16 +20,24 @@ const ProjectWrapper = styled.div`
     background-color: white;
     transition: 0.4s;
     border-top: 4px solid var(--dashboard-purple-alt);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
+    border-top: 4px solid var(${(props) => props.bg}-alt);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 10.93%,
+      rgba(255, 255, 255, 0) 90%
+    );
+    cursor: pointer;
     :hover {
-      background-color: var(--dashboard-purple);
+      transform: scale(1.1);
       color: white;
       .cat-art {
-        background-color: var(--dashboard-purple-alt);
-        box-shadow: none !important;
+        //background-color: var(--dashboard-purple-alt);
+        //box-shadow: none !important;
       }
       .tag {
-        background-color: var(--dashboard-purple-alt);
-        box-shadow: none !important;
+        //background-color: var(--dashboard-purple-alt);
+        //box-shadow: none !important;
       }
       .link {
         color: white;
@@ -45,7 +57,8 @@ const ProjectWrapper = styled.div`
           padding: 1vh;
         }
         .cat-art {
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+            rgba(0, 0, 0, 0.24) 0px 1px 2px;
           border-radius: 1vh;
           height: 4vw;
           width: 4vw;
@@ -54,6 +67,13 @@ const ProjectWrapper = styled.div`
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0.05) 10.93%,
+            rgba(255, 255, 255, 0) 90%
+          );
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
+          border-top: 4px solid var(${(props) => props.bg}-alt);
         }
         .cat-title {
           margin-top: 0.5vh;
@@ -76,7 +96,7 @@ const ProjectWrapper = styled.div`
       }
     }
     .details-2 {
-      font-size: 1.8vw;
+      font-size: 1.5vw;
       margin: 0;
       margin-bottom: 3vh;
       font-weight: normal;
@@ -96,12 +116,13 @@ const ProjectWrapper = styled.div`
         word-wrap: normal;
         .tag {
           cursor: pointer;
-          border: 1px dashed var(--dashboard-purple-alt);
+          //border: 1px dashed var(--dashboard-purple-alt);
           width: fit-content;
           margin-right: 0.7vw;
           padding: 0.1vw 0.6vw;
           border-radius: 1vh;
           font-size: 1.2vw;
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
         }
       }
     }
@@ -168,29 +189,42 @@ export default class Content extends Component {
 
     return (
       <ProjectWrapper>
+         <Link
+            href={`/learn/${this.props.slug}/project/[id]`}
+            as={`/learn/${this.props.slug}/project/${urlTitle}-${id}`}
+          >
         <div className="project-grid-items">
-          <PostLink id={id} title={urlTitle} url={this.props.slug} />
-          <div className="details-1">
-            <div className="main-cat">
-              <div className="cat-art">{appIcon}</div>
+        
+         
+            <div className="details-1">
+              <div className="main-cat">
+                <div className="cat-art">{appIcon}</div>
+              </div>
+              <div className="date-added">
+                <div className="section-title">Date Published</div>
+                <div className="date-value">{`${day} ${month} ${year}`}</div>
+              </div>
             </div>
-            <div className="date-added">
-              <div className="section-title">Date Published</div>
-              <div className="date-value">{`${day} ${month} ${year}`}</div>
+            <h2 className="details-2">{title}</h2>
+            <div className="details-3">
+              <div className="section-title">Top Technologies:</div>
+              <div className="tags-container">
+                {tech.slice(0, 3).map((t) => (
+                  <Link
+                    href={{
+                      pathname: `../../${this.props.slug}`,
+                      query: { tech: t },
+                    }}
+                    key={t}
+                  >
+                    <span className="tag">{t} </span>
+                  </Link>
+                ))}
+              </div>
             </div>
-          </div>
-          <h2 className="details-2">{title}</h2>
-          <div className="details-3">
-            <div className="section-title">Top Technologies:</div>
-            <div className="tags-container">
-              {tech.slice(0, 3).map((t) => (
-                <Link href={{ pathname: `../../${this.props.slug}`, query: { tech: t } }} key={t}>
-                  <span className="tag">{t} </span>
-                </Link>
-              ))}
-            </div>
-          </div>
+          
         </div>
+        </Link>
         {/* </a> */}
       </ProjectWrapper>
     );

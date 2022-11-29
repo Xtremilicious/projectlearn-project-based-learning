@@ -55,7 +55,7 @@ const CategoryWrapper = styled.div`
     .section-title {
       font-size: 2vw;
       padding: 3vh;
-      color: var(--theme-grey);
+      color: white;
       margin-top: 1vh;
     }
     .cat-grid {
@@ -77,6 +77,7 @@ const CategoryWrapper = styled.div`
       justify-content: center;
       align-items: center;
       cursor: pointer;
+      color: white;
       /* background-color: var(${(props) => props.bg}-alt); */
       padding: 1.2vw;
       :hover {
@@ -102,28 +103,42 @@ const CategoryWrapper = styled.div`
       font-size: 1.2vw;
     }
   }
-
 `;
 const Categories = (props) => {
   const {
     query: { tech },
   } = useRouter();
 
+  const router = useRouter();
+
   const techCategories =
     props.slug === "web-dev"
       ? webDev
       : props.slug === "mob-dev"
-        ? mobDev
-        : props.slug === "game-dev"
-          ? gameDev
-          : mlAI;
+      ? mobDev
+      : props.slug === "game-dev"
+      ? gameDev
+      : mlAI;
+
+  const removeQueryParam = (param) => {
+    const { pathname, query } = router;
+    const params = new URLSearchParams(query);
+    params.delete(param);
+    router.replace({ pathname, query: params.toString() }, undefined, {
+      shallow: true,
+    });
+  };
 
   return (
     <CategoryWrapper bg={props.color}>
       <div className="cats">
         <div className="section-title">Technologies</div>
         <div className="cat-grid">
-          <Link href={{ query: "" }}>
+          <span
+            onClick={() => {
+              removeQueryParam("tech");
+            }}
+          >
             {tech != null ? (
               <div className="cat-grid-item">
                 <FontAwesomeIcon icon={faInfinity} />
@@ -135,7 +150,7 @@ const Categories = (props) => {
                 <div className="cat-title">Show All</div>
               </div>
             )}
-          </Link>
+          </span>
           {techCategories.map((item, index) =>
             tech === item.category ? (
               <div className="cat-grid-item-selected" key={index}>

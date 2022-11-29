@@ -14,12 +14,12 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const ContentWrapper = styled.div`
   display: grid;
-  height: 100vh;
   width: auto;
-  grid-template-rows: 25vh auto;
+  min-height: 100vh;
+  grid-template-rows: auto auto;
   .dummy {
     position: fixed;
-    z-index: -1;
+    z-index: 0;
     height: 30vh;
     width: 80vw;
     background: linear-gradient(
@@ -27,6 +27,7 @@ const ContentWrapper = styled.div`
       var(${(props) => props.bg}),
       var(${(props) => props.bg}-alt)
     );
+    backdrop-filter: blur(10px);
   }
   .section-header {
     display: flex;
@@ -35,6 +36,7 @@ const ContentWrapper = styled.div`
       var(${(props) => props.bg}),
       var(${(props) => props.bg}-alt)
     );
+    backdrop-filter: blur(10px);
     color: ${(props) => props.color};
     position: fixed;
     z-index: 100;
@@ -74,7 +76,7 @@ const ContentWrapper = styled.div`
   .mobile-filter-reset {
     display: none;
   }
-  @media only screen and  (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     .headers {
       display: none;
     }

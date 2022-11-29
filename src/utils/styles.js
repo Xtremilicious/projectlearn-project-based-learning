@@ -47,6 +47,9 @@ export default css.global`
     margin: 0;
     padding: 0;
   }
+  button{
+    font-family: "Lato", "sans-serif";
+  }
   a {
     text-decoration: none;
     color: initial;
