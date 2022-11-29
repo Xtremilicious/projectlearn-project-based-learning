@@ -23,7 +23,7 @@ const CategoriesWrapper = styled.div`
     transform: rotate(180deg);
     padding: 15vh 3vh;
     font-size: 4vh;
-    background: linear-gradient(135deg,rgba(255,255,255,0.05) 10.93%,rgba(255,255,255,0) 90%);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 1vw;
     margin: 0;
     text-align: center;
