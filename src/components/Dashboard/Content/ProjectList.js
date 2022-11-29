@@ -16,9 +16,9 @@ const ListWrapper = styled.div`
     margin-bottom: 5vh;
     @media only screen and (max-width: 480px) {
       grid-template-columns: 1fr;
-      grid-row-gap: 4vh;
-      margin-left: 10%;
-      margin-right: 10%;
+      grid-row-gap: 6vh;
+      margin-left: 11.5%;
+      margin-right: 11.5%;
       grid-column-gap: 2vh;
       margin-top: 28.5vh;
     }

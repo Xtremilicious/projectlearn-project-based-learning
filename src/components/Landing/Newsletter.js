@@ -8,6 +8,7 @@ const NewsWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 10vh;
+
   h1 {
     font-weight: normal;
     margin: 0vh;
@@ -15,7 +16,7 @@ const NewsWrapper = styled.div`
   }
   h2 {
     font-weight: normal;
-    color: var(--theme-grey);
+    color: var(--themeTextSecondaryDark);
     font-size: 3vh;
     margin: 0vh;
     margin-bottom: 2vh;
@@ -31,9 +32,12 @@ const NewsWrapper = styled.div`
     outline: none;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.04) !important;
-    padding: 2vh;
+    padding: 1.5vh 2vh;
     border-radius: 1vh 0 0 1vh;
-    font-size: 3vh;
+    background: linear-gradient(135deg,rgba(255,255,255,0.05) 10.93%,rgba(255,255,255,0) 90%);
+    color: white;
+    border-radius: 1.5vh;
+    font-size: 2.8vh;
   }
   .on-error {
     margin-top: 1vh;
@@ -51,13 +55,14 @@ const NewsWrapper = styled.div`
     outline: none;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.04) !important;
-    padding: 2vh;
-    border-radius: 0 1vh 1vh 0;
-    font-size: 3vh;
-    background: var(--theme-pink);
+    padding: 1.5vh 2vh;
+    border-radius: 0 1.5vh 1.5vh 0;
+    font-size: 2.8vh;
+    background: var(--button-blue);
     cursor: pointer;
-    color: var(--theme-grey);
+    color: white;
   }
+  
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin-bottom: 5vh;
     .form {
@@ -82,7 +87,7 @@ const NewsWrapper = styled.div`
       padding: 2vh;
       border-radius: 1vh;
       font-size: 2.5vh;
-      color: var(--theme-grey);
+      color: white;
     }
     h2 {
       font-size: 2.5vh;

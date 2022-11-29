@@ -21,6 +21,8 @@ const ProjectInfoWrapper = styled.div`
   grid-template-columns: 70vw 30vw;
   overflow-x: hidden;
   height: fit-content;
+  background: var(--themeDark);
+  color: #ffff;
   .video {
     margin-top: 5vh;
     display: flex;
@@ -98,6 +100,13 @@ const ProjectInfoWrapper = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.075);
+        border-top: 4px solid var(${(props) => props.bg}-alt);
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.05) 10.93%,
+          rgba(255, 255, 255, 0) 90%
+        );
       }
       .cat-title {
         margin-top: 0.5vh;
@@ -126,8 +135,9 @@ const ProjectInfoWrapper = styled.div`
     font-size: 3vh;
   }
   .external-link {
-    background: var(--theme-green);
+    background: var(--button-blue);
     padding: 2vh;
+    color: white;
     border-radius: 1vh;
     margin-left: 2rem;
     margin-top: 0.5rem;
@@ -141,7 +151,8 @@ const ProjectInfoWrapper = styled.div`
     cursor: pointer;
   }
   .bg-red {
-    background: var(--theme-red);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--button-blue);
   }
   .modal-window {
     position: fixed;
@@ -202,7 +213,7 @@ const ProjectInfoWrapper = styled.div`
     font-size: 150%;
     margin: 0 0 15px;
   }
-  @media only screen and  (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     .related {
       display: none;
@@ -327,7 +338,8 @@ function ProjectInfo(props) {
   const month = date.toLocaleString("default", { month: "short" });
   const year = date.getFullYear();
 
-  const youtubeRegex = /^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+/gm;
+  const youtubeRegex =
+    /^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+/gm;
 
   const appIcon = (
     <React.Fragment>

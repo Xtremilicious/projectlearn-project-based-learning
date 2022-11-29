@@ -6,6 +6,7 @@ import Content from "./Content";
 const LayoutWrapper = styled.div`
   display: grid;
   grid-template-columns: 20vw auto;
+  background-color: var(--themeDark);
   @media only screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     .layout-first {

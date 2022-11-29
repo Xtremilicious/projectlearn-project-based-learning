@@ -6,14 +6,14 @@ const FooterWrapper = styled.div`
   display: flex;
   padding: 3vh;
   font-size: 1.3vw;
-  color: var(--theme-grey);
+  color: var(--themeTextSecondaryDark);
   .footer-container {
     margin-left: auto;
     display: flex;
   }
   .footer-content {
     margin-right: 2rem;
-    color: var(--button-blue);
+    color: var(--themeTextSecondaryDark);
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin: 0vh 1vw;

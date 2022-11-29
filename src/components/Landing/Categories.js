@@ -22,11 +22,12 @@ const CategoriesWrapper = styled.div`
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     padding: 15vh 3vh;
-    font-size: 5vh;
-    background: var(--theme-pink);
+    font-size: 4vh;
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 1vw;
     margin: 0;
     text-align: center;
+    color: white;
     /* background-image: repeating-linear-gradient(45deg,#f9d9eb,#f9d9eb 50px,#f7cfe2 0,#f7cfe2 100px); */
   }
   .section-content {
@@ -37,15 +38,32 @@ const CategoriesWrapper = styled.div`
     grid-column-gap: 1rem;
   }
   .section-category {
-    border-radius: 1vw;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-content: center;
     position: relative;
-    padding: 1.3vh 1vh;
     align-items: center;
     cursor: pointer;
+    background: linear-gradient(135deg,rgba(255,255,255,0.05) 10.93%,rgba(255,255,255,0) 90%);
+    padding: 1.3vh 1vh 1.3vh;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    background-image:repeating-linear-gradient(135deg,rgba(255,255,255,0.05) 0%,rgba(255,255,255,0) 90%);
   }
+
+  .bounding-box{
+    width: 25px;
+    height: 25px;
+    position: absolute;    
+    top: -15px;
+    left: -15px;
+    border: 1px solid #40a0ff;
+    background-color: var(--themeDark);
+    z-index: 2;
+    opacity: 1;
+  }
+
   .section-category:hover {
     .cat-redirect {
       transform: translateX(-0.7vh);
@@ -68,14 +86,15 @@ const CategoriesWrapper = styled.div`
     justify-content: center;
   }
   .cat-title {
-    font-size: 4vh;
+    font-size: 3vh;
     margin: 0;
     font-family: "Lato";
     margin-bottom: 2vh;
   }
   .cat-subtitle {
-    font-size: 2.65vh;
+    font-size: 2.5vh;
     padding-right: 0.7vw;
+    color: var(--themeTextSecondaryDark);
   }
   .cat-redirect {
     position: absolute;
@@ -90,6 +109,14 @@ const CategoriesWrapper = styled.div`
   .cat-redirect-text {
     font-size: 2.8vh;
     margin-right: 1vh;
+  }
+  .rainbow-text{
+    background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
   }
   @media only screen and (max-width: 768px) {
     margin: 5vh 5vw;
@@ -170,7 +197,7 @@ export default function Categories() {
           <div
             className="section-category"
             // style={{ backgroundColor: "var(--dashboard-purple-alt)", backgroundImage: "repeating-linear-gradient(45deg,#7fd6c2,#7fd6c2 50px,#86d9ce 0,#86d9ce 100px)" }}
-            style={{ backgroundColor: "var(--theme-green)" }}
+           // style={{ backgroundColor: "var(--theme-green)" }}
           >
             <div className="category-art">
               <img src={webDev} alt="Web Development" className="cat-img" />
@@ -192,12 +219,12 @@ export default function Categories() {
         <Link href="/learn/mobile-development">
           <div
             className="section-category"
-            style={{
+            /* style={{
               backgroundColor: "var(--theme-pink)",
               backgroundImage:
                 "repeating-linear-gradient(45deg,#f9d9eb,#f9d9eb 50px,#f7cfe2 0,#f7cfe2 100px)",
-            }}
-            style={{ backgroundColor: "var(--theme-pink)" }}
+            }} */
+            //style={{ backgroundColor: "var(--theme-pink)" }}
           >
             <div className="category-art">
               <img src={mobDev} alt="Mobile Development" className="cat-img" />
@@ -219,7 +246,7 @@ export default function Categories() {
           <div
             className="section-category"
             // style={{ backgroundColor: "var(--theme-yellow)", backgroundImage: "repeating-linear-gradient(45deg,#f6e049,#f6e049 50px,#eddc47 0,#eddc47 100px)" }}
-            style={{ backgroundColor: "var(--theme-yellow)" }}
+            //style={{ backgroundColor: "var(--theme-yellow)" }}
           >
             <div className="category-art">
               <img src={gameDev} alt="Game Development" className="cat-img" />
@@ -241,13 +268,13 @@ export default function Categories() {
           <div
             className="section-category"
             // style={{ backgroundColor: "var(--theme-blue)", backgroundImage: "repeating-linear-gradient(45deg,#aac6fc,#aac6fc 50px,#a8bcff 0,#a8bcff 100px)" }}
-            style={{ backgroundColor: "var(--theme-blue)" }}
+            //style={{ backgroundColor: "var(--theme-blue)" }}
           >
             <div className="category-art">
               <img src={ml} alt="Machine Learning" className="cat-img" />
             </div>
             <div className="category-details">
-              <h2 className="cat-title">ML & AI</h2>
+              <h2 className="cat-title">Machine Learning</h2>
               <div className="cat-subtitle">
                 Learn how a machine learns. Python, NumPy, Pandas, SciKit,
                 Tensorflow and more.

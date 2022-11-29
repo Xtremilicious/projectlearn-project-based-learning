@@ -12,7 +12,7 @@ class webDevelopment extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{background: "black"}}>
         <Head>
           <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
           <meta
