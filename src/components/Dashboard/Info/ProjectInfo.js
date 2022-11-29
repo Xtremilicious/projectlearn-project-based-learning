@@ -135,8 +135,9 @@ const ProjectInfoWrapper = styled.div`
     font-size: 3vh;
   }
   .external-link {
-    background: var(--theme-green);
+    background: var(--button-blue);
     padding: 2vh;
+    color: white;
     border-radius: 1vh;
     margin-left: 2rem;
     margin-top: 0.5rem;
@@ -150,7 +151,8 @@ const ProjectInfoWrapper = styled.div`
     cursor: pointer;
   }
   .bg-red {
-    background: var(--theme-red);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--button-blue);
   }
   .modal-window {
     position: fixed;
