@@ -404,11 +404,11 @@ function ProjectInfo(props) {
         </div>
         <div className="description-title">Project Link</div>
         <div className="external-link-container">
-          {youtubeRegex.test(project.projectURL) ? (
+          {/* {youtubeRegex.test(project.projectURL) ? (
             <React.Fragment>
-              <a href="#watch-video" className="external-link-container">
+              <span href="#watch-video" className="external-link-container">
                 <div className="external-link bg-red">Watch Video</div>
-              </a>
+              </span>
               <div id="watch-video" className="modal-window">
                 <div>
                   <a href="" title="Close" className="modal-close">
@@ -421,7 +421,7 @@ function ProjectInfo(props) {
                 </div>
               </div>
             </React.Fragment>
-          ) : null}
+          ) : null} */}
           <a
             href={project.projectURL}
             className="external-link-container"
