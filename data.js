@@ -1641,10 +1641,9 @@ exports.projectsData = [
       "HTML5",
       "CSS3",
     ],
-    datePublished: "2018-06-08",
-    source: "Hackernoon",
+    datePublished: "2021-06-21",
     projectURL:
-      "https://hackernoon.com/build-an-appointment-scheduler-using-react-twilio-and-cosmic-js-95377f6d1040",
+      "https://towardsdatascience.com/building-a-real-time-chat-application-with-nlp-super-powers-ce800e19cb2b?gi=861a5f1bd6be",
   },
   {
     id: 34,
