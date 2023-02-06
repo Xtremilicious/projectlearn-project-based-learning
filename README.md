@@ -72,7 +72,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Whack-a-Mole with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)|
 | NOKIA 3310 Snake Game using JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)|
 | Rock Paper Scissors in vanilla JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)|
-| Tetris with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/tetris-with-pure-javascript-121?from=github)|
 | Meme Maker with React | React, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/meme-maker-with-react-119?from=github)|
 | Evernote Clone with React | React, Firebase, Node, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/evernote-clone-with-react-118?from=github)|
 | Developer Meetup App with Vue | Vue, Firebase, Vuetify, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/developer-meetup-app-with-vue-117?from=github)|
@@ -185,7 +184,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Whack-a-Mole with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)|
 | NOKIA 3310 Snake Game using JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/nokia-3310-snake-game-using-javascript-123?from=github)|
 | Rock Paper Scissors in vanilla JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)|
-| Tetris with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/tetris-with-pure-javascript-121?from=github)|
 | Multiplayer Quiz Game with Vue | Vue, Pusher, Node, Express, JavaScript | [Link](https://projectlearn.io/learn/game-development/project/multiplayer-quiz-game-with-vue-114?from=github)|
 | Minesweeper Game with Vue | Vue, Vuex, Vuetify, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/game-development/project/minesweeper-game-with-vue-113?from=github)|
 | Tetris Game in React | React, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/tetris-game-in-react-102?from=github)|

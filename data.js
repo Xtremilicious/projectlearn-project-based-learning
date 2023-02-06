@@ -771,15 +771,6 @@ exports.projectsData = [
     projectURL: "https://www.youtube.com/watch?v=mXrTIpYoCPE",
   },
   {
-    id: 121,
-    type: "video",
-    title: "Tetris with pure JavaScript",
-    category: ["web-dev", "game-dev"],
-    tech: ["JavaScript", "HTML5", "CSS3"],
-    datePublished: "Nov 15, 2019",
-    projectURL: "https://www.youtube.com/watch?v=GWPGz9hrVMk",
-  },
-  {
     id: 120,
     type: "article",
     title: "Twitter Sentiment Analysis using CNN",
