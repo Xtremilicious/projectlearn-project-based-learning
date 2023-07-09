@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
       <SidebarWrapper>
         <CategoryInfo  slug={this.props.slug} color={this.props.color}/>
         <Categories slug={this.props.slug} url={this.props.url} color={this.props.color}/>
-        <div className="footer">© 2022 ProjectLearn</div>
+        <div className="footer">© 2023 ProjectLearn</div>
       </SidebarWrapper>
     );
   }
