@@ -2,7 +2,7 @@ exports.projectsData = [
     {
     id: 206,
     type: "video",
-    title: "Create Your Own ChatGPT in HTML CSS and JavaScript",
+    title: "Create Your Own ChatGPT Clone in HTML CSS and JavaScript",
     category: ["web-dev"],
     tech: ["HTML","CSS","JavaScript", "OpenAI API", "API"],
     datePublished: "July 12, 2023",
