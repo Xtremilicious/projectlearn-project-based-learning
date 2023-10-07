@@ -7,6 +7,7 @@ exports.projectsData = [
     tech: ["HTML","CSS","JavaScript", "OpenAI API", "API"],
     datePublished: "July 12, 2023",
     projectURL:"https://youtu.be/atKtG29iroY",
+    difficulty: "Intermediate",
 
   },
     {
