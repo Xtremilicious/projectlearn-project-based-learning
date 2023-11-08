@@ -9,6 +9,10 @@ const FooterWrapper = styled.div`
   padding: 3vh;
   font-size: 1.3vw;
   color: var(--themeTextSecondaryDark);
+  a{
+    display: flex;
+    align-items: center;
+    }
 
   .footer-sponsor{
     display: flex;
@@ -19,7 +23,7 @@ const FooterWrapper = styled.div`
     margin-left: auto;
     display: flex;
     a{
-      display: flex;
+    display: flex;
     align-items: center;
     }
   }
@@ -27,6 +31,9 @@ const FooterWrapper = styled.div`
     margin-right: 2rem;
     color: var(--themeTextSecondaryDark);
     
+  }
+  .img-link{
+    width: 11.5%;
   }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     margin: 0vh 1vw;
@@ -39,13 +46,18 @@ const FooterWrapper = styled.div`
       display: none;
     }
 
-    img{
+    .img-link{
       width: 50%;
     }
     .mobile {
       display: none;
     }
+    .img-link{
+      display: flex;
+      justify-content: center;
+    }
     .footer-content {
+      dis
       margin-right: 0rem;
       margin-left: 3.5vw;
     }
@@ -79,8 +91,13 @@ export default function Footer() {
         >
           Donate
         </a> */}
+
       </div>
-      <img src={nameCheapLogo} width={'14%'} alt="Powered by Namecheap" />
+      <a
+        href="https://www.namecheap.com"
+        className="img-link"
+        target="_blank"
+      ><img src={nameCheapLogo} width={'100%'} alt="Powered by Namecheap" /></a>
     </FooterWrapper>
   );
 }

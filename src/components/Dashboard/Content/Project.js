@@ -28,7 +28,7 @@ const ProjectWrapper = styled.div`
       rgba(255, 255, 255, 0.05) 10.93%,
       rgba(255, 255, 255, 0) 90%
     );
-    backdrop-filter: blur(55px);
+    backdrop-filter: blur(100px);
     :hover {
       box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
       background-color: var(--themeDark);
