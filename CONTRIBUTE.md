@@ -5,7 +5,7 @@ As this project is community-driven, feel free to open an issue (or even better,
 
 ## Project List Contribution
 
-Note: Cloning the repository is not required. You can directly use the GitHub Online File Editor.
+Note: Cloning the repository is not mandatory. You can directly use the GitHub Online File Editor.
 
 1. Ensure the project tutorial to be added doesn't already exist and it is of good quality (code quality, project scope & project relevance).
 2. Update the [data.js](https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/data.js) file. Project links must be pointing straight to the tutorials, no URL shorteners. 
