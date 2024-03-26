@@ -1,4 +1,14 @@
 exports.projectsData = [
+  {
+    id: 207,
+    type: "video",
+    title: "Build a Django REST API with the Django Rest Framework. Complete Tutorial.",
+    category: ["web-dev"],
+    tech: ["Django","Rest Full Api","Python", "Web", "API"],
+    datePublished: "Feb 26, 2022",
+    projectURL:"https://youtu.be/c708Nf0cHrs",
+    difficulty: "Intermediate",
+  },
     {
     id: 206,
     type: "video",

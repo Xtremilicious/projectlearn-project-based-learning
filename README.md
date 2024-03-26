@@ -28,6 +28,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build a Django REST API with the Django Rest Framework. Complete Tutorial. | Django, Rest Full Api, Python, Web, API | [Link](https://projectlearn.io/learn/web-development/project/build-a-django-rest-api-with-the-django-rest-framework.-complete-tutorial.-207?from=github)|
 | Create Your Own ChatGPT Clone in HTML CSS and JavaScript | HTML, CSS, JavaScript, OpenAI API, API | [Link](https://projectlearn.io/learn/web-development/project/create-your-own-chatgpt-clone-in-html-css-and-javascript-206?from=github)|
 | Build Reddit 2.0 clone with NextJS | React, SQL, Supabase, Next.js, GraphQL | [Link](https://projectlearn.io/learn/web-development/project/build-reddit-2.0-clone-with-nextjs-205?from=github)|
 | Build a YouTube Clone with React | Express, Node, JavaScript, HTML, CSS | [Link](https://projectlearn.io/learn/web-development/project/build-a-youtube-clone-with-react-200?from=github)|
