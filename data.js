@@ -1,15 +1,4 @@
 exports.projectsData = [
-  {
-    id: 207,
-    type: "video",
-    title: "Angular 13 Food Order Application",
-    category: ["web-dev"],
-    tech: ["Angular","Typescript" ,  "HTML","CSS"],
-    datePublished: "Jan 12, 2022",
-    projectURL:"https://www.youtube.com/playlist?list=PLkRbQrkhCOKjQ-JGZfCu8kgx4jMll9qtJ",
-    difficulty: "Intermediate",
-
-  }, 
     {
     id: 206,
     type: "video",
