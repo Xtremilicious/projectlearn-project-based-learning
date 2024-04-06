@@ -1,4 +1,15 @@
 exports.projectsData = [
+  {
+    id: 207,
+    type: "video",
+    title: "Build and Deploy a Full Stack Social Media App using React",
+    category: ["web-dev"],
+    tech: ["React","JavaScript" , "HTML","CSS", "Tailwind", "React Query"],
+    datePublished: "Oct 27, 2023",
+    projectURL:"https://www.youtube.com/watch?v=_W3R2VwRyF4",
+    difficulty: "Intermediate",
+
+  }, 
     {
     id: 206,
     type: "video",
