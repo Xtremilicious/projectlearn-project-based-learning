@@ -16,7 +16,6 @@ export const getGitHubStars = () => dispatch => {
 };
 
 export const getProjects = () => dispatch => {
-  console.log('projects.projectsData', projects.projectsData)
   dispatch({
     type: GET_PROJECTS,
     payload: projects.projectsData

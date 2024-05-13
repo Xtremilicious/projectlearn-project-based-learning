@@ -1,35 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/router";
+import { connect, useDispatch } from "react-redux";
+
+// Components
 import Head from "next/head";
-
-//Redux Stuff
-import { connect } from "react-redux";
-import { getProjects } from "../../../../src/redux/actions/dataActions";
-
 import ProjectInfo from "../../../../src/components/Dashboard/Info/ProjectInfo";
 
-const Project = props => {
+// Actions
+import { getProjects } from "../../../../src/redux/actions/dataActions";
+
+const Project = (props) => {
   const { projects } = props;
 
   const router = useRouter();
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getProjects());
+  }, [dispatch]);
 
   let projectTitle, projectID;
 
   let array = router.query.id.split("-");
 
-  projectTitle = array.slice(0, array.length - 1).map(item => item);
+  projectTitle = array.slice(0, array.length - 1).map((item) => item);
   projectID = array[array.length - 1];
 
   let project;
 
   project = projects.filter(
-    project =>
-      project.title
-        .toLowerCase()
-        .split(/\s/)
-        .join("")
-        .split("-")
-        .join("") == projectTitle.join("") && project.id == parseInt(projectID)
+    (project) =>
+      project.title.toLowerCase().split(/\s/).join("").split("-").join("") ==
+        projectTitle.join("") && project.id == parseInt(projectID)
   )[0];
 
   const projectCategory = "Machine Learning and AI";
@@ -55,7 +58,9 @@ const Project = props => {
         <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
         <meta
           name="description"
-          content={`Learn how to build ${article} ${project.title} using ${project.tech.join(
+          content={`Learn how to build ${article} ${
+            project.title
+          } using ${project.tech.join(
             ", "
           )} and more through project-based learning approach.`}
         />
@@ -70,20 +75,20 @@ const Project = props => {
         <title>{`Build ${article} ${project.title} - ${projectCategory} Project | ProjectLearn`}</title>
         {/* <!--Title--> */}
       </Head>
-      <ProjectInfo project={project} projectCategory={projectCategory} slug={slug} />
+      <ProjectInfo
+        project={project}
+        projectCategory={projectCategory}
+        slug={slug}
+      />
     </div>
   ) : (
     "Project Not Found"
   );
 };
 
-Project.getInitialProps = async ({ store }) => {
-  store.dispatch(getProjects());
-};
-
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    projects: state.data.projects
+    projects: state.data.projects,
   };
 };
 
