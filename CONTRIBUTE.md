@@ -18,6 +18,4 @@ To get started, just clone the repository and run `yarn install && yarn run dev`
     yarn install
     yarn run dev
 
-Note: Make sure you are on Node version `16.19.0` and below. You can install and manage multiple Node versions using [Node Version Manager](https://github.com/nvm-sh/nvm)
-
 Thank you for your contributions! If you think there is anything to improve with the guidelines or any kind of constructive criticism, please create an issue [here](https://github.com/Xtremilicious/projectlearn-project-based-learning/issues/new) with the details.
