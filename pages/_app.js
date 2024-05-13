@@ -3,7 +3,7 @@ import Head from "next/head";
 import App from "next/app";
 import { Provider } from "react-redux";
 import globalStyles from "../src/utils/styles.js";
-import store from "../src/redux/store"; // Import your Redux store here
+import store from "../src/redux/store";
 import Router from "next/router";
 import Script from "next/script";
 
@@ -14,7 +14,6 @@ function trackPageView(url) {
     });
   } catch (error) {
     console.error("Error tracking page view:", error);
-    // You might want to log the error or handle it appropriately
   }
 }
 
@@ -57,7 +56,7 @@ class MyApp extends App {
         <style jsx global>
           {globalStyles}
         </style>
-        <Provider store={store}> {/* Provide the Redux store to the Provider component */}
+        <Provider store={store}>
           <Component {...pageProps} />
         </Provider>
       </div>
