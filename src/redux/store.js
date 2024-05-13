@@ -1,20 +1,21 @@
-import { createStore, applyMiddleware, combineReducers } from 'redux'
-import { composeWithDevTools } from 'redux-devtools-extension'
-import thunk from 'redux-thunk'
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import thunk from 'redux-thunk';
 import dataReducer from './reducers/dataReducer';
 
+// Define the initial state
 const initialState = {};
 
-const reducers = combineReducers({
+// Create a rootReducer by combining all reducers
+const rootReducer = combineReducers({
   data: dataReducer
 });
 
-const store = initialState => {
-  return createStore(
-    reducers,
-    initialState,
-    composeWithDevTools(applyMiddleware(thunk))
-  )
-}
+// Create the Redux store
+const store = configureStore({
+  reducer: rootReducer,
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),
+  devTools: process.env.NODE_ENV !== 'production',
+  preloadedState: initialState
+});
 
-export default store
+export default store;

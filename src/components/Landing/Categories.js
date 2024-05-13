@@ -3,6 +3,8 @@ import Link from "next/link";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 import mobDev from "../../img/mob-dev-cat.png";
 import webDev from "../../img/prog-lang-cat.png";
 import ml from "../../img/ml-cat-alt.png";
@@ -194,90 +196,62 @@ export default function Categories() {
       </div>
       <div className="section-content">
         <Link href="/learn/web-development">
-          <div
-            className="section-category"
-            // style={{ backgroundColor: "var(--dashboard-purple-alt)", backgroundImage: "repeating-linear-gradient(45deg,#7fd6c2,#7fd6c2 50px,#86d9ce 0,#86d9ce 100px)" }}
-           // style={{ backgroundColor: "var(--theme-green)" }}
-          >
+          <div className="section-category">
             <div className="category-art">
-              <img src={webDev} alt="Web Development" className="cat-img" />
+              <Image src={webDev} alt="Web Development" width={200} height={200} />
             </div>
             <div className="category-details">
               <h2 className="cat-title">Web Development</h2>
               <div className="cat-subtitle">
-                Learn how to create web applications using HTML, CSS,
-                JavaScript, React and more.
+                Build web applications using HTML, CSS, JavaScript, React and more.
               </div>
             </div>
-
             <div className="cat-redirect">
-              {/* <span class="cat-redirect-text">Explore</span> */}
               <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>
         <Link href="/learn/mobile-development">
-          <div
-            className="section-category"
-            /* style={{
-              backgroundColor: "var(--theme-pink)",
-              backgroundImage:
-                "repeating-linear-gradient(45deg,#f9d9eb,#f9d9eb 50px,#f7cfe2 0,#f7cfe2 100px)",
-            }} */
-            //style={{ backgroundColor: "var(--theme-pink)" }}
-          >
+          <div className="section-category">
             <div className="category-art">
-              <img src={mobDev} alt="Mobile Development" className="cat-img" />
+              <Image src={mobDev} alt="Mobile Development" width={200} height={200} />
             </div>
             <div className="category-details">
               <h2 className="cat-title">Mobile Development</h2>
               <div className="cat-subtitle">
-                Learn how to create mobile applications using Android, Flutter,
-                React Native and more.
+                Build mobile applications using Android, Flutter, React Native and more.
               </div>
             </div>
-
             <div className="cat-redirect">
               <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>
         <Link href="/learn/game-development">
-          <div
-            className="section-category"
-            // style={{ backgroundColor: "var(--theme-yellow)", backgroundImage: "repeating-linear-gradient(45deg,#f6e049,#f6e049 50px,#eddc47 0,#eddc47 100px)" }}
-            //style={{ backgroundColor: "var(--theme-yellow)" }}
-          >
+          <div className="section-category">
             <div className="category-art">
-              <img src={gameDev} alt="Game Development" className="cat-img" />
+              <Image src={gameDev} alt="Game Development" width={200} height={200} />
             </div>
             <div className="category-details">
               <h2 className="cat-title">Game Development</h2>
               <div className="cat-subtitle">
-                Learn how to build awesome video games. C#, PyGame, OpenGL,
-                Unity and more.
+                Build awesome video games. C#, PyGame, OpenGL, Unity and more.
               </div>
             </div>
-
             <div className="cat-redirect">
               <FontAwesomeIcon icon={faLongArrowAltRight} />
             </div>
           </div>
         </Link>
         <Link href="/learn/machine-learning-and-ai">
-          <div
-            className="section-category"
-            // style={{ backgroundColor: "var(--theme-blue)", backgroundImage: "repeating-linear-gradient(45deg,#aac6fc,#aac6fc 50px,#a8bcff 0,#a8bcff 100px)" }}
-            //style={{ backgroundColor: "var(--theme-blue)" }}
-          >
+          <div className="section-category">
             <div className="category-art">
-              <img src={ml} alt="Machine Learning" className="cat-img" />
+              <Image src={ml} alt="Machine Learning" width={200} height={200} />
             </div>
             <div className="category-details">
               <h2 className="cat-title">Machine Learning</h2>
               <div className="cat-subtitle">
-                Learn how a machine learns. Python, NumPy, Pandas, SciKit,
-                Tensorflow and more.
+                Learn how a machine learns. Python, NumPy, Pandas, SciKit, Tensorflow and more.
               </div>
             </div>
             <div className="cat-redirect">

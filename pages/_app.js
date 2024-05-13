@@ -1,64 +1,68 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import App from "next/app";
-import withRedux from "next-redux-wrapper";
 import { Provider } from "react-redux";
 import globalStyles from "../src/utils/styles.js";
-import store from "../src/redux/store";
+import store from "../src/redux/store"; // Import your Redux store here
 import Router from "next/router";
-import withAnalytics from "next-analytics";
+import Script from "next/script";
 
-// function trackPageView(url) {
-//   try {
-//     window.gtag('config', 'UA-141654226-3', {
-//       page_location: url
-//     });
-//   } catch (error) {
-//     // silences the error in dev mode
-//     // and/or if gtag fails to load
-//   }
-// }
-
-
-const _App = withRedux(store)(
-  class _App extends App {
-    // componentDidMount() {
-    //   Router.onRouteChangeComplete = url => {
-    //     trackPageView(url);
-    //   };
-    // }
-    static async getInitialProps({ Component, ctx }) {
-      return {
-        pageProps: Component.getInitialProps
-          ? await Component.getInitialProps(ctx)
-          : {}
-      };
-    }
-
-    render() {
-      const { Component, pageProps, store } = this.props;
-
-      return (
-        <div>
-          <Head>
-            <title>ProjectLearn</title>
-            <meta
-              name="viewport"
-              content="initial-scale=1.0, width=device-width"
-            />
-          </Head>
-          <style jsx global>
-            {globalStyles}
-          </style>
-          <Provider store={store}>
-            <Component {...pageProps} />
-          </Provider>
-        </div>
-      );
-    }
+function trackPageView(url) {
+  try {
+    window.gtag('config', 'UA-141654226-3', {
+      page_location: url
+    });
+  } catch (error) {
+    console.error("Error tracking page view:", error);
+    // You might want to log the error or handle it appropriately
   }
-);
+}
 
+class MyApp extends App {
+  componentDidMount() {
+    Router.events.on('routeChangeComplete', trackPageView);
+  }
 
+  componentWillUnmount() {
+    Router.events.off('routeChangeComplete', trackPageView);
+  }
 
-export default withAnalytics(Router, { ga: "UA-141654226-3"})(_App);
+  render() {
+    const { Component, pageProps } = this.props;
+
+    return (
+      <div>
+        <Head>
+          <title>ProjectLearn</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=UA-141654226-3`}
+          strategy="afterInteractive"
+        />
+        <Script
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'UA-141654226-3');
+            `,
+          }}
+        />
+        <style jsx global>
+          {globalStyles}
+        </style>
+        <Provider store={store}> {/* Provide the Redux store to the Provider component */}
+          <Component {...pageProps} />
+        </Provider>
+      </div>
+    );
+  }
+}
+
+export default MyApp;
