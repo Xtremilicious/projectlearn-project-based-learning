@@ -23,7 +23,11 @@ const Project = (props) => {
 
   let projectTitle, projectID;
 
-  let array = router.query.id?.split("-");
+  const array = router.query?.id?.split("-");
+
+  if (!array) {
+    return;
+  }
 
   projectTitle = array.slice(0, array.length - 1).map((item) => item);
   projectID = array[array.length - 1] ?? "";
