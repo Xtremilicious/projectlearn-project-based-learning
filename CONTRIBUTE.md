@@ -12,7 +12,7 @@ Note: Cloning the repository is not required. You can directly use the GitHub On
 
 ## Feature Contribution
 
-To get started, just clone the repository and run `yarn install && yarn run dev`:
+To get started, just clone the repository and run `npm install && npm run dev`:
 
     git clone https://github.com/Xtremilicious/projectlearn-project-based-learning.git
     npm install
