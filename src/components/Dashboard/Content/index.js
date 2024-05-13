@@ -5,6 +5,7 @@ import ProjectList from "./ProjectList";
 
 //Redux Stuff
 import { connect } from "react-redux";
+import { getProjects } from "../../../redux/actions/dataActions";
 import { useRouter, withRouter } from "next/router";
 
 import Link from "next/link";
@@ -222,10 +223,6 @@ class Content extends Component {
     const url = this.props.url;
 
     let { projects } = this.props;
-
-    if(!projects){
-      return null
-    }
 
     projects = projects
       .filter((project) => project.category.includes(categorySlug))

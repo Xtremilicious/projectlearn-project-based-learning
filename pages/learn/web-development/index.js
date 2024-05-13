@@ -1,35 +1,41 @@
-import React, { useEffect } from "react";
+import React, { Component } from "react";
 import Head from "next/head";
 import Layout from "../../../src/components/Dashboard/Layout";
+
+//Redux Stuff
+import { connect } from "react-redux";
 import { getProjects } from "../../../src/redux/actions/dataActions";
-import { useDispatch } from "react-redux";
 
-const WebDevelopment = () => {
-  const dispatch = useDispatch();
+class webDevelopment extends Component {
+  static async getInitialProps({ store }) {
+    store.dispatch(getProjects());
+  }
+  render() {
+    return (
+      <div style={{background: "black"}}>
+        <Head>
+          <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
+          <meta
+            name="description"
+            content="Learn how to create web applications using HTML, CSS, JavaScript, React and more using the project based learning approach."
+          />
+          <meta
+            name="keywords"
+            content="project, tutorial, learn code by doing, project based learning, learn code free, web development, javascript, react"
+          />
+          {/* <!--Title--> */}
+          <title>Learn Web Development | ProjectLearn</title>
+        </Head>
+        <Layout url={`web-development`} slug={`web-dev`} title={`Web Development`} color='--theme-green'/>
+      </div>
+    );
+  }
+}
 
-  useEffect(() => {
-    // Dispatching the getProjects action when the component mounts
-    dispatch(getProjects());
-  }, [dispatch]);
-
-  return (
-    <div style={{ background: "black" }}>
-      <Head>
-        <meta name="ProjectLearn" content="Learn to Code by Creating Projects" />
-        <meta
-          name="description"
-          content="Learn how to create web applications using HTML, CSS, JavaScript, React and more using the project based learning approach."
-        />
-        <meta
-          name="keywords"
-          content="project, tutorial, learn code by doing, project based learning, learn code free, web development, javascript, react"
-        />
-        {/* <!--Title--> */}
-        <title>Learn Web Development | ProjectLearn</title>
-      </Head>
-      <Layout url={`web-development`} slug={`web-dev`} title={`Web Development`} color='--theme-green' />
-    </div>
-  );
+const mapStateToProps = state => {
+  return {
+    projects: state.data.projects
+  };
 };
 
-export default WebDevelopment;
+export default connect(mapStateToProps, {})(webDevelopment);
