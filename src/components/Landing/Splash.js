@@ -153,7 +153,7 @@ export default function Splash() {
           <Link href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/CONTRIBUTE.md" target="_blank" passHref>
           <a target="_blank">
           <button className="contribute-btn">
-              Contribute to ProjectLearn
+              Contribute
             </button>
           </a>
            

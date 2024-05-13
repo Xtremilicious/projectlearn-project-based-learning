@@ -1,5 +1,3 @@
-// next.config.js
-
 const withImages = require("next-images");
 const projectsData = require("./data.js");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
@@ -17,9 +15,12 @@ module.exports = (phase, { defaultConfig }) =>
     env: {
       EMAIL_API: process.env.EMAIL_API
     },
+    images: {
+      disableStaticImages: true
+    },
     exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
       const paths = {
-        "/": { page: "/" },
+        "/": { page: "/", query: { __nextDefaultLocale: '' } },
         "/blog": { page: "/blog" },
         "/learn/web-development": {
           page: "/learn/web-development",
@@ -34,6 +35,7 @@ module.exports = (phase, { defaultConfig }) =>
           page: "/learn/machine-learning-and-ai",
         },
       };
+
       if (phase !== PHASE_DEVELOPMENT_SERVER) {
         projectsData[Object.keys(projectsData)[0]].map((project) => {
           project.category.map((t) => {
@@ -41,16 +43,17 @@ module.exports = (phase, { defaultConfig }) =>
               t === "web-dev"
                 ? "web-development"
                 : t === "mob-dev"
-                ? "mobile-development"
-                : t === "game-dev"
-                ? "game-development"
-                : "machine-learning-and-ai";
+                  ? "mobile-development"
+                  : t === "game-dev"
+                    ? "game-development"
+                    : "machine-learning-and-ai";
 
             let urlTitle = project.title.toLowerCase().split(" ").join("-");
+            let imageUrl = project.imageUrl; // Add this line to get the image URL from project data
 
             paths[`/learn/${slug}/project/${urlTitle}-${project.id}`] = {
               page: `/learn/${slug}/project/[id]`,
-              query: { id: `${urlTitle}-${project.id}` },
+              query: { id: `${urlTitle}-${project.id}`, imageUrl }, // Pass imageUrl as query parameter
             };
           });
         });
@@ -58,25 +61,23 @@ module.exports = (phase, { defaultConfig }) =>
 
       const blogs = glob.sync("posts/**/*.md");
 
-      //remove path and extension to leave filename only
-      const blogSlugs = blogs.map((file) =>
-        file.split("/")[1].replace(/ /g, "-").slice(0, -3).trim()
-      );
+      // Filter out any invalid file paths or directories
+      const validBlogs = blogs.filter((file) => {
+        return file.includes("/") && file.endsWith(".md");
+      });
 
-      //add each blog to the routes obj
+      // Extract blog slugs from valid file paths
+      const blogSlugs = validBlogs.map((file) => {
+        const parts = file.split("/");
+        const fileName = parts[parts.length - 1];
+        return fileName.slice(0, -3); // Remove the file extension (.md)
+      });
+
+      // Add each blog to the paths object
       blogSlugs.forEach((blog) => {
         paths[`/blog/${blog}`] = { page: "/blog/[slug]", query: { slug: blog } };
       });
 
       return paths;
     },
-    // experimental: {
-    //   modern: true,
-    //   async rewrites () {
-    //     return [
-    //       {source: '/sitemap.xml', destination: '/api/sitemap'},
-    //     ]
-    //   },
-    //   catchAllRouting: true
-    // }
   });
