@@ -6,7 +6,7 @@ exports.projectsData = [
     category: ["web-dev"],
     tech: ["Next.js", "React", "JavaScript", "Tailwind", "Stripe", "HTML", "CSS"],
     datePublished: "May 14, 2024",
-    projectURL:"https://www.youtube.com/watch?v=pwsjvnADNGk&t=1710s",
+    projectURL:"https://www.youtube.com/watch?v=pwsjvnADNGk",
   }, 
   {
     id: 207,
