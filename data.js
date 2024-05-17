@@ -2,7 +2,7 @@ exports.projectsData = [
   {
     id: 208,
     type: "video",
-    title: "Build Full Stack Uber clone 2.0",
+    title: "Build a Full Stack Uber Clone",
     category: ["web-dev"],
     tech: ["Next.js", "React", "JavaScript", "Tailwind", "Stripe", "HTML", "CSS"],
     datePublished: "May 14, 2024",
