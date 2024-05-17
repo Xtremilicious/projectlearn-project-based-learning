@@ -1,5 +1,14 @@
 exports.projectsData = [
   {
+    id: 208,
+    type: "video",
+    title: "Build a Full Stack Uber Clone",
+    category: ["web-dev"],
+    tech: ["Next.js", "React", "JavaScript", "Tailwind", "Stripe", "HTML", "CSS"],
+    datePublished: "May 14, 2024",
+    projectURL:"https://www.youtube.com/watch?v=pwsjvnADNGk",
+  }, 
+  {
     id: 207,
     type: "video",
     title: "Build and Deploy a Full Stack Social Media App using React",
