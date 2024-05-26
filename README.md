@@ -28,6 +28,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build a Full Stack Uber Clone | Next.js, React, JavaScript, Tailwind, Stripe | [Link](https://projectlearn.io/learn/web-development/project/build-a-full-stack-uber-clone-208?from=github)|
 | Build and Deploy a Full Stack Social Media App using React | React, JavaScript, HTML, CSS, Tailwind | [Link](https://projectlearn.io/learn/web-development/project/build-and-deploy-a-full-stack-social-media-app-using-react-207?from=github)|
 | Create Your Own ChatGPT Clone in HTML CSS and JavaScript | HTML, CSS, JavaScript, OpenAI API, API | [Link](https://projectlearn.io/learn/web-development/project/create-your-own-chatgpt-clone-in-html-css-and-javascript-206?from=github)|
 | Build Reddit 2.0 clone with NextJS | React, SQL, Supabase, Next.js, GraphQL | [Link](https://projectlearn.io/learn/web-development/project/build-reddit-2.0-clone-with-nextjs-205?from=github)|
@@ -73,7 +74,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Flashcard Quiz With React | React, API, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/flashcard-quiz-with-react-125?from=github)|
 | Whack-a-Mole with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)|
 | NOKIA 3310 Snake Game using JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)|
-| Rock Paper Scissors in vanilla JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)|
 | Meme Maker with React | React, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/meme-maker-with-react-119?from=github)|
 | Evernote Clone with React | React, Firebase, Node, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/evernote-clone-with-react-118?from=github)|
 | Developer Meetup App with Vue | Vue, Firebase, Vuetify, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/developer-meetup-app-with-vue-117?from=github)|
@@ -185,7 +185,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Bull's Eye iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/game-development/project/bull's-eye-ios-game-using-swift-129?from=github)|
 | Whack-a-Mole with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)|
 | NOKIA 3310 Snake Game using JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/nokia-3310-snake-game-using-javascript-123?from=github)|
-| Rock Paper Scissors in vanilla JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/rock-paper-scissors-in-vanilla-javascript-122?from=github)|
 | Multiplayer Quiz Game with Vue | Vue, Pusher, Node, Express, JavaScript | [Link](https://projectlearn.io/learn/game-development/project/multiplayer-quiz-game-with-vue-114?from=github)|
 | Minesweeper Game with Vue | Vue, Vuex, Vuetify, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/game-development/project/minesweeper-game-with-vue-113?from=github)|
 | Tetris Game in React | React, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/tetris-game-in-react-102?from=github)|
