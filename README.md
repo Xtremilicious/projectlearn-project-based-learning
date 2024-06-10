@@ -28,6 +28,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build A Full Stack Ecommerce Store With Admin Dashboard | Next.js, React, JavaScript, Tailwind, Stripe | [Link](https://projectlearn.io/learn/web-development/project/build-a-full-stack-ecommerce-store-with-admin-dashboard-209?from=github)|
 | Build a Full Stack Uber Clone | Next.js, React, JavaScript, Tailwind, Stripe | [Link](https://projectlearn.io/learn/web-development/project/build-a-full-stack-uber-clone-208?from=github)|
 | Build and Deploy a Full Stack Social Media App using React | React, JavaScript, HTML, CSS, Tailwind | [Link](https://projectlearn.io/learn/web-development/project/build-and-deploy-a-full-stack-social-media-app-using-react-207?from=github)|
 | Create Your Own ChatGPT Clone in HTML CSS and JavaScript | HTML, CSS, JavaScript, OpenAI API, API | [Link](https://projectlearn.io/learn/web-development/project/create-your-own-chatgpt-clone-in-html-css-and-javascript-206?from=github)|

@@ -1,5 +1,22 @@
 exports.projectsData = [
   {
+    id: 209,
+    type: "video",
+    title: "Build A Full Stack Ecommerce Store With Admin Dashboard",
+    category: ["web-dev"],
+    tech: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Tailwind",
+      "Stripe",
+      "HTML",
+      "CSS",
+    ],
+    datePublished: "June 10, 2024",
+    projectURL: "https://www.youtube.com/watch?v=iqrgggs0Qk0&t=9s",
+  },
+  {
     id: 208,
     type: "video",
     title: "Build a Full Stack Uber Clone",
