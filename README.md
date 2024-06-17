@@ -148,7 +148,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Countdown Mobile App | Swift, Java, React Native | [Link](https://projectlearn.io/learn/mobile-development/project/countdown-mobile-app-181?from=github)|
 | Flappy Bird iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/flappy-bird-ios-game-using-swift-130?from=github)|
 | Bull's Eye iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/bull's-eye-ios-game-using-swift-129?from=github)|
-| Task List iOS App using SwiftUI | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/task-list-ios-app-using-swiftui-128?from=github)|
 | Restaurant iOS App using SwiftUI | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/restaurant-ios-app-using-swiftui-127?from=github)|
 | Dice iOS App with Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/mobile-development/project/dice-ios-app-with-swift-126?from=github)|
 | TrueCaller Clone | Java, MySQL, XAMPP, Android | [Link](https://projectlearn.io/learn/mobile-development/project/truecaller-clone-83?from=github)|

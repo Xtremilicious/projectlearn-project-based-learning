@@ -748,16 +748,6 @@ exports.projectsData = [
       "https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app",
   },
   {
-    id: 128,
-    type: "video",
-    title: "Task List iOS App using SwiftUI",
-    category: ["mob-dev"],
-    tech: ["Swift", "XCode", "iOS"],
-    datePublished: "Oct 8 2019",
-    projectURL:
-      "https://www.raywenderlich.com/5662524-your-second-ios-and-swiftui-app",
-  },
-  {
     id: 127,
     type: "article",
     title: "Restaurant iOS App using SwiftUI",
