@@ -28,6 +28,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| Build and Deploy an Amazing 3D Web Developer Portfolio in React.JS Three.js Tutorial | vite, React, JavaScript, Three.js, Tailwind | [Link](https://projectlearn.io/learn/web-development/project/build-and-deploy-an-amazing-3d-web-developer-portfolio-in-react.js-three.js-tutorial-211?from=github)|
+| Full-Stack Quick Commerce App with Next.Js Drizzle ORM and Cryptomus Payments | Next.js, React, JavaScript, Drizzle ORM, Cryptomus | [Link](https://projectlearn.io/learn/web-development/project/full-stack-quick-commerce-app-with-next.js-drizzle-orm-and-cryptomus-payments-210?from=github)|
 | Build A Full Stack Ecommerce Store With Admin Dashboard | Next.js, React, JavaScript, Tailwind, Stripe | [Link](https://projectlearn.io/learn/web-development/project/build-a-full-stack-ecommerce-store-with-admin-dashboard-209?from=github)|
 | Build a Full Stack Uber Clone | Next.js, React, JavaScript, Tailwind, Stripe | [Link](https://projectlearn.io/learn/web-development/project/build-a-full-stack-uber-clone-208?from=github)|
 | Build and Deploy a Full Stack Social Media App using React | React, JavaScript, HTML, CSS, Tailwind | [Link](https://projectlearn.io/learn/web-development/project/build-and-deploy-a-full-stack-social-media-app-using-react-207?from=github)|

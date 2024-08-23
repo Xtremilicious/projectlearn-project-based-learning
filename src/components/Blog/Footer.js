@@ -32,7 +32,7 @@ const FooterWrapper = styled.div`
 export default function Footer() {
   return (
     <FooterWrapper>
-      <div>© 2023 ProjectLearn</div>
+      <div>© 2024 ProjectLearn</div>
       <div className="footer-container">
         <a
           href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/README.md"

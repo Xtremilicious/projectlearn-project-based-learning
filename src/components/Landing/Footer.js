@@ -67,7 +67,7 @@ const FooterWrapper = styled.div`
 export default function Footer() {
   return (
     <FooterWrapper>
-      <div className="footer-sponsor">© 2023 ProjectLearn</div>
+      <div className="footer-sponsor">© 2024 ProjectLearn</div>
 
       <div className="footer-container">
         <a
