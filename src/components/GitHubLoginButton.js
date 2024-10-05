@@ -1,14 +1,41 @@
 // components/GithubLoginButton.js
-const GithubLoginButton = () => {
-  const handleLogin = () => {
-    const clientId = process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID;
-    const redirectUri = `${window.location.origin}/api/auth/callback`;
-    const scope = 'public_repo';
+import { useEffect, useState } from 'react';
+import { getSession } from 'next-auth/react';
 
-    window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}`;
+const GithubLoginButton = () => {
+  const [session, setSession] = useState(null);
+
+  useEffect(() => {
+    const fetchSession = async () => {
+      const sessionData = await getSession();
+      setSession(sessionData);
+      console.log(sessionData);
+    };
+
+    fetchSession();
+  }, []);
+
+  const handleLogin = () => {
+    // Redirect to the NextAuth authentication route
+    window.location.href = '/api/auth/signin/github';
   };
 
-  return <button onClick={handleLogin}>Login with GitHub</button>;
+  const handleLogout = () => {
+    window.location.href = '/api/auth/signout';
+  };
+
+  return (
+    <>
+      {session ? (
+        <div>
+          <h2>Welcome, {session.user.name}</h2>
+          <button onClick={handleLogout}>Logout</button>
+        </div>
+      ) : (
+        <button onClick={handleLogin}>Login with GitHub</button>
+      )}
+    </>
+  );
 };
 
 export default GithubLoginButton;

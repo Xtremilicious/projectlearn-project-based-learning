@@ -1,17 +1,22 @@
 // pages/api/github/add-project.js
 import axios from 'axios';
+import { getSession } from 'next-auth/react';
 
 export default async function handler(req, res) {
-    const { accessToken, ...projectData } = req.body;
+    const session = await getSession({ req }); // Get the session from the request
 
-    if (!accessToken) {
-        console.error('Missing access token');
-        return res.status(400).json({ error: 'Access token is required' });
+    // Ensure the session exists and access token is available
+    if (!session || !session.accessToken) {
+        console.error('Missing session or access token');
+        return res.status(401).json({ error: 'Unauthorized: Access token is required' });
     }
+
+    const { accessToken } = session; // Access the token from the session
+    const { ...projectData } = req.body; // Extract project data from the request body
 
     try {
         // Step 1: Fetch current data.json
-        console.log(`https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`)
+        console.log(`https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`);
         const contentResponse = await axios.get(
             `https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`,
             {
@@ -21,8 +26,6 @@ export default async function handler(req, res) {
                 },
             }
         );
-
-
 
         const sha = contentResponse.data.sha;
         const content = Buffer.from(contentResponse.data.content, 'base64').toString('utf-8');
