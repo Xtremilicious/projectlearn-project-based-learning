@@ -1,3 +1,4 @@
+// pages/api/github/add-project.js
 import axios from 'axios';
 
 export default async function handler(req, res) {
@@ -8,10 +9,9 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'Access token is required' });
     }
 
-    console.log(`https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`)
-
     try {
-        // Step 1: Fetch current data.js
+        // Step 1: Fetch current data.json
+        console.log(`https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`)
         const contentResponse = await axios.get(
             `https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`,
             {
@@ -22,27 +22,21 @@ export default async function handler(req, res) {
             }
         );
 
+
+
         const sha = contentResponse.data.sha;
         const content = Buffer.from(contentResponse.data.content, 'base64').toString('utf-8');
+        console.log('content', content);
+        const projectsData = JSON.parse(content);
 
-        // Remove "exports.projectsData = " part to get the actual array
-        const jsonString = JSON.parse(content)
-
-        // Wrap it in brackets to make it a valid array
-        let projectsData;
-        try {
-            projectsData = eval(`(${jsonString})`); // Use eval to parse the array
-        } catch (jsonError) {
-            console.error('Error parsing JavaScript:', jsonError.message);
-            return res.status(400).json({ error: 'Invalid JavaScript in data.js' });
-        }
+        console.log('projectsData', projectsData, typeof(projectsData));
 
         // Step 2: Append new project data
         projectsData.push(projectData);
 
         // Step 3: Create new branch
         const newBranch = `add-project-${Date.now()}`;
-        const baseBranch = 'main';
+        const baseBranch = 'master';
         const branchResponse = await axios.get(
             `https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/git/refs/heads/${baseBranch}`,
             {
@@ -51,6 +45,8 @@ export default async function handler(req, res) {
                 },
             }
         );
+
+        console.log('Branch response:', branchResponse.data);
 
         await axios.post(
             `https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/git/refs`,
@@ -65,14 +61,13 @@ export default async function handler(req, res) {
             }
         );
 
-        // Prepare the updated content to be committed back to GitHub
-        const updatedContent = JSON.stringify(projectsData, null, 2);
-
+        // Step 4: Update data.json
+        const updatedContent = Buffer.from(JSON.stringify(projectsData, null, 2)).toString('base64');
         await axios.put(
             `https://api.github.com/repos/${process.env.GITHUB_REPO_OWNER}/${process.env.GITHUB_REPO_NAME}/contents/public/data.json`,
             {
                 message: 'Add new project',
-                content: Buffer.from(updatedContent).toString('base64'), // Encode the content to base64
+                content: updatedContent,
                 branch: newBranch,
                 sha,
             },
