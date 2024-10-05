@@ -37,7 +37,7 @@ module.exports = (phase, { defaultConfig }) =>
       };
 
       if (phase !== PHASE_DEVELOPMENT_SERVER) {
-        projectsData[Object.keys(projectsData)[0]].map((project) => {
+        projectsData.map((project) => {
           project.category.map((t) => {
             const slug =
               t === "web-dev"
