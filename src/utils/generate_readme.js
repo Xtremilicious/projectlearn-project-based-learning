@@ -33,7 +33,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 `;
 
   const projectsData = require("../../public/data.json");
-  const projects = projectsData[Object.keys(projectsData)[0]];
   const domains = [
     ["web-dev", "web-development", "Web Development"],
     ["mob-dev", "mobile-development", "Mobile Development"],
@@ -46,18 +45,18 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
       `### ${domain[2]}: \n| Project | Technologies | Link |\n| :--- |:---|:---|\n`
     );
 
-    for (let i = 0; i < projects.length; i++) {
+    for (let i = 0; i < projectsData.length; i++) {
       slug = domain[1];
       t = domain[0];
 
-      if (projects[i].category.includes(t)) {
+      if (projectsData[i].category.includes(t)) {
         fileContents = fileContents.concat(
-          `| ${projects[i].title} | ${projects[i].tech
+          `| ${projectsData[i].title} | ${projectsData[i].tech
             .slice(0, 5)
-            .join(", ")} | [Link](https://projectlearn.io/learn/${slug}/project/${projects[i].title
-            .toLowerCase()
-            .split(" ")
-            .join("-")}-${projects[i].id}?from=github)|`.concat("\n")
+            .join(", ")} | [Link](https://projectlearn.io/learn/${slug}/project/${projectsData[i].title
+              .toLowerCase()
+              .split(" ")
+              .join("-")}-${projectsData[i].id}?from=github)|`.concat("\n")
         );
       }
     }
