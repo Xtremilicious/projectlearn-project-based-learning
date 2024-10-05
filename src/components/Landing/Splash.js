@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styled from "styled-components";
 import plSplash from "../../img/pl-splash.svg";
+import GithubLoginButton from "../GitHubLoginButton.js";
 
 const SplashWrapper = styled.div`
   margin: 0 5vw;
@@ -155,9 +156,12 @@ export default function Splash() {
           <button className="contribute-btn">
               Contribute
             </button>
+           
           </a>
+          
            
           </Link>
+          {/* <GithubLoginButton/> */}
         </div>
       </div>
       <div className="splash-image-container">

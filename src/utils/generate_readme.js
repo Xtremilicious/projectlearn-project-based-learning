@@ -32,7 +32,7 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ## List of Project Tutorials:
 `;
 
-  const projectsData = require("../../data");
+  const projectsData = require("../../public/data.json");
   const projects = projectsData[Object.keys(projectsData)[0]];
   const domains = [
     ["web-dev", "web-development", "Web Development"],

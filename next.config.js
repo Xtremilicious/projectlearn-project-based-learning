@@ -1,5 +1,5 @@
 const withImages = require("next-images");
-const projectsData = require("./data.js");
+const projectsData = require("./public/data.json");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 const glob = require("glob");
 
