@@ -33,6 +33,10 @@ const Project = (props) => {
 
   let project;
 
+  if (!projects) {
+    return null;
+  }
+
   project = projects.filter(
     (project) =>
       project.title.toLowerCase().split(/\s/).join("").split("-").join("") ==
