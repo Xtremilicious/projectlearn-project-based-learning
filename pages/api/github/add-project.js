@@ -1,17 +1,22 @@
 // pages/api/github/add-project.js
 import axios from 'axios';
 import { getSession } from 'next-auth/react';
+import { authOptions } from "../auth/[...nextauth]"
+import { getServerSession } from "next-auth/next"
+import { getToken } from "next-auth/jwt"
+
 
 export default async function handler(req, res) {
-    const session = await getSession({ req }); // Get the session from the request
+    const token = await getToken({ req })
+    console.log(token);
 
     // Ensure the session exists and access token is available
-    if (!session || !session.accessToken) {
+    if (!token || !token.accessToken) {
         console.error('Missing session or access token');
         return res.status(401).json({ error: 'Unauthorized: Access token is required' });
     }
 
-    const { accessToken } = session; // Access the token from the session
+    const { accessToken } = token; // Access the token from the session
     const { ...projectData } = req.body; // Extract project data from the request body
 
     try {
@@ -32,7 +37,7 @@ export default async function handler(req, res) {
         console.log('content', content);
         const projectsData = JSON.parse(content);
 
-        console.log('projectsData', projectsData, typeof(projectsData));
+        console.log('projectsData', projectsData, typeof (projectsData));
 
         // Step 2: Append new project data
         projectsData.push(projectData);

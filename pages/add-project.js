@@ -1,8 +1,11 @@
 // pages/add-project.js
 import { useState, useEffect } from 'react';
+import { useSession } from 'next-auth/react';
 import axios from 'axios';
 
+
 const AddProject = () => {
+    const { data: session, status } = useSession(); // Correctly destructuring
     const [project, setProject] = useState({
         id: '',
         type: '',
@@ -12,29 +15,25 @@ const AddProject = () => {
         datePublished: '',
         projectURL: '',
     });
-    const [accessToken, setAccessToken] = useState('');
-
-    useEffect(() => {
-        // Fetch the access token from the serverless function
-        const fetchAccessToken = async () => {
-            try {
-                const response = await axios.get('/api/store-access-token');
-                setAccessToken(response.data.accessToken);
-            } catch (error) {
-                console.error('Failed to retrieve access token:', error);
-                alert('Please log in with GitHub first.');
-            }
-        };
-
-        fetchAccessToken();
-    }, []);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // Check if the session is loading or not authenticated
+        if (status === 'loading') {
+            alert('Loading session...');
+            return;
+        }
+        
+        if (!session) {
+            alert('Please log in with GitHub first.');
+            return;
+        }
+
         try {
             const response = await axios.post('/api/github/add-project', {
                 ...project,
-                accessToken, // Pass the access token along with the project data
+               // accessToken: session.accessToken, // Use access token from the session
             });
 
             if (response.status === 200) {
@@ -48,14 +47,21 @@ const AddProject = () => {
         }
     };
 
+    // Optionally, you can redirect to a login page if the session is not available
+    useEffect(() => {
+        if (status === 'unauthenticated') {
+            window.location.href = '/api/auth/signin/github'; // Redirect to login if unauthenticated
+        }
+    }, [status]);
+
     return (
         <form onSubmit={handleSubmit}>
-            {/* Add form fields for project details */}
             <input
                 type="text"
                 placeholder="Title"
                 value={project.title}
                 onChange={(e) => setProject({ ...project, title: e.target.value })}
+                required // Ensure the title is required
             />
             {/* Add other input fields similarly */}
             <button type="submit">Submit Project</button>

@@ -161,7 +161,7 @@ export default function Splash() {
           
            
           </Link>
-          {/* <GithubLoginButton/> */}
+          <GithubLoginButton/>
         </div>
       </div>
       <div className="splash-image-container">

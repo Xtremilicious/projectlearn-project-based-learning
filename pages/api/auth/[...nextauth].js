@@ -16,10 +16,6 @@ export default NextAuth({
       }
       return token;
     },
-    async session({ session, token }) {
-      session.accessToken = token.accessToken;
-      return session;
-    },
   },
   secret: process.env.NEXTAUTH_SECRET,
 });
