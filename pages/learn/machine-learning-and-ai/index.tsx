@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 // Components
 import Head from "next/head";
-import Layout from "../../../src/components/Dashboard/Layout";
+import Layout from "@/components/dashboard/Layout";
 
 // Actions
 import { getProjects } from "../../../src/redux/actions/dataActions";

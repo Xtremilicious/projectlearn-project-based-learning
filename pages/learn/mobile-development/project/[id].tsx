@@ -4,7 +4,7 @@ import { connect, useDispatch } from "react-redux";
 
 // Components
 import Head from "next/head";
-import ProjectInfo from "../../../../src/components/Dashboard/Info/ProjectInfo";
+import ProjectInfo from "@/components/dashboard/Info/ProjectInfo";
 
 // Actions
 import { getProjects } from "../../../../src/redux/actions/dataActions";
@@ -40,7 +40,7 @@ const Project = (props) => {
   project = projects.filter(
     (project) =>
       project.title.toLowerCase().split(/\s/).join("").split("-").join("") ==
-        projectTitle.join("") && project.id == parseInt(projectID)
+      projectTitle.join("") && project.id == parseInt(projectID)
   )[0];
 
   const projectCategory = "Mobile Development";
@@ -66,11 +66,10 @@ const Project = (props) => {
         <meta name="ProjectLearn" content="Learn Code By Doing Projects" />
         <meta
           name="description"
-          content={`Learn how to build ${article} ${
-            project.title
-          } using ${project.tech.join(
-            ", "
-          )} and more through project-based learning approach.`}
+          content={`Learn how to build ${article} ${project.title
+            } using ${project.tech.join(
+              ", "
+            )} and more through project-based learning approach.`}
         />
 
         <meta

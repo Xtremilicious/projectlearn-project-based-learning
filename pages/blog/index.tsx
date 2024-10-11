@@ -1,8 +1,9 @@
 import matter from "gray-matter";
-import BlogList from "../../src/components/blog/BlogList";
-import Navbar from "../../src/components/Landing/Navbar";
-import Newsletter from "../../src/components/Landing/Newsletter";
-import Footer from "../../src/components/Landing/Footer";
+
+import BlogList from "@/components/blog/BlogList";
+import Navbar from "@/components/landing/Navbar";
+import Newsletter from "@/components/landing/Newsletter";
+import Footer from "@/components/landing/Footer";
 import Head from "next/head";
 
 import styled from "styled-components";

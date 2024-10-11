@@ -7,7 +7,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-import Footer from "../../src/components/Blog/Footer";
+import Footer from "@/components/blog/Footer";
 
 const ArticleWrapper = styled.div`
   margin-bottom: 1vh;

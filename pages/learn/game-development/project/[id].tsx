@@ -4,7 +4,7 @@ import { useDispatch, connect } from "react-redux";
 
 // Components
 import Head from "next/head";
-import ProjectInfo from "../../../../src/components/Dashboard/Info/ProjectInfo";
+import ProjectInfo from "@/components/dashboard/Info/ProjectInfo";
 
 // Actions
 import { getProjects } from "../../../../src/redux/actions/dataActions";
