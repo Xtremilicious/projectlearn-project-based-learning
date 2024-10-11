@@ -11,8 +11,7 @@
     "optimize-images": "gulp"
   },
   "pre-commit": [
-    "generate-readme",
-    "optimize-images"
+    "generate-readme"
   ],
   "dependencies": {
     "@amplitude/analytics-browser": "^2.11.7",

@@ -4,20 +4,20 @@ import imageminWebp from 'imagemin-webp';
 
 // Task to optimize PNG images
 gulp.task('optimize-png', () => {
-    return gulp.src('src/images/*.png') // Change this to your image source
+    return gulp.src('src/images/*.png') 
         .pipe(imagemin([
-            optipng({ optimizationLevel: 5 }), // Optimizing PNG images
+            optipng({ optimizationLevel: 5 }), 
         ]))
-        .pipe(gulp.dest('dist/images')); // Change this to your destination folder
+        .pipe(gulp.dest('src/images')); 
 });
 
 // Task to optimize WebP images
 gulp.task('optimize-webp', () => {
-    return gulp.src('src/images/*.webp') // Change this to your image source
+    return gulp.src('src/images/*.webp') 
         .pipe(imagemin([
-            imageminWebp({ quality: 100 }), // Optimizing WebP images
+            imageminWebp({ quality: 100 }), 
         ]))
-        .pipe(gulp.dest('dist/images')); // Change this to your destination folder
+        .pipe(gulp.dest('src/images')); 
 });
 
 // Default task to run both image optimization tasks
