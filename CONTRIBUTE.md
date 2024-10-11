@@ -15,7 +15,7 @@ Note: Cloning the repository is not required. You can directly use the GitHub On
 To get started, just clone the repository and run `npm install && npm run dev`:
 
     git clone https://github.com/Xtremilicious/projectlearn-project-based-learning.git
-    npm install
+    npm ci
     npm run dev
 
 Thank you for your contributions! If you think there is anything to improve with the guidelines or any kind of constructive criticism, please create an issue [here](https://github.com/Xtremilicious/projectlearn-project-based-learning/issues/new) with the details.

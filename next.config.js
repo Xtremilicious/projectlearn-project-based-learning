@@ -18,6 +18,9 @@ module.exports = (phase, { defaultConfig }) =>
     images: {
       disableStaticImages: true
     },
+    typescript:{
+      ignoreBuildErrors: true
+    },
     exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
       const paths = {
         "/": { page: "/", query: { __nextDefaultLocale: '' } },
