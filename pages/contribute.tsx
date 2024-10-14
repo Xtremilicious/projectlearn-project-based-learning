@@ -123,6 +123,10 @@ const AddProject = ({ markdownContent, projects }) => {
       if (response.status === 200) {
         analytics.track("Submit Project: Successful", {});
         alert("Project added successfully!");
+        window.open(
+          "https://github.com/Xtremilicious/projectlearn-project-based-learning/pulls",
+          "_blank"
+        );
       } else {
         alert(`Error: ${response.data.error}`);
       }
