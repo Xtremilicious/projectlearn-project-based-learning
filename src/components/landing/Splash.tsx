@@ -9,8 +9,8 @@ import { analytics } from "@/lib/analytics";
 export default function Splash() {
   // Tracking function for the contribute button
   const trackContribute = () => {
-    analytics.track('Contribute Button Clicked', {
-      source: 'splash page',
+    analytics.track("Contribute Button Clicked", {
+      source: "splash page",
     });
   };
 
@@ -28,13 +28,12 @@ export default function Splash() {
             <button className="learn-more">Start Building</button>
           </Link>
           <a
-            href="https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning/blob/master/CONTRIBUTE.md"
-            target="_blank"
+            href="/contribute"
             rel="noopener noreferrer"
             onClick={trackContribute}
-          > <button className="contribute-btn">
-              Contribute
-            </button></a>
+          >
+            <button className="contribute-btn">Contribute</button>
+          </a>
         </div>
       </div>
       <div className="splash-image-container">
@@ -140,7 +139,7 @@ const SplashWrapper = styled.div`
     .learn-more {
       font-size: 4.5vw;
     }
-    .contribute-btn{
+    .contribute-btn {
       display: none;
     }
   }
