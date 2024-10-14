@@ -109,7 +109,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "next.config.js", "gulpfile.js"  ],
+, "next.config.js", "gulpfile.mjs", "tailwind.config.js", "postcss.config.js"  ],
   "exclude": [
     "node_modules"
   ]

@@ -13,7 +13,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import type { AppProps } from "next/app";
 
 import globalStyles from "../src/utils/styles";
-import '../styles/globals.css';
+import "../styles/globals.css"
 
 function trackPageView(url: string) {
   try {
@@ -72,7 +72,6 @@ const AppWrapper = ({ Component, pageProps }: AppProps) => {
           attribute="class"
           defaultTheme="dark"
           enableSystem
-          disableTransitionOnChange
         >
           <Component {...pageProps} />
         </ThemeProvider>

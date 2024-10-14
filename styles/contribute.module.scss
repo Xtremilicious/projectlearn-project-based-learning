@@ -1,0 +1,50 @@
+.mainLayout {
+
+  display: flex;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+
+  background-color: var(--background);
+  color: var(--foreground);
+
+  .goBack {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-decoration: underline;
+    display: flex;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .markdownBody {
+    padding: 5rem;
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .formBody {
+    background-color: var(--card);
+    position: relative;
+    color: var(--foreground);
+    width: 80%;
+    height: 100vh;
+    overflow: hidden;
+    padding-block: 2rem;
+
+    height: 100vh;
+    overflow: scroll;
+    padding: 2rem;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    overflow: scroll;
+    display: block;
+    
+    .formBody{
+      width: 100%;
+    }
+  }
+}
