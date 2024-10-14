@@ -43,8 +43,6 @@ export default css.global`
   }
   body {
     font-family: "Lato", "sans-serif";
-    background: var(--mainWhite);
-    color: var(--mainDark);
     margin: 0;
     padding: 0;
   }

@@ -1,0 +1,118 @@
+.markdownBody {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 5rem;
+  border-left: 1px solid #e1e4e8;
+
+  /* Headings */
+  h1 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaecef;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3em;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  /* Paragraphs */
+  p {
+    margin-top: 1rem;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding-left: 1rem;
+    color: #6a737d;
+    margin: 0;
+    background-color: #424242;
+  }
+
+  /* Lists */
+  ul,
+  ol {
+    margin-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Inline Code */
+  code {
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
+      monospace;
+    font-size: 85%;
+    background-color: rgba(27, 31, 35, 0.05);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+  }
+
+  /* Code blocks */
+  pre {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.05) 10.93%,
+      rgba(255, 255, 255, 0) 90%
+    );
+    padding: 1rem;
+    border-radius: 3px;
+    overflow: auto;
+  }
+
+  pre > code {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+  }
+
+  /* Links */
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+  }
+
+  th {
+    padding: 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid #dfe2e5;
+  }
+
+  td {
+    padding: 0.6rem;
+    border-bottom: 1px solid #dfe2e5;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    padding: 2rem;
+    border: unset;
+  }
+}
