@@ -135,7 +135,7 @@ const AddProject = ({ markdownContent, projects }) => {
         "Failed to add project:",
         error.response ? error.response.data : error.message
       );
-      analytics.track("Submit Project: Failed", {});
+      analytics.track("Submit Project: Failed", { error });
       alert("Failed to add project");
     }
   };
