@@ -45,9 +45,9 @@ import GithubLoginButton from "@/components/GitHubLogin";
 // Actions
 import { getProjects } from "@/redux/actions/dataActions";
 
-import styles from "../styles/contribute.module.scss";
-import markDownStyles from "../styles/markdown-styles.module.scss";
-import { ChevronLeft } from "lucide-react";
+import styles from "../../styles/contribute.module.scss";
+import markDownStyles from "../../styles/markdown-styles.module.scss";
+import { ChevronLeft, Loader } from "lucide-react";
 
 const TechOptionSchema = z.object({
   value: z.string(),
@@ -74,6 +74,7 @@ const formSchema = z.object({
 const AddProject = ({ markdownContent, projects }) => {
   const dispatch = useDispatch();
   const [session, setSession] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     dispatch(getProjects());
@@ -116,11 +117,13 @@ const AddProject = ({ markdownContent, projects }) => {
       user: session.user,
     });
     try {
+      setLoading(true);
       const response = await axios.post("/api/github/add-project", {
         projects: values.projects,
       });
 
       if (response.status === 200) {
+        setLoading(false);
         analytics.track("Submit Project: Successful", {});
         alert("Project added successfully!");
         window.open(
@@ -128,9 +131,11 @@ const AddProject = ({ markdownContent, projects }) => {
           "_blank"
         );
       } else {
+        setLoading(false);
         alert(`Error: ${response.data.error}`);
       }
     } catch (error) {
+      setLoading(false);
       console.error(
         "Failed to add project:",
         error.response ? error.response.data : error.message
@@ -347,6 +352,7 @@ const AddProject = ({ markdownContent, projects }) => {
                   {/* Button to add a new project */}
                   <Button
                     type="button"
+                    disabled={loading}
                     variant="outline"
                     onClick={() => {
                       append({
@@ -362,7 +368,14 @@ const AddProject = ({ markdownContent, projects }) => {
                     Add Another Project
                   </Button>
 
-                  <Button type="submit">Submit</Button>
+                  <Button
+                    type="submit"
+                    disabled={loading}
+                    className="flex justify-center gap-2"
+                  >
+                    {loading && <Loader className="animate-spin" />}
+                    Submit
+                  </Button>
                 </div>
               </Accordion>
             </form>
