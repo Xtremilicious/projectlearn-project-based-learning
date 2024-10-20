@@ -1,5 +1,20 @@
 [
   {
+    "type": "video",
+    "title": "Slider Crazy Effects Using HTML CSS And Javascript",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Three.js",
+      "Tailwind"
+    ],
+    "category": "web-dev",
+    "datePublished": "2024-10-20T06:29:03.175Z",
+    "projectURL": "https://youtu.be/j7GG009J9uc?list=PLHezDWlbFAng3uShxE8K8D2TiFoZ3om9j",
+    "id": 212
+  },
+  {
     "id": 211,
     "type": "video",
     "title": "Build and Deploy an Amazing 3D Web Developer Portfolio in React.JS Three.js Tutorial",
