@@ -1,5 +1,16 @@
 [
   {
+    "type": "article",
+    "title": "Slider Crazy Effects Using HTML CSS And Javascript",
+    "tech": [
+      "vite"
+    ],
+    "category": "web-dev",
+    "datePublished": "2024-10-20T06:43:10.339Z",
+    "projectURL": "https://youtu.be/j7GG009J9uc?list=PLHezDWlbFAng3uShxE8K8D2TiFoZ3om9j",
+    "id": 212
+  },
+  {
     "id": 211,
     "type": "video",
     "title": "Build and Deploy an Amazing 3D Web Developer Portfolio in React.JS Three.js Tutorial",
