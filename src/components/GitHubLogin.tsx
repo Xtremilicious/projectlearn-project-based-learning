@@ -24,15 +24,19 @@ const GithubLoginButton = () => {
     // Redirect to the NextAuth authentication route
     //window.location.href = "/api/auth/signin/github";
     analytics.track("Sign In Clicked", {});
-    signIn("github");
+    setTimeout(() => {
+      signIn("github");
+    }, 1500);
   };
 
   const handleLogout = () => {
     //window.location.href = "/api/auth/signout";
-    analytics.track("Sign In Clicked", {
+    analytics.track("Sign Out Clicked", {
       user: session?.user,
     });
-    signOut();
+    setTimeout(() => {
+      signOut();
+    }, 1500);
   };
 
   return (
