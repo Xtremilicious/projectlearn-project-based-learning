@@ -3,9 +3,7 @@
     "id": 211,
     "type": "video",
     "title": "Build and Deploy an Amazing 3D Web Developer Portfolio in React.JS Three.js Tutorial",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "vite",
       "React",
@@ -22,9 +20,7 @@
     "id": 210,
     "type": "video",
     "title": "Full-Stack Quick Commerce App with Next.Js Drizzle ORM and Cryptomus Payments",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "Next.js",
       "React",
@@ -41,9 +37,7 @@
     "id": 209,
     "type": "video",
     "title": "Build A Full Stack Ecommerce Store With Admin Dashboard",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "Next.js",
       "React",
@@ -60,9 +54,7 @@
     "id": 208,
     "type": "video",
     "title": "Build a Full Stack Uber Clone",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "Next.js",
       "React",
@@ -79,17 +71,8 @@
     "id": 207,
     "type": "video",
     "title": "Build and Deploy a Full Stack Social Media App using React",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Tailwind",
-      "React Query"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "JavaScript", "HTML", "CSS", "Tailwind", "React Query"],
     "datePublished": "Oct 27, 2023",
     "projectURL": "https://www.youtube.com/watch?v=_W3R2VwRyF4",
     "difficulty": "Intermediate"
@@ -98,16 +81,8 @@
     "id": 206,
     "type": "video",
     "title": "Create Your Own ChatGPT Clone in HTML CSS and JavaScript",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "OpenAI API",
-      "API"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML", "CSS", "JavaScript", "OpenAI API", "API"],
     "datePublished": "July 12, 2023",
     "projectURL": "https://youtu.be/atKtG29iroY",
     "difficulty": "Intermediate"
@@ -116,9 +91,7 @@
     "id": 205,
     "type": "video",
     "title": "Build Reddit 2.0 clone with NextJS",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "SQL",
@@ -135,15 +108,8 @@
     "id": 204,
     "type": "article",
     "title": "Build an Uber Eats Clone with React Native",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React Native",
-      "Javascript",
-      "Android",
-      "iOS"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React Native", "Javascript", "Android", "iOS"],
     "datePublished": "Sep 19, 2021",
     "projectURL": "https://youtu.be/jmvbhuJXFow"
   },
@@ -151,15 +117,8 @@
     "id": 203,
     "type": "article",
     "title": "Build an Uber Clone with React Native",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React Native",
-      "Javascript",
-      "Android",
-      "iOS"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React Native", "Javascript", "Android", "iOS"],
     "datePublished": "Jul 30, 2021",
     "projectURL": "https://youtu.be/bvn_HYpix6s"
   },
@@ -167,13 +126,8 @@
     "id": 202,
     "type": "article",
     "title": "Build a Web Scraper using BeautifulSoup",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "BeautifulSoup"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "BeautifulSoup"],
     "datePublished": "Aug 11, 2019",
     "projectURL": "https://medium.com/@dev.sb18/web-scrapping-ipl-stats-493e3344d741"
   },
@@ -181,13 +135,8 @@
     "id": 201,
     "type": "article",
     "title": "Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "Kaboom"
-    ],
+    "category": ["game-dev"],
+    "tech": ["JavaScript", "Kaboom"],
     "datePublished": "May 10, 2021",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/"
   },
@@ -195,17 +144,8 @@
     "id": 200,
     "type": "article",
     "title": "Build a YouTube Clone with React",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Express",
-      "Node",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "React"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Express", "Node", "JavaScript", "HTML", "CSS", "React"],
     "datePublished": "February 10, 2021",
     "projectURL": "https://www.freecodecamp.org/news/build-youtube-with-react/"
   },
@@ -213,13 +153,8 @@
     "id": 199,
     "type": "article",
     "title": "Build a Chat App with Stories Using the Flutter SDK",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Flutter",
-      "Dart"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Flutter", "Dart"],
     "datePublished": "February 10, 2021",
     "projectURL": "https://www.freecodecamp.org/news/flutter-messenger-clone/"
   },
@@ -227,13 +162,8 @@
     "id": 198,
     "type": "video",
     "title": "Build a Robinhood Style App to Track COVID-19 Cases",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Kotlin",
-      "Android"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Kotlin", "Android"],
     "datePublished": "February 17, 2021",
     "projectURL": "https://www.youtube.com/watch?v=4gMDR69DB6A"
   },
@@ -241,14 +171,8 @@
     "id": 197,
     "type": "article",
     "title": "Create a Diverging Bar Chart with a JavaScript Charting Library",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML", "CSS"],
     "datePublished": "February 24, 2021",
     "projectURL": "https://www.freecodecamp.org/news/diverging-bar-chart-javascript/"
   },
@@ -256,13 +180,8 @@
     "id": 196,
     "type": "article",
     "title": "Learn CSS Basics by Building a Card Component",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML", "CSS"],
     "datePublished": "February 25, 2021",
     "projectURL": "https://www.freecodecamp.org/news/learn-css-basics-by-building-a-card-component/"
   },
@@ -270,15 +189,8 @@
     "id": 195,
     "type": "video",
     "title": "Create an Arkanoid Game with TypeScript",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "TypeScript",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["game-dev"],
+    "tech": ["TypeScript", "HTML", "CSS", "JavaScript"],
     "datePublished": "February 25, 2021",
     "projectURL": "https://www.youtube.com/watch?v=7bejSTim38A"
   },
@@ -286,15 +198,8 @@
     "id": 194,
     "type": "article",
     "title": "Create a Serverless Meme as a Service",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "Rust",
-      "CSS",
-      "HTML"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "Rust", "CSS", "HTML"],
     "datePublished": "February 25, 2021",
     "projectURL": "https://www.freecodecamp.org/news/create-a-serverless-meme-as-a-service/"
   },
@@ -302,15 +207,8 @@
     "id": 193,
     "type": "article",
     "title": "Weather Forecast Website",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "React"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML", "CSS", "React"],
     "datePublished": "November 20, 2020",
     "projectURL": "https://www.codementor.io/projects/web/weather-forecast-website-atx32lz7zb"
   },
@@ -318,17 +216,8 @@
     "id": 192,
     "type": "article",
     "title": "Link Shortener Website",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "Vue",
-      "HTML",
-      "CSS",
-      "React",
-      "Angular"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "Vue", "HTML", "CSS", "React", "Angular"],
     "datePublished": "April 15, 2021",
     "projectURL": "https://www.codementor.io/projects/web/link-shortener-website-brqjanf6zq"
   },
@@ -336,13 +225,8 @@
     "id": 189,
     "type": "article",
     "title": "Plagiarism Checker Website",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Python",
-      "Bootstrap"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Python", "Bootstrap"],
     "datePublished": "December 20, 2020",
     "projectURL": "https://www.codementor.io/projects/web/plagiarism-checker-website-atx32nf0oa"
   },
@@ -350,14 +234,8 @@
     "id": 187,
     "type": "article",
     "title": "Build a Custom Google Maps Theme",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML", "CSS"],
     "datePublished": "February 24, 2021",
     "projectURL": "https://www.codementor.io/projects/web/build-a-custom-google-maps-theme-bf8levr6eg"
   },
@@ -365,14 +243,8 @@
     "id": 186,
     "type": "article",
     "title": "Tinder style Swipe Mobile App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Kotlin",
-      "Java",
-      "Swift"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Kotlin", "Java", "Swift"],
     "datePublished": "April 09, 2021",
     "projectURL": "https://www.codementor.io/projects/mobile/tinder-style-swipe-mechanism-for-an-ios-app-bh9ph8n1co"
   },
@@ -380,15 +252,8 @@
     "id": 185,
     "type": "article",
     "title": "Cryptocurrency Price Listing Mobile App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React Native",
-      "Swift",
-      "Flutter",
-      "Dart"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React Native", "Swift", "Flutter", "Dart"],
     "datePublished": "December 01, 2021",
     "projectURL": "https://www.codementor.io/projects/mobile/cryptocurrency-price-listing-mobile-app-atx32meo88"
   },
@@ -396,15 +261,8 @@
     "id": 184,
     "type": "article",
     "title": "Restaurants Social Mobile App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React Native",
-      "Swift",
-      "Flutter",
-      "Dart"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React Native", "Swift", "Flutter", "Dart"],
     "datePublished": "December 01, 2021",
     "projectURL": "https://www.codementor.io/projects/mobile/restaurants-social-mobile-app-atx32rvbqo"
   },
@@ -412,15 +270,8 @@
     "id": 183,
     "type": "article",
     "title": "Break Time Reminder Mobile App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React Native",
-      "Kotlin",
-      "Java",
-      "Swift"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React Native", "Kotlin", "Java", "Swift"],
     "datePublished": "March 15, 2021",
     "projectURL": "https://www.codementor.io/projects/mobile/break-time-reminder-mobile-app-bjzm27c836"
   },
@@ -428,15 +279,8 @@
     "id": 182,
     "type": "article",
     "title": "Invoicing and Payment Reminder Mobile App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React",
-      "Node",
-      "Express",
-      "MongoDB"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React", "Node", "Express", "MongoDB"],
     "datePublished": "December 10, 2020",
     "projectURL": "https://www.codementor.io/projects/mobile/invoicing-and-payment-reminder-mobile-app-atx32o85yj"
   },
@@ -444,14 +288,8 @@
     "id": 181,
     "type": "article",
     "title": "Countdown Mobile App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Swift",
-      "Java",
-      "React Native"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Swift", "Java", "React Native"],
     "datePublished": "March 02, 2021",
     "projectURL": "https://www.codementor.io/projects/mobile/countdown-mobile-app-bjzn08zcon"
   },
@@ -459,14 +297,8 @@
     "id": 180,
     "type": "video",
     "title": "Build a Super Mario themed Google map with JavaScript",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "March 01, 2021",
     "projectURL": "https://www.youtube.com/watch?v=CdDXbvBFXLY"
   },
@@ -474,15 +306,8 @@
     "id": 179,
     "type": "article",
     "title": "Simple Games",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Lua",
-      "LÖVE",
-      "Python",
-      "Pygame Zero"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Lua", "LÖVE", "Python", "Pygame Zero"],
     "datePublished": "Nov 26, 2020",
     "projectURL": "https://simplegametutorials.github.io/"
   },
@@ -490,16 +315,8 @@
     "id": 176,
     "type": "article",
     "title": "Build a community-driven delivery application",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Python",
-      "Django",
-      "PostgreSQL",
-      "JavaScript",
-      "Mapbox"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
     "datePublished": "Dec 09, 2020",
     "projectURL": "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-part-2-d391e143fe67"
   },
@@ -507,16 +324,8 @@
     "id": 175,
     "type": "article",
     "title": "Build a local Store search-and-discovery application",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Python",
-      "Django",
-      "PostgreSQL",
-      "JavaScript",
-      "Mapbox"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Python", "Django", "PostgreSQL", "JavaScript", "Mapbox"],
     "datePublished": "Nov 04, 2020",
     "projectURL": "https://medium.com/egen/thinking-of-building-a-contact-tracing-application-heres-what-you-can-do-instead-4522e1d98739"
   },
@@ -524,16 +333,8 @@
     "id": 174,
     "type": "article",
     "title": "Medium Clone using React.js and Node.js",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Node",
-      "CSS3",
-      "JavaScript",
-      "HTML5"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Node", "CSS3", "JavaScript", "HTML5"],
     "datePublished": "Mar 31, 2018",
     "projectURL": "https://codeburst.io/build-simple-medium-com-on-node-js-and-react-js-a278c5192f47"
   },
@@ -541,12 +342,8 @@
     "id": 173,
     "type": "video",
     "title": "Python Online Multiplayer Game",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Python"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Python"],
     "datePublished": "Mar 26, 2019",
     "projectURL": "https://youtu.be/McoDjOCb2Zo"
   },
@@ -554,13 +351,8 @@
     "id": 172,
     "type": "video",
     "title": "Beat Em Up Fight Game",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Unity", "C#"],
     "datePublished": "Feb 29, 2019",
     "projectURL": "https://youtu.be/gcF66q-UPCs"
   },
@@ -568,16 +360,8 @@
     "id": 171,
     "type": "video",
     "title": "Facebook Clone with React JS",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Firebase",
-      "CSS3",
-      "JavaScript",
-      "HTML5"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Firebase", "CSS3", "JavaScript", "HTML5"],
     "datePublished": "Aug 27, 2020",
     "projectURL": "https://www.youtube.com/watch?v=B-kxUMHBxNo&t=1s"
   },
@@ -585,12 +369,8 @@
     "id": 170,
     "type": "video",
     "title": "JavaScript30 - 30 Day Vanilla JS Coding Challenge",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript"],
     "datePublished": "Oct 2, 2020",
     "projectURL": "https://javascript30.com/"
   },
@@ -598,13 +378,8 @@
     "id": 169,
     "type": "article",
     "title": "CNN that Detects Pneumonia from Chest X-Rays",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "CNN",
-      "Python"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["CNN", "Python"],
     "datePublished": "Jun 29, 2020",
     "projectURL": "https://towardsdatascience.com/pneumonia-detection-pushing-the-boundaries-of-human-ability-with-deep-learning-ce08dbd0dc20"
   },
@@ -612,16 +387,8 @@
     "id": 168,
     "type": "article",
     "title": "Travel Bucket List Map with Gatsby and GraphCMS",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Gatsby",
-      "Leaflet",
-      "GraphCMS",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Gatsby", "Leaflet", "GraphCMS", "HTML", "CSS"],
     "datePublished": "Jun 23, 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-create-a-travel-bucket-list-map-with-gatsby-react-leaflet-graphcms/"
   },
@@ -629,15 +396,8 @@
     "id": 167,
     "type": "article",
     "title": "Memory Card Game with Vue.js",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "JavaScript", "HTML", "CSS"],
     "datePublished": "Jun 24, 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-memory-card-game-with-vuejs/"
   },
@@ -645,16 +405,8 @@
     "id": 166,
     "type": "video",
     "title": "Strapi and GatsbyJS Course - Portfolio Project",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Strapi",
-      "Gatsby",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Strapi", "Gatsby", "JavaScript", "HTML", "CSS"],
     "datePublished": "Jun 25, 2020",
     "projectURL": "https://www.youtube.com/watch?v=Oc_ITwxiG-Y"
   },
@@ -662,16 +414,8 @@
     "id": 165,
     "type": "video",
     "title": "Storybook - Node, Express, MongoDB and Google OAuth",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "MongoDB",
-      "Node",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["MongoDB", "Node", "JavaScript", "HTML", "CSS"],
     "datePublished": "Jun 19, 2020",
     "projectURL": "https://www.youtube.com/watch?v=SBvmnHTQIPY"
   },
@@ -679,14 +423,8 @@
     "id": 164,
     "type": "video",
     "title": "Breathe and Relax App - JavaScript and CSS Animations",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML", "CSS"],
     "datePublished": "jun 7, 2020",
     "projectURL": "https://www.youtube.com/watch?v=l-1ZrU6avzI"
   },
@@ -694,13 +432,8 @@
     "id": 163,
     "type": "video",
     "title": "Node.js CLI For Cryptocurrency Prices",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Node",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Node", "JavaScript"],
     "datePublished": "Apr 3, 2020",
     "projectURL": "https://www.youtube.com/watch?v=-6OAHsde15E"
   },
@@ -708,16 +441,8 @@
     "id": 162,
     "type": "video",
     "title": "React and Tailwind CSS Image Gallery",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Tailwind",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Tailwind", "JavaScript", "HTML", "CSS"],
     "datePublished": "Apr 9, 2020",
     "projectURL": "https://www.youtube.com/watch?v=FiGmAI5e91M"
   },
@@ -725,15 +450,8 @@
     "id": 161,
     "type": "video",
     "title": "Pomodoro Clock using React",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "JavaScript", "HTML", "CSS"],
     "datePublished": "Mar 28, 2020",
     "projectURL": "https://www.youtube.com/watch?v=VPrmzk-1Gps&list=PL3cz80ehFCalRswkbzwTJ-zdZxu3iBjkJ"
   },
@@ -741,16 +459,8 @@
     "id": 160,
     "type": "article",
     "title": "Keyword Density Tool with Laravel from Scratch",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Laravel",
-      "PHP",
-      "JQuery",
-      "AJAX",
-      "SEO"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Laravel", "PHP", "JQuery", "AJAX", "SEO"],
     "datePublished": "Apr 28, 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-keyword-density-tool-with-laravel/"
   },
@@ -758,13 +468,8 @@
     "id": 159,
     "type": "video",
     "title": "YouTube Clone using Yii2 PHP Framework",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Yii2",
-      "PHP"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Yii2", "PHP"],
     "datePublished": "Apr 28, 2020",
     "projectURL": "https://www.youtube.com/watch?v=whuIf33v2Ug"
   },
@@ -772,14 +477,8 @@
     "id": 158,
     "type": "article",
     "title": "Auto-Updating Data Visualizations in Python with AWS",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "AWS",
-      "Matplotlib"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "AWS", "Matplotlib"],
     "datePublished": "3 MAY 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-create-auto-updating-data-visualizations-in-python-with-matplotlib-and-aws/"
   },
@@ -787,17 +486,8 @@
     "id": 157,
     "type": "article",
     "title": "Reddit Clone with React, GraphQL and Amplify",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Amplify",
-      "AWS",
-      "GraphQL",
-      "Node",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Amplify", "AWS", "GraphQL", "Node", "JavaScript"],
     "datePublished": "4 MAY 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-full-stack-serverless-application-with-react-and-amplify/"
   },
@@ -805,15 +495,8 @@
     "id": 156,
     "type": "article",
     "title": "Twitter Sentiment Analysis Tool using GCP and Node",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "API",
-      "GCP",
-      "Node",
-      "JavaScript"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["API", "GCP", "Node", "JavaScript"],
     "datePublished": "4 MAY 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-twitter-sentiment-analysis-tool/"
   },
@@ -821,16 +504,8 @@
     "id": 155,
     "type": "article",
     "title": "Full-Stack Yelp Clone with React and GraphQL",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "GraphQL",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "GraphQL", "HTML", "CSS", "JavaScript"],
     "datePublished": "5 MAY 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-create-a-full-stack-yelp-clone-with-react-graphql/"
   },
@@ -838,15 +513,8 @@
     "id": 154,
     "type": "article",
     "title": "Pokémon Web App with React Hooks and Context API",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "HTML", "CSS", "JavaScript"],
     "datePublished": "Apr 24, 2020",
     "projectURL": "https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/"
   },
@@ -854,14 +522,8 @@
     "id": 153,
     "type": "article",
     "title": "Watershed Monitor using JavaScript and Rails",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Ruby",
-      "Rails",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Ruby", "Rails", "JavaScript"],
     "datePublished": "Apr 28, 2020",
     "projectURL": "https://dev.to/jessesbyers/watershed-monitor-javascript-and-rails-project-576c"
   },
@@ -869,16 +531,8 @@
     "id": 152,
     "type": "article",
     "title": "Climate Data Dashboard using React and Redux",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Redux",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Redux", "HTML", "CSS", "JavaScript"],
     "datePublished": "Apr 28, 2020",
     "projectURL": "https://dev.to/jessesbyers/climate-data-dashboard-react-redux-project-1ilb"
   },
@@ -886,13 +540,8 @@
     "id": 151,
     "type": "article",
     "title": "Flipping UNO Cards using only CSS",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML", "CSS"],
     "datePublished": "Apr 28, 2020",
     "projectURL": "https://dev.to/comscience/flipping-uno-cards-using-only-css-4jb9"
   },
@@ -900,14 +549,8 @@
     "id": 150,
     "type": "video",
     "title": "Simple 3D Game using Godot 3.1",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Godot",
-      "C#",
-      "3D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Godot", "C#", "3D"],
     "datePublished": "Jul 26, 2019",
     "projectURL": "https://www.youtube.com/watch?v=VeCrE-ge8xM&list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ"
   },
@@ -915,14 +558,8 @@
     "id": 149,
     "type": "video",
     "title": "Simple Puzzle Game in Godot - Box and Switch",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Godot",
-      "C#",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Godot", "C#", "2D"],
     "datePublished": "Feb 7, 2019",
     "projectURL": "https://www.youtube.com/watch?v=l2wF2gj_hlA"
   },
@@ -930,14 +567,8 @@
     "id": 148,
     "type": "video",
     "title": "Game Interface From Scratch in Godot 3",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Godot",
-      "C#",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Godot", "C#", "2D"],
     "datePublished": "May 16, 2018",
     "projectURL": "https://www.youtube.com/watch?v=y1E_y9AIqow"
   },
@@ -945,14 +576,8 @@
     "id": 147,
     "type": "video",
     "title": "2D Game with Godot: Player and Enemy",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Godot",
-      "C#",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Godot", "C#", "2D"],
     "datePublished": "Oct 2, 2019",
     "projectURL": "https://www.youtube.com/watch?v=Mc13Z2gboEk"
   },
@@ -960,15 +585,8 @@
     "id": 146,
     "type": "article",
     "title": "Chat App with Redis, WebSocket and Go",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Redis",
-      "Web Socket",
-      "Go",
-      "Azure"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Redis", "Web Socket", "Go", "Azure"],
     "datePublished": "Apr 13, 2020",
     "projectURL": "https://dev.to/azure/let-s-learn-how-to-to-build-a-chat-application-with-redis-websocket-and-go-5cck"
   },
@@ -976,15 +594,8 @@
     "id": 145,
     "type": "article",
     "title": "Spotify Login Animation With React Navigation",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "HTML", "CSS", "JavaScript"],
     "datePublished": "Apr 22, 2020",
     "projectURL": "https://dev.to/elaziziyoussouf/spotify-login-animation-with-react-navigation-v5-4od7"
   },
@@ -992,13 +603,8 @@
     "id": 144,
     "type": "article",
     "title": "Dynamic Weather Interface with just CSS",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML",
-      "CSS"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML", "CSS"],
     "datePublished": "Apr 22, 2020",
     "projectURL": "https://dev.to/comscience/dynamic-weather-app-using-just-css-cp2"
   },
@@ -1006,18 +612,8 @@
     "id": 143,
     "type": "article",
     "title": "Simple CRUD App with Airtable and Vue",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Airtable",
-      "Vue",
-      "Vuetify",
-      "API",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Airtable", "Vue", "Vuetify", "API", "HTML", "CSS", "JavaScript"],
     "datePublished": "Apr 22, 2020",
     "projectURL": "https://dev.to/codeply/build-a-simple-crud-app-with-airtable-api-vue-vuetify-5565"
   },
@@ -1025,18 +621,8 @@
     "id": 142,
     "type": "article",
     "title": "Full Stack RPG Character Generator with MEVN stack",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "MongoDB",
-      "Express",
-      "Vue",
-      "Node",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["MongoDB", "Express", "Vue", "Node", "HTML", "CSS", "JavaScript"],
     "datePublished": "9 MARCH 2020",
     "projectURL": "https://www.freecodecamp.org/news/build-a-full-stack-mevn-app/"
   },
@@ -1044,9 +630,7 @@
     "id": 141,
     "type": "article",
     "title": "Todo App with the PERN stack",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "PostgreSQL",
       "Express",
@@ -1063,14 +647,8 @@
     "id": 140,
     "type": "article",
     "title": "Summer Road Trip Mapping App with Gatsby",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Gatsby",
-      "Leaflet"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Gatsby", "Leaflet"],
     "datePublished": "24 MARCH 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-create-a-summer-road-trip-mapping-app-with-gatsby-and-leaflet/"
   },
@@ -1078,16 +656,8 @@
     "id": 139,
     "type": "article",
     "title": "Multiplayer Card Game with Socket.io",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "Phaser 3",
-      "Express",
-      "Socket.io",
-      "JavaScript"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["Phaser 3", "Express", "Socket.io", "JavaScript"],
     "datePublished": "25 MARCH 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-multiplayer-card-game-with-phaser-3-express-and-socket-io/"
   },
@@ -1095,14 +665,8 @@
     "id": 138,
     "type": "article",
     "title": "COVID-19 Dashboard and Map App with Gatsby",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Gatsby",
-      "Leaflet"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Gatsby", "Leaflet"],
     "datePublished": "31 MARCH 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/"
   },
@@ -1110,15 +674,8 @@
     "id": 137,
     "type": "article",
     "title": "Multiplayer Card Game with Unity 2D and Mirror",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C#",
-      "Unity",
-      "2D",
-      "Mirror"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C#", "Unity", "2D", "Mirror"],
     "datePublished": "2 APRIL 2020",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-multiplayer-card-game-with-unity-2d-and-mirror/"
   },
@@ -1126,13 +683,8 @@
     "id": 136,
     "type": "article",
     "title": "Roguelike Tutorial in Rust",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Rust",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Rust", "2D"],
     "datePublished": "Feb 16, 2017",
     "projectURL": "https://tomassedovic.github.io/roguelike-tutorial/"
   },
@@ -1140,13 +692,8 @@
     "id": 135,
     "type": "article",
     "title": "Adventures in Rust - A Basic 2D Game",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Rust",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Rust", "2D"],
     "datePublished": "Apr 14, 2020",
     "projectURL": "https://a5huynh.github.io/posts/2018/adventures-in-rust/"
   },
@@ -1154,13 +701,8 @@
     "id": 134,
     "type": "article",
     "title": "Terminal Snake Game with Ruby",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Ruby",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Ruby", "2D"],
     "datePublished": "Mar 2, 2017",
     "projectURL": "https://diatomenterprises.com/gamedev-on-ruby-why-not/"
   },
@@ -1168,14 +710,8 @@
     "id": 133,
     "type": "article",
     "title": "Space Invaders using OpenGL",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "OpenGL",
-      "C/C++",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["OpenGL", "C/C++", "2D"],
     "datePublished": "Mar 20, 2018",
     "projectURL": "http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html"
   },
@@ -1183,13 +719,8 @@
     "id": 132,
     "type": "video",
     "title": "Sudoku Solver in C",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C/C++",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C/C++", "2D"],
     "datePublished": "Mar 28, 2015",
     "projectURL": "https://www.youtube.com/watch?v=9aMUyoYDI-0&list=PLkTXsX7igf8edTYU92nU-f5Ntzuf-RKvW"
   },
@@ -1197,13 +728,8 @@
     "id": 131,
     "type": "video",
     "title": "Chess Engine In C",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C/C++",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C/C++", "2D"],
     "datePublished": "Sep 9, 2019",
     "projectURL": "https://www.youtube.com/watch?v=bGAfaepBco4&list=PLZ1QII7yudbc-Ky058TEaOstZHVbT-2hg&index=1&t=0s"
   },
@@ -1211,15 +737,8 @@
     "id": 130,
     "type": "video",
     "title": "Flappy Bird iOS Game using Swift",
-    "category": [
-      "mob-dev",
-      "game-dev"
-    ],
-    "tech": [
-      "Swift",
-      "XCode",
-      "iOS"
-    ],
+    "category": ["mob-dev", "game-dev"],
+    "tech": ["Swift", "XCode", "iOS"],
     "datePublished": "Mar 14 2017",
     "projectURL": "https://www.raywenderlich.com/3875-how-to-make-a-game-like-flappy-bird"
   },
@@ -1227,15 +746,8 @@
     "id": 129,
     "type": "video",
     "title": "Bull's Eye iOS Game using Swift",
-    "category": [
-      "mob-dev",
-      "game-dev"
-    ],
-    "tech": [
-      "Swift",
-      "XCode",
-      "iOS"
-    ],
+    "category": ["mob-dev", "game-dev"],
+    "tech": ["Swift", "XCode", "iOS"],
     "datePublished": "Sep 3 2019",
     "projectURL": "https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app"
   },
@@ -1243,14 +755,8 @@
     "id": 127,
     "type": "article",
     "title": "Restaurant iOS App using SwiftUI",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Swift",
-      "XCode",
-      "iOS"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Swift", "XCode", "iOS"],
     "datePublished": "September 18 2019",
     "projectURL": "https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tutorial-building-a-complete-project"
   },
@@ -1258,14 +764,8 @@
     "id": 126,
     "type": "article",
     "title": "Dice iOS App with Swift",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Swift",
-      "XCode",
-      "iOS"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Swift", "XCode", "iOS"],
     "datePublished": "February 13, 2020",
     "projectURL": "https://www.ralfebert.de/ios/beginner-tutorials/iphone-app-xcode/"
   },
@@ -1273,16 +773,8 @@
     "id": 125,
     "type": "video",
     "title": "Flashcard Quiz With React",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "API",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "API", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Apr 11, 2020",
     "projectURL": "https://www.youtube.com/watch?v=hEtZ040fsD8"
   },
@@ -1290,47 +782,17 @@
     "id": 124,
     "type": "video",
     "title": "Whack-a-Mole with pure JavaScript",
-    "category": [
-      "web-dev",
-      "game-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev", "game-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Feb 5, 2020",
     "projectURL": "https://www.youtube.com/watch?v=o93jem7oPnA"
-  },
-  {
-    "id": 123,
-    "type": "video",
-    "title": "NOKIA 3310 Snake Game using JavaScript",
-    "category": [
-      "web-dev",
-      "game-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
-    "datePublished": "Jan 26, 2020",
-    "projectURL": "https://www.youtube.com/watch?v=rui2tRRVtc0"
   },
   {
     "id": 120,
     "type": "article",
     "title": "Twitter Sentiment Analysis using CNN",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "Matplotlib",
-      "Numpy",
-      "Pandas"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "Matplotlib", "Numpy", "Pandas"],
     "datePublished": "Dec 8, 2017",
     "projectURL": "https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90"
   },
@@ -1338,15 +800,8 @@
     "id": 119,
     "type": "article",
     "title": "Meme Maker with React",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Dec 24, 2018",
     "projectURL": "https://medium.com/free-code-camp/react-for-beginners-building-a-meme-maker-with-react-7164d3d3e55f"
   },
@@ -1354,17 +809,8 @@
     "id": 118,
     "type": "video",
     "title": "Evernote Clone with React",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Firebase",
-      "Node",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Firebase", "Node", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Jul 15, 2019",
     "projectURL": "https://www.youtube.com/watch?v=I250xdtUvy8"
   },
@@ -1372,17 +818,8 @@
     "id": 117,
     "type": "video",
     "title": "Developer Meetup App with Vue",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "Firebase",
-      "Vuetify",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "Firebase", "Vuetify", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Mar 4, 2020",
     "projectURL": "https://www.youtube.com/watch?v=FXY1UyQfSFw&list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt&index=2&t=32s"
   },
@@ -1390,17 +827,8 @@
     "id": 116,
     "type": "article",
     "title": "Real-Time Chat App with Vue",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "Firebase",
-      "Vuex",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "Firebase", "Vuex", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Oct 16, 2017",
     "projectURL": "https://vuejsdevelopers.com/2017/10/16/vue-js-firestore/"
   },
@@ -1408,17 +836,8 @@
     "id": 115,
     "type": "article",
     "title": "Cryptocurrency Tracker with Vue",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "Vuetify",
-      "API",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "Vuetify", "API", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Feb 15, 2018",
     "projectURL": "https://medium.com/eliteng/build-a-cryptocurrency-tracker-with-vue-js-c0efd4c0139e"
   },
@@ -1426,19 +845,8 @@
     "id": 114,
     "type": "article",
     "title": "Multiplayer Quiz Game with Vue",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "Pusher",
-      "Node",
-      "Express",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["Vue", "Pusher", "Node", "Express", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Apr 8, 2018",
     "projectURL": "https://medium.com/front-end-weekly/build-a-multiplayer-quiz-game-with-vue-js-ca22bad8fb52"
   },
@@ -1446,18 +854,8 @@
     "id": 113,
     "type": "article",
     "title": "Minesweeper Game with Vue",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "Vuex",
-      "Vuetify",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["Vue", "Vuex", "Vuetify", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Sep 2, 2019",
     "projectURL": "https://medium.com/javascript-in-plain-english/minesweeper-rebuild-with-vue-vuex-and-vuetify-ab1921e5258e"
   },
@@ -1465,16 +863,8 @@
     "id": 112,
     "type": "article",
     "title": "Instagram Clone with Vue",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "CSSGram",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "CSSGram", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Dec 19, 2019",
     "projectURL": "https://medium.com/fullstackio/tutorial-build-an-instagram-clone-with-vue-js-and-cssgram-24a9f3de0408"
   },
@@ -1482,16 +872,8 @@
     "id": 111,
     "type": "article",
     "title": "Hacker News Clone with Angular",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Angular",
-      "Lighthouse",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Angular", "Lighthouse", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Oct 24, 2018",
     "projectURL": "https://medium.com/crowdbotics/learn-to-build-a-simple-progressive-web-app-pwa-with-angular-and-lighthouse-hacker-news-clone-51aca763032f"
   },
@@ -1499,13 +881,8 @@
     "id": 110,
     "type": "article",
     "title": "Chat Interface",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Dec 19, 2019",
     "projectURL": "https://www.florin-pop.com/blog/2019/04/chat-interface/"
   },
@@ -1513,13 +890,8 @@
     "id": 109,
     "type": "article",
     "title": "Pure CSS3 Tooltip",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Dec 18, 2019",
     "projectURL": "https://www.florin-pop.com/blog/2019/05/pure-css-tooltip/"
   },
@@ -1527,13 +899,8 @@
     "id": 108,
     "type": "article",
     "title": "Social Media Buttons",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Jul 11, 2019",
     "projectURL": "https://www.florin-pop.com/blog/2019/07/social-media-buttons/"
   },
@@ -1541,13 +908,8 @@
     "id": 107,
     "type": "article",
     "title": "Testimonial Card",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Jul 17, 2019",
     "projectURL": "https://www.florin-pop.com/blog/2019/07/testimonial-card/"
   },
@@ -1555,13 +917,8 @@
     "id": 106,
     "type": "article",
     "title": "Navigation Bar with CSS3 Flexbox",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Jul 9, 2019",
     "projectURL": "https://freshman.tech/flexbox-navbar/"
   },
@@ -1569,13 +926,8 @@
     "id": 105,
     "type": "article",
     "title": "Mobile App Layout with CSS3 Flexbox",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Oct 23, 2019",
     "projectURL": "https://freshman.tech/flexbox-mobile-app/"
   },
@@ -1583,13 +935,8 @@
     "id": 104,
     "type": "article",
     "title": "Reddit-inspired Loading Spinner",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3"],
     "datePublished": "Feb 19, 2019",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-reddit-inspired-loading-spinner-with-only-html-and-css-5b2fca3fdca/"
   },
@@ -1597,14 +944,8 @@
     "id": 103,
     "type": "article",
     "title": "Calendar with CSS3 Grid",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Jul 16, 2019",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-calendar-with-css-grid/"
   },
@@ -1612,16 +953,8 @@
     "id": 102,
     "type": "video",
     "title": "Tetris Game in React",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["React", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Aug 14, 2019",
     "projectURL": "https://www.youtube.com/watch?v=ZGOaCxX8HIU"
   },
@@ -1629,15 +962,8 @@
     "id": 101,
     "type": "article",
     "title": "2D Breakout Game",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Oct 26, 2016",
     "projectURL": "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"
   },
@@ -1645,15 +971,8 @@
     "id": 100,
     "type": "article",
     "title": "Sprite Animation",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Jan 13, 2018",
     "projectURL": "https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa"
   },
@@ -1661,15 +980,8 @@
     "id": 99,
     "type": "article",
     "title": "Snake Game",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Jul 5, 2018",
     "projectURL": "https://www.freecodecamp.org/news/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-and-css-7b1479c3339e/"
   },
@@ -1677,15 +989,8 @@
     "id": 98,
     "type": "article",
     "title": "Memory Game",
-    "category": [
-      "game-dev",
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["game-dev", "web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Aug 28, 2018",
     "projectURL": "https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae"
   },
@@ -1693,17 +998,8 @@
     "id": 97,
     "type": "article",
     "title": "Simple Authentication and Authorization",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "GraphQL",
-      "Apollo",
-      "Node",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["GraphQL", "Apollo", "Node", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "Mar 27, 2020",
     "projectURL": "https://medium.com/javascript-in-plain-english/simple-authentication-and-authorization-in-graphql-5293c0458fc"
   },
@@ -1711,9 +1007,7 @@
     "id": 96,
     "type": "article",
     "title": "Cryptocurrency Tracker",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "NextJS",
       "GraphQL",
@@ -1730,14 +1024,8 @@
     "id": 95,
     "type": "article",
     "title": "Instant Search With Vanilla Javascript",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Jun 21, 2019",
     "projectURL": "https://www.florin-pop.com/blog/2019/06/vanilla-javascript-instant-search/"
   },
@@ -1745,14 +1033,8 @@
     "id": 94,
     "type": "article",
     "title": "Calculator App",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "Mar 21, 2018",
     "projectURL": "https://zellwk.com/blog/calculator-part-1"
   },
@@ -1760,14 +1042,8 @@
     "id": 93,
     "type": "video",
     "title": "Tanks Shooter",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "3D",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["3D", "Unity", "C#"],
     "datePublished": "Jul 24, 2019",
     "projectURL": "https://learn.unity.com/project/tanks-tutorial"
   },
@@ -1775,14 +1051,8 @@
     "id": 92,
     "type": "video",
     "title": "2D Roguelike",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "2D",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["2D", "Unity", "C#"],
     "datePublished": "May 22, 2019",
     "projectURL": "https://learn.unity.com/project/2d-roguelike-tutorial"
   },
@@ -1790,14 +1060,8 @@
     "id": 91,
     "type": "video",
     "title": "John Lemon's Haunted Jaunt 3D",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "3D",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["3D", "Unity", "C#"],
     "datePublished": "Apr 12, 2019",
     "projectURL": "https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner"
   },
@@ -1805,14 +1069,8 @@
     "id": 90,
     "type": "video",
     "title": "VR Beginner: The Escape Room",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "VR",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["VR", "Unity", "C#"],
     "datePublished": "Feb 24, 2020",
     "projectURL": "https://learn.unity.com/project/vr-beginner-the-escape-room"
   },
@@ -1820,14 +1078,8 @@
     "id": 89,
     "type": "video",
     "title": "Ruby's Adventure",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "2D",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["2D", "Unity", "C#"],
     "datePublished": "March 2, 2019",
     "projectURL": "https://learn.unity.com/project/ruby-s-2d-rpg"
   },
@@ -1835,14 +1087,8 @@
     "id": 88,
     "type": "video",
     "title": "RPG Game",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "2D",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["2D", "Unity", "C#"],
     "datePublished": "Jun 11, 2019",
     "projectURL": "https://learn.unity.com/project/creator-kit-rpg"
   },
@@ -1850,14 +1096,8 @@
     "id": 87,
     "type": "video",
     "title": "Roll-a-ball",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "3D",
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["3D", "Unity", "C#"],
     "datePublished": "Mar 2, 2019",
     "projectURL": "https://learn.unity.com/project/roll-a-ball-tutorial"
   },
@@ -1865,13 +1105,8 @@
     "id": 86,
     "type": "video",
     "title": "FPS Microgame",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Unity", "C#"],
     "datePublished": "Oct 24, 2019",
     "projectURL": "https://learn.unity.com/project/fps-template?courseId=5c59cf22edbc2a001f59aa5d"
   },
@@ -1879,14 +1114,8 @@
     "id": 85,
     "type": "video",
     "title": "Platformer Microgame",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Unity",
-      "C#",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Unity", "C#", "2D"],
     "datePublished": "Apr 12, 2019",
     "projectURL": "https://learn.unity.com/project/2d-platformer-template?courseId=5c59cf22edbc2a001f59aa5d"
   },
@@ -1894,13 +1123,8 @@
     "id": 84,
     "type": "video",
     "title": "Karting Microgame",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Unity",
-      "C#"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Unity", "C#"],
     "datePublished": "Mar 20, 2019",
     "projectURL": "https://learn.unity.com/project/karting-template?courseId=5c59cf22edbc2a001f59aa5d"
   },
@@ -1908,15 +1132,8 @@
     "id": 83,
     "type": "video",
     "title": "TrueCaller Clone",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Java",
-      "MySQL",
-      "XAMPP",
-      "Android"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Java", "MySQL", "XAMPP", "Android"],
     "datePublished": "Jun 15, 2015",
     "projectURL": "https://www.youtube.com/watch?v=mlEdGe4vui4"
   },
@@ -1924,14 +1141,8 @@
     "id": 82,
     "type": "video",
     "title": "Weather App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Java",
-      "API",
-      "Android"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Java", "API", "Android"],
     "datePublished": "Oct 4, 2016",
     "projectURL": "https://www.youtube.com/watch?v=wAV2Uqv9KLo"
   },
@@ -1939,14 +1150,8 @@
     "id": 81,
     "type": "video",
     "title": "E-Commerce App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Java",
-      "Firebase",
-      "Android"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Java", "Firebase", "Android"],
     "datePublished": "Oct 11, 2018",
     "projectURL": "https://www.youtube.com/watch?v=6keVIot98QU&list=PLxefhmF0pcPlqmH_VfWneUjfuqhreUz-O&index=1"
   },
@@ -1954,14 +1159,8 @@
     "id": 80,
     "type": "video",
     "title": "Chat App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Java",
-      "Firebase",
-      "Android"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Java", "Firebase", "Android"],
     "datePublished": "Aug 18, 2018",
     "projectURL": "https://www.youtube.com/watch?v=fJWFeW09qeE&list=PLzLFqCABnRQftQQETzoVMuteXzNiXmnj8&index=1"
   },
@@ -1969,15 +1168,8 @@
     "id": 79,
     "type": "article",
     "title": "Todo App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Flutter",
-      "Dart",
-      "Android",
-      "iOS"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Flutter", "Dart", "Android", "iOS"],
     "datePublished": "Jun 7, 2018",
     "projectURL": "https://medium.com/the-web-tub/making-a-todo-app-with-flutter-5c63dab88190"
   },
@@ -1985,15 +1177,8 @@
     "id": 78,
     "type": "video",
     "title": "Travel App UI",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Flutter",
-      "Dart",
-      "Android",
-      "iOS"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Flutter", "Dart", "Android", "iOS"],
     "datePublished": "Oct 23, 2019",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=CSa6Ocyog4U"
@@ -2002,15 +1187,8 @@
     "id": 77,
     "type": "article",
     "title": "Taylor Swift Lyrics Generator",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "Keras",
-      "Numpy",
-      "Pandas"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "Keras", "Numpy", "Pandas"],
     "datePublished": "Apr 19, 2018",
     "projectURL": "https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e"
   },
@@ -2018,9 +1196,7 @@
     "id": 76,
     "type": "article",
     "title": "MNIST Digit Recognizer",
-    "category": [
-      "ml-ai"
-    ],
+    "category": ["ml-ai"],
     "tech": [
       "Python",
       "Keras",
@@ -2037,15 +1213,8 @@
     "id": 75,
     "type": "article",
     "title": "Train a Model to Generate Colors",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "Keras",
-      "TensorFlow",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "Keras", "TensorFlow", "Numpy"],
     "datePublished": "May 3, 2018",
     "projectURL": "https://heartbeat.fritz.ai/how-to-train-a-keras-model-to-generate-colors-3bc79e54971b"
   },
@@ -2053,14 +1222,8 @@
     "id": 74,
     "type": "article",
     "title": "Image Caption Generator",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "TensorFlow",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "TensorFlow", "Numpy"],
     "datePublished": "11 APRIL 2018",
     "projectURL": "https://medium.freecodecamp.org/building-an-image-caption-generator-with-deep-learning-in-tensorflow-a142722e9b1f"
   },
@@ -2068,16 +1231,8 @@
     "id": 73,
     "type": "article",
     "title": "Break a Captcha System using CNN",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "Keras",
-      "TensorFlow",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "Keras", "TensorFlow", "OpenCV", "Numpy"],
     "datePublished": "Dec 13, 2017",
     "projectURL": "https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-minutes-with-machine-learning-dbebb035a710"
   },
@@ -2085,15 +1240,8 @@
     "id": 72,
     "type": "article",
     "title": "Generate an Average Face",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy",
-      "C/C++"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy", "C/C++"],
     "datePublished": "MAY 7, 2016",
     "projectURL": "https://www.learnopencv.com/average-face-opencv-c-python-tutorial/"
   },
@@ -2101,14 +1249,8 @@
     "id": 71,
     "type": "article",
     "title": "Image Stitching",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "December 17, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/"
   },
@@ -2116,15 +1258,8 @@
     "id": 70,
     "type": "article",
     "title": "Hand Keypoint Detection",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy",
-      "C/C++"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy", "C/C++"],
     "datePublished": "OCTOBER 8, 2018",
     "projectURL": "https://www.learnopencv.com/hand-keypoint-detection-using-deep-learning-and-opencv/"
   },
@@ -2132,15 +1267,8 @@
     "id": 69,
     "type": "article",
     "title": "Eigenface",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy",
-      "C/C++"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy", "C/C++"],
     "datePublished": "JANUARY 18, 2018",
     "projectURL": "https://www.learnopencv.com/eigenface-using-opencv-c-python/"
   },
@@ -2148,14 +1276,8 @@
     "id": 68,
     "type": "article",
     "title": "Drone Target Detection",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "May 4, 2015",
     "projectURL": "https://www.pyimagesearch.com/2015/05/04/target-acquired-finding-targets-in-drone-and-quadcopter-video-streams-using-python-and-opencv/"
   },
@@ -2163,14 +1285,8 @@
     "id": 67,
     "type": "article",
     "title": "Object Detection using Mask R-CNN",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "OCTOBER 1, 2018",
     "projectURL": "https://www.learnopencv.com/deep-learning-based-object-detection-and-instance-segmentation-using-mask-r-cnn-in-opencv-python-c/"
   },
@@ -2178,15 +1294,8 @@
     "id": 66,
     "type": "article",
     "title": "Facial Landmark Detection",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "DLib",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "DLib", "Numpy"],
     "datePublished": "April 3, 2017",
     "projectURL": "https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/"
   },
@@ -2194,14 +1303,8 @@
     "id": 65,
     "type": "article",
     "title": "Text Skew Correction",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "February 20, 2017",
     "projectURL": "https://www.pyimagesearch.com/2017/02/20/text-skew-correction-opencv-python/"
   },
@@ -2209,15 +1312,8 @@
     "id": 64,
     "type": "article",
     "title": "OCR and Text Recognition",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Tesseract",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Tesseract", "Numpy"],
     "datePublished": "September 17, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/"
   },
@@ -2225,14 +1321,8 @@
     "id": 63,
     "type": "article",
     "title": "People Counter",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "August 13, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/"
   },
@@ -2240,14 +1330,8 @@
     "id": 62,
     "type": "article",
     "title": "Text Detection",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "August 20, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/"
   },
@@ -2255,14 +1339,8 @@
     "id": 61,
     "type": "article",
     "title": "Semantic Segmentation",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "September 3, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/09/03/semantic-segmentation-with-opencv-and-deep-learning/"
   },
@@ -2270,15 +1348,8 @@
     "id": 60,
     "type": "article",
     "title": "Object Tracking",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy",
-      "CamShift"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy", "CamShift"],
     "datePublished": "July 2018",
     "projectURL": "https://www.pyimagesearch.com/wp-content/uploads/2014/11/opencv_crash_course_camshift.pdf"
   },
@@ -2286,14 +1357,8 @@
     "id": 59,
     "type": "article",
     "title": "Face Clustering",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "July 9, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/07/09/face-clustering-with-python/"
   },
@@ -2301,15 +1366,8 @@
     "id": 58,
     "type": "article",
     "title": "Barcode Scanner",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "ZBar",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "ZBar", "Numpy"],
     "datePublished": "May 21, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/"
   },
@@ -2317,14 +1375,8 @@
     "id": 57,
     "type": "article",
     "title": "Saliency Detection",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "July 16, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/"
   },
@@ -2332,14 +1384,8 @@
     "id": 56,
     "type": "article",
     "title": "Face Detection",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy"],
     "datePublished": "February 26, 2018",
     "projectURL": "https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/"
   },
@@ -2347,15 +1393,8 @@
     "id": 55,
     "type": "article",
     "title": "Document Scanner",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "OpenCV",
-      "Numpy",
-      "SciKit"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "OpenCV", "Numpy", "SciKit"],
     "datePublished": "September 1, 2014",
     "projectURL": "https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/"
   },
@@ -2363,15 +1402,8 @@
     "id": 54,
     "type": "article",
     "title": "Music Recommender",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "SciKit",
-      "Numpy",
-      "Pandas"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "SciKit", "Numpy", "Pandas"],
     "datePublished": "Apr 24, 2017",
     "projectURL": "https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85"
   },
@@ -2379,15 +1411,8 @@
     "id": 53,
     "type": "article",
     "title": "Predict Quality of Wine",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "Matplotlib",
-      "Numpy",
-      "Pandas"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "Matplotlib", "Numpy", "Pandas"],
     "datePublished": "7 FEBRUARY 2018",
     "souce": "freeCodeCamp",
     "projectURL": "https://www.freecodecamp.org/news/using-data-science-to-understand-what-makes-wine-taste-good-669b496c67ee/"
@@ -2396,15 +1421,8 @@
     "id": 52,
     "type": "video",
     "title": "Genetic Algorithms",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "SciKit",
-      "Numpy",
-      "Pandas"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "SciKit", "Numpy", "Pandas"],
     "datePublished": "Nov 11, 2016",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=dSofAXnnFrY"
@@ -2413,14 +1431,8 @@
     "id": 51,
     "type": "video",
     "title": "DeepDream",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "TensorFlow",
-      "Visualization"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "TensorFlow", "Visualization"],
     "datePublished": "Nov 5, 2016",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=MrBzgvUNr4w"
@@ -2429,14 +1441,8 @@
     "id": 50,
     "type": "video",
     "title": "Stock Price Prediction",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "SciKit",
-      "Matplotlib"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "SciKit", "Matplotlib"],
     "datePublished": "Oct 29, 2016",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=SSu00IRRraY"
@@ -2445,13 +1451,8 @@
     "id": 49,
     "type": "video",
     "title": "Movie Recommendation Systems",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "LightFM"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "LightFM"],
     "datePublished": "Oct 21, 2016",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=9gBC9R-msAk"
@@ -2460,13 +1461,8 @@
     "id": 48,
     "type": "video",
     "title": "Twitter Sentiment Analysis",
-    "category": [
-      "ml-ai"
-    ],
-    "tech": [
-      "Python",
-      "API"
-    ],
+    "category": ["ml-ai"],
+    "tech": ["Python", "API"],
     "datePublished": "Oct 14, 2016",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=o_OZdbCzHUA"
@@ -2475,13 +1471,8 @@
     "id": 47,
     "type": "article",
     "title": "Arcade Shooter",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "Lua",
-      "LÖVE"
-    ],
+    "category": ["game-dev"],
+    "tech": ["Lua", "LÖVE"],
     "datePublished": "Feb 14, 2018",
     "projectURL": "https://github.com/adnzzzzZ/blog/issues/30"
   },
@@ -2489,13 +1480,8 @@
     "id": 46,
     "type": "article",
     "title": "Reddit Client",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "Android",
-      "Kotlin"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["Android", "Kotlin"],
     "datePublished": "Jan 27, 2016",
     "projectURL": "https://android.jlelse.eu/learn-kotlin-while-developing-an-android-app-introduction-567e21ff9664"
   },
@@ -2503,15 +1489,8 @@
     "id": 45,
     "type": "video",
     "title": "Todo App",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "JavaScript",
-      "CSS3",
-      "HTML5"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "JavaScript", "CSS3", "HTML5"],
     "datePublished": "Feb 13, 2018",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=78tNYZUS-ps"
@@ -2520,17 +1499,8 @@
     "id": 44,
     "type": "article",
     "title": "Blog App",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "GraphQL",
-      "Apollo",
-      "JavaScript",
-      "CSS3",
-      "HTML5"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "GraphQL", "Apollo", "JavaScript", "CSS3", "HTML5"],
     "datePublished": "February 22, 2018",
     "projectURL": "https://scotch.io/tutorials/build-a-blog-with-vue-graphql-and-apollo-client"
   },
@@ -2538,16 +1508,8 @@
     "id": 43,
     "type": "article",
     "title": "Simple Budgeting App",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Vue",
-      "Bulma",
-      "JavaScript",
-      "CSS3",
-      "HTML5"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Vue", "Bulma", "JavaScript", "CSS3", "HTML5"],
     "datePublished": "Mar 21, 2017",
     "projectURL": "https://matthiashager.com/complete-vuejs-application-tutorial"
   },
@@ -2555,17 +1517,8 @@
     "id": 42,
     "type": "article",
     "title": "Search Bot",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Node",
-      "Twilio",
-      "Cheerio",
-      "API",
-      "Automation",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Node", "Twilio", "Cheerio", "API", "Automation", "JavaScript"],
     "datePublished": "3 JUNE 2018",
     "projectURL": "https://www.freecodecamp.org/news/how-to-build-a-simple-search-bot-in-30-minutes-eb56fcedcdb1/"
   },
@@ -2573,15 +1526,8 @@
     "id": 41,
     "type": "article",
     "title": "Twitter Bot",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Node",
-      "JavaScript",
-      "API",
-      "Automation"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Node", "JavaScript", "API", "Automation"],
     "datePublished": "May 30, 2017",
     "projectURL": "https://codeburst.io/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078"
   },
@@ -2589,17 +1535,8 @@
     "id": 40,
     "type": "article",
     "title": "Real-Time Markdown Editor",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Node",
-      "JavaScript",
-      "Express",
-      "Redis",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Node", "JavaScript", "Express", "Redis", "HTML5", "CSS3"],
     "datePublished": "July 01, 2015",
     "projectURL": "https://scotch.io/tutorials/building-a-real-time-markdown-viewer"
   },
@@ -2607,16 +1544,8 @@
     "id": 39,
     "type": "article",
     "title": "Todo App",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Angular",
-      "TypeScript",
-      "RxJS",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Angular", "TypeScript", "RxJS", "HTML5", "CSS3"],
     "datePublished": "2/2/2018",
     "projectURL": "http://www.discoversdk.com/blog/intro-to-angular-and-the-evolution-of-the-web"
   },
@@ -2624,17 +1553,8 @@
     "id": 38,
     "type": "article",
     "title": "Hacker News Client",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Angular",
-      "RxJS",
-      "Webpack",
-      "HTML5",
-      "CSS3",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Angular", "RxJS", "Webpack", "HTML5", "CSS3", "JavaScript"],
     "datePublished": "September 16, 2016",
     "projectURL": "https://houssein.me/angular2-hacker-news"
   },
@@ -2642,15 +1562,8 @@
     "id": 37,
     "type": "video",
     "title": "Random Quote Machine",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "2018-10-02",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=3QngsWA9IEE"
@@ -2659,17 +1572,8 @@
     "id": 36,
     "type": "video",
     "title": "Todoist Clone",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Firebase",
-      "JavaScript",
-      "Testing",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Firebase", "JavaScript", "Testing", "HTML5", "CSS3"],
     "datePublished": "2019-08-27",
     "source": "YouTube",
     "projectURL": "https://www.youtube.com/watch?v=hT3j87FMR6M"
@@ -2678,10 +1582,7 @@
     "id": 35,
     "type": "article",
     "title": "Chat App with Sentiment Analysis",
-    "category": [
-      "web-dev",
-      "ml-ai"
-    ],
+    "category": ["web-dev", "ml-ai"],
     "tech": [
       "NextJS",
       "Pusher",
@@ -2699,9 +1600,7 @@
     "id": 34,
     "type": "article",
     "title": "Appointment Scheduler",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Twilio",
@@ -2719,17 +1618,8 @@
     "id": 33,
     "type": "article",
     "title": "Game of Life",
-    "category": [
-      "web-dev",
-      "game-dev"
-    ],
-    "tech": [
-      "React",
-      "2D",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev", "game-dev"],
+    "tech": ["React", "2D", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "2018-05-03",
     "source": "freeCodeCamp",
     "projectURL": "https://www.freecodecamp.org/news/create-gameoflife-with-react-in-one-hour-8e686a410174"
@@ -2738,9 +1628,7 @@
     "id": 32,
     "type": "article",
     "title": "News App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React Native",
       "Node",
@@ -2758,9 +1646,7 @@
     "id": 31,
     "type": "article",
     "title": "Chat App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Redux",
@@ -2779,9 +1665,7 @@
     "id": 30,
     "type": "article",
     "title": "Todo App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React Native",
       "GraphQL",
@@ -2800,16 +1684,8 @@
     "id": 29,
     "type": "article",
     "title": "Chrome Extension",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "Parcel",
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "Parcel", "JavaScript", "HTML5", "CSS3"],
     "datePublished": "2018-03-25",
     "projectURL": "https://www.freecodecamp.org/news/building-chrome-extensions-in-react-parcel-79d0240dd58f/"
   },
@@ -2817,9 +1693,7 @@
     "id": 27,
     "type": "article",
     "title": "Movie Voting App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Redux",
@@ -2836,9 +1710,7 @@
     "id": 25,
     "type": "article",
     "title": "Trello Clone",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Elixir",
@@ -2855,15 +1727,8 @@
     "id": 24,
     "type": "article",
     "title": "Todo App",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "React Native",
-      "Android",
-      "iOS",
-      "JavaScript"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["React Native", "Android", "iOS", "JavaScript"],
     "datePublished": "2016-11-15",
     "projectURL": "https://egghead.io/courses/build-a-react-native-todo-application"
   },
@@ -2871,14 +1736,8 @@
     "id": 23,
     "type": "video",
     "title": "Handmade Hero",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C/C++",
-      "OpenGL",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C/C++", "OpenGL", "2D"],
     "datePublished": "2014-11-17",
     "projectURL": "https://handmadehero.org/watch"
   },
@@ -2886,14 +1745,8 @@
     "id": 22,
     "type": "article",
     "title": "Breakout",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C/C++",
-      "OpenGL",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C/C++", "OpenGL", "2D"],
     "datePublished": "2008-12-14",
     "projectURL": "https://learnopengl.com/In-Practice/2D-Game/Breakout"
   },
@@ -2901,13 +1754,8 @@
     "id": 21,
     "type": "article",
     "title": "Tetris",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C/C++",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C/C++", "2D"],
     "datePublished": "2008-12-14",
     "projectURL": "http://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/"
   },
@@ -2915,14 +1763,8 @@
     "id": 20,
     "type": "article",
     "title": "NES game",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C/C++",
-      "Python",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C/C++", "Python", "2D"],
     "datePublished": "2018-09-05",
     "projectURL": "https://nesdoug.com/"
   },
@@ -2930,17 +1772,8 @@
     "id": 19,
     "type": "article",
     "title": "Photo Library Viewer",
-    "category": [
-      "mob-dev"
-    ],
-    "tech": [
-      "C#",
-      "iOS",
-      "Xamarin",
-      "Visual Studio",
-      "Android",
-      ".NET"
-    ],
+    "category": ["mob-dev"],
+    "tech": ["C#", "iOS", "Xamarin", "Visual Studio", "Android", ".NET"],
     "datePublished": "2016-07-21",
     "projectURL": "https://www.raywenderlich.com/1044-building-ios-apps-with-xamarin-and-visual-studio"
   },
@@ -2948,14 +1781,8 @@
     "id": 18,
     "type": "video",
     "title": "Wiki-Style CMS",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "C#",
-      ".NET",
-      "Razor Pages"
-    ],
+    "category": ["web-dev"],
+    "tech": ["C#", ".NET", "Razor Pages"],
     "datePublished": "2018-11-11",
     "projectURL": "https://www.youtube.com/playlist?list=PLVMqA0_8O85yC78I4Xj7z48ES48IQBa7p"
   },
@@ -2963,9 +1790,7 @@
     "id": 17,
     "type": "article",
     "title": "Roguelike Game",
-    "category": [
-      "game-dev"
-    ],
+    "category": ["game-dev"],
     "tech": [
       "C#",
       ".NET",
@@ -2982,14 +1807,8 @@
     "id": 15,
     "type": "video",
     "title": "Spotify Clone with ReactJS",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "React",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["React", "HTML5", "CSS3"],
     "source": "YouTube",
     "datePublished": "2020-08-03",
     "projectURL": "https://www.youtube.com/watch?v=pnkuI8KXW_8"
@@ -2998,14 +1817,8 @@
     "id": 16,
     "type": "article",
     "title": "Simple RPG Game",
-    "category": [
-      "game-dev"
-    ],
-    "tech": [
-      "C#",
-      "SQL",
-      "2D"
-    ],
+    "category": ["game-dev"],
+    "tech": ["C#", "SQL", "2D"],
     "datePublished": "2014-05-17",
     "projectURL": "http://scottlilly.com/learn-c-by-building-a-simple-rpg-index"
   },
@@ -3013,14 +1826,8 @@
     "id": 14,
     "type": "video",
     "title": "Microsoft Homepage Clone",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3", "JavaScript"],
     "source": "YouTube",
     "datePublished": "2020-02-11",
     "projectURL": "https://www.youtube.com/watch?v=uKgn-To1C4Q"
@@ -3029,14 +1836,8 @@
     "id": 13,
     "type": "article",
     "title": "Simple Gantt Chart",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3", "JavaScript"],
     "datePublished": "2019-09-26",
     "projectURL": "https://webdesign.tutsplus.com/tutorials/build-a-simple-gantt-chart-with-css-and-javascript--cms-33813"
   },
@@ -3044,9 +1845,7 @@
     "id": 12,
     "type": "article",
     "title": "Job Scraping App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "Node",
       "JavaScript",
@@ -3064,9 +1863,7 @@
     "id": 11,
     "type": "video",
     "title": "E-Commerce App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Bootstrap",
@@ -3084,14 +1881,8 @@
     "id": 10,
     "type": "video",
     "title": "Netflix Landing Page",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "HTML5",
-      "CSS3",
-      "JavaScript"
-    ],
+    "category": ["web-dev"],
+    "tech": ["HTML5", "CSS3", "JavaScript"],
     "source": "YouTube",
     "datePublished": "2019-05-21",
     "projectURL": "https://www.youtube.com/watch?v=P7t13SGytRk"
@@ -3100,9 +1891,7 @@
     "id": 9,
     "type": "article",
     "title": "AI Chatbot",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "Web Speech API",
       "Node",
@@ -3118,9 +1907,7 @@
     "id": 8,
     "type": "video",
     "title": "Social Networking App",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Node",
@@ -3142,15 +1929,8 @@
     "id": 7,
     "type": "article",
     "title": "Build A Simple Cryptocurrency Blockchain In Node.js",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Node",
-      "JavaScript",
-      "Cryptography",
-      "Blockchain"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Node", "JavaScript", "Cryptography", "Blockchain"],
     "datePublished": "2020-02-20",
     "projectURL": "https://www.smashingmagazine.com/2020/02/cryptocurrency-blockchain-node-js/"
   },
@@ -3158,15 +1938,8 @@
     "id": 6,
     "type": "article",
     "title": "BitTorrent Client",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "Node",
-      "JavaScript",
-      "TCP",
-      "Computer Networks"
-    ],
+    "category": ["web-dev"],
+    "tech": ["Node", "JavaScript", "TCP", "Computer Networks"],
     "datePublished": "2016-05-04",
     "projectURL": "https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html"
   },
@@ -3174,14 +1947,8 @@
     "id": 4,
     "type": "article",
     "title": "Todo List App with JavaScript",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS3"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "HTML5", "CSS3"],
     "datePublished": "2019-10-23",
     "projectURL": "https://freshman.tech/todo-list"
   },
@@ -3189,16 +1956,8 @@
     "id": 3,
     "type": "article",
     "title": "JavaScript Animations with Anime.js",
-    "category": [
-      "web-dev"
-    ],
-    "tech": [
-      "JavaScript",
-      "CSS3",
-      "Library",
-      "HTML5",
-      "API"
-    ],
+    "category": ["web-dev"],
+    "tech": ["JavaScript", "CSS3", "Library", "HTML5", "API"],
     "datePublished": "2018-08-23",
     "source": "Medium",
     "projectURL": "https://medium.com/@ajmeyghani/creating-javascript-animations-with-anime-js-f2b14716cdc6"
@@ -3207,9 +1966,7 @@
     "id": 2,
     "type": "article",
     "title": "WhatsApp Clone with React Native",
-    "category": [
-      "mob-dev"
-    ],
+    "category": ["mob-dev"],
     "tech": [
       "React Native",
       "Node",
@@ -3232,9 +1989,7 @@
     "id": 1,
     "type": "video",
     "title": "Job Board App with React",
-    "category": [
-      "web-dev"
-    ],
+    "category": ["web-dev"],
     "tech": [
       "React",
       "Node",

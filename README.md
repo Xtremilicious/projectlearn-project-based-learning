@@ -76,7 +76,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | COVID-19 Dashboard and Map App with Gatsby | React, Gatsby, Leaflet | [Link](https://projectlearn.io/learn/web-development/project/covid-19-dashboard-and-map-app-with-gatsby-138?from=github)|
 | Flashcard Quiz With React | React, API, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/flashcard-quiz-with-react-125?from=github)|
 | Whack-a-Mole with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/whack-a-mole-with-pure-javascript-124?from=github)|
-| NOKIA 3310 Snake Game using JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/nokia-3310-snake-game-using-javascript-123?from=github)|
 | Meme Maker with React | React, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/web-development/project/meme-maker-with-react-119?from=github)|
 | Evernote Clone with React | React, Firebase, Node, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/evernote-clone-with-react-118?from=github)|
 | Developer Meetup App with Vue | Vue, Firebase, Vuetify, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/web-development/project/developer-meetup-app-with-vue-117?from=github)|
@@ -186,7 +185,6 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 | Flappy Bird iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/game-development/project/flappy-bird-ios-game-using-swift-130?from=github)|
 | Bull's Eye iOS Game using Swift | Swift, XCode, iOS | [Link](https://projectlearn.io/learn/game-development/project/bull's-eye-ios-game-using-swift-129?from=github)|
 | Whack-a-Mole with pure JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/whack-a-mole-with-pure-javascript-124?from=github)|
-| NOKIA 3310 Snake Game using JavaScript | JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/nokia-3310-snake-game-using-javascript-123?from=github)|
 | Multiplayer Quiz Game with Vue | Vue, Pusher, Node, Express, JavaScript | [Link](https://projectlearn.io/learn/game-development/project/multiplayer-quiz-game-with-vue-114?from=github)|
 | Minesweeper Game with Vue | Vue, Vuex, Vuetify, JavaScript, HTML5 | [Link](https://projectlearn.io/learn/game-development/project/minesweeper-game-with-vue-113?from=github)|
 | Tetris Game in React | React, JavaScript, HTML5, CSS3 | [Link](https://projectlearn.io/learn/game-development/project/tetris-game-in-react-102?from=github)|
