@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectWrapper = styled.div`
   .project-grid-items {
-    height: calc(100% - 2.2vw) !important;
+    height: 100%;
     display: flex;
     position: relative;
     border-radius: 1vh;
