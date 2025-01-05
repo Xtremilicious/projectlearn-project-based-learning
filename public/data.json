@@ -1,5 +1,35 @@
 [
   {
+    "type": "article",
+    "title": "ChatBot That Talks Like a Pirate",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "AWS Lambda",
+      "OpenAI"
+    ],
+    "category": "web-dev",
+    "datePublished": "2025-01-05T12:15:00.000Z",
+    "projectURL": "https://traintocode.com/projects/pirate-gpt/",
+    "id": 214
+  },
+  {
+    "type": "article",
+    "title": "Cartoon Generator Using DALL·E",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "AWS Lambda",
+      "OpenAI"
+    ],
+    "category": "web-dev",
+    "datePublished": "2025-01-05T12:15:00.000Z",
+    "projectURL": "https://traintocode.com/projects/cartoon-generator/",
+    "id": 213
+  },
+  {
     "type": "video",
     "title": "Build and Deploy a Full Stack Google Drive Clone with Next.js 15",
     "tech": [
