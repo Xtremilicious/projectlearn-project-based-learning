@@ -28,6 +28,8 @@ To contribute to this list, head over to [CONTRIBUTE.md](https://github.com/Xtre
 ### Web Development: 
 | Project | Technologies | Link |
 | :--- |:---|:---|
+| ChatBot That Talks Like a Pirate | React, TypeScript, Vite, AWS Lambda, OpenAI | [Link](https://projectlearn.io/learn/web-development/project/chatbot-that-talks-like-a-pirate-214?from=github)|
+| Cartoon Generator Using DALL·E | React, TypeScript, Vite, AWS Lambda, OpenAI | [Link](https://projectlearn.io/learn/web-development/project/cartoon-generator-using-dall·e-213?from=github)|
 | Build and Deploy a Full Stack Google Drive Clone with Next.js 15 | React, NextJS, Tailwind, Appwrite, TypeScript | [Link](https://projectlearn.io/learn/web-development/project/build-and-deploy-a-full-stack-google-drive-clone-with-next.js-15-212?from=github)|
 | Build and Deploy an Amazing 3D Web Developer Portfolio in React.JS Three.js Tutorial | vite, React, JavaScript, Three.js, Tailwind | [Link](https://projectlearn.io/learn/web-development/project/build-and-deploy-an-amazing-3d-web-developer-portfolio-in-react.js-three.js-tutorial-211?from=github)|
 | Full-Stack Quick Commerce App with Next.Js Drizzle ORM and Cryptomus Payments | Next.js, React, JavaScript, Drizzle ORM, Cryptomus | [Link](https://projectlearn.io/learn/web-development/project/full-stack-quick-commerce-app-with-next.js-drizzle-orm-and-cryptomus-payments-210?from=github)|

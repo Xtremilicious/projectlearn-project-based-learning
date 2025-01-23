@@ -35,7 +35,7 @@ export default class Landing extends Component {
           <Navbar />
           <Splash />
           <Categories />
-          <Newsletter />
+          {/* <Newsletter /> */}
           <Footer />
         </div>
       </IndexWrapper>
