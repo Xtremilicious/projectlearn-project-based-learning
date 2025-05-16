@@ -37,7 +37,7 @@
     "glob": "^10.3.10",
     "gray-matter": "^4.0.2",
     "lucide-react": "^0.451.0",
-    "next": "^12.0.0",
+    "next": "^15.3.2",
     "next-auth": "^4.24.8",
     "next-images": "^1.8.5",
     "next-redux-wrapper": "^7.0.0",
