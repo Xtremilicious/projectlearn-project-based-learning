@@ -1,6 +1,17 @@
 [
   {
     "type": "article",
+    "title": "Make Your  Own Lama 4 LLM from scratch",
+    "tech": [
+      "TensorFlow"
+    ],
+    "category": "ml-ai",
+    "datePublished": "2025-05-14T18:30:00.000Z",
+    "projectURL": "https://www.youtube.com/watch?v=biveB0gOlak",
+    "id": 215
+  },
+  {
+    "type": "article",
     "title": "ChatBot That Talks Like a Pirate",
     "tech": [
       "React",
