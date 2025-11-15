@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import nameCheapLogo from "../../../images/powered-by-namecheap-black.png"
-
 import CategoryInfo from "./CategoryInfo";
 import Categories from "./Categories";
 
@@ -31,11 +29,7 @@ export default class Sidebar extends Component {
       <SidebarWrapper>
         <CategoryInfo slug={this.props.slug} color={this.props.color} />
         <Categories slug={this.props.slug} url={this.props.url} color={this.props.color} />
-        <div className="footer">© 2024 ProjectLearn<a
-          href="https://www.namecheap.com"
-          className="img-link"
-          target="_blank"
-        ><img src={nameCheapLogo} width={'100%'} alt="Powered by Namecheap" /></a></div>
+        <div className="footer">© 2025 ProjectLearn</div>
       </SidebarWrapper>
     );
   }
