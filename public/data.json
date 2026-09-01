@@ -1,6 +1,15 @@
 [
   {
     "type": "article",
+    "title": "Build a React Autocomplete Search Bar",
+    "tech": ["React", "TypeScript", "CSS"],
+    "category": "web-dev",
+    "datePublished": "2026-07-14T00:00:00.000Z",
+    "projectURL": "https://frontendatlas.com/react/coding/react-autocomplete-search-starter",
+    "id": 215
+  },
+  {
+    "type": "article",
     "title": "ChatBot That Talks Like a Pirate",
     "tech": [
       "React",
